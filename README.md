@@ -12,8 +12,6 @@ A proposta é simples: o usuário monta seus próprios **cursos**, organizados e
 - **Projeto Android:** [android/](./android/)
 - **Licença:** [LICENSE](./LICENSE)
 
-> O `.apk` instalável do Android deve ser publicado pela aba **Releases** do repositório.
-
 ---
 
 ## Visão geral
