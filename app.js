@@ -1035,6 +1035,27 @@
     });
   }
 
+  // Converte opcoes de token_fill para o formato do Editor, marcando apenas as respostas corretas.
+  function editorOptionsFromTokenFill(step) {
+    const sourceOptions = Array.isArray(step && step.options) ? step.options : [];
+    const remainingAnswers = Array.isArray(step && step.answer)
+      ? step.answer.map(function (item) { return String(item || ""); })
+      : [];
+
+    return sourceOptions.map(function (item) {
+      const value = String(item || "");
+      const answerIndex = remainingAnswers.indexOf(value);
+      const enabled = answerIndex > -1;
+      if (enabled) remainingAnswers.splice(answerIndex, 1);
+
+      return {
+        id: uid("opt"),
+        value: value,
+        enabled: enabled
+      };
+    });
+  }
+
   // Lista indices de opções atualmente habilitadas para gerar lacunas no texto.
   function getEnabledOptionIndexes(options) {
     const list = normalizeEditorOptions(options);
@@ -1502,7 +1523,7 @@
         id: uid("block"),
         kind: "editor",
         value: (step.answer || []).map(function (token) { return "[[" + token + "]]"; }).join(" "),
-        options: normalizeEditorOptions(Array.isArray(step.options) ? step.options : [])
+        options: editorOptionsFromTokenFill(step)
       });
       form.blocks = ensureEditorButtonBlock(form.blocks);
       return form;

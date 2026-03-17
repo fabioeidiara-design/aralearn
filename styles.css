@@ -551,14 +551,14 @@ img {
 }
 
 .token-terminal-wrap {
-  flex: 1;
-  min-height: 120px;
-  overflow: hidden;
+  flex: 0 0 auto;
+  min-height: 0;
+  overflow: visible;
   display: flex;
 }
 
 .token-terminal {
-  flex: 1;
+  flex: 0 0 auto;
   min-height: 0;
   max-height: none;
 }
@@ -577,29 +577,41 @@ img {
 .token-slots {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
+  align-items: center;
 }
 
 .token-slot {
-  flex: 1 1 calc(50% - 8px);
-  min-width: 120px;
-  min-height: 48px;
-  border-radius: 10px;
-  border: 1px dashed #4a6b97;
-  background: #0f1828;
-  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 22px;
+  min-height: 30px;
+  margin: 0;
+  padding: 0 6px;
+  border-radius: 7px;
+  border: 1px dashed #5f85ba;
+  background: #0a1422;
+  color: #d8fdd9;
   cursor: pointer;
-  padding: 8px;
+  vertical-align: middle;
+}
+
+.token-slot:not(.filled) {
+  width: 22px;
+  padding: 0;
 }
 
 .token-slot.filled {
   border-style: solid;
   border-color: var(--accent);
-  background: #182844;
+  background: #122238;
 }
 
 .slot-placeholder {
   color: #7b93b8;
+  line-height: 1;
 }
 
 .token-options {
