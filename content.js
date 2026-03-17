@@ -1,6 +1,6 @@
 // Conteúdo inicial do app. Tudo pode ser editado e exportado para JSON.
 window.APP_CONTENT = {
-  appTitle: "Stub de Microlearning",
+  appTitle: "AraLearn",
   courses: [
     {
       id: "linha-de-comando",
@@ -130,25 +130,25 @@ window.APP_CONTENT = {
           title: "Módulo 2: Comandos Básicos",
           lessons: [
             {
-              id: "licao-em-breve",
-              title: "Em breve",
-              subtitle: "Placeholder de estrutura",
+              id: "licao-comandos-do-dia-a-dia",
+              title: "Comandos do dia a dia",
+              subtitle: "Próximos passos",
               steps: [
                 {
-                  id: "step-em-breve",
+                  id: "step-panorama-modulo-2",
                   type: "content",
-                  title: "Próximas lições",
+                  title: "O que vem agora",
                   text: [
-                    "Este módulo é um placeholder para demonstrar a estrutura.",
-                    "Depois você pode adicionar lições completas direto na interface."
+                    "Aqui o curso pode avançar para navegação, criação de diretórios e inspeção de arquivos.",
+                    "Use o editor visual do AraLearn para expandir este módulo com as lições que fizerem sentido para a sua trilha."
                   ],
                   buttonText: "CONTINUAR"
                 },
                 {
-                  id: "step-em-breve-final",
+                  id: "step-panorama-modulo-2-final",
                   type: "lesson_complete",
                   title: "Lição concluída!",
-                  subtitle: "Placeholder encerrado.",
+                  subtitle: "Panorama do módulo concluído.",
                   buttonText: "CONTINUAR"
                 }
               ]
@@ -169,7 +169,7 @@ window.APP_CONTENT = {
             {
               id: "git-licao-1",
               title: "O que é Git?",
-              subtitle: "Stub rápido",
+              subtitle: "Primeiros conceitos",
               steps: [
                 {
                   id: "git-step-1",
@@ -177,7 +177,7 @@ window.APP_CONTENT = {
                   title: "Controle de versão",
                   text: [
                     "Git registra alterações de arquivos ao longo do tempo.",
-                    "Este segundo curso existe para provar suporte a vários cursos."
+                    "O AraLearn também pode organizar vários cursos na mesma biblioteca sem misturar seus progressos."
                   ],
                   buttonText: "CONTINUAR"
                 },

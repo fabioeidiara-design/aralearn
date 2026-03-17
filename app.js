@@ -3,7 +3,7 @@
   "use strict";
 
   // ============================================================================
-  // STUB DE MICROLEARNING (HTML + CSS + JS PURO)
+  // ARALEARN (HTML + CSS + JS PURO)
   // ----------------------------------------------------------------------------
   // Como ler este arquivo (guia rapido para iniciantes):
   // 1) Estado global: objeto "state" concentra tudo o que a tela precisa.
@@ -23,14 +23,18 @@
   const STEP_TYPES = ["content", "content_with_inline_popup", "token_fill", "lesson_complete"];
   // Tipos de bloco suportados dentro do editor visual.
   const BLOCK_TYPES = ["heading", "paragraph", "image", "editor"];
-  // Nome interno legado do bloco de exercicio (compatibilidade de JSON antigo).
-  const LEGACY_EDITOR_KIND = "terminal";
+  // Nome padrao exibido para o app quando nenhum titulo personalizado foi salvo.
+  const DEFAULT_APP_TITLE = "AraLearn";
   // Chave principal de persistencia completa do projeto (conteudo + progresso).
-  const PROJECT_STORAGE_KEY = "microlearning_project_v1";
+  const PROJECT_STORAGE_KEY = "aralearn_project_v1";
   // Chave de armazenamento do progresso no navegador.
-  const PROGRESS_STORAGE_KEY = "microlearning_progress_v1";
-  // Marcador para limpeza única do armazenamento local após mudança de estrutura.
-  const STORAGE_RESET_MARKER_KEY = "microlearning_storage_reset_done_v2";
+  const PROGRESS_STORAGE_KEY = "aralearn_progress_v1";
+  // Nome atual do arquivo JSON principal ao exportar/sincronizar.
+  const DEFAULT_PROJECT_JSON_FILE_NAME = "aralearn-content.json";
+  // Nome sugerido do pacote exportado pelo app.
+  const DEFAULT_EXPORT_FILE_NAME = "aralearn-project.zip";
+  // Identificador interno do painel explicativo inline.
+  const INLINE_POPUP_BLOCK_ID = "__inline-popup__";
 
   // Metadados visuais/textuais usados na paleta do editor.
   const BLOCK_META = {
@@ -51,7 +55,6 @@
   let fsPersistTimer = null;
   let fsPersistInFlight = false;
   let fsPersistQueued = false;
-  runOneTimeStorageReset();
   // Conteudo inicial ja considerando recuperacao persistida.
   const bootstrap = loadProjectBootstrap();
 
@@ -180,7 +183,7 @@
 
     return (
       '<section class="screen">' +
-      renderTopBar({ title: state.content.appTitle || "Microlearning", showBack: false }) +
+      renderTopBar({ title: state.content.appTitle || DEFAULT_APP_TITLE, showBack: false }) +
       '<main class="screen-content">' +
       (cards || '<article class="clean-card"><p class="card-subtitle">Nenhum curso.</p></article>') +
       "</main>" +
@@ -363,7 +366,7 @@
       '" aria-label="' +
       escAttr(step.popupTriggerLabel || "Abrir popup") +
       '">&#9432;</button>' +
-      (state.inlinePopupOpen && state.inlinePopupOpen.blockId === "__legacy-popup__"
+      (state.inlinePopupOpen && state.inlinePopupOpen.blockId === INLINE_POPUP_BLOCK_ID
         ? '<div class="inline-popup">' +
           '<div class="popup-copy card-subtitle">' +
           textToParagraphHtml(step.popupText || "", "") +
@@ -527,7 +530,7 @@
         (state.fs.lastError
           ? '<p class="tiny side-status-error">' + esc(state.fs.lastError) + "</p>"
           : "")
-      : '<p class="tiny muted side-status">File System Access API indisponivel neste navegador.</p>';
+      : '<p class="tiny muted side-status">' + esc(getFileSystemUnavailableMessage()) + "</p>";
 
     return (
       '<section class="side-overlay ' +
@@ -971,6 +974,14 @@
     return html ? '<div class="rich-text">' + html + "</div>" : "";
   }
 
+  // Mensagem contextual para recursos de pasta local indisponiveis nesta plataforma.
+  function getFileSystemUnavailableMessage() {
+    if (isAndroidHostAvailable()) {
+      return "Sincronizacao com pasta local indisponivel no Android. Use Importar/Exportar ZIP.";
+    }
+    return "File System Access API indisponivel neste navegador.";
+  }
+
   // Gera HTML do corpo do step, priorizando bodyHtml e caindo para text[].
   function stepBodyHtml(step) {
     if (typeof step.bodyHtml === "string" && step.bodyHtml.trim()) {
@@ -999,9 +1010,9 @@
     return '<pre class="terminal-box">' + esc(text) + "</pre>";
   }
 
-  // Identifica se um bloco eh do tipo "Editor" (inclui nome legado "terminal").
+  // Identifica se um bloco eh do tipo "Editor".
   function isEditorKind(kind) {
-    return kind === "editor" || kind === LEGACY_EDITOR_KIND;
+    return kind === "editor";
   }
 
   // Retorna array de opções do bloco Editor no formato padrao { id, value, enabled }.
@@ -1529,7 +1540,7 @@
   // Converte formulario do editor para step valido no JSON interno.
   function buildStepFromEditor(form, keepId) {
     const id = keepId || uid("step");
-    const allowedKinds = ["heading", "paragraph", "image", "editor", LEGACY_EDITOR_KIND, "button"];
+    const allowedKinds = ["heading", "paragraph", "image", "editor", "button"];
     let blocks = (form.blocks || [])
       .filter(function (block) { return block && block.kind && allowedKinds.indexOf(block.kind) > -1; })
       .map(function (block) {
@@ -1595,7 +1606,7 @@
       return block.kind === "paragraph" && String(block.value || "").trim();
     });
     const image = firstValue(blocks, "image");
-    const terminal = firstValue(blocks, "editor") || firstValue(blocks, LEGACY_EDITOR_KIND);
+    const terminal = firstValue(blocks, "editor");
     const firstButton = blocks.find(function (block) {
       return block.kind === "button" && String(block.value || "").trim();
     });
@@ -2385,18 +2396,6 @@
   // ============================================================================
   // Progresso e Persistencia
   // ============================================================================
-  // Limpa chaves antigas do app uma única vez para começar com armazenamento limpo.
-  function runOneTimeStorageReset() {
-    try {
-      if (window.localStorage.getItem(STORAGE_RESET_MARKER_KEY) === "1") return;
-      window.localStorage.removeItem(PROJECT_STORAGE_KEY);
-      window.localStorage.removeItem(PROGRESS_STORAGE_KEY);
-      window.localStorage.setItem(STORAGE_RESET_MARKER_KEY, "1");
-    } catch (_error) {
-      // Ignora bloqueios de storage para não quebrar a inicialização.
-    }
-  }
-
   // Carrega snapshot completo do projeto (conteúdo + progresso + assets) quando existir.
   function loadProjectBootstrap() {
     try {
@@ -2545,7 +2544,7 @@
 
       const payload = buildProjectPayload();
       const jsonText = JSON.stringify(payload, null, 2);
-      await writeTextToDirectory(state.fs.handle, "microlearning-content.json", jsonText);
+      await writeTextToDirectory(state.fs.handle, DEFAULT_PROJECT_JSON_FILE_NAME, jsonText);
 
       const assetPaths = Object.keys(state.assets).sort();
       for (let i = 0; i < assetPaths.length; i += 1) {
@@ -3409,10 +3408,10 @@
 
   // Edita titulo global exibido no topo do app.
   function editAppTitle() {
-    const title = window.prompt("Título do app:", state.content.appTitle || "Microlearning");
+    const title = window.prompt("Título do app:", state.content.appTitle || DEFAULT_APP_TITLE);
     if (title === null) return;
 
-    state.content.appTitle = title.trim() || "Microlearning";
+    state.content.appTitle = clean(title, DEFAULT_APP_TITLE);
     renderApp();
   }
 
@@ -3429,7 +3428,7 @@
       progress: serializeProgressForJson(),
       assets: Object.keys(state.assets).sort(),
       packageMeta: {
-        format: "microlearning-zip-v1",
+        format: "aralearn-zip-v1",
         exportedAt: new Date().toISOString()
       }
     };
@@ -3441,7 +3440,7 @@
     const jsonBytes = utf8Encode(JSON.stringify(payload, null, 2));
 
     const entries = [
-      { path: "microlearning-content.json", bytes: jsonBytes }
+      { path: DEFAULT_PROJECT_JSON_FILE_NAME, bytes: jsonBytes }
     ];
 
     Object.keys(state.assets).sort().forEach(function (assetPath) {
@@ -3451,11 +3450,40 @@
     });
 
     const zipBytes = createZip(entries);
+    const androidExportStatus = tryAndroidExport(zipBytes, DEFAULT_EXPORT_FILE_NAME, "application/zip");
+    if (androidExportStatus !== "unsupported") return;
+
     const blob = new Blob([zipBytes], { type: "application/zip" });
+    saveBlobDownload(blob, DEFAULT_EXPORT_FILE_NAME);
+  }
+
+  // Tenta delegar a exportacao para o host Android nativo quando o app roda no APK.
+  function tryAndroidExport(bytes, fileName, mimeType) {
+    if (!isAndroidHostAvailable()) return "unsupported";
+
+    try {
+      const handled = window.AndroidHost.saveExportFile(
+        bytesToBase64(bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes || [])),
+        String(fileName || DEFAULT_EXPORT_FILE_NAME),
+        String(mimeType || "application/octet-stream")
+      );
+      if (handled === false) {
+        window.alert("Nao foi possivel abrir o seletor de exportacao no Android.");
+        return "error";
+      }
+      return "handled";
+    } catch (_error) {
+      window.alert("Falha ao exportar no Android.");
+      return "error";
+    }
+  }
+
+  // Salva blob via download normal do navegador quando nao estamos no host Android.
+  function saveBlobDownload(blob, fileName) {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "microlearning-project.zip";
+    link.download = String(fileName || DEFAULT_EXPORT_FILE_NAME);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -3519,9 +3547,11 @@
       byPath[entry.path] = entry;
     });
 
-    const jsonEntry = byPath["microlearning-content.json"] || entries.find(function (entry) {
+    const jsonEntry =
+      byPath[DEFAULT_PROJECT_JSON_FILE_NAME] ||
+      entries.find(function (entry) {
       return entry.path.toLowerCase().endsWith(".json");
-    });
+      });
     if (!jsonEntry) throw new Error("JSON principal não encontrado no ZIP.");
 
     const parsed = JSON.parse(utf8Decode(jsonEntry.bytes));
@@ -3586,7 +3616,7 @@
       case "complete-continue": goCourse(state.currentCourseId); return;
       case "toggle-lesson-quick": toggleLessonQuick(); return;
       case "popup-open":
-        state.inlinePopupOpen = { stepId: (getCurrentStep() || {}).id || "", blockId: "__legacy-popup__" };
+        state.inlinePopupOpen = { stepId: (getCurrentStep() || {}).id || "", blockId: INLINE_POPUP_BLOCK_ID };
         renderApp();
         return;
       case "step-button-click": {
@@ -4078,7 +4108,7 @@
   function normalizeContent(raw) {
     const source = raw && typeof raw === "object" ? clone(raw) : {};
     const normalized = {
-      appTitle: clean(source.appTitle, "Microlearning"),
+      appTitle: clean(source.appTitle, DEFAULT_APP_TITLE),
       courses: Array.isArray(source.courses)
         ? source.courses.map(normalizeCourse).filter(Boolean)
         : []
@@ -4625,6 +4655,15 @@
     return window.btoa(binary);
   }
 
+  // Detecta se o app esta rodando dentro do wrapper Android nativo.
+  function isAndroidHostAvailable() {
+    return !!(
+      typeof window !== "undefined" &&
+      window.AndroidHost &&
+      typeof window.AndroidHost.saveExportFile === "function"
+    );
+  }
+
   // Mapeia MIME de imagem para extensão preferencial.
   function mimeToExtension(mimeType) {
     const mime = String(mimeType || "").toLowerCase().trim();
@@ -5001,6 +5040,52 @@
     return String(value).replace(/(["\\.#:[\]])/g, "\\$1");
   }
 
+  // Trata o botao fisico/gesto de voltar do Android de forma mais natural.
+  function handleAndroidBackPress() {
+    if (state.editor.open) {
+      closeEditor();
+      return true;
+    }
+
+    let changed = false;
+    if (state.feedback) {
+      state.feedback = null;
+      changed = true;
+    }
+    if (state.inlinePopupOpen) {
+      state.inlinePopupOpen = null;
+      changed = true;
+    }
+    if (state.ui.contextMenu) {
+      state.ui.contextMenu = null;
+      changed = true;
+    }
+    if (state.ui.lessonQuickOpen) {
+      state.ui.lessonQuickOpen = false;
+      changed = true;
+    }
+    if (state.ui.sideOpen) {
+      state.ui.sideOpen = false;
+      changed = true;
+    }
+    if (changed) {
+      renderApp();
+      return true;
+    }
+
+    if (state.currentView === "lesson_step") {
+      backStep();
+      return true;
+    }
+
+    if (state.currentView === "course_menu") {
+      goMain();
+      return true;
+    }
+
+    return false;
+  }
+
   // Rola editor ate o bloco recem-criado/alterado.
   function scrollEditorBlockIntoView(blockId) {
     const node = root.querySelector('.builder-block[data-block-id="' + cssEsc(blockId) + '"]');
@@ -5011,6 +5096,12 @@
     window.setTimeout(function () {
       node.classList.remove("new-block");
     }, 700);
+  }
+
+  // Expõe API minima para o wrapper Android consultar navegacao interna.
+  if (typeof window !== "undefined") {
+    window.AraLearnAndroid = window.AraLearnAndroid || {};
+    window.AraLearnAndroid.handleBackPress = handleAndroidBackPress;
   }
 
   root.addEventListener("click", onRootClick);
