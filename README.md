@@ -62,6 +62,16 @@ Na mesclagem, o app preserva o que já existe e adiciona apenas cursos, módulos
 
 Abra `index.html` no Chrome ou rode um servidor estático local.
 
+### GitHub Pages
+
+O repositório já inclui workflow para publicar a versão web a partir da branch `main`.
+
+Se o Pages estiver habilitado no repositório `fabio-ara/aralearn`, a URL esperada é:
+
+```text
+https://fabio-ara.github.io/aralearn/
+```
+
 ### Instalação e testes
 
 ```powershell

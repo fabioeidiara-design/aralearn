@@ -740,6 +740,13 @@ No navegador:
 - `Exportar` baixa um `.zip` do escopo pedido;
 - não existe vínculo contínuo com arquivo externo.
 
+## 12.3 Publicação estática
+
+Na publicação estática do projeto:
+
+- o artefato precisa incluir `index.html`, `app.js`, `styles.css`, `assets/`, `modules/` e `content/`;
+- o runtime do hardcoded deve ser regenerado antes do deploy, para manter `content/hardcoded-content.js` coerente com o JSON-fonte ativo.
+
 ---
 
 ## 13. Android
