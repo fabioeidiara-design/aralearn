@@ -59,7 +59,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-03-block-02-paragraph"
                     },
@@ -511,7 +511,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A ideia central aqui é projeto versus kernel.",
+                          "value": "GNU é o projeto de ferramentas; Linux é o kernel usado por muitas distribuições.",
                           "align": "left",
                           "id": "l01-unix-gnu-linux-step-08-block-04-button-popup-02-paragraph"
                         }
@@ -860,7 +860,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l02-kernel-gui-shell-bash-step-03-block-02-paragraph"
                     },
@@ -1614,7 +1614,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l03-primeiros-passos-no-terminal-step-03-block-02-paragraph"
                     },
@@ -2096,12 +2096,12 @@
                     },
                     {
                       "kind": "simulator",
-                      "value": "No contraste principal do card, o par usado é `[[]]`.",
+                      "value": "No contraste principal aqui, o par usado é `[[]]`.",
                       "options": [
                         {
                           "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-02",
                           "value": "Docs",
-                          "result": "`Docs` continua plausível em sistema case sensitive, mas não é o par usado no contraste principal do card."
+                          "result": "`Docs` continua plausível em sistema case sensitive, mas não é o par usado neste contraste."
                         },
                         {
                           "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-03",
@@ -2111,7 +2111,7 @@
                         {
                           "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-01",
                           "value": "docs",
-                          "result": "Boa. O card usa `Docs` x `docs` para destacar a diferença de maiúsculas e minúsculas."
+                          "result": "Boa. Aqui, `Docs` x `docs` destaca a diferença de maiúsculas e minúsculas."
                         }
                       ],
                       "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator"
@@ -2418,7 +2418,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l04-navegacao-diretorios-step-03-block-02-paragraph"
                     },
@@ -3205,7 +3205,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Os exemplos usam uma estrutura simples de projeto para aproximar a prática do que a disciplina já cobra.",
+                      "value": "Os exemplos usam uma estrutura simples de projeto para aproximar a manipulação de arquivos de um caso real.",
                       "align": "left",
                       "id": "l05-arquivos-e-pastas-shell-step-01-block-03-paragraph"
                     },
@@ -3230,7 +3230,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l05-arquivos-e-pastas-shell-step-03-block-02-paragraph"
                     },
@@ -4138,7 +4138,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l06-inspecao-e-ambiente-minimo-step-03-block-02-paragraph"
                     },
@@ -5054,7 +5054,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l07-conta-github-e-mapa-conceitual-step-03-block-02-paragraph"
                     },
@@ -5792,7 +5792,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l08-repositorio-publico-e-visibilidade-step-03-block-02-paragraph"
                     },
@@ -6590,7 +6590,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l09-navegar-no-repositorio-web-step-03-block-02-paragraph"
                     },
@@ -7307,7 +7307,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l10-arquivos-pastas-e-upload-no-github-step-03-block-02-paragraph"
                     },
@@ -8103,7 +8103,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l11-edicao-web-e-commit-manual-step-03-block-02-paragraph"
                     },
@@ -8905,7 +8905,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l12-controle-de-versao-e-modelos-step-03-block-02-paragraph"
                     },
@@ -9394,7 +9394,7 @@
                         },
                         {
                           "value": "uma única conta central obrigatória",
-                          "result": "Isso puxa demais para a ideia centralizada.",
+                          "result": "Isso descreve um modelo centralizado, não distribuído.",
                           "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-02"
                         },
                         {
@@ -9641,7 +9641,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l13-git-local-status-add-commit-step-03-block-02-paragraph"
                     },
@@ -10534,7 +10534,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l14-local-remoto-clone-push-pull-step-03-block-02-paragraph"
                     },
@@ -10986,7 +10986,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Vale repetir bastante essa diferença porque ela costuma ser um dos maiores pontos de confusão.",
+                          "value": "Fetch atualiza referências do remoto; pull traz essas mudanças e já tenta integrá-las ao repositório local.",
                           "align": "left",
                           "id": "l14-local-remoto-clone-push-pull-step-08-block-04-button-popup-02-paragraph"
                         }
@@ -11337,7 +11337,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-03-block-02-paragraph"
                     },
@@ -12049,7 +12049,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-03-block-02-paragraph"
                     },
@@ -12626,7 +12626,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O foco é distinguir camadas e usos, não transformar ferramenta em torcida.",
+                          "value": "O importante é distinguir camadas e usos, sem tratar editor, IDE e plugin como sinônimos.",
                           "align": "left",
                           "id": "l16-editor-ide-plugin-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -12785,7 +12785,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l17-debug-e-depuracao-step-03-block-02-paragraph"
                     },
@@ -13385,7 +13385,7 @@
                     },
                     {
                       "kind": "simulator",
-                      "value": "O apoio em foco é o `[[]]`.",
+                      "value": "A palavra que melhor descreve esse apoio é `[[]]`.",
                       "options": [
                         {
                           "value": "licenciamento",
@@ -13417,7 +13417,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A resposta correta fecha a separação entre recurso e processo.",
+                          "value": "A resposta correta separa a ação de depurar do restante do fluxo de desenvolvimento.",
                           "align": "left",
                           "id": "l17-debug-e-depuracao-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -13508,7 +13508,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-03-block-02-paragraph"
                     },
@@ -13988,7 +13988,7 @@
                     },
                     {
                       "kind": "simulator",
-                      "value": "O item que ajuda a explicitar isso é a `[[]]`.",
+                      "value": "O item que ajuda a explicitar condições de uso e compartilhamento é a `[[]]`.",
                       "options": [
                         {
                           "value": "janela do terminal",
@@ -14020,7 +14020,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A previsão correta mantém a ligação com contribuição e abertura sem juridiquês excessivo.",
+                          "value": "A licença explicita uso, distribuição e colaboração sem depender só do fato de o repositório ser público.",
                           "align": "left",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-04-button-popup-02-paragraph"
                         }
@@ -14244,7 +14244,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use estes termos nos próximos cards.",
+                      "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                       "align": "left",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-03-block-02-paragraph"
                     },
@@ -14828,7 +14828,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "As boas práticas precisam aparecer como microações aplicáveis já no projeto da turma.",
+                          "value": "Essas boas práticas aparecem em ações concretas: nomear bem, documentar e registrar decisões.",
                           "align": "left",
                           "id": "l19-documentacao-pesquisa-e-boas-praticas-step-10-block-04-button-popup-02-paragraph"
                         }

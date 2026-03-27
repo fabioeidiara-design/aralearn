@@ -1593,7 +1593,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os parênteses mantêm a negação sobre a frase inteira, que era o objetivo deste card.",
+                          "value": "Os parênteses mantêm a negação sobre a frase inteira, não só sobre uma palavra.",
                           "align": "left",
                           "id": "logica-02-conectivos-basicos-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -1799,7 +1799,7 @@
             },
             {
               "id": "logica-03-implicacao-bicondicional",
-              "title": "Implicação e bicondicional sem tropeço",
+              "title": "Implicação e bicondicional sem confusão",
               "subtitle": "Entender como implicação e bicondicional funcionam, tanto na leitura intuitiva quanto na formalização lógica.",
               "steps": [
                 {
@@ -2587,7 +2587,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Aqui o foco é lógico: casos de verdade e direção da relação, não causalidade automática.",
+                          "value": "Na implicação, importam os casos de verdade e a direção da relação, não causalidade automática.",
                           "align": "left",
                           "id": "logica-03-implicacao-bicondicional-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -3033,7 +3033,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Para este card, use a ordem padrão VV, VF, FV, FF ao listar as quatro combinações de P e Q.",
+                      "value": "Use a ordem padrão VV, VF, FV, FF ao listar as quatro combinações de P e Q.",
                       "align": "left",
                       "id": "logica-04-tabelas-verdade-step-02-block-02-paragraph"
                     },
@@ -4296,11 +4296,11 @@
                 {
                   "id": "logica-04-tabelas-verdade-step-12",
                   "type": "content",
-                  "title": "Diagnóstico de tropeço",
+                  "title": "Diagnóstico conceitual",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Diagnóstico de tropeço",
+                      "value": "Diagnóstico conceitual",
                       "align": "left",
                       "id": "logica-04-tabelas-verdade-step-12-block-01-heading"
                     },
@@ -4349,7 +4349,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os erros graves aqui são justamente os que transformam o procedimento em adivinhação.",
+                          "value": "Sem coluna intermediária ou sem ordem completa de linhas, a tabela perde o procedimento correto.",
                           "align": "left",
                           "id": "logica-04-tabelas-verdade-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -5670,7 +5670,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Você fechou a base inicial: leitura natural, conectivos, tabelas-verdade, equivalência e classificação das fórmulas.",
+                      "value": "Até aqui, sua base inicial reúne leitura natural, conectivos, tabelas-verdade, equivalência e classificação das fórmulas.",
                       "align": "left",
                       "id": "logica-05-equivalencia-e-classificacao-step-13-block-02-paragraph"
                     },
@@ -10388,7 +10388,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Neste recorte, a matriz nasce da imagem dos vetores-base e1 e e2. Isso estabiliza a leitura do i/j corrompido na lista original.",
+                      "value": "Aqui, a matriz nasce das imagens dos vetores-base e1 = (1, 0) e e2 = (0, 1).",
                       "align": "left",
                       "id": "matrizes-04-transformacoes-lineares-step-01-block-02-paragraph"
                     },
@@ -10670,7 +10670,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Esse é o tropeço mais frequente quando a lista vem só com as imagens de e1 e e2.",
+                          "value": "O erro comum é ler as imagens de e1 e e2 como linhas, quando elas formam as colunas da matriz.",
                           "align": "left",
                           "id": "matrizes-04-transformacoes-lineares-step-04-block-04-button-popup-02-paragraph"
                         }
@@ -12120,7 +12120,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Complete a ideia central da validação.",
+                      "value": "Complete a checagem que confirma que a inversa desfaz a transformação.",
                       "align": "left",
                       "id": "matrizes-05-composicao-inversa-step-11-block-02-paragraph"
                     },
@@ -12355,7 +12355,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "O escopo deste curso ficou deliberadamente curto: montar a matriz da transformação, aplicar, compor em casos simples e checar inversa pela identidade.",
+                      "value": "Neste módulo, o foco ficou em montar a matriz da transformação, aplicar, compor em casos simples e checar a inversa pela identidade.",
                       "align": "left",
                       "id": "matrizes-05-composicao-inversa-step-14-block-02-paragraph"
                     },
@@ -12370,7 +12370,7 @@
                         },
                         {
                           "value": "I",
-                          "result": "Esse é o alvo esperado da validação.",
+                          "result": "A identidade confirma que uma matriz desfaz a outra nesse teste.",
                           "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator-option-01"
                         }
                       ],
@@ -13390,7 +13390,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A sequência 2, 2, 3, 1 ajuda a estabilizar a contagem antes de seguir para os próximos tópicos.",
+                          "value": "A sequência 2, 2, 3, 1 resume corretamente os graus e prepara a aplicação da soma dos graus.",
                           "align": "left",
                           "id": "grafos-01-modelagem-grau-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -13547,7 +13547,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Dois grafos podem ser isomorfos mesmo com desenho diferente. O foco é a estrutura das conexões.",
+                      "value": "Dois grafos podem ser isomorfos mesmo com desenho diferente. O que importa é a estrutura das conexões.",
                       "align": "left",
                       "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-01-block-02-paragraph"
                     },
@@ -14259,11 +14259,11 @@
                 {
                   "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11",
                   "type": "content",
-                  "title": "Diagnóstico de tropeço",
+                  "title": "Diagnóstico conceitual",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Diagnóstico de tropeço",
+                      "value": "Diagnóstico conceitual",
                       "align": "left",
                       "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-01-heading"
                     },
@@ -14312,7 +14312,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os dois erros marcados são exatamente os mais recorrentes neste trecho.",
+                          "value": "Os erros marcados lembram que sequência de graus é filtro, não prova, e que regular não significa completo.",
                           "align": "left",
                           "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-04-button-popup-02-paragraph"
                         }
@@ -15255,7 +15255,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Esse contraste foi mantido curto para não abrir outro tópico fora do recorte atual.",
+                          "value": "Adjacência cruza vértices com vértices; incidência relaciona vértices com arestas.",
                           "align": "left",
                           "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -15413,7 +15413,7 @@
                 {
                   "id": "grafos-03-bipartidos-matriz-adjacencia-step-12",
                   "type": "content",
-                  "title": "Reforço da adaptação computacional",
+                  "title": "Fechamento da representação",
                   "blocks": [
                     {
                       "kind": "heading",
@@ -15687,7 +15687,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Considere H com arestas AB, BC, CD, DB e DA. Use esse mesmo grafo para comparar trilha, caminho e ciclo.",
+                      "value": "Considere H com arestas AB, BC, CD, DB e DA. Use o grafo H para comparar trilha, caminho e ciclo.",
                       "align": "left",
                       "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-02-paragraph"
                     },
@@ -18658,11 +18658,11 @@
                 {
                   "id": "grafos-06-euler-step-11",
                   "type": "content",
-                  "title": "Diagnóstico final de tropeço",
+                  "title": "Diagnóstico conceitual final",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Diagnóstico final de tropeço",
+                      "value": "Diagnóstico conceitual final",
                       "align": "left",
                       "id": "grafos-06-euler-step-11-block-01-heading"
                     },
@@ -18711,7 +18711,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os dois erros marcados são justamente os que mais desalinham a decisão final.",
+                          "value": "Os erros marcados confundem o critério sobre arestas com a exigência de conectividade.",
                           "align": "left",
                           "id": "grafos-06-euler-step-11-block-04-button-popup-02-paragraph"
                         }

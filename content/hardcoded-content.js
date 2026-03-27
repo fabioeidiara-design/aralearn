@@ -42,7 +42,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m01l01-step-01-block-03-paragraph"
                       },
@@ -67,7 +67,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m01l01-step-02-block-02-paragraph"
                       },
@@ -319,7 +319,7 @@ window.AraLearnBundledContent = {
                             "id": "m01l01-step-05-block-03-multiple-choice-option-04"
                           },
                           {
-                            "value": "Programação em C é importante.",
+                            "value": "Usar C é escolher uma linguagem, não descrever passos.",
                             "answer": false,
                             "id": "m01l01-step-05-block-03-multiple-choice-option-02"
                           },
@@ -615,7 +615,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O importante é prever o comportamento do algoritmo.",
+                            "value": "Com nota1 = 6 e nota2 = 8, a média calculada e exibida é 7.",
                             "align": "left",
                             "id": "m01l01-step-08-block-04-button-popup-02-paragraph"
                           }
@@ -680,7 +680,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m01l01-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -702,7 +702,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m01l01-step-11-block-02-paragraph"
                       },
@@ -843,7 +843,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m01l02-step-01-block-03-paragraph"
                       },
@@ -868,7 +868,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m01l02-step-02-block-02-paragraph"
                       },
@@ -1540,7 +1540,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m01l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -1622,7 +1622,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m01l02-step-13-block-02-paragraph"
                       },
@@ -1763,7 +1763,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m01l03-step-01-block-03-paragraph"
                       },
@@ -1788,7 +1788,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Antes da prática, fixe a leitura útil dos nomes que mais travam no começo.",
+                        "value": "Comece fixando a leitura útil dos nomes que mais travam no começo.",
                         "align": "left",
                         "id": "m01l03-step-02-block-02-paragraph"
                       },
@@ -2379,7 +2379,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m01l03-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -2461,7 +2461,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m01l03-step-13-block-02-paragraph"
                       },
@@ -2608,7 +2608,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m02l01-step-01-block-03-paragraph"
                       },
@@ -2633,7 +2633,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m02l01-step-02-block-02-paragraph"
                       },
@@ -3183,7 +3183,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m02l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -3205,7 +3205,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m02l01-step-11-block-02-paragraph"
                       },
@@ -3346,7 +3346,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m02l02-step-01-block-03-paragraph"
                       },
@@ -3969,7 +3969,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m02l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -4051,7 +4051,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m02l02-step-13-block-02-paragraph"
                       },
@@ -4192,7 +4192,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m02l03-step-01-block-03-paragraph"
                       },
@@ -4217,7 +4217,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m02l03-step-02-block-02-paragraph"
                       },
@@ -4498,7 +4498,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O importante é acompanhar a ordem das operações e o valor produzido.",
+                            "value": "Ler a expressão direito evita trocar subtração por soma ou inverter a ordem do cálculo.",
                             "align": "left",
                             "id": "m02l03-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -4711,7 +4711,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O importante é calcular a expressão e prever a saída correta.",
+                            "value": "Com a = 10 e b = 2, o programa calcula c = 8 antes de mostrar o resultado.",
                             "align": "left",
                             "id": "m02l03-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -4776,7 +4776,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m02l03-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -4798,7 +4798,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m02l03-step-11-block-02-paragraph"
                       },
@@ -4945,7 +4945,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m03l01-step-01-block-03-paragraph"
                       },
@@ -4970,7 +4970,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m03l01-step-02-block-02-paragraph"
                       },
@@ -5591,7 +5591,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m03l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -5673,7 +5673,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m03l01-step-13-block-02-paragraph"
                       },
@@ -5814,7 +5814,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m03l02-step-01-block-03-paragraph"
                       },
@@ -5839,7 +5839,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m03l02-step-02-block-02-paragraph"
                       },
@@ -6395,7 +6395,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A chave é testar a condição e identificar qual ramo executa.",
+                            "value": "Como media = 5 não satisfaz a condição principal, o programa segue para a mensagem de Recuperação.",
                             "align": "left",
                             "id": "m03l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -6460,7 +6460,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m03l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -6542,7 +6542,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m03l02-step-13-block-02-paragraph"
                       },
@@ -6683,7 +6683,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m03l03-step-01-block-03-paragraph"
                       },
@@ -6708,7 +6708,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m03l03-step-02-block-02-paragraph"
                       },
@@ -7267,7 +7267,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m03l03-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -7349,7 +7349,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m03l03-step-13-block-02-paragraph"
                       },
@@ -7496,7 +7496,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m04l01-step-01-block-03-paragraph"
                       },
@@ -7521,7 +7521,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m04l01-step-02-block-02-paragraph"
                       },
@@ -8093,7 +8093,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O foco é prever o comportamento do laço.",
+                            "value": "Antes de responder, acompanhe inicialização, teste e atualização do laço.",
                             "align": "left",
                             "id": "m04l01-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -8158,7 +8158,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m04l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -8240,7 +8240,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m04l01-step-13-block-02-paragraph"
                       },
@@ -8381,7 +8381,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m04l02-step-01-block-03-paragraph"
                       },
@@ -8406,7 +8406,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m04l02-step-02-block-02-paragraph"
                       },
@@ -8944,7 +8944,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A diferença central é que o bloco executa antes do teste final.",
+                            "value": "No faça...enquanto, o bloco executa uma vez antes de a condição ser testada.",
                             "align": "left",
                             "id": "m04l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -9009,7 +9009,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m04l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -9031,7 +9031,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m04l02-step-11-block-02-paragraph"
                       },
@@ -9172,7 +9172,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m04l03-step-01-block-03-paragraph"
                       },
@@ -9197,7 +9197,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m04l03-step-02-block-02-paragraph"
                       },
@@ -9834,7 +9834,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m04l03-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -9916,7 +9916,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m04l03-step-13-block-02-paragraph"
                       },
@@ -10057,7 +10057,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m04l04-step-01-block-03-paragraph"
                       },
@@ -10082,7 +10082,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m04l04-step-02-block-02-paragraph"
                       },
@@ -10363,7 +10363,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O essencial é ligar cada padrão ao papel que ele cumpre no problema.",
+                            "value": "Contador acompanha quantidade; acumulador guarda soma parcial ou total.",
                             "align": "left",
                             "id": "m04l04-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -10641,7 +10641,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m04l04-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -10723,7 +10723,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m04l04-step-13-block-02-paragraph"
                       },
@@ -10870,7 +10870,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m05l01-step-01-block-03-paragraph"
                       },
@@ -10895,7 +10895,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m05l01-step-02-block-02-paragraph"
                       },
@@ -11250,7 +11250,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O card treina leitura por posição.",
+                            "value": "A posição no vetor precisa ser lida sem confundir índice e valor.",
                             "align": "left",
                             "id": "m05l01-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -11454,7 +11454,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m05l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -11536,7 +11536,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m05l01-step-13-block-02-paragraph"
                       },
@@ -11677,7 +11677,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m05l02-step-01-block-03-paragraph"
                       },
@@ -11702,7 +11702,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m05l02-step-02-block-02-paragraph"
                       },
@@ -12057,7 +12057,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O card reforça a leitura por linha e coluna.",
+                            "value": "A matriz precisa ser lida por linha e coluna, nessa ordem.",
                             "align": "left",
                             "id": "m05l02-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -12261,7 +12261,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m05l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -12343,7 +12343,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m05l02-step-13-block-02-paragraph"
                       },
@@ -12484,7 +12484,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m05l03-step-01-block-03-paragraph"
                       },
@@ -12509,7 +12509,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m05l03-step-02-block-02-paragraph"
                       },
@@ -13082,7 +13082,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m05l03-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -13164,7 +13164,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m05l03-step-13-block-02-paragraph"
                       },
@@ -13311,7 +13311,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m06l01-step-01-block-03-paragraph"
                       },
@@ -13336,7 +13336,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m06l01-step-02-block-02-paragraph"
                       },
@@ -13830,7 +13830,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A chave é localizar o campo certo dentro do cadastro.",
+                            "value": "Mostrar aluno.media devolve o valor numérico do campo, e não o nome do cadastro.",
                             "align": "left",
                             "id": "m06l01-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -13895,7 +13895,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m06l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -13977,7 +13977,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m06l01-step-13-block-02-paragraph"
                       },
@@ -14118,7 +14118,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m06l02-step-01-block-03-paragraph"
                       },
@@ -14143,7 +14143,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m06l02-step-02-block-02-paragraph"
                       },
@@ -14644,7 +14644,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A chave é seguir o acesso composto sem perder índice, registro e campo.",
+                            "value": "O acesso turma[1].media aponta para o campo media do segundo elemento do vetor.",
                             "align": "left",
                             "id": "m06l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -14709,7 +14709,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m06l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -14786,7 +14786,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m06l02-step-13-block-02-paragraph"
                       },
@@ -14933,7 +14933,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai ler chamadas simples, papéis de rotina e pequenos trechos equivalentes em fluxograma, Portugol/Visualg e C.",
+                        "value": "A seguir, você vai ler chamadas simples, papéis de rotina e trechos equivalentes em fluxograma, Portugol/Visualg e C.",
                         "align": "left",
                         "id": "m07l01-step-01-block-03-paragraph"
                       },
@@ -14958,7 +14958,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m07l01-step-02-block-02-paragraph"
                       },
@@ -15429,7 +15429,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "value": "Exibir as opções ao usuário.",
-                            "result": "Essa rotina foca numa ação bem delimitada.",
+                            "result": "Essa rotina executa uma tarefa bem delimitada: ler dois valores e calcular a média.",
                             "id": "m07l01-step-09-block-03-simulator-option-01"
                           },
                           {
@@ -15517,7 +15517,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m07l01-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -15599,7 +15599,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m07l01-step-13-block-02-paragraph"
                       },
@@ -15740,7 +15740,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                        "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                         "align": "left",
                         "id": "m07l02-step-01-block-03-paragraph"
                       },
@@ -15765,7 +15765,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                        "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                         "align": "left",
                         "id": "m07l02-step-02-block-02-paragraph"
                       },
@@ -16259,7 +16259,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A síntese final continua privilegiando previsão controlada.",
+                            "value": "Mesmo no fechamento, vale prever entrada, regra e saída antes de responder.",
                             "align": "left",
                             "id": "m07l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -16324,7 +16324,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                            "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                             "align": "left",
                             "id": "m07l02-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -16406,7 +16406,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                        "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                         "align": "left",
                         "id": "m07l02-step-13-block-02-paragraph"
                       },
@@ -18119,7 +18119,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os parênteses mantêm a negação sobre a frase inteira, que era o objetivo deste card.",
+                            "value": "Os parênteses mantêm a negação sobre a frase inteira, não só sobre uma palavra.",
                             "align": "left",
                             "id": "logica-02-conectivos-basicos-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -18325,7 +18325,7 @@ window.AraLearnBundledContent = {
               },
               {
                 "id": "logica-03-implicacao-bicondicional",
-                "title": "Implicação e bicondicional sem tropeço",
+                "title": "Implicação e bicondicional sem confusão",
                 "subtitle": "Entender como implicação e bicondicional funcionam, tanto na leitura intuitiva quanto na formalização lógica.",
                 "steps": [
                   {
@@ -19113,7 +19113,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Aqui o foco é lógico: casos de verdade e direção da relação, não causalidade automática.",
+                            "value": "Na implicação, importam os casos de verdade e a direção da relação, não causalidade automática.",
                             "align": "left",
                             "id": "logica-03-implicacao-bicondicional-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -19559,7 +19559,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Para este card, use a ordem padrão VV, VF, FV, FF ao listar as quatro combinações de P e Q.",
+                        "value": "Use a ordem padrão VV, VF, FV, FF ao listar as quatro combinações de P e Q.",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-02-block-02-paragraph"
                       },
@@ -20822,11 +20822,11 @@ window.AraLearnBundledContent = {
                   {
                     "id": "logica-04-tabelas-verdade-step-12",
                     "type": "content",
-                    "title": "Diagnóstico de tropeço",
+                    "title": "Diagnóstico conceitual",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Diagnóstico de tropeço",
+                        "value": "Diagnóstico conceitual",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-12-block-01-heading"
                       },
@@ -20875,7 +20875,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os erros graves aqui são justamente os que transformam o procedimento em adivinhação.",
+                            "value": "Sem coluna intermediária ou sem ordem completa de linhas, a tabela perde o procedimento correto.",
                             "align": "left",
                             "id": "logica-04-tabelas-verdade-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -22196,7 +22196,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você fechou a base inicial: leitura natural, conectivos, tabelas-verdade, equivalência e classificação das fórmulas.",
+                        "value": "Até aqui, sua base inicial reúne leitura natural, conectivos, tabelas-verdade, equivalência e classificação das fórmulas.",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-13-block-02-paragraph"
                       },
@@ -26914,7 +26914,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Neste recorte, a matriz nasce da imagem dos vetores-base e1 e e2. Isso estabiliza a leitura do i/j corrompido na lista original.",
+                        "value": "Aqui, a matriz nasce das imagens dos vetores-base e1 = (1, 0) e e2 = (0, 1).",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-01-block-02-paragraph"
                       },
@@ -27196,7 +27196,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Esse é o tropeço mais frequente quando a lista vem só com as imagens de e1 e e2.",
+                            "value": "O erro comum é ler as imagens de e1 e e2 como linhas, quando elas formam as colunas da matriz.",
                             "align": "left",
                             "id": "matrizes-04-transformacoes-lineares-step-04-block-04-button-popup-02-paragraph"
                           }
@@ -28646,7 +28646,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Complete a ideia central da validação.",
+                        "value": "Complete a checagem que confirma que a inversa desfaz a transformação.",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-11-block-02-paragraph"
                       },
@@ -28881,7 +28881,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "O escopo deste curso ficou deliberadamente curto: montar a matriz da transformação, aplicar, compor em casos simples e checar inversa pela identidade.",
+                        "value": "Neste módulo, o foco ficou em montar a matriz da transformação, aplicar, compor em casos simples e checar a inversa pela identidade.",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-14-block-02-paragraph"
                       },
@@ -28896,7 +28896,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "value": "I",
-                            "result": "Esse é o alvo esperado da validação.",
+                            "result": "A identidade confirma que uma matriz desfaz a outra nesse teste.",
                             "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator-option-01"
                           }
                         ],
@@ -29916,7 +29916,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A sequência 2, 2, 3, 1 ajuda a estabilizar a contagem antes de seguir para os próximos tópicos.",
+                            "value": "A sequência 2, 2, 3, 1 resume corretamente os graus e prepara a aplicação da soma dos graus.",
                             "align": "left",
                             "id": "grafos-01-modelagem-grau-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -30073,7 +30073,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Dois grafos podem ser isomorfos mesmo com desenho diferente. O foco é a estrutura das conexões.",
+                        "value": "Dois grafos podem ser isomorfos mesmo com desenho diferente. O que importa é a estrutura das conexões.",
                         "align": "left",
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-01-block-02-paragraph"
                       },
@@ -30785,11 +30785,11 @@ window.AraLearnBundledContent = {
                   {
                     "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11",
                     "type": "content",
-                    "title": "Diagnóstico de tropeço",
+                    "title": "Diagnóstico conceitual",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Diagnóstico de tropeço",
+                        "value": "Diagnóstico conceitual",
                         "align": "left",
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-01-heading"
                       },
@@ -30838,7 +30838,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os dois erros marcados são exatamente os mais recorrentes neste trecho.",
+                            "value": "Os erros marcados lembram que sequência de graus é filtro, não prova, e que regular não significa completo.",
                             "align": "left",
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -31781,7 +31781,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Esse contraste foi mantido curto para não abrir outro tópico fora do recorte atual.",
+                            "value": "Adjacência cruza vértices com vértices; incidência relaciona vértices com arestas.",
                             "align": "left",
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -31939,7 +31939,7 @@ window.AraLearnBundledContent = {
                   {
                     "id": "grafos-03-bipartidos-matriz-adjacencia-step-12",
                     "type": "content",
-                    "title": "Reforço da adaptação computacional",
+                    "title": "Fechamento da representação",
                     "blocks": [
                       {
                         "kind": "heading",
@@ -32213,7 +32213,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Considere H com arestas AB, BC, CD, DB e DA. Use esse mesmo grafo para comparar trilha, caminho e ciclo.",
+                        "value": "Considere H com arestas AB, BC, CD, DB e DA. Use o grafo H para comparar trilha, caminho e ciclo.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-02-paragraph"
                       },
@@ -35184,11 +35184,11 @@ window.AraLearnBundledContent = {
                   {
                     "id": "grafos-06-euler-step-11",
                     "type": "content",
-                    "title": "Diagnóstico final de tropeço",
+                    "title": "Diagnóstico conceitual final",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Diagnóstico final de tropeço",
+                        "value": "Diagnóstico conceitual final",
                         "align": "left",
                         "id": "grafos-06-euler-step-11-block-01-heading"
                       },
@@ -35237,7 +35237,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os dois erros marcados são justamente os que mais desalinham a decisão final.",
+                            "value": "Os erros marcados confundem o critério sobre arestas com a exigência de conectividade.",
                             "align": "left",
                             "id": "grafos-06-euler-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -35480,7 +35480,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-03-block-02-paragraph"
                       },
@@ -35932,7 +35932,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A ideia central aqui é projeto versus kernel.",
+                            "value": "GNU é o projeto de ferramentas; Linux é o kernel usado por muitas distribuições.",
                             "align": "left",
                             "id": "l01-unix-gnu-linux-step-08-block-04-button-popup-02-paragraph"
                           }
@@ -36281,7 +36281,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l02-kernel-gui-shell-bash-step-03-block-02-paragraph"
                       },
@@ -37035,7 +37035,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l03-primeiros-passos-no-terminal-step-03-block-02-paragraph"
                       },
@@ -37517,12 +37517,12 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "simulator",
-                        "value": "No contraste principal do card, o par usado é `[[]]`.",
+                        "value": "No contraste principal aqui, o par usado é `[[]]`.",
                         "options": [
                           {
                             "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-02",
                             "value": "Docs",
-                            "result": "`Docs` continua plausível em sistema case sensitive, mas não é o par usado no contraste principal do card."
+                            "result": "`Docs` continua plausível em sistema case sensitive, mas não é o par usado neste contraste."
                           },
                           {
                             "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-03",
@@ -37532,7 +37532,7 @@ window.AraLearnBundledContent = {
                           {
                             "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-01",
                             "value": "docs",
-                            "result": "Boa. O card usa `Docs` x `docs` para destacar a diferença de maiúsculas e minúsculas."
+                            "result": "Boa. Aqui, `Docs` x `docs` destaca a diferença de maiúsculas e minúsculas."
                           }
                         ],
                         "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator"
@@ -37839,7 +37839,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l04-navegacao-diretorios-step-03-block-02-paragraph"
                       },
@@ -38626,7 +38626,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Os exemplos usam uma estrutura simples de projeto para aproximar a prática do que a disciplina já cobra.",
+                        "value": "Os exemplos usam uma estrutura simples de projeto para aproximar a manipulação de arquivos de um caso real.",
                         "align": "left",
                         "id": "l05-arquivos-e-pastas-shell-step-01-block-03-paragraph"
                       },
@@ -38651,7 +38651,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l05-arquivos-e-pastas-shell-step-03-block-02-paragraph"
                       },
@@ -39559,7 +39559,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l06-inspecao-e-ambiente-minimo-step-03-block-02-paragraph"
                       },
@@ -40475,7 +40475,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l07-conta-github-e-mapa-conceitual-step-03-block-02-paragraph"
                       },
@@ -41213,7 +41213,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l08-repositorio-publico-e-visibilidade-step-03-block-02-paragraph"
                       },
@@ -42011,7 +42011,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l09-navegar-no-repositorio-web-step-03-block-02-paragraph"
                       },
@@ -42728,7 +42728,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l10-arquivos-pastas-e-upload-no-github-step-03-block-02-paragraph"
                       },
@@ -43524,7 +43524,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l11-edicao-web-e-commit-manual-step-03-block-02-paragraph"
                       },
@@ -44326,7 +44326,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l12-controle-de-versao-e-modelos-step-03-block-02-paragraph"
                       },
@@ -44815,7 +44815,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "value": "uma única conta central obrigatória",
-                            "result": "Isso puxa demais para a ideia centralizada.",
+                            "result": "Isso descreve um modelo centralizado, não distribuído.",
                             "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-02"
                           },
                           {
@@ -45062,7 +45062,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l13-git-local-status-add-commit-step-03-block-02-paragraph"
                       },
@@ -45955,7 +45955,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l14-local-remoto-clone-push-pull-step-03-block-02-paragraph"
                       },
@@ -46407,7 +46407,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Vale repetir bastante essa diferença porque ela costuma ser um dos maiores pontos de confusão.",
+                            "value": "Fetch atualiza referências do remoto; pull traz essas mudanças e já tenta integrá-las ao repositório local.",
                             "align": "left",
                             "id": "l14-local-remoto-clone-push-pull-step-08-block-04-button-popup-02-paragraph"
                           }
@@ -46758,7 +46758,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l15-branch-e-pull-request-basicos-step-03-block-02-paragraph"
                       },
@@ -47470,7 +47470,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l16-editor-ide-plugin-step-03-block-02-paragraph"
                       },
@@ -48047,7 +48047,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O foco é distinguir camadas e usos, não transformar ferramenta em torcida.",
+                            "value": "O importante é distinguir camadas e usos, sem tratar editor, IDE e plugin como sinônimos.",
                             "align": "left",
                             "id": "l16-editor-ide-plugin-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -48206,7 +48206,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l17-debug-e-depuracao-step-03-block-02-paragraph"
                       },
@@ -48806,7 +48806,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "simulator",
-                        "value": "O apoio em foco é o `[[]]`.",
+                        "value": "A palavra que melhor descreve esse apoio é `[[]]`.",
                         "options": [
                           {
                             "value": "licenciamento",
@@ -48838,7 +48838,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A resposta correta fecha a separação entre recurso e processo.",
+                            "value": "A resposta correta separa a ação de depurar do restante do fluxo de desenvolvimento.",
                             "align": "left",
                             "id": "l17-debug-e-depuracao-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -48929,7 +48929,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l18-software-livre-e-contexto-da-disciplina-step-03-block-02-paragraph"
                       },
@@ -49409,7 +49409,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "simulator",
-                        "value": "O item que ajuda a explicitar isso é a `[[]]`.",
+                        "value": "O item que ajuda a explicitar condições de uso e compartilhamento é a `[[]]`.",
                         "options": [
                           {
                             "value": "janela do terminal",
@@ -49441,7 +49441,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A previsão correta mantém a ligação com contribuição e abertura sem juridiquês excessivo.",
+                            "value": "A licença explicita uso, distribuição e colaboração sem depender só do fato de o repositório ser público.",
                             "align": "left",
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-04-button-popup-02-paragraph"
                           }
@@ -49665,7 +49665,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use estes termos nos próximos cards.",
+                        "value": "Guarde estes termos para reconhecer comandos, papéis e ferramentas deste tema.",
                         "align": "left",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-03-block-02-paragraph"
                       },
@@ -50249,7 +50249,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "As boas práticas precisam aparecer como microações aplicáveis já no projeto da turma.",
+                            "value": "Essas boas práticas aparecem em ações concretas: nomear bem, documentar e registrar decisões.",
                             "align": "left",
                             "id": "l19-documentacao-pesquisa-e-boas-praticas-step-10-block-04-button-popup-02-paragraph"
                           }

@@ -208,6 +208,7 @@ Regras mínimas para o hardcoded oficial:
 
 - card de prática precisa ser autossuficiente no próprio step, sem depender do card anterior para contexto essencial;
 - texto visível ao estudante não deve expor bastidor editorial como "o curso quer", "a lição quer", "blueprint", "formato mobile" ou comentários sobre adaptação ao app;
+- texto visível ao estudante também não deve depender de frases genéricas de sequenciamento autoral, como "nos próximos cards", "use este checklist" ou "objetivo deste card";
 - `lesson_complete` deve trazer `heading` e `paragraph` centralizados já no JSON-fonte;
 - o runtime pode reforçar visualmente o alinhamento central do `lesson_complete`, mas isso não substitui corrigir a fonte.
 

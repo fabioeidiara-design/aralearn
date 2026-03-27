@@ -18,6 +18,8 @@ const bannedTextRules = [
   { label: "texto de bastidor", pattern: /\bblueprint\b/i },
   { label: "meta-didática explícita", pattern: /Riscos de compreensão/i },
   { label: "meta-didática explícita", pattern: /\briscos didáticos\b/i },
+  { label: "meta-didática explícita", pattern: /\btropeço\b/i },
+  { label: "meta-didática explícita", pattern: /\btropeços\b/i },
   { label: "meta-didática explícita", pattern: /\bo curso quer\b/i },
   { label: "meta-didática explícita", pattern: /\ba lição quer\b/i },
   { label: "referência editorial fraca", pattern: /\bnível introdutório\b/i },
@@ -26,6 +28,11 @@ const bannedTextRules = [
   { label: "referência à interface", pattern: /\bjustiça didática\b/i },
   { label: "referência à interface", pattern: /\bno app\b/i },
   { label: "referência à interface", pattern: /\bno celular\b/i },
+  { label: "texto editorial", pattern: /\blista original\b/i },
+  { label: "texto editorial", pattern: /\brecorte atual\b/i },
+  { label: "texto editorial", pattern: /\bdeliberadamente curto\b/i },
+  { label: "texto editorial", pattern: /\bvale repetir bastante\b/i },
+  { label: "texto editorial", pattern: /\bi\/j corrompido\b/i },
   { label: "referência editorial fraca", pattern: /\bcurso real\b/i },
   { label: "referência editorial fraca", pattern: /\bescopo operacional do curso\b/i },
   { label: "referência editorial fraca", pattern: /\boferta real do curso\b/i },
@@ -34,7 +41,23 @@ const bannedTextRules = [
   { label: "dependência de card anterior", pattern: /\blaço acima\b/i },
   { label: "dependência de card anterior", pattern: /\bfor acima\b/i },
   { label: "dependência de card anterior", pattern: /\bmesmo grafo-base\b/i },
-  { label: "dependência de card anterior", pattern: /\bagora compare\b/i }
+  { label: "dependência de card anterior", pattern: /\bagora compare\b/i },
+  { label: "dependência de card anterior", pattern: /\besse mesmo grafo\b/i }
+];
+
+const warningTextRules = [
+  { label: "referência ao próprio card", pattern: /\bo card\b/i },
+  { label: "referência ao próprio card", pattern: /\bdeste card\b/i },
+  { label: "referência ao próprio card", pattern: /\bdo card\b/i },
+  { label: "sequenciamento autoral visível", pattern: /\bnos próximos cards\b/i },
+  { label: "sequenciamento autoral visível", pattern: /\bUse estes termos nos próximos cards\b/i },
+  { label: "frase de apoio genérica", pattern: /\bantes da prática\b/i },
+  { label: "frase de apoio genérica", pattern: /\bapós a prática\b/i },
+  { label: "frase de apoio genérica", pattern: /\bUse este checklist\b/i },
+  { label: "frase de apoio genérica", pattern: /\bmicropráticas\b/i },
+  { label: "frase de apoio genérica", pattern: /\bestabilizar a leitura\b/i },
+  { label: "foco pouco específico", pattern: /\b[oO] foco é\b/i },
+  { label: "foco pouco específico", pattern: /\b[aA]qui o foco é\b/i }
 ];
 
 const lessonSubtitleAuthorVoice = /^(Apresentar|Fazer|Consolidar|Retomar|Mapear|Mostrar|Separar|Introduzir|Explicar|Comparar|Trabalhar|Guiar|Ensinar|Dar|Reduzir)\b/;
@@ -51,6 +74,11 @@ function checkText(file, ref, value) {
   for (const rule of bannedTextRules) {
     if (rule.pattern.test(trimmed)) {
       addIssue(errors, file, ref, rule.label, trimmed);
+    }
+  }
+  for (const rule of warningTextRules) {
+    if (rule.pattern.test(trimmed)) {
+      addIssue(warnings, file, ref, rule.label, trimmed);
     }
   }
 }

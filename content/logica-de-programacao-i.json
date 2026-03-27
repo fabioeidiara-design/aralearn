@@ -34,7 +34,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m01l01-step-01-block-03-paragraph"
                     },
@@ -59,7 +59,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m01l01-step-02-block-02-paragraph"
                     },
@@ -311,7 +311,7 @@
                           "id": "m01l01-step-05-block-03-multiple-choice-option-04"
                         },
                         {
-                          "value": "Programação em C é importante.",
+                          "value": "Usar C é escolher uma linguagem, não descrever passos.",
                           "answer": false,
                           "id": "m01l01-step-05-block-03-multiple-choice-option-02"
                         },
@@ -607,7 +607,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O importante é prever o comportamento do algoritmo.",
+                          "value": "Com nota1 = 6 e nota2 = 8, a média calculada e exibida é 7.",
                           "align": "left",
                           "id": "m01l01-step-08-block-04-button-popup-02-paragraph"
                         }
@@ -672,7 +672,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m01l01-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -694,7 +694,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m01l01-step-11-block-02-paragraph"
                     },
@@ -835,7 +835,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m01l02-step-01-block-03-paragraph"
                     },
@@ -860,7 +860,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m01l02-step-02-block-02-paragraph"
                     },
@@ -1532,7 +1532,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m01l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -1614,7 +1614,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m01l02-step-13-block-02-paragraph"
                     },
@@ -1755,7 +1755,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m01l03-step-01-block-03-paragraph"
                     },
@@ -1780,7 +1780,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Antes da prática, fixe a leitura útil dos nomes que mais travam no começo.",
+                      "value": "Comece fixando a leitura útil dos nomes que mais travam no começo.",
                       "align": "left",
                       "id": "m01l03-step-02-block-02-paragraph"
                     },
@@ -2371,7 +2371,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m01l03-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -2453,7 +2453,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m01l03-step-13-block-02-paragraph"
                     },
@@ -2600,7 +2600,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m02l01-step-01-block-03-paragraph"
                     },
@@ -2625,7 +2625,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m02l01-step-02-block-02-paragraph"
                     },
@@ -3175,7 +3175,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m02l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -3197,7 +3197,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m02l01-step-11-block-02-paragraph"
                     },
@@ -3338,7 +3338,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m02l02-step-01-block-03-paragraph"
                     },
@@ -3961,7 +3961,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m02l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -4043,7 +4043,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m02l02-step-13-block-02-paragraph"
                     },
@@ -4184,7 +4184,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m02l03-step-01-block-03-paragraph"
                     },
@@ -4209,7 +4209,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m02l03-step-02-block-02-paragraph"
                     },
@@ -4490,7 +4490,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O importante é acompanhar a ordem das operações e o valor produzido.",
+                          "value": "Ler a expressão direito evita trocar subtração por soma ou inverter a ordem do cálculo.",
                           "align": "left",
                           "id": "m02l03-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -4703,7 +4703,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O importante é calcular a expressão e prever a saída correta.",
+                          "value": "Com a = 10 e b = 2, o programa calcula c = 8 antes de mostrar o resultado.",
                           "align": "left",
                           "id": "m02l03-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -4768,7 +4768,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m02l03-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -4790,7 +4790,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m02l03-step-11-block-02-paragraph"
                     },
@@ -4937,7 +4937,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m03l01-step-01-block-03-paragraph"
                     },
@@ -4962,7 +4962,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m03l01-step-02-block-02-paragraph"
                     },
@@ -5583,7 +5583,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m03l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -5665,7 +5665,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m03l01-step-13-block-02-paragraph"
                     },
@@ -5806,7 +5806,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m03l02-step-01-block-03-paragraph"
                     },
@@ -5831,7 +5831,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m03l02-step-02-block-02-paragraph"
                     },
@@ -6387,7 +6387,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A chave é testar a condição e identificar qual ramo executa.",
+                          "value": "Como media = 5 não satisfaz a condição principal, o programa segue para a mensagem de Recuperação.",
                           "align": "left",
                           "id": "m03l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -6452,7 +6452,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m03l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -6534,7 +6534,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m03l02-step-13-block-02-paragraph"
                     },
@@ -6675,7 +6675,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m03l03-step-01-block-03-paragraph"
                     },
@@ -6700,7 +6700,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m03l03-step-02-block-02-paragraph"
                     },
@@ -7259,7 +7259,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m03l03-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -7341,7 +7341,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m03l03-step-13-block-02-paragraph"
                     },
@@ -7488,7 +7488,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m04l01-step-01-block-03-paragraph"
                     },
@@ -7513,7 +7513,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m04l01-step-02-block-02-paragraph"
                     },
@@ -8085,7 +8085,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O foco é prever o comportamento do laço.",
+                          "value": "Antes de responder, acompanhe inicialização, teste e atualização do laço.",
                           "align": "left",
                           "id": "m04l01-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -8150,7 +8150,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m04l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -8232,7 +8232,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m04l01-step-13-block-02-paragraph"
                     },
@@ -8373,7 +8373,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m04l02-step-01-block-03-paragraph"
                     },
@@ -8398,7 +8398,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m04l02-step-02-block-02-paragraph"
                     },
@@ -8936,7 +8936,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A diferença central é que o bloco executa antes do teste final.",
+                          "value": "No faça...enquanto, o bloco executa uma vez antes de a condição ser testada.",
                           "align": "left",
                           "id": "m04l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -9001,7 +9001,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m04l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -9023,7 +9023,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m04l02-step-11-block-02-paragraph"
                     },
@@ -9164,7 +9164,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m04l03-step-01-block-03-paragraph"
                     },
@@ -9189,7 +9189,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m04l03-step-02-block-02-paragraph"
                     },
@@ -9826,7 +9826,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m04l03-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -9908,7 +9908,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m04l03-step-13-block-02-paragraph"
                     },
@@ -10049,7 +10049,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m04l04-step-01-block-03-paragraph"
                     },
@@ -10074,7 +10074,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m04l04-step-02-block-02-paragraph"
                     },
@@ -10355,7 +10355,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O essencial é ligar cada padrão ao papel que ele cumpre no problema.",
+                          "value": "Contador acompanha quantidade; acumulador guarda soma parcial ou total.",
                           "align": "left",
                           "id": "m04l04-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -10633,7 +10633,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m04l04-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -10715,7 +10715,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m04l04-step-13-block-02-paragraph"
                     },
@@ -10862,7 +10862,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m05l01-step-01-block-03-paragraph"
                     },
@@ -10887,7 +10887,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m05l01-step-02-block-02-paragraph"
                     },
@@ -11242,7 +11242,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O card treina leitura por posição.",
+                          "value": "A posição no vetor precisa ser lida sem confundir índice e valor.",
                           "align": "left",
                           "id": "m05l01-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -11446,7 +11446,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m05l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -11528,7 +11528,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m05l01-step-13-block-02-paragraph"
                     },
@@ -11669,7 +11669,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m05l02-step-01-block-03-paragraph"
                     },
@@ -11694,7 +11694,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m05l02-step-02-block-02-paragraph"
                     },
@@ -12049,7 +12049,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O card reforça a leitura por linha e coluna.",
+                          "value": "A matriz precisa ser lida por linha e coluna, nessa ordem.",
                           "align": "left",
                           "id": "m05l02-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -12253,7 +12253,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m05l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -12335,7 +12335,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m05l02-step-13-block-02-paragraph"
                     },
@@ -12476,7 +12476,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m05l03-step-01-block-03-paragraph"
                     },
@@ -12501,7 +12501,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m05l03-step-02-block-02-paragraph"
                     },
@@ -13074,7 +13074,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m05l03-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -13156,7 +13156,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m05l03-step-13-block-02-paragraph"
                     },
@@ -13303,7 +13303,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m06l01-step-01-block-03-paragraph"
                     },
@@ -13328,7 +13328,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m06l01-step-02-block-02-paragraph"
                     },
@@ -13822,7 +13822,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A chave é localizar o campo certo dentro do cadastro.",
+                          "value": "Mostrar aluno.media devolve o valor numérico do campo, e não o nome do cadastro.",
                           "align": "left",
                           "id": "m06l01-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -13887,7 +13887,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m06l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -13969,7 +13969,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m06l01-step-13-block-02-paragraph"
                     },
@@ -14110,7 +14110,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m06l02-step-01-block-03-paragraph"
                     },
@@ -14135,7 +14135,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m06l02-step-02-block-02-paragraph"
                     },
@@ -14636,7 +14636,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A chave é seguir o acesso composto sem perder índice, registro e campo.",
+                          "value": "O acesso turma[1].media aponta para o campo media do segundo elemento do vetor.",
                           "align": "left",
                           "id": "m06l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -14701,7 +14701,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m06l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -14778,7 +14778,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m06l02-step-13-block-02-paragraph"
                     },
@@ -14925,7 +14925,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai ler chamadas simples, papéis de rotina e pequenos trechos equivalentes em fluxograma, Portugol/Visualg e C.",
+                      "value": "A seguir, você vai ler chamadas simples, papéis de rotina e trechos equivalentes em fluxograma, Portugol/Visualg e C.",
                       "align": "left",
                       "id": "m07l01-step-01-block-03-paragraph"
                     },
@@ -14950,7 +14950,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m07l01-step-02-block-02-paragraph"
                     },
@@ -15421,7 +15421,7 @@
                         },
                         {
                           "value": "Exibir as opções ao usuário.",
-                          "result": "Essa rotina foca numa ação bem delimitada.",
+                          "result": "Essa rotina executa uma tarefa bem delimitada: ler dois valores e calcular a média.",
                           "id": "m07l01-step-09-block-03-simulator-option-01"
                         },
                         {
@@ -15509,7 +15509,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m07l01-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -15591,7 +15591,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m07l01-step-13-block-02-paragraph"
                     },
@@ -15732,7 +15732,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
+                      "value": "A seguir, a mesma ideia reaparece em comparações curtas entre representações e em pequenas práticas de leitura.",
                       "align": "left",
                       "id": "m07l02-step-01-block-03-paragraph"
                     },
@@ -15757,7 +15757,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A primeira leitura reduz ruído de vocabulário e notação antes da prática.",
+                      "value": "Comece fixando o vocabulário e a notação que mais costumam travar no início.",
                       "align": "left",
                       "id": "m07l02-step-02-block-02-paragraph"
                     },
@@ -16251,7 +16251,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A síntese final continua privilegiando previsão controlada.",
+                          "value": "Mesmo no fechamento, vale prever entrada, regra e saída antes de responder.",
                           "align": "left",
                           "id": "m07l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -16316,7 +16316,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os termos corretos são justamente os que ajudam a estabilizar a leitura antes da prática.",
+                          "value": "Esses termos pertencem ao vocabulário técnico do tópico e evitam confusão de leitura.",
                           "align": "left",
                           "id": "m07l02-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -16398,7 +16398,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use este checklist como síntese do que precisa ficar estável após a prática.",
+                      "value": "Use este quadro como revisão das distinções que precisam permanecer estáveis.",
                       "align": "left",
                       "id": "m07l02-step-13-block-02-paragraph"
                     },
