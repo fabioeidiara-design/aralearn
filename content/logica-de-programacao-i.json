@@ -13,7 +13,7 @@
             {
               "id": "m01l01",
               "title": "Algoritmo, problema e as três formas de representar",
-              "subtitle": "Apresentar algoritmo como sequência finita de passos e mostrar por que a disciplina trabalha a mesma ideia em fluxograma, Portugol/Visualg e C.",
+              "subtitle": "Algoritmo é a sequência finita de passos que resolve um problema; aqui a mesma ideia aparece em descrição verbal, fluxograma, Portugol/Visualg e C.",
               "steps": [
                 {
                   "id": "m01l01-step-01",
@@ -28,13 +28,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Apresentar algoritmo como sequência finita de passos e mostrar por que a disciplina trabalha a mesma ideia em fluxograma, Portugol/Visualg e C.",
+                      "value": "Algoritmo é a sequência finita de passos que resolve um problema; aqui a mesma ideia aparece em descrição verbal, fluxograma, Portugol/Visualg e C.",
                       "align": "left",
                       "id": "m01l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em algoritmo como objeto comum por trás de três representações. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m01l01-step-01-block-03-paragraph"
                     },
@@ -65,9 +65,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -178,7 +178,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m01l01-step-04-block-02-paragraph"
                     },
@@ -368,11 +368,11 @@
                     },
                     {
                       "kind": "editor",
-                      "value": "[[entrada]] -> [[processamento]] -> [[saida]]",
+                      "value": "[[entrada]] -> [[processamento]] -> [[saída]]",
                       "interactionMode": "choice",
                       "options": [
                         {
-                          "value": "decisao",
+                          "value": "decisão",
                           "enabled": false,
                           "displayOrder": 0,
                           "slotOrder": 3,
@@ -386,7 +386,7 @@
                           "id": "m01l01-step-06-block-03-editor-option-03"
                         },
                         {
-                          "value": "saida",
+                          "value": "saída",
                           "enabled": true,
                           "displayOrder": 2,
                           "slotOrder": 2,
@@ -436,7 +436,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Monte o fluxo da média.",
+                      "value": "Complete o fluxo da média escolhendo as ações de entrada, cálculo e saída.",
                       "align": "left",
                       "id": "m01l01-step-07-block-02-paragraph"
                     },
@@ -458,10 +458,11 @@
                           "column": "center",
                           "shape": "input_output",
                           "text": "Ler nota1 e nota2",
-                          "shapeOptions": [
-                            "process"
-                          ],
-                          "textOptions": []
+                          "shapeOptions": [],
+                          "textOptions": [
+                            "media <- (nota1 + nota2) / 2",
+                            "Mostrar media"
+                          ]
                         },
                         {
                           "id": "n3",
@@ -469,10 +470,11 @@
                           "column": "center",
                           "shape": "process",
                           "text": "media <- (nota1 + nota2) / 2",
-                          "shapeOptions": [
-                            "input_output"
-                          ],
-                          "textOptions": []
+                          "shapeOptions": [],
+                          "textOptions": [
+                            "Ler nota1 e nota2",
+                            "Mostrar media"
+                          ]
                         },
                         {
                           "id": "n4",
@@ -480,10 +482,11 @@
                           "column": "center",
                           "shape": "input_output",
                           "text": "Mostrar media",
-                          "shapeOptions": [
-                            "decision"
-                          ],
-                          "textOptions": []
+                          "shapeOptions": [],
+                          "textOptions": [
+                            "Ler nota1 e nota2",
+                            "media <- (nota1 + nota2) / 2"
+                          ]
                         },
                         {
                           "id": "n5",
@@ -570,16 +573,6 @@
                       "value": "media = [[]]",
                       "options": [
                         {
-                          "value": "7",
-                          "result": "A média de 6 e 8 é 7.",
-                          "id": "m01l01-step-08-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "14",
-                          "result": "Isso é a soma.",
-                          "id": "m01l01-step-08-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "6",
                           "result": "Isso usa só a primeira nota.",
                           "id": "m01l01-step-08-block-03-simulator-option-03"
@@ -588,6 +581,16 @@
                           "value": "8",
                           "result": "Isso usa só a segunda nota.",
                           "id": "m01l01-step-08-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "7",
+                          "result": "A média de 6 e 8 é 7.",
+                          "id": "m01l01-step-08-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "14",
+                          "result": "Isso é a soma.",
+                          "id": "m01l01-step-08-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m01l01-step-08-block-03-simulator"
@@ -626,7 +629,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a algoritmo, problema e formas de representação.",
                       "align": "left",
                       "id": "m01l01-step-09-block-02-paragraph"
                     },
@@ -697,9 +700,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -789,13 +792,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já reconhece a mesma solução em descrição verbal, fluxograma, Portugol/Visualg e C.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l01-step-12-block-02-paragraph"
                     },
                     {
@@ -811,7 +814,7 @@
             {
               "id": "m01l02",
               "title": "Símbolos de fluxograma e convenções de leitura",
-              "subtitle": "Fazer o estudante reconhecer e escolher símbolos de fluxograma, além de organizar o diagrama com leitura clara.",
+              "subtitle": "Cada símbolo do fluxograma tem um papel de leitura, e a organização visual ajuda a seguir o algoritmo sem ruído.",
               "steps": [
                 {
                   "id": "m01l02-step-01",
@@ -826,13 +829,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Fazer o estudante reconhecer e escolher símbolos de fluxograma, além de organizar o diagrama com leitura clara.",
+                      "value": "Cada símbolo do fluxograma tem um papel de leitura, e a organização visual ajuda a seguir o algoritmo sem ruído.",
                       "align": "left",
                       "id": "m01l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em símbolos e convenções visuais de fluxograma. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m01l02-step-01-block-03-paragraph"
                     },
@@ -863,9 +866,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -976,7 +979,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m01l02-step-05-block-02-paragraph"
                     },
@@ -1285,7 +1288,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Qual leitura segue a convenção reforçada pelo curso?",
+                      "value": "No padrão adotado aqui, a saída esquerda do losango recebe “Não” e a direita recebe “Sim”. Qual opção segue essa convenção?",
                       "align": "left",
                       "id": "m01l02-step-08-block-02-paragraph"
                     },
@@ -1486,7 +1489,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a símbolos de fluxograma e convenções de leitura.",
                       "align": "left",
                       "id": "m01l02-step-10-block-02-paragraph"
                     },
@@ -1541,17 +1544,17 @@
                 {
                   "id": "m01l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m01l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem confusões reais sobre símbolos e leitura de fluxogramas?",
                       "align": "left",
                       "id": "m01l02-step-12-block-02-paragraph"
                     },
@@ -1560,17 +1563,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "reduzir fluxograma a glossário passivo",
+                          "value": "Trocar o losango de decisão por um bloco de processo.",
                           "answer": true,
                           "id": "m01l02-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Diferenciar entrada, processo e saída pelos símbolos adequados.",
                           "answer": false,
                           "id": "m01l02-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "não praticar disposição visual",
+                          "value": "Seguir uma decisão sem rotular claramente as saídas Sim e Não.",
                           "answer": true,
                           "id": "m01l02-step-12-block-03-multiple-choice-option-02"
                         }
@@ -1589,7 +1592,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m01l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -1617,9 +1620,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -1709,13 +1712,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já reconhece símbolos de fluxograma e organiza decisões binárias com leitura estável.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l02-step-14-block-02-paragraph"
                     },
                     {
@@ -1731,7 +1734,7 @@
             {
               "id": "m01l03",
               "title": "Primeiro contato com Visualg/Portugol e C",
-              "subtitle": "Desarmar o estranhamento inicial com as duas escritas textuais do curso: Portugol/Visualg e C.",
+              "subtitle": "Portugol/Visualg e C mudam a escrita, mas mantêm a mesma lógica do algoritmo e do fluxo de dados.",
               "steps": [
                 {
                   "id": "m01l03-step-01",
@@ -1746,13 +1749,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Desarmar o estranhamento inicial com as duas escritas textuais do curso: Portugol/Visualg e C.",
+                      "value": "Portugol/Visualg e C mudam a escrita, mas mantêm a mesma lógica do algoritmo e do fluxo de dados.",
                       "align": "left",
                       "id": "m01l03-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em vocabulário e esqueleto mínimo das duas formas textuais. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m01l03-step-01-block-03-paragraph"
                     },
@@ -1783,9 +1786,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -1928,7 +1931,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m01l03-step-05-block-02-paragraph"
                     },
@@ -2269,16 +2272,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "\"Ola\"",
-                          "result": "printf escreve o texto indicado.",
-                          "id": "m01l03-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "\"scanf\"",
-                          "result": "scanf não é saída.",
-                          "id": "m01l03-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "\"main\"",
                           "result": "main não é mensagem.",
                           "id": "m01l03-step-09-block-03-simulator-option-03"
@@ -2287,6 +2280,16 @@
                           "value": "\"stdio\"",
                           "result": "stdio não é a saída.",
                           "id": "m01l03-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "\"Ola\"",
+                          "result": "printf escreve o texto indicado.",
+                          "id": "m01l03-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "\"scanf\"",
+                          "result": "scanf não é saída.",
+                          "id": "m01l03-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m01l03-step-09-block-03-simulator"
@@ -2325,7 +2328,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados ao esqueleto mínimo de Portugol/Visualg e C.",
                       "align": "left",
                       "id": "m01l03-step-10-block-02-paragraph"
                     },
@@ -2380,17 +2383,17 @@
                 {
                   "id": "m01l03-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m01l03-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem confusões reais no primeiro contato com Portugol/Visualg e C?",
                       "align": "left",
                       "id": "m01l03-step-12-block-02-paragraph"
                     },
@@ -2399,17 +2402,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "sobrecarregar com sintaxe demais",
+                          "value": "Achar que mudar a sintaxe muda o algoritmo inteiro.",
                           "answer": true,
                           "id": "m01l03-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "pedir digitação longa antes de entendimento estrutural",
+                          "value": "Confundir `Inicio` ou `main` com a ação principal do problema.",
                           "answer": true,
                           "id": "m01l03-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Começar pelo esqueleto mínimo antes de programas maiores.",
                           "answer": false,
                           "id": "m01l03-step-12-block-03-multiple-choice-option-03"
                         }
@@ -2428,7 +2431,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m01l03-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -2456,9 +2459,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -2548,13 +2551,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l03-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê o esqueleto mínimo de Portugol/Visualg e C sem perder o foco lógico.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m01l03-step-14-block-02-paragraph"
                     },
                     {
@@ -2576,7 +2579,7 @@
             {
               "id": "m02l01",
               "title": "Variáveis, memória e tipos básicos",
-              "subtitle": "Fazer o estudante entender o que uma variável representa, como ela guarda dados e por que o tipo importa.",
+              "subtitle": "Variável é um nome para um espaço de memória, e o tipo ajuda a prever que valores cabem ali.",
               "steps": [
                 {
                   "id": "m02l01-step-01",
@@ -2591,13 +2594,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Fazer o estudante entender o que uma variável representa, como ela guarda dados e por que o tipo importa.",
+                      "value": "Variável é um nome para um espaço de memória, e o tipo ajuda a prever que valores cabem ali.",
                       "align": "left",
                       "id": "m02l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em modelo mental de variável + tipos básicos. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m02l01-step-01-block-03-paragraph"
                     },
@@ -2628,9 +2631,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -2741,7 +2744,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m02l01-step-05-block-02-paragraph"
                     },
@@ -3073,16 +3076,6 @@
                       "value": "x = [[]]",
                       "options": [
                         {
-                          "value": "7",
-                          "result": "O novo valor substitui o antigo.",
-                          "id": "m02l01-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "5",
-                          "result": "Isso ignoraria a atualização.",
-                          "id": "m02l01-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "2",
                           "result": "Isso usa só o incremento.",
                           "id": "m02l01-step-09-block-03-simulator-option-03"
@@ -3091,6 +3084,16 @@
                           "value": "52",
                           "result": "Não há concatenação.",
                           "id": "m02l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "7",
+                          "result": "O novo valor substitui o antigo.",
+                          "id": "m02l01-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "5",
+                          "result": "Isso ignoraria a atualização.",
+                          "id": "m02l01-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m02l01-step-09-block-03-simulator"
@@ -3129,7 +3132,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a variáveis, memória e tipos básicos.",
                       "align": "left",
                       "id": "m02l01-step-10-block-02-paragraph"
                     },
@@ -3200,9 +3203,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -3292,13 +3295,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já entende variável como memória nomeada e diferencia tipos básicos e identificadores válidos.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l01-step-12-block-02-paragraph"
                     },
                     {
@@ -3314,7 +3317,7 @@
             {
               "id": "m02l02",
               "title": "Leia, Escreva, printf, scanf e atribuição",
-              "subtitle": "Consolidar leitura, exibição e atribuição como ações diferentes, mas equivalentes entre as representações.",
+              "subtitle": "Ler, escrever e atribuir são ações diferentes: entrada recebe dados, saída mostra resultados e atribuição atualiza valores.",
               "steps": [
                 {
                   "id": "m02l02-step-01",
@@ -3329,13 +3332,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Consolidar leitura, exibição e atribuição como ações diferentes, mas equivalentes entre as representações.",
+                      "value": "Ler, escrever e atribuir são ações diferentes: entrada recebe dados, saída mostra resultados e atribuição atualiza valores.",
                       "align": "left",
                       "id": "m02l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em entrada/saída e atribuição com vocabulário operacional. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m02l02-step-01-block-03-paragraph"
                     },
@@ -3366,9 +3369,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -3511,7 +3514,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m02l02-step-05-block-02-paragraph"
                     },
@@ -3673,7 +3676,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A lição separa leitura, escrita e atribuição.",
+                          "value": "Ler, escrever e atribuir cumprem papéis diferentes no programa.",
                           "align": "left",
                           "id": "m02l02-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -3859,16 +3862,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "7",
-                          "result": "A leitura correta é x = 4 e depois y = 7.",
-                          "id": "m02l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "4",
-                          "result": "Isso mostraria x.",
-                          "id": "m02l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "3",
                           "result": "Isso ignora o valor de x.",
                           "id": "m02l02-step-09-block-03-simulator-option-03"
@@ -3877,6 +3870,16 @@
                           "value": "43",
                           "result": "Não há concatenação.",
                           "id": "m02l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "7",
+                          "result": "A leitura correta é x = 4 e depois y = 7.",
+                          "id": "m02l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "4",
+                          "result": "Isso mostraria x.",
+                          "id": "m02l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m02l02-step-09-block-03-simulator"
@@ -3915,7 +3918,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a entrada, saída e atribuição.",
                       "align": "left",
                       "id": "m02l02-step-10-block-02-paragraph"
                     },
@@ -3970,17 +3973,17 @@
                 {
                   "id": "m02l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m02l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais sobre entrada, saída e atribuição?",
                       "align": "left",
                       "id": "m02l02-step-12-block-02-paragraph"
                     },
@@ -3989,17 +3992,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Trocar entrada por saída e usar leitura quando deveria mostrar o resultado.",
+                          "answer": true,
                           "id": "m02l02-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "transformar formatação em assunto central cedo demais",
-                          "answer": true,
+                          "value": "Distinguir ler, escrever e atribuir ajuda a interpretar o programa.",
+                          "answer": false,
                           "id": "m02l02-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "o aluno decorar nomes sem entender a ação realizada",
+                          "value": "Ler `=` como comparação, em vez de atualização de valor.",
                           "answer": true,
                           "id": "m02l02-step-12-block-03-multiple-choice-option-01"
                         }
@@ -4018,7 +4021,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m02l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -4046,9 +4049,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -4138,13 +4141,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já diferencia entrada, saída e atribuição e lê seus equivalentes em fluxograma, Portugol/Visualg e C.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l02-step-14-block-02-paragraph"
                     },
                     {
@@ -4160,7 +4163,7 @@
             {
               "id": "m02l03",
               "title": "Operadores, expressões e programas sequenciais",
-              "subtitle": "Levar o estudante a montar e interpretar cálculos lineares curtos nas três representações.",
+              "subtitle": "Expressões combinam dados e operadores para produzir novos valores dentro de um programa sequencial.",
               "steps": [
                 {
                   "id": "m02l03-step-01",
@@ -4175,13 +4178,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Levar o estudante a montar e interpretar cálculos lineares curtos nas três representações.",
+                      "value": "Expressões combinam dados e operadores para produzir novos valores dentro de um programa sequencial.",
                       "align": "left",
                       "id": "m02l03-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em expressões e sequência com entrada-processamento-saída. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m02l03-step-01-block-03-paragraph"
                     },
@@ -4212,9 +4215,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -4325,7 +4328,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m02l03-step-05-block-02-paragraph"
                     },
@@ -4487,7 +4490,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A lição estabiliza a leitura das expressões.",
+                          "value": "O importante é acompanhar a ordem das operações e o valor produzido.",
                           "align": "left",
                           "id": "m02l03-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -4666,16 +4669,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "8",
-                          "result": "O programa calcula e só depois exibe.",
-                          "id": "m02l03-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "12",
-                          "result": "Isso seria soma.",
-                          "id": "m02l03-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "10",
                           "result": "Isso mostraria a.",
                           "id": "m02l03-step-09-block-03-simulator-option-03"
@@ -4684,6 +4677,16 @@
                           "value": "2",
                           "result": "Isso mostraria b.",
                           "id": "m02l03-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "8",
+                          "result": "O programa calcula e só depois exibe.",
+                          "id": "m02l03-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "12",
+                          "result": "Isso seria soma.",
+                          "id": "m02l03-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m02l03-step-09-block-03-simulator"
@@ -4700,7 +4703,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A previsão do comportamento é o foco aqui.",
+                          "value": "O importante é calcular a expressão e prever a saída correta.",
                           "align": "left",
                           "id": "m02l03-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -4722,7 +4725,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a operadores, expressões e sequência.",
                       "align": "left",
                       "id": "m02l03-step-10-block-02-paragraph"
                     },
@@ -4793,9 +4796,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -4885,13 +4888,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l03-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê expressões básicas e monta programas sequenciais curtos pelo padrão entrada-processamento-saída.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m02l03-step-12-block-02-paragraph"
                     },
                     {
@@ -4913,7 +4916,7 @@
             {
               "id": "m03l01",
               "title": "Condições: operadores relacionais e lógicos",
-              "subtitle": "Preparar o estudante para ler testes de decisão sem confundir comparação com atribuição.",
+              "subtitle": "Condições comparam valores e combinam critérios para decidir quando um ramo deve ser seguido.",
               "steps": [
                 {
                   "id": "m03l01-step-01",
@@ -4928,13 +4931,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Preparar o estudante para ler testes de decisão sem confundir comparação com atribuição.",
+                      "value": "Condições comparam valores e combinam critérios para decidir quando um ramo deve ser seguido.",
                       "align": "left",
                       "id": "m03l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em comparação e combinação de condições. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m03l01-step-01-block-03-paragraph"
                     },
@@ -4965,9 +4968,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -5078,7 +5081,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m03l01-step-05-block-02-paragraph"
                     },
@@ -5481,16 +5484,6 @@
                       "value": "condicao = [[]]",
                       "options": [
                         {
-                          "value": "falsa",
-                          "result": "A primeira parte passa, a segunda falha.",
-                          "id": "m03l01-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "verdadeira",
-                          "result": "As duas partes precisariam ser verdadeiras.",
-                          "id": "m03l01-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "indefinida",
                           "result": "A condição é bem formada.",
                           "id": "m03l01-step-09-block-03-simulator-option-03"
@@ -5499,6 +5492,16 @@
                           "value": "soma",
                           "result": "O resultado não é numérico.",
                           "id": "m03l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "falsa",
+                          "result": "A primeira parte passa, a segunda falha.",
+                          "id": "m03l01-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "verdadeira",
+                          "result": "As duas partes precisariam ser verdadeiras.",
+                          "id": "m03l01-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m03l01-step-09-block-03-simulator"
@@ -5537,7 +5540,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a operadores relacionais, lógicos e condições.",
                       "align": "left",
                       "id": "m03l01-step-10-block-02-paragraph"
                     },
@@ -5592,17 +5595,17 @@
                 {
                   "id": "m03l01-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m03l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais ao montar condições?",
                       "align": "left",
                       "id": "m03l01-step-12-block-02-paragraph"
                     },
@@ -5611,17 +5614,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Usar atribuição onde deveria haver comparação.",
+                          "answer": true,
                           "id": "m03l01-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "cobrar condição sem antes alinhar o operador correto",
-                          "answer": true,
+                          "value": "Testar a condição linha a linha antes de decidir o ramo.",
+                          "answer": false,
                           "id": "m03l01-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "misturar três novas convenções em um card só",
+                          "value": "Misturar `e` e `ou` sem verificar o efeito lógico de cada operador.",
                           "answer": true,
                           "id": "m03l01-step-12-block-03-multiple-choice-option-02"
                         }
@@ -5640,7 +5643,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m03l01-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -5668,9 +5671,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -5760,13 +5763,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m03l01-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Você já lê operadores relacionais e lógicos e monta condições simples nas três formas do curso.",
-                      "align": "left",
+                      "value": "Você já lê operadores relacionais e lógicos e monta condições simples em fluxograma, Portugol/Visualg e C.",
+                      "align": "center",
                       "id": "m03l01-step-14-block-02-paragraph"
                     },
                     {
@@ -5782,7 +5785,7 @@
             {
               "id": "m03l02",
               "title": "Se simples e se composto em fluxograma, Portugol e C",
-              "subtitle": "Consolidar a leitura e a escrita de decisão binária nas três formas, com foco especial em fluxograma organizado.",
+              "subtitle": "O se simples e o se composto descrevem decisões binárias com e sem alternativa explícita.",
               "steps": [
                 {
                   "id": "m03l02-step-01",
@@ -5797,13 +5800,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Consolidar a leitura e a escrita de decisão binária nas três formas, com foco especial em fluxograma organizado.",
+                      "value": "O se simples e o se composto descrevem decisões binárias com e sem alternativa explícita.",
                       "align": "left",
                       "id": "m03l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em desvio simples e composto. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m03l02-step-01-block-03-paragraph"
                     },
@@ -5834,9 +5837,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -5947,7 +5950,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m03l02-step-05-block-02-paragraph"
                     },
@@ -6167,7 +6170,7 @@
                           "row": 2,
                           "column": "left",
                           "shape": "input_output",
-                          "text": "Mostrar \"Recuperacao\"",
+                          "text": "Mostrar \"Recuperação\"",
                           "shapeOptions": [
                             "process"
                           ],
@@ -6273,7 +6276,7 @@
                     },
                     {
                       "kind": "editor",
-                      "value": "Se media >= 6 entao\n  [[Escreva]](\"Aprovado\")\n[[Senao]]\n  [[Escreva]](\"Recuperacao\")\nFimSe",
+                      "value": "Se media >= 6 entao\n  [[Escreva]](\"Aprovado\")\n[[Senao]]\n  [[Escreva]](\"Recuperação\")\nFimSe",
                       "interactionMode": "choice",
                       "options": [
                         {
@@ -6350,16 +6353,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "\"Recuperacao\"",
-                          "result": "Com média 5, o programa segue o ramo falso.",
-                          "id": "m03l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "\"Aprovado\"",
-                          "result": "Isso exigiria condição verdadeira.",
-                          "id": "m03l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "\"Fim\"",
                           "result": "Fim não é mensagem de saída.",
                           "id": "m03l02-step-09-block-03-simulator-option-03"
@@ -6368,6 +6361,16 @@
                           "value": "\"media\"",
                           "result": "A variável não é a mensagem.",
                           "id": "m03l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "\"Recuperação\"",
+                          "result": "Com média 5, o programa segue o ramo falso.",
+                          "id": "m03l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "\"Aprovado\"",
+                          "result": "Isso exigiria condição verdadeira.",
+                          "id": "m03l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m03l02-step-09-block-03-simulator"
@@ -6384,7 +6387,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Prever o ramo executado é o centro desta lição.",
+                          "value": "A chave é testar a condição e identificar qual ramo executa.",
                           "align": "left",
                           "id": "m03l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -6406,7 +6409,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados ao se simples, ao se composto e aos ramos da decisão.",
                       "align": "left",
                       "id": "m03l02-step-10-block-02-paragraph"
                     },
@@ -6461,17 +6464,17 @@
                 {
                   "id": "m03l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m03l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem confusões reais sobre se simples e se composto?",
                       "align": "left",
                       "id": "m03l02-step-12-block-02-paragraph"
                     },
@@ -6480,17 +6483,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "pedir conversão completa antes de fixar uma forma",
+                          "value": "Esquecer o ramo falso em uma decisão composta.",
                           "answer": true,
                           "id": "m03l02-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Rotular bem os dois caminhos da decisão ajuda a leitura.",
                           "answer": false,
                           "id": "m03l02-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "não mostrar o alinhamento entre condição e ramo",
+                          "value": "Perder o vínculo entre a condição testada e o ramo seguido.",
                           "answer": true,
                           "id": "m03l02-step-12-block-03-multiple-choice-option-02"
                         }
@@ -6509,7 +6512,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m03l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -6537,9 +6540,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -6629,13 +6632,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m03l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já distingue se simples e se composto e acompanha corretamente os ramos da decisão.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m03l02-step-14-block-02-paragraph"
                     },
                     {
@@ -6651,7 +6654,7 @@
             {
               "id": "m03l03",
               "title": "Se encadeado, ordenação básica e escolha/caso",
-              "subtitle": "Avançar da decisão binária simples para múltiplas alternativas sem perder legibilidade.",
+              "subtitle": "Quando há mais de duas possibilidades, a decisão pode ser encadeada ou organizada por casos.",
               "steps": [
                 {
                   "id": "m03l03-step-01",
@@ -6666,13 +6669,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Avançar da decisão binária simples para múltiplas alternativas sem perder legibilidade.",
+                      "value": "Quando há mais de duas possibilidades, a decisão pode ser encadeada ou organizada por casos.",
                       "align": "left",
                       "id": "m03l03-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em encadeamento de condições e escolha por casos. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m03l03-step-01-block-03-paragraph"
                     },
@@ -6703,9 +6706,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -6816,7 +6819,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m03l03-step-05-block-02-paragraph"
                     },
@@ -7006,7 +7009,7 @@
                     },
                     {
                       "kind": "editor",
-                      "value": "Se nota >= 6 entao\n  Escreva(\"Aprovado\")\n[[Senao]] Se nota >= 4 entao\n  Escreva(\"Recuperacao\")\n[[Senao]]\n  Escreva(\"Reprovado\")",
+                      "value": "Se nota >= 6 entao\n  Escreva(\"Aprovado\")\n[[Senao]] Se nota >= 4 entao\n  Escreva(\"Recuperação\")\n[[Senao]]\n  Escreva(\"Reprovado\")",
                       "interactionMode": "choice",
                       "options": [
                         {
@@ -7157,16 +7160,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "\"Recuperacao\"",
-                          "result": "A primeira condição falha e a segunda passa.",
-                          "id": "m03l03-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "\"Aprovado\"",
-                          "result": "Isso exigiria nota >= 6.",
-                          "id": "m03l03-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "\"Reprovado\"",
                           "result": "Isso só ocorreria abaixo de 4.",
                           "id": "m03l03-step-09-block-03-simulator-option-03"
@@ -7175,6 +7168,16 @@
                           "value": "\"FimSe\"",
                           "result": "FimSe não é saída.",
                           "id": "m03l03-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "\"Recuperação\"",
+                          "result": "A primeira condição falha e a segunda passa.",
+                          "id": "m03l03-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "\"Aprovado\"",
+                          "result": "Isso exigiria nota >= 6.",
+                          "id": "m03l03-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m03l03-step-09-block-03-simulator"
@@ -7213,7 +7216,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a decisão encadeada, faixas e escolha por casos.",
                       "align": "left",
                       "id": "m03l03-step-10-block-02-paragraph"
                     },
@@ -7268,17 +7271,17 @@
                 {
                   "id": "m03l03-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m03l03-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem confusões reais sobre decisão encadeada e escolha por casos?",
                       "align": "left",
                       "id": "m03l03-step-12-block-02-paragraph"
                     },
@@ -7287,18 +7290,18 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Montar uma cadeia de ifs sem critério para a ordem das faixas.",
+                          "answer": true,
                           "id": "m03l03-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "árvore de decisão longa demais num único card",
+                          "value": "Usar `switch/case` quando o critério não é por casos discretos.",
                           "answer": true,
                           "id": "m03l03-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "misturar `switch` antes de o caso de uso estar claro",
-                          "answer": true,
+                          "value": "Separar as faixas de valor antes de escrever a solução.",
+                          "answer": false,
                           "id": "m03l03-step-12-block-03-multiple-choice-option-02"
                         }
                       ],
@@ -7316,7 +7319,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m03l03-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -7344,9 +7347,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -7436,13 +7439,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m03l03-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já distingue decisão encadeada de escolha/caso e usa if/else if e switch/case com mais critério.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m03l03-step-14-block-02-paragraph"
                     },
                     {
@@ -7464,7 +7467,7 @@
             {
               "id": "m04l01",
               "title": "Enquanto: repetição com teste no início",
-              "subtitle": "Introduzir laços pelo padrão mais intuitivo de 'repetir enquanto a condição for verdadeira'.",
+              "subtitle": "O laço enquanto repete um bloco enquanto a condição continuar verdadeira.",
               "steps": [
                 {
                   "id": "m04l01-step-01",
@@ -7479,13 +7482,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Introduzir laços pelo padrão mais intuitivo de 'repetir enquanto a condição for verdadeira'.",
+                      "value": "O laço enquanto repete um bloco enquanto a condição continuar verdadeira.",
                       "align": "left",
                       "id": "m04l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em estrutura `Enquanto` / `while`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m04l01-step-01-block-03-paragraph"
                     },
@@ -7516,9 +7519,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -7629,7 +7632,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m04l01-step-05-block-02-paragraph"
                     },
@@ -8039,7 +8042,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Qual saída o laço acima produz antes de parar?",
+                      "value": "Considere i começando em 1, repetição enquanto i <= 3 e incremento de 1 ao fim de cada volta. Qual saída o laço produz antes de parar?",
                       "align": "left",
                       "id": "m04l01-step-09-block-02-paragraph"
                     },
@@ -8047,16 +8050,6 @@
                       "kind": "simulator",
                       "value": "saida = [[]]",
                       "options": [
-                        {
-                          "value": "1 2 3",
-                          "result": "O laço executa enquanto i <= 3.",
-                          "id": "m04l01-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "0 1 2 3",
-                          "result": "Isso exigiria outra inicialização.",
-                          "id": "m04l01-step-09-block-03-simulator-option-02"
-                        },
                         {
                           "value": "1 2 3 4",
                           "result": "A condição bloqueia o 4.",
@@ -8066,6 +8059,16 @@
                           "value": "3 2 1",
                           "result": "A atualização está crescente.",
                           "id": "m04l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "1 2 3",
+                          "result": "O laço executa enquanto i <= 3.",
+                          "id": "m04l01-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "0 1 2 3",
+                          "result": "Isso exigiria outra inicialização.",
+                          "id": "m04l01-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m04l01-step-09-block-03-simulator"
@@ -8104,7 +8107,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados ao enquanto/while e à variável de controle.",
                       "align": "left",
                       "id": "m04l01-step-10-block-02-paragraph"
                     },
@@ -8159,17 +8162,17 @@
                 {
                   "id": "m04l01-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m04l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais ao ler ou escrever um laço enquanto?",
                       "align": "left",
                       "id": "m04l01-step-12-block-02-paragraph"
                     },
@@ -8178,17 +8181,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "não atualizar a variável de controle",
+                          "value": "Deixar a condição sempre verdadeira e criar laço infinito.",
                           "answer": true,
                           "id": "m04l01-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Acompanhar condição e atualização a cada volta ajuda a prever o laço.",
                           "answer": false,
                           "id": "m04l01-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "laço infinito",
+                          "value": "Esquecer de atualizar a variável de controle.",
                           "answer": true,
                           "id": "m04l01-step-12-block-03-multiple-choice-option-01"
                         }
@@ -8207,7 +8210,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m04l01-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -8235,9 +8238,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -8327,13 +8330,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l01-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê e monta laços Enquanto/while com teste no início e atualização coerente.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l01-step-14-block-02-paragraph"
                     },
                     {
@@ -8349,7 +8352,7 @@
             {
               "id": "m04l02",
               "title": "Faça...Enquanto: repetir e depois testar",
-              "subtitle": "Comparar laço com teste final ao laço com teste inicial, sem misturar os dois cedo demais.",
+              "subtitle": "No faça...enquanto, o corpo executa uma vez antes de a condição ser testada.",
               "steps": [
                 {
                   "id": "m04l02-step-01",
@@ -8364,13 +8367,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Comparar laço com teste final ao laço com teste inicial, sem misturar os dois cedo demais.",
+                      "value": "No faça...enquanto, o corpo executa uma vez antes de a condição ser testada.",
                       "align": "left",
                       "id": "m04l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em estrutura `Faça...Enquanto` / `do...while`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m04l02-step-01-block-03-paragraph"
                     },
@@ -8401,9 +8404,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -8514,7 +8517,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m04l02-step-05-block-02-paragraph"
                     },
@@ -8899,16 +8902,6 @@
                       "value": "efeito = [[]]",
                       "options": [
                         {
-                          "value": "O corpo roda uma vez e depois para.",
-                          "result": "Esse é o comportamento esperado do teste final.",
-                          "id": "m04l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "O corpo nunca roda.",
-                          "result": "Isso seria típico do teste inicial.",
-                          "id": "m04l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "O laço roda para sempre.",
                           "result": "O teste final permite parar normalmente.",
                           "id": "m04l02-step-09-block-03-simulator-option-03"
@@ -8917,6 +8910,16 @@
                           "value": "O programa salta para switch.",
                           "result": "Switch não substitui a semântica do laço.",
                           "id": "m04l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "O corpo roda uma vez e depois para.",
+                          "result": "Esse é o comportamento esperado do teste final.",
+                          "id": "m04l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "O corpo nunca roda.",
+                          "result": "Isso seria típico do teste inicial.",
+                          "id": "m04l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m04l02-step-09-block-03-simulator"
@@ -8933,7 +8936,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A comparação com while é o coração desta lição.",
+                          "value": "A diferença central é que o bloco executa antes do teste final.",
                           "align": "left",
                           "id": "m04l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -8955,7 +8958,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados ao faça...enquanto/do...while e ao teste final.",
                       "align": "left",
                       "id": "m04l02-step-10-block-02-paragraph"
                     },
@@ -9026,9 +9029,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -9118,13 +9121,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já compara teste inicial e teste final e reconhece por que do...while garante uma primeira execução.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l02-step-12-block-02-paragraph"
                     },
                     {
@@ -9140,7 +9143,7 @@
             {
               "id": "m04l03",
               "title": "Para: contagem controlada e faixa conhecida",
-              "subtitle": "Apresentar o laço com variável de controle como ferramenta preferida para contagens finitas.",
+              "subtitle": "O para/for organiza contagens finitas com início, limite e passo bem definidos.",
               "steps": [
                 {
                   "id": "m04l03-step-01",
@@ -9155,13 +9158,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Apresentar o laço com variável de controle como ferramenta preferida para contagens finitas.",
+                      "value": "O para/for organiza contagens finitas com início, limite e passo bem definidos.",
                       "align": "left",
                       "id": "m04l03-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em estrutura `Para` / `for`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m04l03-step-01-block-03-paragraph"
                     },
@@ -9192,9 +9195,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -9305,7 +9308,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m04l03-step-05-block-02-paragraph"
                     },
@@ -9715,7 +9718,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Qual sequência sai do for acima?",
+                      "value": "Considere `for (i = 1; i <= 5; i++)`. Qual sequência esse laço produz?",
                       "align": "left",
                       "id": "m04l03-step-09-block-02-paragraph"
                     },
@@ -9723,16 +9726,6 @@
                       "kind": "simulator",
                       "value": "saida = [[]]",
                       "options": [
-                        {
-                          "value": "1 2 3 4 5",
-                          "result": "A contagem respeita início e limite.",
-                          "id": "m04l03-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "0 1 2 3 4 5",
-                          "result": "Isso exigiria outra inicialização.",
-                          "id": "m04l03-step-09-block-03-simulator-option-02"
-                        },
                         {
                           "value": "1 2 3 4",
                           "result": "Isso pararia cedo demais.",
@@ -9742,6 +9735,16 @@
                           "value": "1 2 3 4 5 6",
                           "result": "Isso passaria do limite.",
                           "id": "m04l03-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "1 2 3 4 5",
+                          "result": "A contagem respeita início e limite.",
+                          "id": "m04l03-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "0 1 2 3 4 5",
+                          "result": "Isso exigiria outra inicialização.",
+                          "id": "m04l03-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m04l03-step-09-block-03-simulator"
@@ -9780,7 +9783,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados ao para/for, à faixa de contagem e ao passo.",
                       "align": "left",
                       "id": "m04l03-step-10-block-02-paragraph"
                     },
@@ -9835,17 +9838,17 @@
                 {
                   "id": "m04l03-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m04l03-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais ao usar o para/for?",
                       "align": "left",
                       "id": "m04l03-step-12-block-02-paragraph"
                     },
@@ -9854,17 +9857,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "decorar sintaxe sem perceber quando ela é a escolha certa",
+                          "value": "Ignorar início, limite e passo da contagem.",
                           "answer": true,
                           "id": "m04l03-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Ler o cabeçalho inteiro antes do corpo ajuda a interpretação.",
                           "answer": false,
                           "id": "m04l03-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "esconder o papel do incremento",
+                          "value": "Usar `for` sem perceber o papel do incremento.",
                           "answer": true,
                           "id": "m04l03-step-12-block-03-multiple-choice-option-02"
                         }
@@ -9883,7 +9886,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m04l03-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -9911,9 +9914,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -10003,13 +10006,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l03-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê e monta laços Para/for acompanhando início, limite e passo da variável de controle.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l03-step-14-block-02-paragraph"
                     },
                     {
@@ -10025,7 +10028,7 @@
             {
               "id": "m04l04",
               "title": "Padrões de laço: contador, acumulador, média, maior/menor e menu",
-              "subtitle": "Transformar laços em ferramenta de resolução de problemas recorrentes, e não em mera estrutura sintática.",
+              "subtitle": "Contador, acumulador, média, maior/menor e menu são padrões que reaparecem em muitos problemas de repetição.",
               "steps": [
                 {
                   "id": "m04l04-step-01",
@@ -10040,13 +10043,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Transformar laços em ferramenta de resolução de problemas recorrentes, e não em mera estrutura sintática.",
+                      "value": "Contador, acumulador, média, maior/menor e menu são padrões que reaparecem em muitos problemas de repetição.",
                       "align": "left",
                       "id": "m04l04-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em padrões funcionais sobre repetição. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m04l04-step-01-block-03-paragraph"
                     },
@@ -10077,9 +10080,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -10190,7 +10193,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m04l04-step-05-block-02-paragraph"
                     },
@@ -10352,7 +10355,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A lição liga a estrutura ao que ela faz no problema.",
+                          "value": "O essencial é ligar cada padrão ao papel que ele cumpre no problema.",
                           "align": "left",
                           "id": "m04l04-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -10531,16 +10534,6 @@
                       "value": "media = [[]]",
                       "options": [
                         {
-                          "value": "7",
-                          "result": "A soma 21 dividida por 3 resulta em 7.",
-                          "id": "m04l04-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "21",
-                          "result": "Isso é a soma.",
-                          "id": "m04l04-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "6",
                           "result": "Isso usa só a primeira nota.",
                           "id": "m04l04-step-09-block-03-simulator-option-03"
@@ -10549,6 +10542,16 @@
                           "value": "8",
                           "result": "Isso usa só a última nota.",
                           "id": "m04l04-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "7",
+                          "result": "A soma 21 dividida por 3 resulta em 7.",
+                          "id": "m04l04-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "21",
+                          "result": "Isso é a soma.",
+                          "id": "m04l04-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m04l04-step-09-block-03-simulator"
@@ -10587,7 +10590,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a contador, acumulador, média, maior/menor e menu.",
                       "align": "left",
                       "id": "m04l04-step-10-block-02-paragraph"
                     },
@@ -10642,17 +10645,17 @@
                 {
                   "id": "m04l04-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m04l04-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem confusões reais sobre padrões de repetição?",
                       "align": "left",
                       "id": "m04l04-step-12-block-02-paragraph"
                     },
@@ -10661,17 +10664,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "misturar padrões demais sem rotular o que muda",
+                          "value": "Confundir contador com acumulador.",
                           "answer": true,
                           "id": "m04l04-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "usar problemas grandes antes de consolidar a rotina",
+                          "value": "Misturar média, maior/menor e menu como se fossem o mesmo padrão.",
                           "answer": true,
                           "id": "m04l04-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Nomear o objetivo do laço ajuda a escolher o padrão correto.",
                           "answer": false,
                           "id": "m04l04-step-12-block-03-multiple-choice-option-03"
                         }
@@ -10690,7 +10693,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m04l04-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -10718,9 +10721,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -10810,13 +10813,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l04-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já identifica padrões funcionais sobre laços e diferencia contador, acumulador, média e maior/menor.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m04l04-step-14-block-02-paragraph"
                     },
                     {
@@ -10838,7 +10841,7 @@
             {
               "id": "m05l01",
               "title": "Vetores: posição, índice e leitura sequencial",
-              "subtitle": "Fazer o estudante compreender vetor como coleção homogênea indexada e manipular leituras/escritas simples.",
+              "subtitle": "Vetor é uma coleção homogênea indexada, em que posição e valor não podem ser confundidos.",
               "steps": [
                 {
                   "id": "m05l01-step-01",
@@ -10853,13 +10856,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Fazer o estudante compreender vetor como coleção homogênea indexada e manipular leituras/escritas simples.",
+                      "value": "Vetor é uma coleção homogênea indexada, em que posição e valor não podem ser confundidos.",
                       "align": "left",
                       "id": "m05l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em estrutura unidimensional indexada. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m05l01-step-01-block-03-paragraph"
                     },
@@ -10890,9 +10893,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -11003,7 +11006,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m05l01-step-05-block-02-paragraph"
                     },
@@ -11344,16 +11347,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "6",
-                          "result": "A posição 1 aponta para o segundo elemento.",
-                          "id": "m05l01-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "4",
-                          "result": "Isso corresponderia à posição inicial.",
-                          "id": "m05l01-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "8",
                           "result": "Isso corresponderia à última posição.",
                           "id": "m05l01-step-09-block-03-simulator-option-03"
@@ -11362,6 +11355,16 @@
                           "value": "1",
                           "result": "Índice e valor não são a mesma coisa.",
                           "id": "m05l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "6",
+                          "result": "A posição 1 aponta para o segundo elemento.",
+                          "id": "m05l01-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "4",
+                          "result": "Isso corresponderia à posição inicial.",
+                          "id": "m05l01-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m05l01-step-09-block-03-simulator"
@@ -11400,7 +11403,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a vetores, índice, posição e percurso sequencial.",
                       "align": "left",
                       "id": "m05l01-step-10-block-02-paragraph"
                     },
@@ -11455,17 +11458,17 @@
                 {
                   "id": "m05l01-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m05l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais ao trabalhar com vetores?",
                       "align": "left",
                       "id": "m05l01-step-12-block-02-paragraph"
                     },
@@ -11474,18 +11477,18 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "off-by-one",
+                          "value": "Errar a faixa do vetor e cair em off-by-one.",
                           "answer": true,
                           "id": "m05l01-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Confundir índice com valor armazenado.",
+                          "answer": true,
                           "id": "m05l01-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "confundir declaração com acesso",
-                          "answer": true,
+                          "value": "Lembrar que posição e valor são coisas diferentes ajuda a leitura.",
+                          "answer": false,
                           "id": "m05l01-step-12-block-03-multiple-choice-option-02"
                         }
                       ],
@@ -11503,7 +11506,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m05l01-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -11531,9 +11534,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -11623,13 +11626,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l01-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê vetores por posição, diferencia índice de valor e percorre coleções homogêneas com laços simples.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l01-step-14-block-02-paragraph"
                     },
                     {
@@ -11645,7 +11648,7 @@
             {
               "id": "m05l02",
               "title": "Matrizes: linhas, colunas e laços aninhados",
-              "subtitle": "Introduzir a leitura e a escrita em duas dimensões com laços aninhados simples.",
+              "subtitle": "Matriz acrescenta a ideia de linha e coluna, exigindo leitura em duas dimensões.",
               "steps": [
                 {
                   "id": "m05l02-step-01",
@@ -11660,13 +11663,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Introduzir a leitura e a escrita em duas dimensões com laços aninhados simples.",
+                      "value": "Matriz acrescenta a ideia de linha e coluna, exigindo leitura em duas dimensões.",
                       "align": "left",
                       "id": "m05l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em estrutura bidimensional. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m05l02-step-01-block-03-paragraph"
                     },
@@ -11697,9 +11700,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -11810,7 +11813,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m05l02-step-05-block-02-paragraph"
                     },
@@ -12151,16 +12154,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "3",
-                          "result": "A linha 1 e coluna 0 apontam para o primeiro item da segunda linha.",
-                          "id": "m05l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "2",
-                          "result": "Isso seria linha 0, coluna 1.",
-                          "id": "m05l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "4",
                           "result": "Isso seria linha 1, coluna 1.",
                           "id": "m05l02-step-09-block-03-simulator-option-03"
@@ -12169,6 +12162,16 @@
                           "value": "1",
                           "result": "Isso seria linha 0, coluna 0.",
                           "id": "m05l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "3",
+                          "result": "A linha 1 e coluna 0 apontam para o primeiro item da segunda linha.",
+                          "id": "m05l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "2",
+                          "result": "Isso seria linha 0, coluna 1.",
+                          "id": "m05l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m05l02-step-09-block-03-simulator"
@@ -12207,7 +12210,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a matrizes, linhas, colunas e laços aninhados.",
                       "align": "left",
                       "id": "m05l02-step-10-block-02-paragraph"
                     },
@@ -12262,17 +12265,17 @@
                 {
                   "id": "m05l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m05l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais ao trabalhar com matrizes?",
                       "align": "left",
                       "id": "m05l02-step-12-block-02-paragraph"
                     },
@@ -12281,18 +12284,18 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "aninhamento apresentado de uma vez sem leitura intermediária",
+                          "value": "Trocar linha por coluna ao acessar a matriz.",
                           "answer": true,
                           "id": "m05l02-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "dupla indexação mal explicada",
-                          "answer": true,
+                          "value": "Anotar primeiro a linha e depois a coluna antes de escrever o acesso.",
+                          "answer": false,
                           "id": "m05l02-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Perder a ordem dos laços aninhados.",
+                          "answer": true,
                           "id": "m05l02-step-12-block-03-multiple-choice-option-03"
                         }
                       ],
@@ -12310,7 +12313,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m05l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -12338,9 +12341,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -12430,13 +12433,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê matrizes por linha e coluna e percorre grades simples com laços aninhados.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l02-step-14-block-02-paragraph"
                     },
                     {
@@ -12452,7 +12455,7 @@
             {
               "id": "m05l03",
               "title": "Relatórios, médias e ordenação com coleções",
-              "subtitle": "Consolidar o uso de vetores e matrizes em problemas mais funcionais: intercalação, média, maior/menor e ordenação simples.",
+              "subtitle": "Coleções permitem montar relatórios, calcular médias, buscar extremos e fazer ordenações simples.",
               "steps": [
                 {
                   "id": "m05l03-step-01",
@@ -12467,13 +12470,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Consolidar o uso de vetores e matrizes em problemas mais funcionais: intercalação, média, maior/menor e ordenação simples.",
+                      "value": "Coleções permitem montar relatórios, calcular médias, buscar extremos e fazer ordenações simples.",
                       "align": "left",
                       "id": "m05l03-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em algoritmos pequenos sobre coleções. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m05l03-step-01-block-03-paragraph"
                     },
@@ -12504,9 +12507,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -12617,7 +12620,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m05l03-step-05-block-02-paragraph"
                     },
@@ -12779,7 +12782,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A lição separa agregação de reordenação.",
+                          "value": "Relatório agrega dados; ordenação reorganiza posições.",
                           "align": "left",
                           "id": "m05l03-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -12972,16 +12975,6 @@
                       "value": "maior = [[]]",
                       "options": [
                         {
-                          "value": "9",
-                          "result": "Maior guarda o melhor valor encontrado.",
-                          "id": "m05l03-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "4",
-                          "result": "Isso só vale até aparecer um maior.",
-                          "id": "m05l03-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "6",
                           "result": "Isso ignoraria o 9.",
                           "id": "m05l03-step-09-block-03-simulator-option-03"
@@ -12990,6 +12983,16 @@
                           "value": "19",
                           "result": "O padrão não está somando.",
                           "id": "m05l03-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "9",
+                          "result": "Maior guarda o melhor valor encontrado.",
+                          "id": "m05l03-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "4",
+                          "result": "Isso só vale até aparecer um maior.",
+                          "id": "m05l03-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m05l03-step-09-block-03-simulator"
@@ -13028,7 +13031,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a relatórios, médias e ordenação com coleções.",
                       "align": "left",
                       "id": "m05l03-step-10-block-02-paragraph"
                     },
@@ -13083,17 +13086,17 @@
                 {
                   "id": "m05l03-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m05l03-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais em algoritmos sobre coleções?",
                       "align": "left",
                       "id": "m05l03-step-12-block-02-paragraph"
                     },
@@ -13102,17 +13105,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "ordenar sem mostrar a regra de comparação e troca",
+                          "value": "Calcular média sem separar soma e divisão.",
                           "answer": true,
                           "id": "m05l03-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Percorrer a coleção com objetivo explícito ajuda a escolher o algoritmo.",
                           "answer": false,
                           "id": "m05l03-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "exercício grande demais",
+                          "value": "Ordenar sem definir a regra de comparação e troca.",
                           "answer": true,
                           "id": "m05l03-step-12-block-03-multiple-choice-option-01"
                         }
@@ -13131,7 +13134,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m05l03-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -13159,9 +13162,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -13251,13 +13254,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l03-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já distingue relatório, média, maior/menor e ordenação simples ao trabalhar com coleções.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m05l03-step-14-block-02-paragraph"
                     },
                     {
@@ -13279,7 +13282,7 @@
             {
               "id": "m06l01",
               "title": "Registro e struct: vários campos, um mesmo dado composto",
-              "subtitle": "Apresentar estrutura heterogênea como maneira de agrupar campos diferentes de um mesmo cadastro.",
+              "subtitle": "Registro/struct reúne campos de tipos diferentes para representar um mesmo cadastro.",
               "steps": [
                 {
                   "id": "m06l01-step-01",
@@ -13294,13 +13297,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Apresentar estrutura heterogênea como maneira de agrupar campos diferentes de um mesmo cadastro.",
+                      "value": "Registro/struct reúne campos de tipos diferentes para representar um mesmo cadastro.",
                       "align": "left",
                       "id": "m06l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em registro/struct como novo tipo de dado. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m06l01-step-01-block-03-paragraph"
                     },
@@ -13331,9 +13334,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -13444,7 +13447,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m06l01-step-05-block-02-paragraph"
                     },
@@ -13785,16 +13788,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "8.5",
-                          "result": "O acesso por ponto leva ao campo correto.",
-                          "id": "m06l01-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "\"Ana\"",
-                          "result": "Isso seria o campo nome.",
-                          "id": "m06l01-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "aluno",
                           "result": "O programa mostra o campo, não o registro.",
                           "id": "m06l01-step-09-block-03-simulator-option-03"
@@ -13803,6 +13796,16 @@
                           "value": "media",
                           "result": "O campo tem valor, não só rótulo.",
                           "id": "m06l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "8.5",
+                          "result": "O acesso por ponto leva ao campo correto.",
+                          "id": "m06l01-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "\"Ana\"",
+                          "result": "Isso seria o campo nome.",
+                          "id": "m06l01-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m06l01-step-09-block-03-simulator"
@@ -13819,7 +13822,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A leitura do campo certo é a habilidade nova da lição.",
+                          "value": "A chave é localizar o campo certo dentro do cadastro.",
                           "align": "left",
                           "id": "m06l01-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -13841,7 +13844,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a registro, struct e acesso por campo.",
                       "align": "left",
                       "id": "m06l01-step-10-block-02-paragraph"
                     },
@@ -13896,17 +13899,17 @@
                 {
                   "id": "m06l01-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m06l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais sobre registro e struct?",
                       "align": "left",
                       "id": "m06l01-step-12-block-02-paragraph"
                     },
@@ -13915,18 +13918,18 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "usar muitos campos de uma vez",
+                          "value": "Misturar campos diferentes como se fossem uma variável só.",
                           "answer": true,
                           "id": "m06l01-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Ler `aluno.nome` sem perceber que o ponto acessa um campo.",
+                          "answer": true,
                           "id": "m06l01-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "apresentar sintaxe longa sem ancoragem semântica",
-                          "answer": true,
+                          "value": "Agrupar nome, idade e média no mesmo registro faz sentido.",
+                          "answer": false,
                           "id": "m06l01-step-12-block-03-multiple-choice-option-01"
                         }
                       ],
@@ -13944,7 +13947,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m06l01-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -13972,9 +13975,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -14064,13 +14067,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m06l01-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já reconhece registro/struct como tipo composto e acessa campos heterogêneos com leitura estável.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m06l01-step-14-block-02-paragraph"
                     },
                     {
@@ -14086,7 +14089,7 @@
             {
               "id": "m06l02",
               "title": "Vetor de struct e struct aninhada",
-              "subtitle": "Fazer o estudante acessar dados compostos repetidos em vetor, incluindo campos internos simples.",
+              "subtitle": "Quando registros entram em vetores ou em outros registros, a leitura do acesso precisa seguir a estrutura completa.",
               "steps": [
                 {
                   "id": "m06l02-step-01",
@@ -14101,13 +14104,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Fazer o estudante acessar dados compostos repetidos em vetor, incluindo campos internos simples.",
+                      "value": "Quando registros entram em vetores ou em outros registros, a leitura do acesso precisa seguir a estrutura completa.",
                       "align": "left",
                       "id": "m06l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em acesso `vetor[indice].campo` e campo interno. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m06l02-step-01-block-03-paragraph"
                     },
@@ -14138,9 +14141,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -14251,7 +14254,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m06l02-step-05-block-02-paragraph"
                     },
@@ -14413,7 +14416,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O blueprint pede quebrar a leitura em duas etapas.",
+                          "value": "A leitura correta vem em duas etapas: primeiro o registro, depois o campo interno.",
                           "align": "left",
                           "id": "m06l02-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -14599,16 +14602,6 @@
                       "value": "saida = [[]]",
                       "options": [
                         {
-                          "value": "7.5",
-                          "result": "O acesso composto aponta para esse campo desse elemento.",
-                          "id": "m06l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "1",
-                          "result": "Índice não é o valor guardado.",
-                          "id": "m06l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "media",
                           "result": "O nome do campo não substitui seu conteúdo.",
                           "id": "m06l02-step-09-block-03-simulator-option-03"
@@ -14617,6 +14610,16 @@
                           "value": "turma",
                           "result": "O vetor inteiro não é a saída.",
                           "id": "m06l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "7.5",
+                          "result": "O acesso composto aponta para esse campo desse elemento.",
+                          "id": "m06l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "1",
+                          "result": "Índice não é o valor guardado.",
+                          "id": "m06l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m06l02-step-09-block-03-simulator"
@@ -14633,7 +14636,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A leitura correta do acesso composto é o centro da lição.",
+                          "value": "A chave é seguir o acesso composto sem perder índice, registro e campo.",
                           "align": "left",
                           "id": "m06l02-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -14655,7 +14658,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a vetor de struct e struct aninhada.",
                       "align": "left",
                       "id": "m06l02-step-10-block-02-paragraph"
                     },
@@ -14710,17 +14713,17 @@
                 {
                   "id": "m06l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m06l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais sobre vetor de struct e struct aninhada?",
                       "align": "left",
                       "id": "m06l02-step-12-block-02-paragraph"
                     },
@@ -14729,12 +14732,12 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "misturar vetor, campo e struct aninhada no mesmo salto sem de...",
+                          "value": "Ler `turma[i].media` ignorando a parte do índice.",
                           "answer": true,
                           "id": "m06l02-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Acessar a estrutura da esquerda para a direita ajuda a interpretação.",
                           "answer": false,
                           "id": "m06l02-step-12-block-03-multiple-choice-option-02"
                         }
@@ -14753,7 +14756,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m06l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -14781,9 +14784,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -14873,13 +14876,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m06l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê vetor de struct e struct aninhada em dois passos estáveis: elemento e campo.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m06l02-step-14-block-02-paragraph"
                     },
                     {
@@ -14901,7 +14904,7 @@
             {
               "id": "m07l01",
               "title": "Modularização: menu, rotinas e reaproveitamento",
-              "subtitle": "Introduzir a ideia de dividir um programa maior em rotinas reutilizáveis com papéis claros.",
+              "subtitle": "Modularizar é dividir o programa em rotinas com responsabilidade clara e reaproveitável.",
               "steps": [
                 {
                   "id": "m07l01-step-01",
@@ -14916,13 +14919,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Introduzir a ideia de dividir um programa maior em rotinas reutilizáveis com papéis claros.",
+                      "value": "Modularizar é dividir o programa em rotinas com responsabilidade clara e reaproveitável.",
                       "align": "left",
                       "id": "m07l01-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em sub-rotina como bloco reutilizável. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai ler chamadas simples, papéis de rotina e pequenos trechos equivalentes em fluxograma, Portugol/Visualg e C.",
                       "align": "left",
                       "id": "m07l01-step-01-block-03-paragraph"
                     },
@@ -14953,9 +14956,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -15066,7 +15069,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m07l01-step-05-block-02-paragraph"
                     },
@@ -15324,7 +15327,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Agora preencha o equivalente simples em C.",
+                      "value": "Preencha o equivalente simples em C para uma rotina que só mostra o menu.",
                       "align": "left",
                       "id": "m07l01-step-08-block-02-paragraph"
                     },
@@ -15407,6 +15410,16 @@
                       "value": "papel = [[]]",
                       "options": [
                         {
+                          "value": "Guardar automaticamente o retorno final.",
+                          "result": "mostrarMenu não devolve automaticamente o resultado final do programa.",
+                          "id": "m07l01-step-09-block-03-simulator-option-03"
+                        },
+                        {
+                          "value": "Substituir o programa principal.",
+                          "result": "mostrarMenu não devolve automaticamente o resultado final do programa.",
+                          "id": "m07l01-step-09-block-03-simulator-option-04"
+                        },
+                        {
                           "value": "Exibir as opções ao usuário.",
                           "result": "Essa rotina foca numa ação bem delimitada.",
                           "id": "m07l01-step-09-block-03-simulator-option-01"
@@ -15415,16 +15428,6 @@
                           "value": "Somar todos os dados da aplicação.",
                           "result": "Isso seria outra responsabilidade.",
                           "id": "m07l01-step-09-block-03-simulator-option-02"
-                        },
-                        {
-                          "value": "Guardar automaticamente o retorno final.",
-                          "result": "O foco aqui é ação modular.",
-                          "id": "m07l01-step-09-block-03-simulator-option-03"
-                        },
-                        {
-                          "value": "Substituir o programa principal.",
-                          "result": "A rotina apoia o principal.",
-                          "id": "m07l01-step-09-block-03-simulator-option-04"
                         }
                       ],
                       "id": "m07l01-step-09-block-03-simulator"
@@ -15463,7 +15466,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a menu, rotina e reaproveitamento de código.",
                       "align": "left",
                       "id": "m07l01-step-10-block-02-paragraph"
                     },
@@ -15518,17 +15521,17 @@
                 {
                   "id": "m07l01-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m07l01-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais sobre modularização?",
                       "align": "left",
                       "id": "m07l01-step-12-block-02-paragraph"
                     },
@@ -15537,17 +15540,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "repetição curta para reforçar leitura",
-                          "answer": false,
+                          "value": "Dar à mesma rotina responsabilidades demais.",
+                          "answer": true,
                           "id": "m07l01-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "abstração excessiva",
-                          "answer": true,
+                          "value": "Dividir tarefas por responsabilidade clareia o programa.",
+                          "answer": false,
                           "id": "m07l01-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "muito texto sobre modularização e pouca prática de leitura de...",
+                          "value": "Achar que o programa principal desaparece quando surgem rotinas auxiliares.",
                           "answer": true,
                           "id": "m07l01-step-12-block-03-multiple-choice-option-02"
                         }
@@ -15566,7 +15569,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m07l01-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -15594,9 +15597,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -15686,13 +15689,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m07l01-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já entende modularização como divisão do programa em rotinas reutilizáveis com papéis claros.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m07l01-step-14-block-02-paragraph"
                     },
                     {
@@ -15708,7 +15711,7 @@
             {
               "id": "m07l02",
               "title": "Parâmetros, retorno e síntese integradora",
-              "subtitle": "Consolidar função com parâmetro/retorno e fechar o curso com integração entre formas e temas centrais.",
+              "subtitle": "Parâmetros e retorno permitem construir funções que recebem dados, processam e devolvem resultados.",
               "steps": [
                 {
                   "id": "m07l02-step-01",
@@ -15723,13 +15726,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Consolidar função com parâmetro/retorno e fechar o curso com integração entre formas e temas centrais.",
+                      "value": "Parâmetros e retorno permitem construir funções que recebem dados, processam e devolvem resultados.",
                       "align": "left",
                       "id": "m07l02-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta lição, você vai focar em passagem de parâmetro, retorno e composição final. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                      "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                       "align": "left",
                       "id": "m07l02-step-01-block-03-paragraph"
                     },
@@ -15760,9 +15763,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Vocabulário da lição",
+                      "title": "Vocabulário essencial",
                       "titleStyle": {
-                        "value": "Vocabulário da lição",
+                        "value": "Vocabulário essencial",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -15873,7 +15876,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                      "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                       "align": "left",
                       "id": "m07l02-step-05-block-02-paragraph"
                     },
@@ -16035,7 +16038,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A lição estabiliza o que entra, o que sai e qual é o papel da rotina.",
+                          "value": "Uma função precisa deixar claro o que recebe, o que devolve e para que serve.",
                           "align": "left",
                           "id": "m07l02-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -16214,16 +16217,6 @@
                       "value": "resultado = [[]]",
                       "options": [
                         {
-                          "value": "5",
-                          "result": "A função retorna o maior dos argumentos.",
-                          "id": "m07l02-step-09-block-03-simulator-option-01"
-                        },
-                        {
-                          "value": "3",
-                          "result": "Isso seria o menor.",
-                          "id": "m07l02-step-09-block-03-simulator-option-02"
-                        },
-                        {
                           "value": "8",
                           "result": "A função não está somando.",
                           "id": "m07l02-step-09-block-03-simulator-option-03"
@@ -16232,6 +16225,16 @@
                           "value": "2",
                           "result": "Esse valor não aparece no problema.",
                           "id": "m07l02-step-09-block-03-simulator-option-04"
+                        },
+                        {
+                          "value": "5",
+                          "result": "A função retorna o maior dos argumentos.",
+                          "id": "m07l02-step-09-block-03-simulator-option-01"
+                        },
+                        {
+                          "value": "3",
+                          "result": "Isso seria o menor.",
+                          "id": "m07l02-step-09-block-03-simulator-option-02"
                         }
                       ],
                       "id": "m07l02-step-09-block-03-simulator"
@@ -16270,7 +16273,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                      "value": "Marque os termos ligados a parâmetro, retorno e chamada de função.",
                       "align": "left",
                       "id": "m07l02-step-10-block-02-paragraph"
                     },
@@ -16325,17 +16328,17 @@
                 {
                   "id": "m07l02-step-12",
                   "type": "content",
-                  "title": "Riscos de compreensão",
+                  "title": "Confusões comuns",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Riscos de compreensão",
+                      "value": "Confusões comuns",
                       "align": "left",
                       "id": "m07l02-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais tropeços esta lição quer evitar?",
+                      "value": "Quais opções descrevem erros reais sobre parâmetros e retorno?",
                       "align": "left",
                       "id": "m07l02-step-12-block-02-paragraph"
                     },
@@ -16344,17 +16347,17 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "encerrar com teoria demais e pouca integração prática",
+                          "value": "Chamar a função sem passar os dados necessários.",
                           "answer": true,
                           "id": "m07l02-step-12-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "repetição curta para reforçar leitura",
+                          "value": "Combinar parâmetro e retorno de forma explícita ajuda a leitura.",
                           "answer": false,
                           "id": "m07l02-step-12-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "ampliar indevidamente para arquivos em C",
+                          "value": "Esperar retorno de uma rotina que não devolve valor.",
                           "answer": true,
                           "id": "m07l02-step-12-block-03-multiple-choice-option-02"
                         }
@@ -16373,7 +16376,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                          "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                           "align": "left",
                           "id": "m07l02-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -16401,9 +16404,9 @@
                     },
                     {
                       "kind": "table",
-                      "title": "Checklist da lição",
+                      "title": "Fechamento rápido",
                       "titleStyle": {
-                        "value": "Checklist da lição",
+                        "value": "Fechamento rápido",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -16493,13 +16496,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "m07l02-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Você já lê funções com parâmetros e retorno e fecha o curso integrando fluxograma, Portugol/Visualg e C.",
-                      "align": "left",
+                      "align": "center",
                       "id": "m07l02-step-14-block-02-paragraph"
                     },
                     {

@@ -2637,16 +2637,13 @@
       return !!String(option.value || "").trim();
     });
     if (!state.tokenByStepId[key]) {
-      state.tokenByStepId[key] = { selected: options[0] ? options[0].id : null };
+      state.tokenByStepId[key] = { selected: null };
     }
 
     const current = state.tokenByStepId[key];
     const validIds = options.map(function (option) { return option.id; });
     if (current.selected && validIds.indexOf(current.selected) === -1) {
-      current.selected = options[0] ? options[0].id : null;
-    }
-    if (!current.selected && options[0]) {
-      current.selected = options[0].id;
+      current.selected = null;
     }
     return current;
   }
@@ -2688,7 +2685,7 @@
     const exercise = getSimulatorState(step, normalized);
     const selectedOption = normalized.options.find(function (option) {
       return option.id === exercise.selected;
-    }) || normalized.options[0] || null;
+    }) || null;
 
     const templateHtml = parseTerminalTemplate(normalized.value || "").parts
       .map(function (part) {
@@ -3765,7 +3762,8 @@
   function mergeFlowchartNodeShapeOptions(node) {
     const merged = normalizeFlowchartNodeShapeOptions(node && node.shapeOptions, node && node.shape);
     const current = normalizeFlowchartShapeKey(node && node.shape);
-    if (merged.indexOf(current) === -1) merged.unshift(current);
+    // Mantém a opção correta disponível sem entregá-la automaticamente na primeira posição.
+    if (merged.indexOf(current) === -1) merged.push(current);
     return merged;
   }
 
@@ -3775,7 +3773,7 @@
       .map(function (option) { return option.value; })
       .filter(Boolean);
     const current = String(node && node.text ? node.text : "").trim();
-    if (current && merged.indexOf(current) === -1) merged.unshift(current);
+    if (current && merged.indexOf(current) === -1) merged.push(current);
     return merged;
   }
 

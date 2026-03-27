@@ -204,6 +204,13 @@ Consequências:
 - o manual não documenta cursos específicos;
 - fixtures de teste podem existir na suíte, mas não no runtime do app.
 
+Regras mínimas para o hardcoded oficial:
+
+- card de prática precisa ser autossuficiente no próprio step, sem depender do card anterior para contexto essencial;
+- texto visível ao estudante não deve expor bastidor editorial como "o curso quer", "a lição quer", "blueprint", "formato mobile" ou comentários sobre adaptação ao app;
+- `lesson_complete` deve trazer `heading` e `paragraph` centralizados já no JSON-fonte;
+- o runtime pode reforçar visualmente o alinhamento central do `lesson_complete`, mas isso não substitui corrigir a fonte.
+
 ---
 
 ## 6. Modelo lógico de dados
@@ -436,11 +443,12 @@ Critério visual explícito:
 ## 8.5 Simulator
 
 - seletor de opções com painel inferior associado;
-- a primeira opção válida nasce ativa;
+- nenhuma opção nasce ativa por padrão;
 - cada opção persiste `id`, `value` e `result`;
 - a autoria usa o mesmo campo rico do `editor`, mas com exatamente uma única lacuna;
 - a lacuna do template é visualmente destacada como chip autoral vazio, sem expor `[[...]]` cru nem texto técnico interno ao autor;
-- a opção ativa preenche a lacuna do template e atualiza o painel inferior;
+- a opção escolhida preenche a lacuna do template e atualiza o painel inferior;
+- a ordem visual das opções não deve funcionar como dica involuntária da resposta;
 - as opções do runtime usam o mesmo idioma visual de fichas do `editor`;
 - não bloqueia avanço por padrão.
 
@@ -530,10 +538,10 @@ Princípio central:
 Contrato por contêiner:
 
 - `heading`: `value` e `align` são a fonte de verdade; o runtime pode reaproveitar o primeiro `heading` preenchido como `step.title`, mas não inventa formatação inline nem subtítulo.
-- `paragraph`: `value` é o texto canônico; `richText` é a visualização rica equivalente. O motor pode derivar um a partir do outro quando não houver ambiguidade, mas não deve preservar `richText` que contradiga o texto canônico.
+- `paragraph`: `value` é o texto canônico; `richText` é a visualização rica equivalente. O motor pode derivar um a partir do outro quando não houver ambiguidade, mas não deve preservar `richText` que contradiga o texto canônico. Em `lesson_complete`, `paragraph.align` e `heading.align` devem vir como `center`.
 - `image`: `value` é o caminho lógico ou data URL resolvida; o runtime apenas carrega esse recurso e não deduz legenda, recorte ou contexto.
 - `table`: a ordem de `headers[]` e `rows[][]` é a ordem de renderização; não há ordenação automática. Estilo é por célula inteira, não por trecho interno, e a tabela não participa de validação de resposta.
-- `simulator`: o template e a ordem de `options[]` definem a experiência. Existe exatamente uma lacuna estrutural e cada opção injeta seu `value` nela, mostrando `result` abaixo. O motor não "corrige" opções nem infere avaliação semântica, porque o bloco é de exploração, não de prova.
+- `simulator`: o template e a ordem de `options[]` definem a experiência. Existe exatamente uma lacuna estrutural e cada opção injeta seu `value` nela, mostrando `result` abaixo. O motor não "corrige" opções nem infere avaliação semântica, porque o bloco é de exploração, não de prova. O runtime não deve pré-selecionar automaticamente a primeira opção.
 - `editor`: o template em `value` e as opções habilitadas são a fonte de verdade. `slotOrder` define a ordem estrutural das lacunas corretas; `displayOrder` define apenas a ordem visual das fichas. Duplicatas são válidas e precisam continuar distintas. Em `input`, variantes aceitas precisam estar declaradas; o runtime não inventa equivalências de código, fórmula ou comando.
 - `multiple_choice`: a ordem do array é a ordem visível no runtime, porque o bloco não tem `displayOrder`. `answerState` define só o idioma visual do selecionado; quem define o conjunto esperado é `option.answer`. O motor não usa cor para "descobrir" resposta.
 - `flowchart`: `nodes[]` e `links[]` definem o diagrama; opções extras por nó definem as lacunas praticáveis. `outputSlot` governa a lateralidade da seta e, em decisão binária, sustenta a convenção `Não` à esquerda e `Sim` à direita. O runtime valida apenas símbolo e texto das lacunas abertas, não a "intenção algorítmica" inteira fora do que foi explicitado.
@@ -766,6 +774,7 @@ No APK:
 
 Validações obrigatórias:
 
+- `node ./scripts/audit-course-content.mjs`
 - `npm run test:unit`
 - `npm run test:e2e`
 - `pwsh -NoProfile -File ./scripts/validate.ps1`
@@ -774,6 +783,8 @@ Validações obrigatórias:
 Cobertura mínima esperada:
 
 - boot com catálogo hardcoded separado;
+- auditoria do hardcoded contra textos de bastidor, dependência de card anterior e desalinhamento de `lesson_complete`;
+- `simulator` sem pré-seleção automática de opção;
 - preservação de edição local sobre os mesmos cursos hardcoded;
 - retomada de progresso;
 - edição e persistência de cards;

@@ -13,7 +13,7 @@
             {
               "id": "l01-unix-gnu-linux",
               "title": "UNIX, GNU e Linux: o que é cada coisa",
-              "subtitle": "Fazer o estudante diferenciar as entidades históricas e conceituais mais confundidas no início da disciplina.",
+              "subtitle": "Você vai distinguir UNIX, GNU, Linux, distribuição e software livre sem transformar tudo em sinônimo.",
               "steps": [
                 {
                   "id": "l01-unix-gnu-linux-step-01",
@@ -28,7 +28,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "No começo do curso, estes nomes costumam virar sinônimo. Aqui você separa UNIX, GNU e Linux do jeito que vai precisar depois no terminal e no restante da disciplina.",
+                      "value": "Você vai distinguir UNIX, GNU, Linux, distribuição e software livre sem transformar tudo em sinônimo.",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-01-block-02-paragraph"
                     },
@@ -194,7 +194,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os termos que pertencem ao vocabulário operacional desta lição.",
+                      "value": "Marque os termos que pertencem ao vocabulário operacional deste tema.",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-04-block-02-paragraph"
                     },
@@ -394,7 +394,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações respeitam a distinção trabalhada nesta lição?",
+                      "value": "Quais afirmações respeitam a distinção entre UNIX, GNU, Linux e distribuição?",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-07-block-02-paragraph"
                     },
@@ -459,7 +459,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Preencha a frase que resume a distinção mais curta da lição.",
+                      "value": "Preencha a frase que resume a distinção principal.",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-08-block-02-paragraph"
                     },
@@ -533,7 +533,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Escolha a camada que costuma variar mais entre distribuições, segundo o exemplo retomado da aula.",
+                      "value": "Se duas distribuições usam o mesmo kernel Linux, em que camada costuma aparecer a diferença maior?",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-09-block-02-paragraph"
                     },
@@ -593,7 +593,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Marque os itens coerentes com a nomenclatura da lição.",
+                      "value": "Marque os itens coerentes com a nomenclatura correta.",
                       "align": "left",
                       "id": "l01-unix-gnu-linux-step-10-block-02-paragraph"
                     },
@@ -746,7 +746,7 @@
                           "id": "l01-unix-gnu-linux-step-12-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "Licença e contribuição ajudam a conectar o tema ao curso.",
+                          "value": "Licença e contribuição ampliam o tema além da distinção histórica.",
                           "answer": true,
                           "id": "l01-unix-gnu-linux-step-12-block-03-multiple-choice-option-03"
                         },
@@ -792,13 +792,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l01-unix-gnu-linux-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você distingue UNIX, GNU, Linux, distribuição e software livre sem misturar as camadas.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l01-unix-gnu-linux-step-16-block-02-paragraph"
                     },
                     {
@@ -814,7 +814,7 @@
             {
               "id": "l02-kernel-gui-shell-bash",
               "title": "Kernel, GUI, terminal, shell e bash",
-              "subtitle": "Mapear as camadas com que o estudante realmente interage e evitar que terminal, shell e bash virem sinônimos.",
+              "subtitle": "GUI, terminal, shell e bash atuam em camadas diferentes; separar esses nomes evita confusão nos comandos.",
               "steps": [
                 {
                   "id": "l02-kernel-gui-shell-bash-step-01",
@@ -829,7 +829,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Você vai encontrar GUI, terminal, shell, bash e prompt quase ao mesmo tempo. Esta lição separa cada camada para evitar confusão quando os comandos começarem.",
+                      "value": "GUI, terminal, shell e bash atuam em camadas diferentes; separar esses nomes evita confusão nos comandos.",
                       "align": "left",
                       "id": "l02-kernel-gui-shell-bash-step-01-block-02-paragraph"
                     },
@@ -1127,7 +1127,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "janela textual onde o estudante interage.",
+                            "value": "janela textual onde você executa comandos.",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -1352,7 +1352,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "No exemplo mais comum da disciplina, qual shell específico aparece quando o estudante opera pelo terminal?",
+                      "value": "No exemplo mais comum da disciplina, qual shell específico aparece quando você opera pelo terminal?",
                       "align": "left",
                       "id": "l02-kernel-gui-shell-bash-step-08-block-02-paragraph"
                     },
@@ -1546,13 +1546,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l02-kernel-gui-shell-bash-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você separa GUI, terminal, shell, bash e prompt com mais segurança.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l02-kernel-gui-shell-bash-step-14-block-02-paragraph"
                     },
                     {
@@ -1568,7 +1568,7 @@
             {
               "id": "l03-primeiros-passos-no-terminal",
               "title": "Primeiros passos no terminal",
-              "subtitle": "Fazer o estudante reconhecer prompt, comando, opção, argumento, paths simples e noções de case sensitive antes da navegação pesada.",
+              "subtitle": "Prompt, comando, opção, argumento e caminho formam a leitura mínima da linha de comando.",
               "steps": [
                 {
                   "id": "l03-primeiros-passos-no-terminal-step-01",
@@ -1583,7 +1583,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Antes de decorar comandos, vale aprender a ler a própria linha de comando.",
+                      "value": "Prompt, comando, opção, argumento e caminho formam a leitura mínima da linha de comando.",
                       "align": "left",
                       "id": "l03-primeiros-passos-no-terminal-step-01-block-02-paragraph"
                     },
@@ -2090,7 +2090,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "No contraste principal desta lição, qual nome aparece como par de `Docs`?",
+                      "value": "No exemplo `Docs` versus `docs`, qual nome foi usado como par para destacar case sensitive?",
                       "align": "left",
                       "id": "l03-primeiros-passos-no-terminal-step-09-block-02-paragraph"
                     },
@@ -2106,7 +2106,7 @@
                         {
                           "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-03",
                           "value": "DOCS",
-                          "result": "`DOCS` também seria diferente em muitos sistemas, mas não é a forma escolhida para o contraste principal desta lição."
+                          "result": "`DOCS` também seria diferente em muitos sistemas, mas não é o par usado neste contraste."
                         },
                         {
                           "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-01",
@@ -2344,13 +2344,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l03-primeiros-passos-no-terminal-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você lê prompt, comando, opção, argumento e caminho com menos atrito.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l03-primeiros-passos-no-terminal-step-16-block-02-paragraph"
                     },
                     {
@@ -2372,7 +2372,7 @@
             {
               "id": "l04-navegacao-diretorios",
               "title": "Navegação em diretórios sem se perder",
-              "subtitle": "Consolidar pwd, ls, cd, ~ e caminhos absolutos/relativos com microprática suficiente para o estudante parar de se perder no sistema de arquivos.",
+              "subtitle": "pwd, ls, cd, ~ e caminhos absolutos ou relativos formam o kit básico para não se perder no sistema de arquivos.",
               "steps": [
                 {
                   "id": "l04-navegacao-diretorios-step-01",
@@ -2387,7 +2387,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta etapa, o objetivo é parar de se perder entre pastas.",
+                      "value": "pwd, ls, cd, ~ e caminhos absolutos ou relativos formam o kit básico para não se perder no sistema de arquivos.",
                       "align": "left",
                       "id": "l04-navegacao-diretorios-step-01-block-02-paragraph"
                     },
@@ -2674,7 +2674,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "confirma onde o estudante está antes de mudar de pasta.",
+                            "value": "confirma onde você está antes de mudar de pasta.",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -2812,7 +2812,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os acertos ajudam o estudante a parar de se perder no sistema de arquivos.",
+                          "value": "Os acertos ajudam a manter a navegação orientada no sistema de arquivos.",
                           "align": "left",
                           "id": "l04-navegacao-diretorios-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -3113,7 +3113,7 @@
                     },
                     {
                       "kind": "simulator",
-                      "value": "O comando leva o estudante para a `[[]]`.",
+                      "value": "O comando leva você para a `[[]]`.",
                       "options": [
                         {
                           "value": "configuração do kernel",
@@ -3145,7 +3145,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Essa previsão reduz o risco de o estudante se perder na hierarquia.",
+                          "value": "Essa previsão reduz o risco de se perder na hierarquia.",
                           "align": "left",
                           "id": "l04-navegacao-diretorios-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -3162,13 +3162,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l04-navegacao-diretorios-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você usa pwd, ls, cd, ~ e caminhos com mais orientação.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l04-navegacao-diretorios-step-16-block-02-paragraph"
                     },
                     {
@@ -3184,7 +3184,7 @@
             {
               "id": "l05-arquivos-e-pastas-shell",
               "title": "Criar, copiar, mover e apagar arquivos e pastas",
-              "subtitle": "Ensinar o fluxo mínimo de manipulação de arquivos e diretórios no shell sem colocar o estudante em risco desnecessário.",
+              "subtitle": "Manipule arquivos e diretórios no shell com um fluxo mínimo seguro: criar, copiar, mover e remover.",
               "steps": [
                 {
                   "id": "l05-arquivos-e-pastas-shell-step-01",
@@ -3199,7 +3199,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Agora o foco é manipular arquivos e pastas sem confundir criar, copiar, mover e remover.",
+                      "value": "Manipule arquivos e diretórios no shell com um fluxo mínimo seguro: criar, copiar, mover e remover.",
                       "align": "left",
                       "id": "l05-arquivos-e-pastas-shell-step-01-block-02-paragraph"
                     },
@@ -3738,11 +3738,6 @@
                       "value": "Depois do comando, `roteiro.txt` aparece em `[[]]` sem apagar o original.",
                       "options": [
                         {
-                          "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-01",
-                          "value": "docs/",
-                          "result": "Boa. A cópia cria uma nova ocorrência em `docs/` sem apagar o original."
-                        },
-                        {
                           "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-02",
                           "value": "midia/",
                           "result": "`midia/` é uma pasta plausível do projeto, mas não é o destino usado no comando."
@@ -3751,6 +3746,11 @@
                           "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-03",
                           "value": "roteiro/",
                           "result": "O comando copia para `docs/`, não para a pasta `roteiro/`."
+                        },
+                        {
+                          "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-01",
+                          "value": "docs/",
+                          "result": "Boa. A cópia cria uma nova ocorrência em `docs/` sem apagar o original."
                         }
                       ],
                       "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator"
@@ -3863,7 +3863,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações respeitam o cuidado exigido nesta lição?",
+                      "value": "Quais afirmações mantêm a distinção pedida neste contraste?",
                       "align": "left",
                       "id": "l05-arquivos-e-pastas-shell-step-11-block-02-paragraph"
                     },
@@ -3937,11 +3937,6 @@
                       "value": "Depois do comando, o arquivo `[[]]` não aparece mais no diretório atual.",
                       "options": [
                         {
-                          "value": "README.md",
-                          "result": "Exato. O foco é prever o efeito real da operação.",
-                          "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "origin",
                           "result": "Origin é assunto de Git remoto, não de shell básico.",
                           "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-03"
@@ -3950,6 +3945,11 @@
                           "value": "docs/",
                           "result": "A pasta `docs/` não é o alvo do comando.",
                           "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "README.md",
+                          "result": "Exato. O foco é prever o efeito real da operação.",
+                          "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator"
@@ -3983,13 +3983,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l05-arquivos-e-pastas-shell-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você cria, copia, move e remove arquivos e pastas com mais critério.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l05-arquivos-e-pastas-shell-step-16-block-02-paragraph"
                     },
                     {
@@ -4005,7 +4005,7 @@
             {
               "id": "l06-inspecao-e-ambiente-minimo",
               "title": "Inspeção de arquivos e ambiente mínimo",
-              "subtitle": "Dar ao estudante um repertório curto para abrir, ler, inspecionar e situar o ambiente sem expandir demais o escopo de shell.",
+              "subtitle": "Abra, leia e inspecione o ambiente com um repertório curto de comandos úteis.",
               "steps": [
                 {
                   "id": "l06-inspecao-e-ambiente-minimo-step-01",
@@ -4020,7 +4020,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nem todo começo de semestre precisa de um catálogo enorme de comandos.",
+                      "value": "Abra, leia e inspecione o ambiente com um repertório curto de comandos úteis.",
                       "align": "left",
                       "id": "l06-inspecao-e-ambiente-minimo-step-01-block-02-paragraph"
                     },
@@ -4906,13 +4906,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l06-inspecao-e-ambiente-minimo-step-12-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você lê arquivos curtos, consulta ajuda rápida e situa usuário e diretório com poucos comandos.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l06-inspecao-e-ambiente-minimo-step-12-block-02-paragraph"
                     },
                     {
@@ -4934,7 +4934,7 @@
             {
               "id": "l07-conta-github-e-mapa-conceitual",
               "title": "Criar conta no GitHub e entender o mapa Git x GitHub",
-              "subtitle": "Reduzir o atrito inicial do estudante com a plataforma, mostrando como a conta, o repositório e a ideia de versionamento se encaixam.",
+              "subtitle": "Conta, repositório e versionamento entram juntos: cada peça tem um papel claro na plataforma.",
               "steps": [
                 {
                   "id": "l07-conta-github-e-mapa-conceitual-step-01",
@@ -4949,7 +4949,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "GitHub precisa aparecer cedo porque as tarefas já começam na interface web.",
+                      "value": "Conta, repositório e versionamento entram juntos: cada peça tem um papel claro na plataforma.",
                       "align": "left",
                       "id": "l07-conta-github-e-mapa-conceitual-step-01-block-02-paragraph"
                     },
@@ -5142,7 +5142,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "cópia no computador do estudante.",
+                            "value": "cópia no computador local.",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -5324,7 +5324,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações mantêm a distinção central desta lição?",
+                      "value": "Quais afirmações preservam a diferença entre Git e GitHub?",
                       "align": "left",
                       "id": "l07-conta-github-e-mapa-conceitual-step-06-block-02-paragraph"
                     },
@@ -5367,7 +5367,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A distinção correta reduz um dos maiores atritos reais do curso.",
+                          "value": "Entender essa distinção evita confundir ferramenta local com serviço web.",
                           "align": "left",
                           "id": "l07-conta-github-e-mapa-conceitual-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -5428,7 +5428,7 @@
                         {
                           "id": "l07-conta-github-e-mapa-conceitual-step-07-block-04-button-popup-02-paragraph",
                           "kind": "paragraph",
-                          "value": "A conta é a identidade operacional do estudante na plataforma, não a branch nem a pasta local.",
+                          "value": "A conta é a identidade operacional usada na plataforma, não a branch nem a pasta local.",
                           "align": "left"
                         }
                       ],
@@ -5566,7 +5566,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O foco aqui é acesso inicial, mapa conceitual e redução de atrito real.",
+                          "value": "Esses passos reduzem atrito: acesso garantido, diferença entre Git e GitHub e noção básica do fluxo.",
                           "align": "left",
                           "id": "l07-conta-github-e-mapa-conceitual-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -5643,13 +5643,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l07-conta-github-e-mapa-conceitual-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você entende o papel da conta GitHub e distingue Git de GitHub.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l07-conta-github-e-mapa-conceitual-step-14-block-02-paragraph"
                     },
                     {
@@ -5665,7 +5665,7 @@
             {
               "id": "l08-repositorio-publico-e-visibilidade",
               "title": "Criar repositório público e configurar a visibilidade",
-              "subtitle": "Fazer o estudante completar sem medo o fluxo de novo repositório no GitHub web, entendendo owner, nome, descrição, visibilidade e README.",
+              "subtitle": "Criar um repositório público fica mais simples quando owner, nome, visibilidade e README têm papel claro.",
               "steps": [
                 {
                   "id": "l08-repositorio-publico-e-visibilidade-step-01",
@@ -5680,7 +5680,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Aqui o foco é abrir um repositório público sem medo do formulário.",
+                      "value": "Criar um repositório público fica mais simples quando owner, nome, visibilidade e README têm papel claro.",
                       "align": "left",
                       "id": "l08-repositorio-publico-e-visibilidade-step-01-block-02-paragraph"
                     },
@@ -6371,7 +6371,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os riscos reais estão na visibilidade e na falta de contexto, não em qualquer campo preenchido com cuidado.",
+                          "value": "O problema real está em escolher a visibilidade errada ou descrever mal o repositório.",
                           "align": "left",
                           "id": "l08-repositorio-publico-e-visibilidade-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -6476,11 +6476,6 @@
                       "value": "Visibilidade coerente: `[[]]`.",
                       "options": [
                         {
-                          "value": "Public",
-                          "result": "Exato. O cenário da disciplina pede acesso simples e sem atrito extra.",
-                          "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "Hidden kernel",
                           "result": "Essa opção nem pertence ao formulário do repositório.",
                           "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-03"
@@ -6489,6 +6484,11 @@
                           "value": "Private",
                           "result": "Private pode bloquear o objetivo de compartilhamento amplo da atividade.",
                           "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "Public",
+                          "result": "Exato. O cenário da disciplina pede acesso simples e sem atrito extra.",
+                          "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator"
@@ -6522,13 +6522,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l08-repositorio-publico-e-visibilidade-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você abre um repositório público entendendo owner, visibilidade e README inicial.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l08-repositorio-publico-e-visibilidade-step-16-block-02-paragraph"
                     },
                     {
@@ -6544,7 +6544,7 @@
             {
               "id": "l09-navegar-no-repositorio-web",
               "title": "Navegar no repositório e localizar funções",
-              "subtitle": "Fazer o estudante ler a tela principal do repositório sem desorientação: arquivos, README, histórico básico, settings e releases.",
+              "subtitle": "Você vai localizar arquivos, histórico, settings e releases sem confundir áreas parecidas da interface.",
               "steps": [
                 {
                   "id": "l09-navegar-no-repositorio-web-step-01",
@@ -6559,7 +6559,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Depois de criar o repositório, o próximo passo é saber se localizar na tela principal.",
+                      "value": "Você vai localizar arquivos, histórico, settings e releases sem confundir áreas parecidas da interface.",
                       "align": "left",
                       "id": "l09-navegar-no-repositorio-web-step-01-block-02-paragraph"
                     },
@@ -7143,7 +7143,7 @@
                           "id": "l09-navegar-no-repositorio-web-step-09-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "A lição quer localizar funções, não editar arquivos ainda.",
+                          "value": "Releases concentra versões publicadas do projeto.",
                           "answer": true,
                           "id": "l09-navegar-no-repositorio-web-step-09-block-03-multiple-choice-option-04"
                         }
@@ -7193,11 +7193,6 @@
                       "value": "Você procura a área `[[]]` do repositório.",
                       "options": [
                         {
-                          "value": "Releases",
-                          "result": "Exato. A lição explicita como localizar releases a partir da página principal.",
-                          "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "Prompt",
                           "result": "Prompt pertence ao terminal, não à navegação web.",
                           "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-03"
@@ -7206,6 +7201,11 @@
                           "value": "Owner",
                           "result": "Owner é conta responsável, não a área de versões publicadas.",
                           "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "Releases",
+                          "result": "Exato. Releases é a área mais direta para localizar versões publicadas do projeto.",
+                          "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator"
@@ -7239,13 +7239,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l09-navegar-no-repositorio-web-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você reconhece README, Settings, Releases e a área principal do repositório.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l09-navegar-no-repositorio-web-step-14-block-02-paragraph"
                     },
                     {
@@ -7261,7 +7261,7 @@
             {
               "id": "l10-arquivos-pastas-e-upload-no-github",
               "title": "Criar arquivos, pastas e enviar material no GitHub",
-              "subtitle": "Treinar as ações de Add file, Create new file, criação de subdiretórios com '/', e upload de arquivos/pastas pela interface web.",
+              "subtitle": "Criar arquivo, criar pasta e fazer upload são ações diferentes da interface web e precisam ser lidas sem confusão.",
               "steps": [
                 {
                   "id": "l10-arquivos-pastas-e-upload-no-github-step-01",
@@ -7276,7 +7276,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Na interface web, criar arquivo, criar pasta e fazer upload parecem ações parecidas, mas não são a mesma coisa.",
+                      "value": "Criar arquivo, criar pasta e fazer upload são ações diferentes da interface web e precisam ser lidas sem confusão.",
                       "align": "left",
                       "id": "l10-arquivos-pastas-e-upload-no-github-step-01-block-02-paragraph"
                     },
@@ -7958,7 +7958,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os erros reais aparecem quando o estudante mistura upload com criação de arquivo vazio.",
+                          "value": "Os erros reais aparecem quando upload e criação de arquivo vazio são confundidos.",
                           "align": "left",
                           "id": "l10-arquivos-pastas-e-upload-no-github-step-11-block-04-button-popup-02-paragraph"
                         }
@@ -8035,13 +8035,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l10-arquivos-pastas-e-upload-no-github-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você separa criação de arquivo, criação de pasta e upload na interface web.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l10-arquivos-pastas-e-upload-no-github-step-16-block-02-paragraph"
                     },
                     {
@@ -8057,7 +8057,7 @@
             {
               "id": "l11-edicao-web-e-commit-manual",
               "title": "Editar no navegador e fazer commit manual",
-              "subtitle": "Ensinar o fluxo completo de abrir um arquivo, editar, usar preview, escrever mensagem de commit e entender o efeito do commit pela interface web.",
+              "subtitle": "Abra um arquivo, edite, use preview e confirme o commit pela interface web.",
               "steps": [
                 {
                   "id": "l11-edicao-web-e-commit-manual-step-01",
@@ -8072,13 +8072,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Editar no navegador só fica claro quando você separa editar, visualizar e registrar a mudança.",
+                      "value": "Abra um arquivo, edite, use preview e confirme o commit pela interface web.",
                       "align": "left",
                       "id": "l11-edicao-web-e-commit-manual-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Esta lição contrasta o fluxo web com o fluxo local, mas sem perder o foco na prática pelo site.",
+                      "value": "Você vai comparar o fluxo web com o fluxo local e entender quando cada um faz mais sentido.",
                       "align": "left",
                       "id": "l11-edicao-web-e-commit-manual-step-01-block-03-paragraph"
                     },
@@ -8577,7 +8577,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Escolha o que acontece se o estudante editar no navegador e sair sem confirmar o commit.",
+                      "value": "Escolha o que acontece se você editar no navegador e sair sem confirmar o commit.",
                       "align": "left",
                       "id": "l11-edicao-web-e-commit-manual-step-09-block-02-paragraph"
                     },
@@ -8754,7 +8754,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A distinção é importante porque o curso passa da web para o local logo depois.",
+                          "value": "Essa distinção importa porque editar no navegador e editar localmente não seguem o mesmo fluxo.",
                           "align": "left",
                           "id": "l11-edicao-web-e-commit-manual-step-11-block-04-button-popup-02-paragraph"
                         }
@@ -8785,11 +8785,6 @@
                       "value": "A alteração passa a aparecer no `[[]]` do repositório.",
                       "options": [
                         {
-                          "value": "histórico",
-                          "result": "Exato. O commit dá visibilidade à mudança no histórico do projeto.",
-                          "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "nome do owner",
                           "result": "Owner não muda por causa de um commit manual.",
                           "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-03"
@@ -8798,6 +8793,11 @@
                           "value": "prompt do terminal",
                           "result": "Prompt do terminal é outro ambiente de uso.",
                           "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "histórico",
+                          "result": "Exato. O commit dá visibilidade à mudança no histórico do projeto.",
+                          "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator"
@@ -8831,13 +8831,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l11-edicao-web-e-commit-manual-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você edita um arquivo no navegador e entende o papel do commit web.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l11-edicao-web-e-commit-manual-step-16-block-02-paragraph"
                     },
                     {
@@ -8859,7 +8859,7 @@
             {
               "id": "l12-controle-de-versao-e-modelos",
               "title": "Controle de versão, commits, branches e modelos",
-              "subtitle": "Dar significado às operações já vistas, introduzindo controle de versão, snapshot, commit, branch e o contraste entre modelos centralizado e distribuído.",
+              "subtitle": "Controle de versão, snapshot, commit, branch e os modelos centralizado e distribuído entram como partes do mesmo sistema.",
               "steps": [
                 {
                   "id": "l12-controle-de-versao-e-modelos-step-01",
@@ -8874,7 +8874,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Antes de usar Git no terminal, vale fixar por que controle de versão existe e o que ele resolve.",
+                      "value": "Controle de versão, snapshot, commit, branch e os modelos centralizado e distribuído entram como partes do mesmo sistema.",
                       "align": "left",
                       "id": "l12-controle-de-versao-e-modelos-step-01-block-02-paragraph"
                     },
@@ -9379,7 +9379,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Escolha o que caracteriza melhor o modelo distribuído no contraste pedido pela lição.",
+                      "value": "Escolha o que caracteriza melhor um modelo distribuído de controle de versão.",
                       "align": "left",
                       "id": "l12-controle-de-versao-e-modelos-step-08-block-02-paragraph"
                     },
@@ -9388,19 +9388,19 @@
                       "value": "Cada cópia pode manter `[[]]` útil do trabalho.",
                       "options": [
                         {
-                          "value": "histórico local",
-                          "result": "Boa. Esse contraste ajuda a explicar por que Git não é só uma interface web.",
-                          "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "licença jurídica do projeto",
-                          "result": "Licença é outro assunto do curso.",
+                          "result": "Licença é outro tema; aqui a questão é histórico local e cópias de trabalho.",
                           "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-03"
                         },
                         {
                           "value": "uma única conta central obrigatória",
                           "result": "Isso puxa demais para a ideia centralizada.",
                           "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "histórico local",
+                          "result": "Boa. Esse contraste ajuda a explicar por que Git não é só uma interface web.",
+                          "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator"
@@ -9482,7 +9482,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A distinção continua central mesmo quando o curso entra em modelos e histórico.",
+                          "value": "A distinção continua central quando você compara repositório local, remoto e histórico distribuído.",
                           "align": "left",
                           "id": "l12-controle-de-versao-e-modelos-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -9573,13 +9573,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l12-controle-de-versao-e-modelos-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você entende o problema que controle de versão resolve e onde Git se encaixa.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l12-controle-de-versao-e-modelos-step-14-block-02-paragraph"
                     },
                     {
@@ -9595,7 +9595,7 @@
             {
               "id": "l13-git-local-status-add-commit",
               "title": "Primeiro fluxo local com Git",
-              "subtitle": "Levar o estudante do diretório local ao primeiro commit usando git init, git status, git add e git commit, conectando cada comando a um efeito visível.",
+              "subtitle": "git init, git status, git add e git commit formam o primeiro fluxo local que precisa fazer sentido passo a passo.",
               "steps": [
                 {
                   "id": "l13-git-local-status-add-commit-step-01",
@@ -9610,7 +9610,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Agora entra o primeiro fluxo local com Git.",
+                      "value": "git init, git status, git add e git commit formam o primeiro fluxo local que precisa fazer sentido passo a passo.",
                       "align": "left",
                       "id": "l13-git-local-status-add-commit-step-01-block-02-paragraph"
                     },
@@ -10028,7 +10028,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O fluxo local mínimo começa com o repositório existindo no computador do estudante.",
+                          "value": "O fluxo local mínimo começa com o repositório existindo no computador local.",
                           "align": "left",
                           "id": "l13-git-local-status-add-commit-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -10277,7 +10277,7 @@
                           "id": "l13-git-local-status-add-commit-step-11-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "A lição quer consolidar a ordem do fluxo antes de produção autônoma.",
+                          "value": "`git push` só faz sentido quando existe um remoto configurado.",
                           "answer": true,
                           "id": "l13-git-local-status-add-commit-step-11-block-03-multiple-choice-option-04"
                         },
@@ -10301,7 +10301,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os acertos mantêm a ordem do fluxo e evitam a confusão mais comum desta passagem do curso.",
+                          "value": "Os acertos preservam a diferença entre registrar localmente e publicar no remoto.",
                           "align": "left",
                           "id": "l13-git-local-status-add-commit-step-11-block-04-button-popup-02-paragraph"
                         }
@@ -10361,7 +10361,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A previsão final fecha o fluxo local mínimo na cabeça do estudante.",
+                          "value": "A previsão final fecha a ordem do fluxo local mínimo.",
                           "align": "left",
                           "id": "l13-git-local-status-add-commit-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -10378,13 +10378,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l13-git-local-status-add-commit-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você executa o primeiro fluxo local com Git: init, status, add e commit.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l13-git-local-status-add-commit-step-16-block-02-paragraph"
                     },
                     {
@@ -10400,7 +10400,7 @@
             {
               "id": "l14-local-remoto-clone-push-pull",
               "title": "Conectar local e remoto: clone, push, fetch e pull",
-              "subtitle": "Explicar como o clone cria a cópia local e como push/fetch/pull ligam o computador do estudante ao repositório remoto no GitHub.",
+              "subtitle": "Clone cria a cópia local; push, fetch e pull conectam o computador ao repositório remoto.",
               "steps": [
                 {
                   "id": "l14-local-remoto-clone-push-pull-step-01",
@@ -10415,13 +10415,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Este é o ponto em que muita gente mistura computador local, origin e GitHub.",
+                      "value": "Clone cria a cópia local; push, fetch e pull conectam o computador ao repositório remoto.",
                       "align": "left",
                       "id": "l14-local-remoto-clone-push-pull-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A lição compara clone, push, fetch e pull com passos curtos e repetidos.",
+                      "value": "Aqui você compara clone, push, fetch e pull pelo que cada comando faz entre a máquina local e o remoto.",
                       "align": "left",
                       "id": "l14-local-remoto-clone-push-pull-step-01-block-03-paragraph"
                     },
@@ -10921,7 +10921,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Clone é a porta de entrada do remoto para o computador do estudante.",
+                          "value": "Clone é a porta de entrada do remoto para o computador local.",
                           "align": "left",
                           "id": "l14-local-remoto-clone-push-pull-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -11149,7 +11149,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações sobre `origin` estão corretas neste nível introdutório?",
+                      "value": "Quais afirmações sobre `origin` ajudam a ler o fluxo entre local e remoto?",
                       "align": "left",
                       "id": "l14-local-remoto-clone-push-pull-step-11-block-02-paragraph"
                     },
@@ -11229,7 +11229,7 @@
                         },
                         {
                           "value": "publica uma release",
-                          "result": "Release é outra ação, fora do foco desta lição.",
+                          "result": "Release é publicação de versão; `pull` atualiza o repositório local com mudanças do remoto.",
                           "id": "l14-local-remoto-clone-push-pull-step-12-block-03-simulator-option-03"
                         },
                         {
@@ -11269,13 +11269,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l14-local-remoto-clone-push-pull-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você separa clone, push, fetch e pull no fluxo entre local e remoto.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l14-local-remoto-clone-push-pull-step-16-block-02-paragraph"
                     },
                     {
@@ -11290,29 +11290,29 @@
             },
             {
               "id": "l15-branch-e-pull-request-basicos",
-              "title": "Branch e pull request em nível introdutório",
-              "subtitle": "Mostrar como o trabalho em equipe se organiza com branches e pull requests, sem exigir fluxo avançado de revisão.",
+              "title": "Branch e pull request básicos",
+              "subtitle": "Branch isola mudanças e pull request propõe integração entre branches, sem exigir fluxo avançado logo de início.",
               "steps": [
                 {
                   "id": "l15-branch-e-pull-request-basicos-step-01",
                   "type": "content",
-                  "title": "Branch e pull request em nível introdutório",
+                  "title": "Branch e pull request básicos",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Branch e pull request em nível introdutório",
+                      "value": "Branch e pull request básicos",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-01-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Para trabalho em dupla, branch e pull request precisam aparecer como ferramentas de colaboração, não como ritual.",
+                      "value": "Branch isola mudanças e pull request propõe integração entre branches, sem exigir fluxo avançado logo de início.",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Aqui o objetivo é entender isolamento de mudança e proposta de integração em nível introdutório.",
+                      "value": "Branch isola uma mudança e pull request apresenta essa mudança para integração no fluxo principal.",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-01-block-03-paragraph"
                     },
@@ -11656,7 +11656,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações respeitam o nível introdutório da lição?",
+                      "value": "Quais afirmações mostram por que branch e pull request existem?",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-06-block-02-paragraph"
                     },
@@ -11680,7 +11680,7 @@
                           "id": "l15-branch-e-pull-request-basicos-step-06-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "A lição quer trabalho em dupla, não conflitos avançados.",
+                          "value": "Nem toda colaboração inicial precisa entrar em rebase e conflito avançado.",
                           "answer": true,
                           "id": "l15-branch-e-pull-request-basicos-step-06-block-03-multiple-choice-option-04"
                         }
@@ -11804,11 +11804,6 @@
                       "value": "Abrir um `[[]]` para propor a integração.",
                       "options": [
                         {
-                          "value": "pull request",
-                          "result": "Boa. O PR aparece aqui como proposta de mudança entre branches.",
-                          "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "rmdir",
                           "result": "Esse comando de shell não organiza colaboração no Git.",
                           "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-02"
@@ -11817,6 +11812,11 @@
                           "value": "README",
                           "result": "README é arquivo do projeto, não o mecanismo de proposta.",
                           "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-03"
+                        },
+                        {
+                          "value": "pull request",
+                          "result": "Boa. O PR aparece aqui como proposta de mudança entre branches.",
+                          "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator"
@@ -11879,7 +11879,7 @@
                           "id": "l15-branch-e-pull-request-basicos-step-09-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "A colaboração em dupla justifica o nível introdutório desta lição.",
+                          "value": "Uma branch também pode ser criada para trabalhar sem mexer direto na principal.",
                           "answer": true,
                           "id": "l15-branch-e-pull-request-basicos-step-09-block-03-multiple-choice-option-04"
                         }
@@ -11930,7 +11930,7 @@
                       "options": [
                         {
                           "value": "um novo sistema operacional",
-                          "result": "Branch não troca o sistema do estudante.",
+                          "result": "Branch não troca o sistema nem o editor em uso.",
                           "id": "l15-branch-e-pull-request-basicos-step-10-block-03-simulator-option-02"
                         },
                         {
@@ -11975,13 +11975,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l15-branch-e-pull-request-basicos-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você entende branch e pull request como apoio ao trabalho em dupla.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l15-branch-e-pull-request-basicos-step-14-block-02-paragraph"
                     },
                     {
@@ -12003,7 +12003,7 @@
             {
               "id": "l16-editor-ide-plugin",
               "title": "Editor de texto, IDE e plugin: sem confundir as camadas",
-              "subtitle": "Fazer o estudante distinguir com segurança editor, IDE, plugin e configuração básica, respeitando a abordagem local da disciplina.",
+              "subtitle": "Editor, IDE e plugin ocupam papéis diferentes no ambiente de desenvolvimento.",
               "steps": [
                 {
                   "id": "l16-editor-ide-plugin-step-01",
@@ -12018,7 +12018,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A disciplina distingue editor de texto, IDE, plugin e configuração sem entrar em guerra de ferramentas.",
+                      "value": "Editor, IDE e plugin ocupam papéis diferentes no ambiente de desenvolvimento.",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-01-block-02-paragraph"
                     },
@@ -12353,7 +12353,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "editor extensível no vocabulário local do curso.",
+                            "value": "editor extensível no vocabulário técnico local.",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -12583,7 +12583,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais frases mantêm a lição em critérios de papel e uso?",
+                      "value": "Quais frases distinguem corretamente editor, IDE e plugin?",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-09-block-02-paragraph"
                     },
@@ -12592,23 +12592,23 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "Plugin não substitui automaticamente toda a ideia de IDE.",
+                          "value": "Configuração básica pode existir tanto em editor quanto em IDE.",
                           "answer": true,
                           "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-02"
                         },
                         {
-                          "value": "A comparação deve focar em papel e necessidade, não em fanatismo de ferramenta.",
+                          "value": "Um plugin acrescenta recursos a uma ferramenta já existente.",
                           "answer": true,
                           "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "Configuração básica deve ficar em nível introdutório.",
-                          "answer": true,
+                          "value": "Editor, IDE e plugin são exatamente a mesma coisa.",
+                          "answer": false,
                           "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-04"
                         },
                         {
-                          "value": "A lição precisa provar que uma ferramenta vence todas as outras.",
-                          "answer": false,
+                          "value": "Editor e IDE podem compartilhar recursos, mas não são sinônimos.",
+                          "answer": true,
                           "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-03"
                         }
                       ],
@@ -12626,7 +12626,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O curso quer critério de uso, não disputa abstrata de marcas.",
+                          "value": "O foco é distinguir camadas e usos, não transformar ferramenta em torcida.",
                           "align": "left",
                           "id": "l16-editor-ide-plugin-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -12717,13 +12717,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l16-editor-ide-plugin-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você distingue editor, IDE, plugin e configuração básica na linguagem da disciplina.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l16-editor-ide-plugin-step-14-block-02-paragraph"
                     },
                     {
@@ -12739,7 +12739,7 @@
             {
               "id": "l17-debug-e-depuracao",
               "title": "Debug e depuração na prática",
-              "subtitle": "Distinguir recurso, processo e objetivo: debug como apoio técnico e depuração como atividade de localizar e corrigir problemas.",
+              "subtitle": "Debug é recurso; depuração é a atividade de investigar e corrigir o problema.",
               "steps": [
                 {
                   "id": "l17-debug-e-depuracao-step-01",
@@ -12754,7 +12754,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Debug e depuração costumam ser usados como sinônimos, mas não precisam ser.",
+                      "value": "Debug é recurso; depuração é a atividade de investigar e corrigir o problema.",
                       "align": "left",
                       "id": "l17-debug-e-depuracao-step-01-block-02-paragraph"
                     },
@@ -13314,7 +13314,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais frases mantêm o foco introdutório em erro, observação e correção?",
+                      "value": "Quais frases mantêm o foco em observar o erro, testar hipóteses e corrigir com calma?",
                       "align": "left",
                       "id": "l17-debug-e-depuracao-step-09-block-02-paragraph"
                     },
@@ -13357,7 +13357,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os acertos mantêm a prática proporcional ao nível do curso.",
+                          "value": "Os acertos mantêm a depuração ligada a erro real, observação e correção objetiva.",
                           "align": "left",
                           "id": "l17-debug-e-depuracao-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -13379,7 +13379,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quando o estudante quer ver o valor de uma variável durante a execução, qual palavra se encaixa melhor?",
+                      "value": "Quando você quer ver o valor de uma variável durante a execução, qual palavra se encaixa melhor?",
                       "align": "left",
                       "id": "l17-debug-e-depuracao-step-10-block-02-paragraph"
                     },
@@ -13387,11 +13387,6 @@
                       "kind": "simulator",
                       "value": "O apoio em foco é o `[[]]`.",
                       "options": [
-                        {
-                          "value": "debug",
-                          "result": "Exato. A inspeção durante a execução é um uso típico do debug.",
-                          "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-01"
-                        },
                         {
                           "value": "licenciamento",
                           "result": "Licenciamento não é apoio técnico de execução.",
@@ -13401,6 +13396,11 @@
                           "value": "upload",
                           "result": "Upload é ação de GitHub, não de investigação de erro.",
                           "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-03"
+                        },
+                        {
+                          "value": "debug",
+                          "result": "Exato. A inspeção durante a execução é um uso típico do debug.",
+                          "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l17-debug-e-depuracao-step-10-block-03-simulator"
@@ -13434,13 +13434,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l17-debug-e-depuracao-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você separa debug de depuração e reconhece o papel de um breakpoint.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l17-debug-e-depuracao-step-14-block-02-paragraph"
                     },
                     {
@@ -13462,7 +13462,7 @@
             {
               "id": "l18-software-livre-e-contexto-da-disciplina",
               "title": "Software livre e contexto da disciplina",
-              "subtitle": "Retomar GNU/Linux como parte de um contexto de software livre, contribuição e licenças em nível introdutório, conectado ao que o estudante já usa.",
+              "subtitle": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
               "steps": [
                 {
                   "id": "l18-software-livre-e-contexto-da-disciplina-step-01",
@@ -13477,7 +13477,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Depois das ferramentas, vale recolocar o curso no contexto de software livre.",
+                      "value": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-01-block-02-paragraph"
                     },
@@ -13886,7 +13886,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os acertos seguram o tema em nível introdutório e conectado ao curso real.",
+                          "value": "Os acertos mantêm software livre ligado a liberdade, licença e contribuição.",
                           "align": "left",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -13960,7 +13960,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A frase correta impede que o estudante trate plataforma hospedada como conceito jurídico por reflexo.",
+                          "value": "A frase correta evita confundir plataforma hospedada com conceito jurídico.",
                           "align": "left",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-07-block-04-button-popup-02-paragraph"
                         }
@@ -13991,11 +13991,6 @@
                       "value": "O item que ajuda a explicitar isso é a `[[]]`.",
                       "options": [
                         {
-                          "value": "licença",
-                          "result": "Boa. A licença ajuda a explicitar condições de uso e distribuição.",
-                          "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "janela do terminal",
                           "result": "Terminal não explicita condições jurídicas do projeto.",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-02"
@@ -14004,6 +13999,11 @@
                           "value": "branch feature",
                           "result": "Branch organiza trabalho, mas não cumpre esse papel.",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-03"
+                        },
+                        {
+                          "value": "licença",
+                          "result": "Boa. A licença ajuda a explicitar condições de uso e distribuição.",
+                          "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator"
@@ -14051,23 +14051,23 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "GNU/Linux ajuda a recuperar o começo do curso em chave de contexto maior.",
+                          "value": "Contribuição pode começar com documentação, correção e uso responsável do repositório.",
                           "answer": true,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "Contribuição pode ser tratada em nível introdutório, ligada ao uso real do repositório.",
-                          "answer": true,
+                          "value": "Software livre se resume a não cobrar pelo programa.",
+                          "answer": false,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "A lição deve abandonar o projeto da turma e falar só de filosofia abstrata.",
-                          "answer": false,
+                          "value": "Licença ajuda a definir como o software pode ser usado, estudado e distribuído.",
+                          "answer": true,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-04"
                         },
                         {
-                          "value": "Serviço hospedado e software livre são categorias automaticamente idênticas.",
-                          "answer": false,
+                          "value": "Software livre não se resume a ser gratuito.",
+                          "answer": true,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-02"
                         }
                       ],
@@ -14176,13 +14176,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-14-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você liga software livre a liberdades, licença e contribuição sem reduzir tudo a preço.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-14-block-02-paragraph"
                     },
                     {
@@ -14198,7 +14198,7 @@
             {
               "id": "l19-documentacao-pesquisa-e-boas-praticas",
               "title": "Documentação oficial, pesquisa técnica e boas práticas",
-              "subtitle": "Fechar o curso ensinando o estudante a continuar aprendendo: começar por documentação oficial, formular busca útil e aplicar boas práticas mínimas em README, nomes, estrutura e commits.",
+              "subtitle": "Documentação oficial, busca técnica, README e commits claros formam uma base segura para continuar estudando sozinho.",
               "steps": [
                 {
                   "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01",
@@ -14213,13 +14213,13 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Fechando o curso, o estudante precisa saber continuar aprendendo sem depender sempre do professor.",
+                      "value": "Documentação oficial, busca técnica, README e commits claros formam uma base segura para continuar estudando sozinho.",
                       "align": "left",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "A lição amarra documentação oficial, busca técnica, README, nomes claros e commits com sentido.",
+                      "value": "Documentação oficial, busca técnica, README, nomes claros e commits com sentido formam um kit mínimo para continuar aprendendo sozinho.",
                       "align": "left",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01-block-03-paragraph"
                     },
@@ -14484,7 +14484,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "primeira parada quando o estudante quer entender uso confiável.",
+                            "value": "primeira parada para entender uso confiável.",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -14579,7 +14579,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais atitudes seguem a orientação de pesquisa técnica desta lição?",
+                      "value": "Quais atitudes seguem uma boa prática de pesquisa técnica?",
                       "align": "left",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-07-block-02-paragraph"
                     },
@@ -14734,11 +14734,6 @@
                       "value": "Nome mais estável: `[[]]`.",
                       "options": [
                         {
-                          "value": "docs",
-                          "result": "Boa. O nome curto e objetivo facilita leitura e manutenção do projeto.",
-                          "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-01"
-                        },
-                        {
                           "value": "Nova Pasta 2",
                           "result": "O problema aqui é justamente a falta de sentido do nome.",
                           "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-03"
@@ -14747,6 +14742,11 @@
                           "value": "minhas coisas finais",
                           "result": "Esse nome é vago demais para uma estrutura colaborativa.",
                           "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-02"
+                        },
+                        {
+                          "value": "docs",
+                          "result": "Boa. O nome curto e objetivo facilita leitura e manutenção do projeto.",
+                          "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-01"
                         }
                       ],
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator"
@@ -14979,13 +14979,13 @@
                     {
                       "kind": "heading",
                       "value": "Lição concluída",
-                      "align": "left",
+                      "align": "center",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-16-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
                       "value": "Agora você pesquisa melhor, organiza melhor o repositório e registra mudanças com mais clareza.",
-                      "align": "left",
+                      "align": "center",
                       "id": "l19-documentacao-pesquisa-e-boas-praticas-step-16-block-02-paragraph"
                     },
                     {

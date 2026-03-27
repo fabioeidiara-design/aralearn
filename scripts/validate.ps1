@@ -43,6 +43,10 @@ Invoke-Step "Gerando runtime do hardcoded" {
   npm run build:hardcoded-content
 }
 
+Invoke-Step "Auditando conteúdo embarcado" {
+  node ./scripts/audit-course-content.mjs
+}
+
 Invoke-Step "Executando testes unitários" {
   npm run test:unit
 }

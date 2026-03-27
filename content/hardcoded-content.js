@@ -21,7 +21,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m01l01",
                 "title": "Algoritmo, problema e as três formas de representar",
-                "subtitle": "Apresentar algoritmo como sequência finita de passos e mostrar por que a disciplina trabalha a mesma ideia em fluxograma, Portugol/Visualg e C.",
+                "subtitle": "Algoritmo é a sequência finita de passos que resolve um problema; aqui a mesma ideia aparece em descrição verbal, fluxograma, Portugol/Visualg e C.",
                 "steps": [
                   {
                     "id": "m01l01-step-01",
@@ -36,13 +36,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Apresentar algoritmo como sequência finita de passos e mostrar por que a disciplina trabalha a mesma ideia em fluxograma, Portugol/Visualg e C.",
+                        "value": "Algoritmo é a sequência finita de passos que resolve um problema; aqui a mesma ideia aparece em descrição verbal, fluxograma, Portugol/Visualg e C.",
                         "align": "left",
                         "id": "m01l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em algoritmo como objeto comum por trás de três representações. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m01l01-step-01-block-03-paragraph"
                       },
@@ -73,9 +73,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -186,7 +186,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m01l01-step-04-block-02-paragraph"
                       },
@@ -376,11 +376,11 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "editor",
-                        "value": "[[entrada]] -> [[processamento]] -> [[saida]]",
+                        "value": "[[entrada]] -> [[processamento]] -> [[saída]]",
                         "interactionMode": "choice",
                         "options": [
                           {
-                            "value": "decisao",
+                            "value": "decisão",
                             "enabled": false,
                             "displayOrder": 0,
                             "slotOrder": 3,
@@ -394,7 +394,7 @@ window.AraLearnBundledContent = {
                             "id": "m01l01-step-06-block-03-editor-option-03"
                           },
                           {
-                            "value": "saida",
+                            "value": "saída",
                             "enabled": true,
                             "displayOrder": 2,
                             "slotOrder": 2,
@@ -444,7 +444,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Monte o fluxo da média.",
+                        "value": "Complete o fluxo da média escolhendo as ações de entrada, cálculo e saída.",
                         "align": "left",
                         "id": "m01l01-step-07-block-02-paragraph"
                       },
@@ -466,10 +466,11 @@ window.AraLearnBundledContent = {
                             "column": "center",
                             "shape": "input_output",
                             "text": "Ler nota1 e nota2",
-                            "shapeOptions": [
-                              "process"
-                            ],
-                            "textOptions": []
+                            "shapeOptions": [],
+                            "textOptions": [
+                              "media <- (nota1 + nota2) / 2",
+                              "Mostrar media"
+                            ]
                           },
                           {
                             "id": "n3",
@@ -477,10 +478,11 @@ window.AraLearnBundledContent = {
                             "column": "center",
                             "shape": "process",
                             "text": "media <- (nota1 + nota2) / 2",
-                            "shapeOptions": [
-                              "input_output"
-                            ],
-                            "textOptions": []
+                            "shapeOptions": [],
+                            "textOptions": [
+                              "Ler nota1 e nota2",
+                              "Mostrar media"
+                            ]
                           },
                           {
                             "id": "n4",
@@ -488,10 +490,11 @@ window.AraLearnBundledContent = {
                             "column": "center",
                             "shape": "input_output",
                             "text": "Mostrar media",
-                            "shapeOptions": [
-                              "decision"
-                            ],
-                            "textOptions": []
+                            "shapeOptions": [],
+                            "textOptions": [
+                              "Ler nota1 e nota2",
+                              "media <- (nota1 + nota2) / 2"
+                            ]
                           },
                           {
                             "id": "n5",
@@ -578,16 +581,6 @@ window.AraLearnBundledContent = {
                         "value": "media = [[]]",
                         "options": [
                           {
-                            "value": "7",
-                            "result": "A média de 6 e 8 é 7.",
-                            "id": "m01l01-step-08-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "14",
-                            "result": "Isso é a soma.",
-                            "id": "m01l01-step-08-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "6",
                             "result": "Isso usa só a primeira nota.",
                             "id": "m01l01-step-08-block-03-simulator-option-03"
@@ -596,6 +589,16 @@ window.AraLearnBundledContent = {
                             "value": "8",
                             "result": "Isso usa só a segunda nota.",
                             "id": "m01l01-step-08-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "7",
+                            "result": "A média de 6 e 8 é 7.",
+                            "id": "m01l01-step-08-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "14",
+                            "result": "Isso é a soma.",
+                            "id": "m01l01-step-08-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m01l01-step-08-block-03-simulator"
@@ -634,7 +637,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a algoritmo, problema e formas de representação.",
                         "align": "left",
                         "id": "m01l01-step-09-block-02-paragraph"
                       },
@@ -705,9 +708,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -797,13 +800,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já reconhece a mesma solução em descrição verbal, fluxograma, Portugol/Visualg e C.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l01-step-12-block-02-paragraph"
                       },
                       {
@@ -819,7 +822,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m01l02",
                 "title": "Símbolos de fluxograma e convenções de leitura",
-                "subtitle": "Fazer o estudante reconhecer e escolher símbolos de fluxograma, além de organizar o diagrama com leitura clara.",
+                "subtitle": "Cada símbolo do fluxograma tem um papel de leitura, e a organização visual ajuda a seguir o algoritmo sem ruído.",
                 "steps": [
                   {
                     "id": "m01l02-step-01",
@@ -834,13 +837,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Fazer o estudante reconhecer e escolher símbolos de fluxograma, além de organizar o diagrama com leitura clara.",
+                        "value": "Cada símbolo do fluxograma tem um papel de leitura, e a organização visual ajuda a seguir o algoritmo sem ruído.",
                         "align": "left",
                         "id": "m01l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em símbolos e convenções visuais de fluxograma. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m01l02-step-01-block-03-paragraph"
                       },
@@ -871,9 +874,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -984,7 +987,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m01l02-step-05-block-02-paragraph"
                       },
@@ -1293,7 +1296,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual leitura segue a convenção reforçada pelo curso?",
+                        "value": "No padrão adotado aqui, a saída esquerda do losango recebe “Não” e a direita recebe “Sim”. Qual opção segue essa convenção?",
                         "align": "left",
                         "id": "m01l02-step-08-block-02-paragraph"
                       },
@@ -1494,7 +1497,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a símbolos de fluxograma e convenções de leitura.",
                         "align": "left",
                         "id": "m01l02-step-10-block-02-paragraph"
                       },
@@ -1549,17 +1552,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m01l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m01l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem confusões reais sobre símbolos e leitura de fluxogramas?",
                         "align": "left",
                         "id": "m01l02-step-12-block-02-paragraph"
                       },
@@ -1568,17 +1571,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "reduzir fluxograma a glossário passivo",
+                            "value": "Trocar o losango de decisão por um bloco de processo.",
                             "answer": true,
                             "id": "m01l02-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Diferenciar entrada, processo e saída pelos símbolos adequados.",
                             "answer": false,
                             "id": "m01l02-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "não praticar disposição visual",
+                            "value": "Seguir uma decisão sem rotular claramente as saídas Sim e Não.",
                             "answer": true,
                             "id": "m01l02-step-12-block-03-multiple-choice-option-02"
                           }
@@ -1597,7 +1600,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m01l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -1625,9 +1628,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -1717,13 +1720,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já reconhece símbolos de fluxograma e organiza decisões binárias com leitura estável.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l02-step-14-block-02-paragraph"
                       },
                       {
@@ -1739,7 +1742,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m01l03",
                 "title": "Primeiro contato com Visualg/Portugol e C",
-                "subtitle": "Desarmar o estranhamento inicial com as duas escritas textuais do curso: Portugol/Visualg e C.",
+                "subtitle": "Portugol/Visualg e C mudam a escrita, mas mantêm a mesma lógica do algoritmo e do fluxo de dados.",
                 "steps": [
                   {
                     "id": "m01l03-step-01",
@@ -1754,13 +1757,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Desarmar o estranhamento inicial com as duas escritas textuais do curso: Portugol/Visualg e C.",
+                        "value": "Portugol/Visualg e C mudam a escrita, mas mantêm a mesma lógica do algoritmo e do fluxo de dados.",
                         "align": "left",
                         "id": "m01l03-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em vocabulário e esqueleto mínimo das duas formas textuais. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m01l03-step-01-block-03-paragraph"
                       },
@@ -1791,9 +1794,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -1936,7 +1939,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m01l03-step-05-block-02-paragraph"
                       },
@@ -2277,16 +2280,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "\"Ola\"",
-                            "result": "printf escreve o texto indicado.",
-                            "id": "m01l03-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "\"scanf\"",
-                            "result": "scanf não é saída.",
-                            "id": "m01l03-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "\"main\"",
                             "result": "main não é mensagem.",
                             "id": "m01l03-step-09-block-03-simulator-option-03"
@@ -2295,6 +2288,16 @@ window.AraLearnBundledContent = {
                             "value": "\"stdio\"",
                             "result": "stdio não é a saída.",
                             "id": "m01l03-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "\"Ola\"",
+                            "result": "printf escreve o texto indicado.",
+                            "id": "m01l03-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "\"scanf\"",
+                            "result": "scanf não é saída.",
+                            "id": "m01l03-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m01l03-step-09-block-03-simulator"
@@ -2333,7 +2336,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados ao esqueleto mínimo de Portugol/Visualg e C.",
                         "align": "left",
                         "id": "m01l03-step-10-block-02-paragraph"
                       },
@@ -2388,17 +2391,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m01l03-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m01l03-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem confusões reais no primeiro contato com Portugol/Visualg e C?",
                         "align": "left",
                         "id": "m01l03-step-12-block-02-paragraph"
                       },
@@ -2407,17 +2410,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "sobrecarregar com sintaxe demais",
+                            "value": "Achar que mudar a sintaxe muda o algoritmo inteiro.",
                             "answer": true,
                             "id": "m01l03-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "pedir digitação longa antes de entendimento estrutural",
+                            "value": "Confundir `Inicio` ou `main` com a ação principal do problema.",
                             "answer": true,
                             "id": "m01l03-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Começar pelo esqueleto mínimo antes de programas maiores.",
                             "answer": false,
                             "id": "m01l03-step-12-block-03-multiple-choice-option-03"
                           }
@@ -2436,7 +2439,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m01l03-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -2464,9 +2467,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -2556,13 +2559,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l03-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê o esqueleto mínimo de Portugol/Visualg e C sem perder o foco lógico.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m01l03-step-14-block-02-paragraph"
                       },
                       {
@@ -2584,7 +2587,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m02l01",
                 "title": "Variáveis, memória e tipos básicos",
-                "subtitle": "Fazer o estudante entender o que uma variável representa, como ela guarda dados e por que o tipo importa.",
+                "subtitle": "Variável é um nome para um espaço de memória, e o tipo ajuda a prever que valores cabem ali.",
                 "steps": [
                   {
                     "id": "m02l01-step-01",
@@ -2599,13 +2602,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Fazer o estudante entender o que uma variável representa, como ela guarda dados e por que o tipo importa.",
+                        "value": "Variável é um nome para um espaço de memória, e o tipo ajuda a prever que valores cabem ali.",
                         "align": "left",
                         "id": "m02l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em modelo mental de variável + tipos básicos. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m02l01-step-01-block-03-paragraph"
                       },
@@ -2636,9 +2639,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -2749,7 +2752,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m02l01-step-05-block-02-paragraph"
                       },
@@ -3081,16 +3084,6 @@ window.AraLearnBundledContent = {
                         "value": "x = [[]]",
                         "options": [
                           {
-                            "value": "7",
-                            "result": "O novo valor substitui o antigo.",
-                            "id": "m02l01-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "5",
-                            "result": "Isso ignoraria a atualização.",
-                            "id": "m02l01-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "2",
                             "result": "Isso usa só o incremento.",
                             "id": "m02l01-step-09-block-03-simulator-option-03"
@@ -3099,6 +3092,16 @@ window.AraLearnBundledContent = {
                             "value": "52",
                             "result": "Não há concatenação.",
                             "id": "m02l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "7",
+                            "result": "O novo valor substitui o antigo.",
+                            "id": "m02l01-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "5",
+                            "result": "Isso ignoraria a atualização.",
+                            "id": "m02l01-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m02l01-step-09-block-03-simulator"
@@ -3137,7 +3140,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a variáveis, memória e tipos básicos.",
                         "align": "left",
                         "id": "m02l01-step-10-block-02-paragraph"
                       },
@@ -3208,9 +3211,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -3300,13 +3303,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já entende variável como memória nomeada e diferencia tipos básicos e identificadores válidos.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l01-step-12-block-02-paragraph"
                       },
                       {
@@ -3322,7 +3325,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m02l02",
                 "title": "Leia, Escreva, printf, scanf e atribuição",
-                "subtitle": "Consolidar leitura, exibição e atribuição como ações diferentes, mas equivalentes entre as representações.",
+                "subtitle": "Ler, escrever e atribuir são ações diferentes: entrada recebe dados, saída mostra resultados e atribuição atualiza valores.",
                 "steps": [
                   {
                     "id": "m02l02-step-01",
@@ -3337,13 +3340,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Consolidar leitura, exibição e atribuição como ações diferentes, mas equivalentes entre as representações.",
+                        "value": "Ler, escrever e atribuir são ações diferentes: entrada recebe dados, saída mostra resultados e atribuição atualiza valores.",
                         "align": "left",
                         "id": "m02l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em entrada/saída e atribuição com vocabulário operacional. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m02l02-step-01-block-03-paragraph"
                       },
@@ -3374,9 +3377,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -3519,7 +3522,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m02l02-step-05-block-02-paragraph"
                       },
@@ -3681,7 +3684,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição separa leitura, escrita e atribuição.",
+                            "value": "Ler, escrever e atribuir cumprem papéis diferentes no programa.",
                             "align": "left",
                             "id": "m02l02-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -3867,16 +3870,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "7",
-                            "result": "A leitura correta é x = 4 e depois y = 7.",
-                            "id": "m02l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "4",
-                            "result": "Isso mostraria x.",
-                            "id": "m02l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "3",
                             "result": "Isso ignora o valor de x.",
                             "id": "m02l02-step-09-block-03-simulator-option-03"
@@ -3885,6 +3878,16 @@ window.AraLearnBundledContent = {
                             "value": "43",
                             "result": "Não há concatenação.",
                             "id": "m02l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "7",
+                            "result": "A leitura correta é x = 4 e depois y = 7.",
+                            "id": "m02l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "4",
+                            "result": "Isso mostraria x.",
+                            "id": "m02l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m02l02-step-09-block-03-simulator"
@@ -3923,7 +3926,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a entrada, saída e atribuição.",
                         "align": "left",
                         "id": "m02l02-step-10-block-02-paragraph"
                       },
@@ -3978,17 +3981,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m02l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m02l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais sobre entrada, saída e atribuição?",
                         "align": "left",
                         "id": "m02l02-step-12-block-02-paragraph"
                       },
@@ -3997,17 +4000,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Trocar entrada por saída e usar leitura quando deveria mostrar o resultado.",
+                            "answer": true,
                             "id": "m02l02-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "transformar formatação em assunto central cedo demais",
-                            "answer": true,
+                            "value": "Distinguir ler, escrever e atribuir ajuda a interpretar o programa.",
+                            "answer": false,
                             "id": "m02l02-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "o aluno decorar nomes sem entender a ação realizada",
+                            "value": "Ler `=` como comparação, em vez de atualização de valor.",
                             "answer": true,
                             "id": "m02l02-step-12-block-03-multiple-choice-option-01"
                           }
@@ -4026,7 +4029,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m02l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -4054,9 +4057,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -4146,13 +4149,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já diferencia entrada, saída e atribuição e lê seus equivalentes em fluxograma, Portugol/Visualg e C.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l02-step-14-block-02-paragraph"
                       },
                       {
@@ -4168,7 +4171,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m02l03",
                 "title": "Operadores, expressões e programas sequenciais",
-                "subtitle": "Levar o estudante a montar e interpretar cálculos lineares curtos nas três representações.",
+                "subtitle": "Expressões combinam dados e operadores para produzir novos valores dentro de um programa sequencial.",
                 "steps": [
                   {
                     "id": "m02l03-step-01",
@@ -4183,13 +4186,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Levar o estudante a montar e interpretar cálculos lineares curtos nas três representações.",
+                        "value": "Expressões combinam dados e operadores para produzir novos valores dentro de um programa sequencial.",
                         "align": "left",
                         "id": "m02l03-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em expressões e sequência com entrada-processamento-saída. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m02l03-step-01-block-03-paragraph"
                       },
@@ -4220,9 +4223,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -4333,7 +4336,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m02l03-step-05-block-02-paragraph"
                       },
@@ -4495,7 +4498,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição estabiliza a leitura das expressões.",
+                            "value": "O importante é acompanhar a ordem das operações e o valor produzido.",
                             "align": "left",
                             "id": "m02l03-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -4674,16 +4677,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "8",
-                            "result": "O programa calcula e só depois exibe.",
-                            "id": "m02l03-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "12",
-                            "result": "Isso seria soma.",
-                            "id": "m02l03-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "10",
                             "result": "Isso mostraria a.",
                             "id": "m02l03-step-09-block-03-simulator-option-03"
@@ -4692,6 +4685,16 @@ window.AraLearnBundledContent = {
                             "value": "2",
                             "result": "Isso mostraria b.",
                             "id": "m02l03-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "8",
+                            "result": "O programa calcula e só depois exibe.",
+                            "id": "m02l03-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "12",
+                            "result": "Isso seria soma.",
+                            "id": "m02l03-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m02l03-step-09-block-03-simulator"
@@ -4708,7 +4711,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A previsão do comportamento é o foco aqui.",
+                            "value": "O importante é calcular a expressão e prever a saída correta.",
                             "align": "left",
                             "id": "m02l03-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -4730,7 +4733,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a operadores, expressões e sequência.",
                         "align": "left",
                         "id": "m02l03-step-10-block-02-paragraph"
                       },
@@ -4801,9 +4804,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -4893,13 +4896,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l03-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê expressões básicas e monta programas sequenciais curtos pelo padrão entrada-processamento-saída.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m02l03-step-12-block-02-paragraph"
                       },
                       {
@@ -4921,7 +4924,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m03l01",
                 "title": "Condições: operadores relacionais e lógicos",
-                "subtitle": "Preparar o estudante para ler testes de decisão sem confundir comparação com atribuição.",
+                "subtitle": "Condições comparam valores e combinam critérios para decidir quando um ramo deve ser seguido.",
                 "steps": [
                   {
                     "id": "m03l01-step-01",
@@ -4936,13 +4939,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Preparar o estudante para ler testes de decisão sem confundir comparação com atribuição.",
+                        "value": "Condições comparam valores e combinam critérios para decidir quando um ramo deve ser seguido.",
                         "align": "left",
                         "id": "m03l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em comparação e combinação de condições. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m03l01-step-01-block-03-paragraph"
                       },
@@ -4973,9 +4976,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -5086,7 +5089,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m03l01-step-05-block-02-paragraph"
                       },
@@ -5489,16 +5492,6 @@ window.AraLearnBundledContent = {
                         "value": "condicao = [[]]",
                         "options": [
                           {
-                            "value": "falsa",
-                            "result": "A primeira parte passa, a segunda falha.",
-                            "id": "m03l01-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "verdadeira",
-                            "result": "As duas partes precisariam ser verdadeiras.",
-                            "id": "m03l01-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "indefinida",
                             "result": "A condição é bem formada.",
                             "id": "m03l01-step-09-block-03-simulator-option-03"
@@ -5507,6 +5500,16 @@ window.AraLearnBundledContent = {
                             "value": "soma",
                             "result": "O resultado não é numérico.",
                             "id": "m03l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "falsa",
+                            "result": "A primeira parte passa, a segunda falha.",
+                            "id": "m03l01-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "verdadeira",
+                            "result": "As duas partes precisariam ser verdadeiras.",
+                            "id": "m03l01-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m03l01-step-09-block-03-simulator"
@@ -5545,7 +5548,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a operadores relacionais, lógicos e condições.",
                         "align": "left",
                         "id": "m03l01-step-10-block-02-paragraph"
                       },
@@ -5600,17 +5603,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m03l01-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m03l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais ao montar condições?",
                         "align": "left",
                         "id": "m03l01-step-12-block-02-paragraph"
                       },
@@ -5619,17 +5622,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Usar atribuição onde deveria haver comparação.",
+                            "answer": true,
                             "id": "m03l01-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "cobrar condição sem antes alinhar o operador correto",
-                            "answer": true,
+                            "value": "Testar a condição linha a linha antes de decidir o ramo.",
+                            "answer": false,
                             "id": "m03l01-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "misturar três novas convenções em um card só",
+                            "value": "Misturar `e` e `ou` sem verificar o efeito lógico de cada operador.",
                             "answer": true,
                             "id": "m03l01-step-12-block-03-multiple-choice-option-02"
                           }
@@ -5648,7 +5651,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m03l01-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -5676,9 +5679,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -5768,13 +5771,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m03l01-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você já lê operadores relacionais e lógicos e monta condições simples nas três formas do curso.",
-                        "align": "left",
+                        "value": "Você já lê operadores relacionais e lógicos e monta condições simples em fluxograma, Portugol/Visualg e C.",
+                        "align": "center",
                         "id": "m03l01-step-14-block-02-paragraph"
                       },
                       {
@@ -5790,7 +5793,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m03l02",
                 "title": "Se simples e se composto em fluxograma, Portugol e C",
-                "subtitle": "Consolidar a leitura e a escrita de decisão binária nas três formas, com foco especial em fluxograma organizado.",
+                "subtitle": "O se simples e o se composto descrevem decisões binárias com e sem alternativa explícita.",
                 "steps": [
                   {
                     "id": "m03l02-step-01",
@@ -5805,13 +5808,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Consolidar a leitura e a escrita de decisão binária nas três formas, com foco especial em fluxograma organizado.",
+                        "value": "O se simples e o se composto descrevem decisões binárias com e sem alternativa explícita.",
                         "align": "left",
                         "id": "m03l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em desvio simples e composto. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m03l02-step-01-block-03-paragraph"
                       },
@@ -5842,9 +5845,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -5955,7 +5958,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m03l02-step-05-block-02-paragraph"
                       },
@@ -6175,7 +6178,7 @@ window.AraLearnBundledContent = {
                             "row": 2,
                             "column": "left",
                             "shape": "input_output",
-                            "text": "Mostrar \"Recuperacao\"",
+                            "text": "Mostrar \"Recuperação\"",
                             "shapeOptions": [
                               "process"
                             ],
@@ -6281,7 +6284,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "editor",
-                        "value": "Se media >= 6 entao\n  [[Escreva]](\"Aprovado\")\n[[Senao]]\n  [[Escreva]](\"Recuperacao\")\nFimSe",
+                        "value": "Se media >= 6 entao\n  [[Escreva]](\"Aprovado\")\n[[Senao]]\n  [[Escreva]](\"Recuperação\")\nFimSe",
                         "interactionMode": "choice",
                         "options": [
                           {
@@ -6358,16 +6361,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "\"Recuperacao\"",
-                            "result": "Com média 5, o programa segue o ramo falso.",
-                            "id": "m03l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "\"Aprovado\"",
-                            "result": "Isso exigiria condição verdadeira.",
-                            "id": "m03l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "\"Fim\"",
                             "result": "Fim não é mensagem de saída.",
                             "id": "m03l02-step-09-block-03-simulator-option-03"
@@ -6376,6 +6369,16 @@ window.AraLearnBundledContent = {
                             "value": "\"media\"",
                             "result": "A variável não é a mensagem.",
                             "id": "m03l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "\"Recuperação\"",
+                            "result": "Com média 5, o programa segue o ramo falso.",
+                            "id": "m03l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "\"Aprovado\"",
+                            "result": "Isso exigiria condição verdadeira.",
+                            "id": "m03l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m03l02-step-09-block-03-simulator"
@@ -6392,7 +6395,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Prever o ramo executado é o centro desta lição.",
+                            "value": "A chave é testar a condição e identificar qual ramo executa.",
                             "align": "left",
                             "id": "m03l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -6414,7 +6417,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados ao se simples, ao se composto e aos ramos da decisão.",
                         "align": "left",
                         "id": "m03l02-step-10-block-02-paragraph"
                       },
@@ -6469,17 +6472,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m03l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m03l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem confusões reais sobre se simples e se composto?",
                         "align": "left",
                         "id": "m03l02-step-12-block-02-paragraph"
                       },
@@ -6488,17 +6491,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "pedir conversão completa antes de fixar uma forma",
+                            "value": "Esquecer o ramo falso em uma decisão composta.",
                             "answer": true,
                             "id": "m03l02-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Rotular bem os dois caminhos da decisão ajuda a leitura.",
                             "answer": false,
                             "id": "m03l02-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "não mostrar o alinhamento entre condição e ramo",
+                            "value": "Perder o vínculo entre a condição testada e o ramo seguido.",
                             "answer": true,
                             "id": "m03l02-step-12-block-03-multiple-choice-option-02"
                           }
@@ -6517,7 +6520,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m03l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -6545,9 +6548,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -6637,13 +6640,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m03l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já distingue se simples e se composto e acompanha corretamente os ramos da decisão.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m03l02-step-14-block-02-paragraph"
                       },
                       {
@@ -6659,7 +6662,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m03l03",
                 "title": "Se encadeado, ordenação básica e escolha/caso",
-                "subtitle": "Avançar da decisão binária simples para múltiplas alternativas sem perder legibilidade.",
+                "subtitle": "Quando há mais de duas possibilidades, a decisão pode ser encadeada ou organizada por casos.",
                 "steps": [
                   {
                     "id": "m03l03-step-01",
@@ -6674,13 +6677,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Avançar da decisão binária simples para múltiplas alternativas sem perder legibilidade.",
+                        "value": "Quando há mais de duas possibilidades, a decisão pode ser encadeada ou organizada por casos.",
                         "align": "left",
                         "id": "m03l03-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em encadeamento de condições e escolha por casos. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m03l03-step-01-block-03-paragraph"
                       },
@@ -6711,9 +6714,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -6824,7 +6827,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m03l03-step-05-block-02-paragraph"
                       },
@@ -7014,7 +7017,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "editor",
-                        "value": "Se nota >= 6 entao\n  Escreva(\"Aprovado\")\n[[Senao]] Se nota >= 4 entao\n  Escreva(\"Recuperacao\")\n[[Senao]]\n  Escreva(\"Reprovado\")",
+                        "value": "Se nota >= 6 entao\n  Escreva(\"Aprovado\")\n[[Senao]] Se nota >= 4 entao\n  Escreva(\"Recuperação\")\n[[Senao]]\n  Escreva(\"Reprovado\")",
                         "interactionMode": "choice",
                         "options": [
                           {
@@ -7165,16 +7168,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "\"Recuperacao\"",
-                            "result": "A primeira condição falha e a segunda passa.",
-                            "id": "m03l03-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "\"Aprovado\"",
-                            "result": "Isso exigiria nota >= 6.",
-                            "id": "m03l03-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "\"Reprovado\"",
                             "result": "Isso só ocorreria abaixo de 4.",
                             "id": "m03l03-step-09-block-03-simulator-option-03"
@@ -7183,6 +7176,16 @@ window.AraLearnBundledContent = {
                             "value": "\"FimSe\"",
                             "result": "FimSe não é saída.",
                             "id": "m03l03-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "\"Recuperação\"",
+                            "result": "A primeira condição falha e a segunda passa.",
+                            "id": "m03l03-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "\"Aprovado\"",
+                            "result": "Isso exigiria nota >= 6.",
+                            "id": "m03l03-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m03l03-step-09-block-03-simulator"
@@ -7221,7 +7224,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a decisão encadeada, faixas e escolha por casos.",
                         "align": "left",
                         "id": "m03l03-step-10-block-02-paragraph"
                       },
@@ -7276,17 +7279,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m03l03-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m03l03-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem confusões reais sobre decisão encadeada e escolha por casos?",
                         "align": "left",
                         "id": "m03l03-step-12-block-02-paragraph"
                       },
@@ -7295,18 +7298,18 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Montar uma cadeia de ifs sem critério para a ordem das faixas.",
+                            "answer": true,
                             "id": "m03l03-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "árvore de decisão longa demais num único card",
+                            "value": "Usar `switch/case` quando o critério não é por casos discretos.",
                             "answer": true,
                             "id": "m03l03-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "misturar `switch` antes de o caso de uso estar claro",
-                            "answer": true,
+                            "value": "Separar as faixas de valor antes de escrever a solução.",
+                            "answer": false,
                             "id": "m03l03-step-12-block-03-multiple-choice-option-02"
                           }
                         ],
@@ -7324,7 +7327,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m03l03-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -7352,9 +7355,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -7444,13 +7447,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m03l03-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já distingue decisão encadeada de escolha/caso e usa if/else if e switch/case com mais critério.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m03l03-step-14-block-02-paragraph"
                       },
                       {
@@ -7472,7 +7475,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m04l01",
                 "title": "Enquanto: repetição com teste no início",
-                "subtitle": "Introduzir laços pelo padrão mais intuitivo de 'repetir enquanto a condição for verdadeira'.",
+                "subtitle": "O laço enquanto repete um bloco enquanto a condição continuar verdadeira.",
                 "steps": [
                   {
                     "id": "m04l01-step-01",
@@ -7487,13 +7490,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Introduzir laços pelo padrão mais intuitivo de 'repetir enquanto a condição for verdadeira'.",
+                        "value": "O laço enquanto repete um bloco enquanto a condição continuar verdadeira.",
                         "align": "left",
                         "id": "m04l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em estrutura `Enquanto` / `while`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m04l01-step-01-block-03-paragraph"
                       },
@@ -7524,9 +7527,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -7637,7 +7640,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m04l01-step-05-block-02-paragraph"
                       },
@@ -8047,7 +8050,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual saída o laço acima produz antes de parar?",
+                        "value": "Considere i começando em 1, repetição enquanto i <= 3 e incremento de 1 ao fim de cada volta. Qual saída o laço produz antes de parar?",
                         "align": "left",
                         "id": "m04l01-step-09-block-02-paragraph"
                       },
@@ -8055,16 +8058,6 @@ window.AraLearnBundledContent = {
                         "kind": "simulator",
                         "value": "saida = [[]]",
                         "options": [
-                          {
-                            "value": "1 2 3",
-                            "result": "O laço executa enquanto i <= 3.",
-                            "id": "m04l01-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "0 1 2 3",
-                            "result": "Isso exigiria outra inicialização.",
-                            "id": "m04l01-step-09-block-03-simulator-option-02"
-                          },
                           {
                             "value": "1 2 3 4",
                             "result": "A condição bloqueia o 4.",
@@ -8074,6 +8067,16 @@ window.AraLearnBundledContent = {
                             "value": "3 2 1",
                             "result": "A atualização está crescente.",
                             "id": "m04l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "1 2 3",
+                            "result": "O laço executa enquanto i <= 3.",
+                            "id": "m04l01-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "0 1 2 3",
+                            "result": "Isso exigiria outra inicialização.",
+                            "id": "m04l01-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m04l01-step-09-block-03-simulator"
@@ -8112,7 +8115,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados ao enquanto/while e à variável de controle.",
                         "align": "left",
                         "id": "m04l01-step-10-block-02-paragraph"
                       },
@@ -8167,17 +8170,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m04l01-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m04l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais ao ler ou escrever um laço enquanto?",
                         "align": "left",
                         "id": "m04l01-step-12-block-02-paragraph"
                       },
@@ -8186,17 +8189,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "não atualizar a variável de controle",
+                            "value": "Deixar a condição sempre verdadeira e criar laço infinito.",
                             "answer": true,
                             "id": "m04l01-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Acompanhar condição e atualização a cada volta ajuda a prever o laço.",
                             "answer": false,
                             "id": "m04l01-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "laço infinito",
+                            "value": "Esquecer de atualizar a variável de controle.",
                             "answer": true,
                             "id": "m04l01-step-12-block-03-multiple-choice-option-01"
                           }
@@ -8215,7 +8218,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m04l01-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -8243,9 +8246,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -8335,13 +8338,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l01-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê e monta laços Enquanto/while com teste no início e atualização coerente.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l01-step-14-block-02-paragraph"
                       },
                       {
@@ -8357,7 +8360,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m04l02",
                 "title": "Faça...Enquanto: repetir e depois testar",
-                "subtitle": "Comparar laço com teste final ao laço com teste inicial, sem misturar os dois cedo demais.",
+                "subtitle": "No faça...enquanto, o corpo executa uma vez antes de a condição ser testada.",
                 "steps": [
                   {
                     "id": "m04l02-step-01",
@@ -8372,13 +8375,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Comparar laço com teste final ao laço com teste inicial, sem misturar os dois cedo demais.",
+                        "value": "No faça...enquanto, o corpo executa uma vez antes de a condição ser testada.",
                         "align": "left",
                         "id": "m04l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em estrutura `Faça...Enquanto` / `do...while`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m04l02-step-01-block-03-paragraph"
                       },
@@ -8409,9 +8412,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -8522,7 +8525,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m04l02-step-05-block-02-paragraph"
                       },
@@ -8907,16 +8910,6 @@ window.AraLearnBundledContent = {
                         "value": "efeito = [[]]",
                         "options": [
                           {
-                            "value": "O corpo roda uma vez e depois para.",
-                            "result": "Esse é o comportamento esperado do teste final.",
-                            "id": "m04l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "O corpo nunca roda.",
-                            "result": "Isso seria típico do teste inicial.",
-                            "id": "m04l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "O laço roda para sempre.",
                             "result": "O teste final permite parar normalmente.",
                             "id": "m04l02-step-09-block-03-simulator-option-03"
@@ -8925,6 +8918,16 @@ window.AraLearnBundledContent = {
                             "value": "O programa salta para switch.",
                             "result": "Switch não substitui a semântica do laço.",
                             "id": "m04l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "O corpo roda uma vez e depois para.",
+                            "result": "Esse é o comportamento esperado do teste final.",
+                            "id": "m04l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "O corpo nunca roda.",
+                            "result": "Isso seria típico do teste inicial.",
+                            "id": "m04l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m04l02-step-09-block-03-simulator"
@@ -8941,7 +8944,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A comparação com while é o coração desta lição.",
+                            "value": "A diferença central é que o bloco executa antes do teste final.",
                             "align": "left",
                             "id": "m04l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -8963,7 +8966,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados ao faça...enquanto/do...while e ao teste final.",
                         "align": "left",
                         "id": "m04l02-step-10-block-02-paragraph"
                       },
@@ -9034,9 +9037,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -9126,13 +9129,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já compara teste inicial e teste final e reconhece por que do...while garante uma primeira execução.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l02-step-12-block-02-paragraph"
                       },
                       {
@@ -9148,7 +9151,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m04l03",
                 "title": "Para: contagem controlada e faixa conhecida",
-                "subtitle": "Apresentar o laço com variável de controle como ferramenta preferida para contagens finitas.",
+                "subtitle": "O para/for organiza contagens finitas com início, limite e passo bem definidos.",
                 "steps": [
                   {
                     "id": "m04l03-step-01",
@@ -9163,13 +9166,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Apresentar o laço com variável de controle como ferramenta preferida para contagens finitas.",
+                        "value": "O para/for organiza contagens finitas com início, limite e passo bem definidos.",
                         "align": "left",
                         "id": "m04l03-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em estrutura `Para` / `for`. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m04l03-step-01-block-03-paragraph"
                       },
@@ -9200,9 +9203,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -9313,7 +9316,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m04l03-step-05-block-02-paragraph"
                       },
@@ -9723,7 +9726,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual sequência sai do for acima?",
+                        "value": "Considere `for (i = 1; i <= 5; i++)`. Qual sequência esse laço produz?",
                         "align": "left",
                         "id": "m04l03-step-09-block-02-paragraph"
                       },
@@ -9731,16 +9734,6 @@ window.AraLearnBundledContent = {
                         "kind": "simulator",
                         "value": "saida = [[]]",
                         "options": [
-                          {
-                            "value": "1 2 3 4 5",
-                            "result": "A contagem respeita início e limite.",
-                            "id": "m04l03-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "0 1 2 3 4 5",
-                            "result": "Isso exigiria outra inicialização.",
-                            "id": "m04l03-step-09-block-03-simulator-option-02"
-                          },
                           {
                             "value": "1 2 3 4",
                             "result": "Isso pararia cedo demais.",
@@ -9750,6 +9743,16 @@ window.AraLearnBundledContent = {
                             "value": "1 2 3 4 5 6",
                             "result": "Isso passaria do limite.",
                             "id": "m04l03-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "1 2 3 4 5",
+                            "result": "A contagem respeita início e limite.",
+                            "id": "m04l03-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "0 1 2 3 4 5",
+                            "result": "Isso exigiria outra inicialização.",
+                            "id": "m04l03-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m04l03-step-09-block-03-simulator"
@@ -9788,7 +9791,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados ao para/for, à faixa de contagem e ao passo.",
                         "align": "left",
                         "id": "m04l03-step-10-block-02-paragraph"
                       },
@@ -9843,17 +9846,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m04l03-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m04l03-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais ao usar o para/for?",
                         "align": "left",
                         "id": "m04l03-step-12-block-02-paragraph"
                       },
@@ -9862,17 +9865,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "decorar sintaxe sem perceber quando ela é a escolha certa",
+                            "value": "Ignorar início, limite e passo da contagem.",
                             "answer": true,
                             "id": "m04l03-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Ler o cabeçalho inteiro antes do corpo ajuda a interpretação.",
                             "answer": false,
                             "id": "m04l03-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "esconder o papel do incremento",
+                            "value": "Usar `for` sem perceber o papel do incremento.",
                             "answer": true,
                             "id": "m04l03-step-12-block-03-multiple-choice-option-02"
                           }
@@ -9891,7 +9894,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m04l03-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -9919,9 +9922,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -10011,13 +10014,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l03-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê e monta laços Para/for acompanhando início, limite e passo da variável de controle.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l03-step-14-block-02-paragraph"
                       },
                       {
@@ -10033,7 +10036,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m04l04",
                 "title": "Padrões de laço: contador, acumulador, média, maior/menor e menu",
-                "subtitle": "Transformar laços em ferramenta de resolução de problemas recorrentes, e não em mera estrutura sintática.",
+                "subtitle": "Contador, acumulador, média, maior/menor e menu são padrões que reaparecem em muitos problemas de repetição.",
                 "steps": [
                   {
                     "id": "m04l04-step-01",
@@ -10048,13 +10051,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Transformar laços em ferramenta de resolução de problemas recorrentes, e não em mera estrutura sintática.",
+                        "value": "Contador, acumulador, média, maior/menor e menu são padrões que reaparecem em muitos problemas de repetição.",
                         "align": "left",
                         "id": "m04l04-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em padrões funcionais sobre repetição. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m04l04-step-01-block-03-paragraph"
                       },
@@ -10085,9 +10088,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -10198,7 +10201,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m04l04-step-05-block-02-paragraph"
                       },
@@ -10360,7 +10363,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição liga a estrutura ao que ela faz no problema.",
+                            "value": "O essencial é ligar cada padrão ao papel que ele cumpre no problema.",
                             "align": "left",
                             "id": "m04l04-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -10539,16 +10542,6 @@ window.AraLearnBundledContent = {
                         "value": "media = [[]]",
                         "options": [
                           {
-                            "value": "7",
-                            "result": "A soma 21 dividida por 3 resulta em 7.",
-                            "id": "m04l04-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "21",
-                            "result": "Isso é a soma.",
-                            "id": "m04l04-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "6",
                             "result": "Isso usa só a primeira nota.",
                             "id": "m04l04-step-09-block-03-simulator-option-03"
@@ -10557,6 +10550,16 @@ window.AraLearnBundledContent = {
                             "value": "8",
                             "result": "Isso usa só a última nota.",
                             "id": "m04l04-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "7",
+                            "result": "A soma 21 dividida por 3 resulta em 7.",
+                            "id": "m04l04-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "21",
+                            "result": "Isso é a soma.",
+                            "id": "m04l04-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m04l04-step-09-block-03-simulator"
@@ -10595,7 +10598,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a contador, acumulador, média, maior/menor e menu.",
                         "align": "left",
                         "id": "m04l04-step-10-block-02-paragraph"
                       },
@@ -10650,17 +10653,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m04l04-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m04l04-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem confusões reais sobre padrões de repetição?",
                         "align": "left",
                         "id": "m04l04-step-12-block-02-paragraph"
                       },
@@ -10669,17 +10672,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "misturar padrões demais sem rotular o que muda",
+                            "value": "Confundir contador com acumulador.",
                             "answer": true,
                             "id": "m04l04-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "usar problemas grandes antes de consolidar a rotina",
+                            "value": "Misturar média, maior/menor e menu como se fossem o mesmo padrão.",
                             "answer": true,
                             "id": "m04l04-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Nomear o objetivo do laço ajuda a escolher o padrão correto.",
                             "answer": false,
                             "id": "m04l04-step-12-block-03-multiple-choice-option-03"
                           }
@@ -10698,7 +10701,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m04l04-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -10726,9 +10729,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -10818,13 +10821,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l04-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já identifica padrões funcionais sobre laços e diferencia contador, acumulador, média e maior/menor.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m04l04-step-14-block-02-paragraph"
                       },
                       {
@@ -10846,7 +10849,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m05l01",
                 "title": "Vetores: posição, índice e leitura sequencial",
-                "subtitle": "Fazer o estudante compreender vetor como coleção homogênea indexada e manipular leituras/escritas simples.",
+                "subtitle": "Vetor é uma coleção homogênea indexada, em que posição e valor não podem ser confundidos.",
                 "steps": [
                   {
                     "id": "m05l01-step-01",
@@ -10861,13 +10864,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Fazer o estudante compreender vetor como coleção homogênea indexada e manipular leituras/escritas simples.",
+                        "value": "Vetor é uma coleção homogênea indexada, em que posição e valor não podem ser confundidos.",
                         "align": "left",
                         "id": "m05l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em estrutura unidimensional indexada. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m05l01-step-01-block-03-paragraph"
                       },
@@ -10898,9 +10901,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -11011,7 +11014,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m05l01-step-05-block-02-paragraph"
                       },
@@ -11352,16 +11355,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "6",
-                            "result": "A posição 1 aponta para o segundo elemento.",
-                            "id": "m05l01-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "4",
-                            "result": "Isso corresponderia à posição inicial.",
-                            "id": "m05l01-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "8",
                             "result": "Isso corresponderia à última posição.",
                             "id": "m05l01-step-09-block-03-simulator-option-03"
@@ -11370,6 +11363,16 @@ window.AraLearnBundledContent = {
                             "value": "1",
                             "result": "Índice e valor não são a mesma coisa.",
                             "id": "m05l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "6",
+                            "result": "A posição 1 aponta para o segundo elemento.",
+                            "id": "m05l01-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "4",
+                            "result": "Isso corresponderia à posição inicial.",
+                            "id": "m05l01-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m05l01-step-09-block-03-simulator"
@@ -11408,7 +11411,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a vetores, índice, posição e percurso sequencial.",
                         "align": "left",
                         "id": "m05l01-step-10-block-02-paragraph"
                       },
@@ -11463,17 +11466,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m05l01-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m05l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais ao trabalhar com vetores?",
                         "align": "left",
                         "id": "m05l01-step-12-block-02-paragraph"
                       },
@@ -11482,18 +11485,18 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "off-by-one",
+                            "value": "Errar a faixa do vetor e cair em off-by-one.",
                             "answer": true,
                             "id": "m05l01-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Confundir índice com valor armazenado.",
+                            "answer": true,
                             "id": "m05l01-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "confundir declaração com acesso",
-                            "answer": true,
+                            "value": "Lembrar que posição e valor são coisas diferentes ajuda a leitura.",
+                            "answer": false,
                             "id": "m05l01-step-12-block-03-multiple-choice-option-02"
                           }
                         ],
@@ -11511,7 +11514,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m05l01-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -11539,9 +11542,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -11631,13 +11634,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l01-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê vetores por posição, diferencia índice de valor e percorre coleções homogêneas com laços simples.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l01-step-14-block-02-paragraph"
                       },
                       {
@@ -11653,7 +11656,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m05l02",
                 "title": "Matrizes: linhas, colunas e laços aninhados",
-                "subtitle": "Introduzir a leitura e a escrita em duas dimensões com laços aninhados simples.",
+                "subtitle": "Matriz acrescenta a ideia de linha e coluna, exigindo leitura em duas dimensões.",
                 "steps": [
                   {
                     "id": "m05l02-step-01",
@@ -11668,13 +11671,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Introduzir a leitura e a escrita em duas dimensões com laços aninhados simples.",
+                        "value": "Matriz acrescenta a ideia de linha e coluna, exigindo leitura em duas dimensões.",
                         "align": "left",
                         "id": "m05l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em estrutura bidimensional. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m05l02-step-01-block-03-paragraph"
                       },
@@ -11705,9 +11708,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -11818,7 +11821,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m05l02-step-05-block-02-paragraph"
                       },
@@ -12159,16 +12162,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "3",
-                            "result": "A linha 1 e coluna 0 apontam para o primeiro item da segunda linha.",
-                            "id": "m05l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "2",
-                            "result": "Isso seria linha 0, coluna 1.",
-                            "id": "m05l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "4",
                             "result": "Isso seria linha 1, coluna 1.",
                             "id": "m05l02-step-09-block-03-simulator-option-03"
@@ -12177,6 +12170,16 @@ window.AraLearnBundledContent = {
                             "value": "1",
                             "result": "Isso seria linha 0, coluna 0.",
                             "id": "m05l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "3",
+                            "result": "A linha 1 e coluna 0 apontam para o primeiro item da segunda linha.",
+                            "id": "m05l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "2",
+                            "result": "Isso seria linha 0, coluna 1.",
+                            "id": "m05l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m05l02-step-09-block-03-simulator"
@@ -12215,7 +12218,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a matrizes, linhas, colunas e laços aninhados.",
                         "align": "left",
                         "id": "m05l02-step-10-block-02-paragraph"
                       },
@@ -12270,17 +12273,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m05l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m05l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais ao trabalhar com matrizes?",
                         "align": "left",
                         "id": "m05l02-step-12-block-02-paragraph"
                       },
@@ -12289,18 +12292,18 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "aninhamento apresentado de uma vez sem leitura intermediária",
+                            "value": "Trocar linha por coluna ao acessar a matriz.",
                             "answer": true,
                             "id": "m05l02-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "dupla indexação mal explicada",
-                            "answer": true,
+                            "value": "Anotar primeiro a linha e depois a coluna antes de escrever o acesso.",
+                            "answer": false,
                             "id": "m05l02-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Perder a ordem dos laços aninhados.",
+                            "answer": true,
                             "id": "m05l02-step-12-block-03-multiple-choice-option-03"
                           }
                         ],
@@ -12318,7 +12321,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m05l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -12346,9 +12349,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -12438,13 +12441,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê matrizes por linha e coluna e percorre grades simples com laços aninhados.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l02-step-14-block-02-paragraph"
                       },
                       {
@@ -12460,7 +12463,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m05l03",
                 "title": "Relatórios, médias e ordenação com coleções",
-                "subtitle": "Consolidar o uso de vetores e matrizes em problemas mais funcionais: intercalação, média, maior/menor e ordenação simples.",
+                "subtitle": "Coleções permitem montar relatórios, calcular médias, buscar extremos e fazer ordenações simples.",
                 "steps": [
                   {
                     "id": "m05l03-step-01",
@@ -12475,13 +12478,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Consolidar o uso de vetores e matrizes em problemas mais funcionais: intercalação, média, maior/menor e ordenação simples.",
+                        "value": "Coleções permitem montar relatórios, calcular médias, buscar extremos e fazer ordenações simples.",
                         "align": "left",
                         "id": "m05l03-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em algoritmos pequenos sobre coleções. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m05l03-step-01-block-03-paragraph"
                       },
@@ -12512,9 +12515,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -12625,7 +12628,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m05l03-step-05-block-02-paragraph"
                       },
@@ -12787,7 +12790,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição separa agregação de reordenação.",
+                            "value": "Relatório agrega dados; ordenação reorganiza posições.",
                             "align": "left",
                             "id": "m05l03-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -12980,16 +12983,6 @@ window.AraLearnBundledContent = {
                         "value": "maior = [[]]",
                         "options": [
                           {
-                            "value": "9",
-                            "result": "Maior guarda o melhor valor encontrado.",
-                            "id": "m05l03-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "4",
-                            "result": "Isso só vale até aparecer um maior.",
-                            "id": "m05l03-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "6",
                             "result": "Isso ignoraria o 9.",
                             "id": "m05l03-step-09-block-03-simulator-option-03"
@@ -12998,6 +12991,16 @@ window.AraLearnBundledContent = {
                             "value": "19",
                             "result": "O padrão não está somando.",
                             "id": "m05l03-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "9",
+                            "result": "Maior guarda o melhor valor encontrado.",
+                            "id": "m05l03-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "4",
+                            "result": "Isso só vale até aparecer um maior.",
+                            "id": "m05l03-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m05l03-step-09-block-03-simulator"
@@ -13036,7 +13039,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a relatórios, médias e ordenação com coleções.",
                         "align": "left",
                         "id": "m05l03-step-10-block-02-paragraph"
                       },
@@ -13091,17 +13094,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m05l03-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m05l03-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais em algoritmos sobre coleções?",
                         "align": "left",
                         "id": "m05l03-step-12-block-02-paragraph"
                       },
@@ -13110,17 +13113,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "ordenar sem mostrar a regra de comparação e troca",
+                            "value": "Calcular média sem separar soma e divisão.",
                             "answer": true,
                             "id": "m05l03-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Percorrer a coleção com objetivo explícito ajuda a escolher o algoritmo.",
                             "answer": false,
                             "id": "m05l03-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "exercício grande demais",
+                            "value": "Ordenar sem definir a regra de comparação e troca.",
                             "answer": true,
                             "id": "m05l03-step-12-block-03-multiple-choice-option-01"
                           }
@@ -13139,7 +13142,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m05l03-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -13167,9 +13170,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -13259,13 +13262,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l03-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já distingue relatório, média, maior/menor e ordenação simples ao trabalhar com coleções.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m05l03-step-14-block-02-paragraph"
                       },
                       {
@@ -13287,7 +13290,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m06l01",
                 "title": "Registro e struct: vários campos, um mesmo dado composto",
-                "subtitle": "Apresentar estrutura heterogênea como maneira de agrupar campos diferentes de um mesmo cadastro.",
+                "subtitle": "Registro/struct reúne campos de tipos diferentes para representar um mesmo cadastro.",
                 "steps": [
                   {
                     "id": "m06l01-step-01",
@@ -13302,13 +13305,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Apresentar estrutura heterogênea como maneira de agrupar campos diferentes de um mesmo cadastro.",
+                        "value": "Registro/struct reúne campos de tipos diferentes para representar um mesmo cadastro.",
                         "align": "left",
                         "id": "m06l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em registro/struct como novo tipo de dado. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m06l01-step-01-block-03-paragraph"
                       },
@@ -13339,9 +13342,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -13452,7 +13455,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m06l01-step-05-block-02-paragraph"
                       },
@@ -13793,16 +13796,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "8.5",
-                            "result": "O acesso por ponto leva ao campo correto.",
-                            "id": "m06l01-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "\"Ana\"",
-                            "result": "Isso seria o campo nome.",
-                            "id": "m06l01-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "aluno",
                             "result": "O programa mostra o campo, não o registro.",
                             "id": "m06l01-step-09-block-03-simulator-option-03"
@@ -13811,6 +13804,16 @@ window.AraLearnBundledContent = {
                             "value": "media",
                             "result": "O campo tem valor, não só rótulo.",
                             "id": "m06l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "8.5",
+                            "result": "O acesso por ponto leva ao campo correto.",
+                            "id": "m06l01-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "\"Ana\"",
+                            "result": "Isso seria o campo nome.",
+                            "id": "m06l01-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m06l01-step-09-block-03-simulator"
@@ -13827,7 +13830,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A leitura do campo certo é a habilidade nova da lição.",
+                            "value": "A chave é localizar o campo certo dentro do cadastro.",
                             "align": "left",
                             "id": "m06l01-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -13849,7 +13852,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a registro, struct e acesso por campo.",
                         "align": "left",
                         "id": "m06l01-step-10-block-02-paragraph"
                       },
@@ -13904,17 +13907,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m06l01-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m06l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais sobre registro e struct?",
                         "align": "left",
                         "id": "m06l01-step-12-block-02-paragraph"
                       },
@@ -13923,18 +13926,18 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "usar muitos campos de uma vez",
+                            "value": "Misturar campos diferentes como se fossem uma variável só.",
                             "answer": true,
                             "id": "m06l01-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Ler `aluno.nome` sem perceber que o ponto acessa um campo.",
+                            "answer": true,
                             "id": "m06l01-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "apresentar sintaxe longa sem ancoragem semântica",
-                            "answer": true,
+                            "value": "Agrupar nome, idade e média no mesmo registro faz sentido.",
+                            "answer": false,
                             "id": "m06l01-step-12-block-03-multiple-choice-option-01"
                           }
                         ],
@@ -13952,7 +13955,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m06l01-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -13980,9 +13983,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -14072,13 +14075,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m06l01-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já reconhece registro/struct como tipo composto e acessa campos heterogêneos com leitura estável.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m06l01-step-14-block-02-paragraph"
                       },
                       {
@@ -14094,7 +14097,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m06l02",
                 "title": "Vetor de struct e struct aninhada",
-                "subtitle": "Fazer o estudante acessar dados compostos repetidos em vetor, incluindo campos internos simples.",
+                "subtitle": "Quando registros entram em vetores ou em outros registros, a leitura do acesso precisa seguir a estrutura completa.",
                 "steps": [
                   {
                     "id": "m06l02-step-01",
@@ -14109,13 +14112,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Fazer o estudante acessar dados compostos repetidos em vetor, incluindo campos internos simples.",
+                        "value": "Quando registros entram em vetores ou em outros registros, a leitura do acesso precisa seguir a estrutura completa.",
                         "align": "left",
                         "id": "m06l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em acesso `vetor[indice].campo` e campo interno. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m06l02-step-01-block-03-paragraph"
                       },
@@ -14146,9 +14149,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -14259,7 +14262,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m06l02-step-05-block-02-paragraph"
                       },
@@ -14421,7 +14424,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O blueprint pede quebrar a leitura em duas etapas.",
+                            "value": "A leitura correta vem em duas etapas: primeiro o registro, depois o campo interno.",
                             "align": "left",
                             "id": "m06l02-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -14607,16 +14610,6 @@ window.AraLearnBundledContent = {
                         "value": "saida = [[]]",
                         "options": [
                           {
-                            "value": "7.5",
-                            "result": "O acesso composto aponta para esse campo desse elemento.",
-                            "id": "m06l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "1",
-                            "result": "Índice não é o valor guardado.",
-                            "id": "m06l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "media",
                             "result": "O nome do campo não substitui seu conteúdo.",
                             "id": "m06l02-step-09-block-03-simulator-option-03"
@@ -14625,6 +14618,16 @@ window.AraLearnBundledContent = {
                             "value": "turma",
                             "result": "O vetor inteiro não é a saída.",
                             "id": "m06l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "7.5",
+                            "result": "O acesso composto aponta para esse campo desse elemento.",
+                            "id": "m06l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "1",
+                            "result": "Índice não é o valor guardado.",
+                            "id": "m06l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m06l02-step-09-block-03-simulator"
@@ -14641,7 +14644,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A leitura correta do acesso composto é o centro da lição.",
+                            "value": "A chave é seguir o acesso composto sem perder índice, registro e campo.",
                             "align": "left",
                             "id": "m06l02-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -14663,7 +14666,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a vetor de struct e struct aninhada.",
                         "align": "left",
                         "id": "m06l02-step-10-block-02-paragraph"
                       },
@@ -14718,17 +14721,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m06l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m06l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais sobre vetor de struct e struct aninhada?",
                         "align": "left",
                         "id": "m06l02-step-12-block-02-paragraph"
                       },
@@ -14737,12 +14740,12 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "misturar vetor, campo e struct aninhada no mesmo salto sem de...",
+                            "value": "Ler `turma[i].media` ignorando a parte do índice.",
                             "answer": true,
                             "id": "m06l02-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Acessar a estrutura da esquerda para a direita ajuda a interpretação.",
                             "answer": false,
                             "id": "m06l02-step-12-block-03-multiple-choice-option-02"
                           }
@@ -14761,7 +14764,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m06l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -14789,9 +14792,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -14881,13 +14884,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m06l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê vetor de struct e struct aninhada em dois passos estáveis: elemento e campo.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m06l02-step-14-block-02-paragraph"
                       },
                       {
@@ -14909,7 +14912,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m07l01",
                 "title": "Modularização: menu, rotinas e reaproveitamento",
-                "subtitle": "Introduzir a ideia de dividir um programa maior em rotinas reutilizáveis com papéis claros.",
+                "subtitle": "Modularizar é dividir o programa em rotinas com responsabilidade clara e reaproveitável.",
                 "steps": [
                   {
                     "id": "m07l01-step-01",
@@ -14924,13 +14927,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Introduzir a ideia de dividir um programa maior em rotinas reutilizáveis com papéis claros.",
+                        "value": "Modularizar é dividir o programa em rotinas com responsabilidade clara e reaproveitável.",
                         "align": "left",
                         "id": "m07l01-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em sub-rotina como bloco reutilizável. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai ler chamadas simples, papéis de rotina e pequenos trechos equivalentes em fluxograma, Portugol/Visualg e C.",
                         "align": "left",
                         "id": "m07l01-step-01-block-03-paragraph"
                       },
@@ -14961,9 +14964,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -15074,7 +15077,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m07l01-step-05-block-02-paragraph"
                       },
@@ -15332,7 +15335,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Agora preencha o equivalente simples em C.",
+                        "value": "Preencha o equivalente simples em C para uma rotina que só mostra o menu.",
                         "align": "left",
                         "id": "m07l01-step-08-block-02-paragraph"
                       },
@@ -15415,6 +15418,16 @@ window.AraLearnBundledContent = {
                         "value": "papel = [[]]",
                         "options": [
                           {
+                            "value": "Guardar automaticamente o retorno final.",
+                            "result": "mostrarMenu não devolve automaticamente o resultado final do programa.",
+                            "id": "m07l01-step-09-block-03-simulator-option-03"
+                          },
+                          {
+                            "value": "Substituir o programa principal.",
+                            "result": "mostrarMenu não devolve automaticamente o resultado final do programa.",
+                            "id": "m07l01-step-09-block-03-simulator-option-04"
+                          },
+                          {
                             "value": "Exibir as opções ao usuário.",
                             "result": "Essa rotina foca numa ação bem delimitada.",
                             "id": "m07l01-step-09-block-03-simulator-option-01"
@@ -15423,16 +15436,6 @@ window.AraLearnBundledContent = {
                             "value": "Somar todos os dados da aplicação.",
                             "result": "Isso seria outra responsabilidade.",
                             "id": "m07l01-step-09-block-03-simulator-option-02"
-                          },
-                          {
-                            "value": "Guardar automaticamente o retorno final.",
-                            "result": "O foco aqui é ação modular.",
-                            "id": "m07l01-step-09-block-03-simulator-option-03"
-                          },
-                          {
-                            "value": "Substituir o programa principal.",
-                            "result": "A rotina apoia o principal.",
-                            "id": "m07l01-step-09-block-03-simulator-option-04"
                           }
                         ],
                         "id": "m07l01-step-09-block-03-simulator"
@@ -15471,7 +15474,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a menu, rotina e reaproveitamento de código.",
                         "align": "left",
                         "id": "m07l01-step-10-block-02-paragraph"
                       },
@@ -15526,17 +15529,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m07l01-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m07l01-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais sobre modularização?",
                         "align": "left",
                         "id": "m07l01-step-12-block-02-paragraph"
                       },
@@ -15545,17 +15548,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "repetição curta para reforçar leitura",
-                            "answer": false,
+                            "value": "Dar à mesma rotina responsabilidades demais.",
+                            "answer": true,
                             "id": "m07l01-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "abstração excessiva",
-                            "answer": true,
+                            "value": "Dividir tarefas por responsabilidade clareia o programa.",
+                            "answer": false,
                             "id": "m07l01-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "muito texto sobre modularização e pouca prática de leitura de...",
+                            "value": "Achar que o programa principal desaparece quando surgem rotinas auxiliares.",
                             "answer": true,
                             "id": "m07l01-step-12-block-03-multiple-choice-option-02"
                           }
@@ -15574,7 +15577,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m07l01-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -15602,9 +15605,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -15694,13 +15697,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m07l01-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já entende modularização como divisão do programa em rotinas reutilizáveis com papéis claros.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m07l01-step-14-block-02-paragraph"
                       },
                       {
@@ -15716,7 +15719,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "m07l02",
                 "title": "Parâmetros, retorno e síntese integradora",
-                "subtitle": "Consolidar função com parâmetro/retorno e fechar o curso com integração entre formas e temas centrais.",
+                "subtitle": "Parâmetros e retorno permitem construir funções que recebem dados, processam e devolvem resultados.",
                 "steps": [
                   {
                     "id": "m07l02-step-01",
@@ -15731,13 +15734,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Consolidar função com parâmetro/retorno e fechar o curso com integração entre formas e temas centrais.",
+                        "value": "Parâmetros e retorno permitem construir funções que recebem dados, processam e devolvem resultados.",
                         "align": "left",
                         "id": "m07l02-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você vai focar em passagem de parâmetro, retorno e composição final. Primeiro você reconhece a ideia; depois pratica em passos curtos.",
+                        "value": "Nos próximos cards, você vai comparar representações equivalentes e resolver micropráticas curtas para estabilizar a leitura.",
                         "align": "left",
                         "id": "m07l02-step-01-block-03-paragraph"
                       },
@@ -15768,9 +15771,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Vocabulário da lição",
+                        "title": "Vocabulário essencial",
                         "titleStyle": {
-                          "value": "Vocabulário da lição",
+                          "value": "Vocabulário essencial",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -15881,7 +15884,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Veja o mesmo microproblema nas representações do curso. A ideia lógica é a mesma; muda a forma de escrever.",
+                        "value": "Compare o mesmo microproblema em fluxograma, Portugol/Visualg e C. A lógica é a mesma; muda a notação.",
                         "align": "left",
                         "id": "m07l02-step-05-block-02-paragraph"
                       },
@@ -16043,7 +16046,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição estabiliza o que entra, o que sai e qual é o papel da rotina.",
+                            "value": "Uma função precisa deixar claro o que recebe, o que devolve e para que serve.",
                             "align": "left",
                             "id": "m07l02-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -16222,16 +16225,6 @@ window.AraLearnBundledContent = {
                         "value": "resultado = [[]]",
                         "options": [
                           {
-                            "value": "5",
-                            "result": "A função retorna o maior dos argumentos.",
-                            "id": "m07l02-step-09-block-03-simulator-option-01"
-                          },
-                          {
-                            "value": "3",
-                            "result": "Isso seria o menor.",
-                            "id": "m07l02-step-09-block-03-simulator-option-02"
-                          },
-                          {
                             "value": "8",
                             "result": "A função não está somando.",
                             "id": "m07l02-step-09-block-03-simulator-option-03"
@@ -16240,6 +16233,16 @@ window.AraLearnBundledContent = {
                             "value": "2",
                             "result": "Esse valor não aparece no problema.",
                             "id": "m07l02-step-09-block-03-simulator-option-04"
+                          },
+                          {
+                            "value": "5",
+                            "result": "A função retorna o maior dos argumentos.",
+                            "id": "m07l02-step-09-block-03-simulator-option-01"
+                          },
+                          {
+                            "value": "3",
+                            "result": "Isso seria o menor.",
+                            "id": "m07l02-step-09-block-03-simulator-option-02"
                           }
                         ],
                         "id": "m07l02-step-09-block-03-simulator"
@@ -16278,7 +16281,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que fazem parte do vocabulário trabalhado nesta lição.",
+                        "value": "Marque os termos ligados a parâmetro, retorno e chamada de função.",
                         "align": "left",
                         "id": "m07l02-step-10-block-02-paragraph"
                       },
@@ -16333,17 +16336,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "m07l02-step-12",
                     "type": "content",
-                    "title": "Riscos de compreensão",
+                    "title": "Confusões comuns",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Riscos de compreensão",
+                        "value": "Confusões comuns",
                         "align": "left",
                         "id": "m07l02-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais tropeços esta lição quer evitar?",
+                        "value": "Quais opções descrevem erros reais sobre parâmetros e retorno?",
                         "align": "left",
                         "id": "m07l02-step-12-block-02-paragraph"
                       },
@@ -16352,17 +16355,17 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "encerrar com teoria demais e pouca integração prática",
+                            "value": "Chamar a função sem passar os dados necessários.",
                             "answer": true,
                             "id": "m07l02-step-12-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "repetição curta para reforçar leitura",
+                            "value": "Combinar parâmetro e retorno de forma explícita ajuda a leitura.",
                             "answer": false,
                             "id": "m07l02-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "ampliar indevidamente para arquivos em C",
+                            "value": "Esperar retorno de uma rotina que não devolve valor.",
                             "answer": true,
                             "id": "m07l02-step-12-block-03-multiple-choice-option-02"
                           }
@@ -16381,7 +16384,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os itens marcados descrevem exatamente os riscos didáticos que o blueprint registrou.",
+                            "value": "Essas opções apontam confusões que realmente atrapalham a leitura correta do conteúdo.",
                             "align": "left",
                             "id": "m07l02-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -16409,9 +16412,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Checklist da lição",
+                        "title": "Fechamento rápido",
                         "titleStyle": {
-                          "value": "Checklist da lição",
+                          "value": "Fechamento rápido",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -16501,13 +16504,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "m07l02-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Você já lê funções com parâmetros e retorno e fecha o curso integrando fluxograma, Portugol/Visualg e C.",
-                        "align": "left",
+                        "align": "center",
                         "id": "m07l02-step-14-block-02-paragraph"
                       },
                       {
@@ -16527,11 +16530,11 @@ window.AraLearnBundledContent = {
       {
         "id": "matematica-para-informatica-ads-logica-vetores-matrizes-grafos",
         "title": "Matemática para Informática",
-        "description": "Disciplina ofertada pelo Prof. João Vianei Tamanini no curso de ADS do IFSP.\nAborda lógica proposicional, vetores e matrizes e teoria dos grafos.",
+        "description": "Disciplina ofertada pelo Prof. João Vianei Tamanini no curso de ADS do IFSP.\nAborda lógica proposicional, equivalências, técnicas básicas de demonstração, indução matemática, vetores e matrizes e teoria dos grafos.",
         "modules": [
           {
             "id": "mod-1-logica-proposicional",
-            "title": "Lógica proposicional",
+            "title": "Lógica proposicional, equivalências e demonstração inicial",
             "lessons": [
               {
                 "id": "logica-01-proposicoes-traducao",
@@ -16551,7 +16554,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, uma proposição é um enunciado declarativo que pode ser classificado como verdadeiro ou falso.",
+                        "value": "Uma proposição é um enunciado declarativo cujo significado pode ser avaliado por condições de verdade: em que situações ela seria verdadeira ou falsa.",
                         "align": "left",
                         "id": "logica-01-proposicoes-traducao-step-01-block-02-paragraph"
                       },
@@ -16924,7 +16927,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual leitura corresponde melhor a ~Q?",
+                        "value": "Use Q = boleto pago. Qual leitura em português natural corresponde melhor a ~Q?",
                         "align": "left",
                         "id": "logica-01-proposicoes-traducao-step-06-block-02-paragraph"
                       },
@@ -16938,7 +16941,7 @@ window.AraLearnBundledContent = {
                             "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "Não Q.",
+                            "value": "O boleto não foi pago.",
                             "answer": true,
                             "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-02"
                           },
@@ -17063,7 +17066,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Ainda com P = matrícula ativa, qual frase representa melhor ~P?",
+                        "value": "Considere P = matrícula ativa. Qual frase representa melhor ~P?",
                         "align": "left",
                         "id": "logica-01-proposicoes-traducao-step-08-block-02-paragraph"
                       },
@@ -17357,11 +17360,6 @@ window.AraLearnBundledContent = {
                         "value": "O enunciado [[]] entra na lógica proposicional.",
                         "options": [
                           {
-                            "value": "'O servidor respondeu.'",
-                            "result": "Entra, porque é declarativo e pode ser verdadeiro ou falso.",
-                            "id": "logica-01-proposicoes-traducao-step-11-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "'Atualize a senha.'",
                             "result": "Não entra, porque é comando.",
                             "id": "logica-01-proposicoes-traducao-step-11-block-03-simulator-option-02"
@@ -17370,6 +17368,11 @@ window.AraLearnBundledContent = {
                             "value": "'x > 5'",
                             "result": "Não entra como proposição fechada.",
                             "id": "logica-01-proposicoes-traducao-step-11-block-03-simulator-option-03"
+                          },
+                          {
+                            "value": "'O servidor respondeu.'",
+                            "result": "Entra, porque é declarativo e pode ser verdadeiro ou falso.",
+                            "id": "logica-01-proposicoes-traducao-step-11-block-03-simulator-option-01"
                           }
                         ],
                         "id": "logica-01-proposicoes-traducao-step-11-block-03-simulator"
@@ -17570,7 +17573,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "não ocorre que P e Q",
+                              "value": "não é verdade que a senha está correta e o token está válido",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -17586,7 +17589,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "não P, e Q",
+                              "value": "a senha não está correta e o token está válido",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -17756,7 +17759,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Ainda com P e Q, complete a fórmula de: a senha está correta ou o token está válido.",
+                        "value": "Use P = senha correta e Q = token válido. Complete a fórmula de: a senha está correta ou o token está válido.",
                         "align": "left",
                         "id": "logica-02-conectivos-basicos-step-05-block-02-paragraph"
                       },
@@ -17839,14 +17842,14 @@ window.AraLearnBundledContent = {
                         "value": "Se P = [[]] e Q = verdadeiro, qual é a leitura de P v Q?",
                         "options": [
                           {
-                            "value": "verdadeiro",
-                            "result": "Com P verdadeiro e Q verdadeiro, a disjunção continua verdadeira.",
-                            "id": "logica-02-conectivos-basicos-step-06-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "falso",
                             "result": "Se as duas forem falsas, aí sim a disjunção falha.",
                             "id": "logica-02-conectivos-basicos-step-06-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "verdadeiro",
+                            "result": "Com P verdadeiro e Q verdadeiro, a disjunção continua verdadeira.",
+                            "id": "logica-02-conectivos-basicos-step-06-block-03-simulator-option-01"
                           }
                         ],
                         "id": "logica-02-conectivos-basicos-step-06-block-03-simulator"
@@ -18002,7 +18005,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A fórmula é P v Q. Marque a leitura mais justa para o curso.",
+                        "value": "A fórmula é P v Q. Qual leitura natural preserva a disjunção inclusiva?",
                         "align": "left",
                         "id": "logica-02-conectivos-basicos-step-09-block-02-paragraph"
                       },
@@ -18181,7 +18184,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os dois tropeços mais frequentes aqui são o ou exclusivo e a negação aplicada ao pedaço errado.",
+                            "value": "Os erros mais comuns aqui são ler o ou como exclusivo e negar o trecho errado da fórmula.",
                             "align": "left",
                             "id": "logica-02-conectivos-basicos-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -19067,7 +19070,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque as interpretações que o curso considera inadequadas.",
+                        "value": "Marque as interpretações logicamente inadequadas.",
                         "align": "left",
                         "id": "logica-03-implicacao-bicondicional-step-09-block-02-paragraph"
                       },
@@ -19556,7 +19559,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Para P e Q, a tabela precisa cobrir as quatro combinações possíveis.",
+                        "value": "Para este card, use a ordem padrão VV, VF, FV, FF ao listar as quatro combinações de P e Q.",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-02-block-02-paragraph"
                       },
@@ -20031,7 +20034,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "V",
+                              "value": "F",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -20098,7 +20101,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual coluna final está correta para P ^ Q?",
+                        "value": "Usando a ordem VV, VF, FV, FF, qual coluna final está correta para P ^ Q?",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-06-block-02-paragraph"
                       },
@@ -20279,7 +20282,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Na implicação, só a linha V/F gera falso.",
+                        "value": "Usando a ordem VV, VF, FV, FF, qual coluna final combina com P -> Q?",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-08-block-02-paragraph"
                       },
@@ -20997,7 +21000,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual coluna final combina com P <-> Q?",
+                        "value": "Usando a ordem VV, VF, FV, FF, qual coluna final combina com P <-> Q?",
                         "align": "left",
                         "id": "logica-04-tabelas-verdade-step-14-block-02-paragraph"
                       },
@@ -21079,7 +21082,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "logica-05-equivalencia-e-classificacao",
                 "title": "Equivalência lógica e leitura final das fórmulas",
-                "subtitle": "Comparar fórmulas por tabela-verdade e usar a leitura completa da tabela para reconhecer equivalências e classificar casos simples.",
+                "subtitle": "Fórmulas equivalentes preservam valor lógico; tabelas, leitura natural e leis ajudam a comparar sem cair na aparência.",
                 "steps": [
                   {
                     "id": "logica-05-equivalencia-e-classificacao-step-01",
@@ -21478,7 +21481,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual afirmação está alinhada com a regra do curso?",
+                        "value": "Qual afirmação respeita o critério correto de equivalência?",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-04-block-02-paragraph"
                       },
@@ -21740,7 +21743,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Considere as fórmulas ~(P v Q) e ~P ^ ~Q. O que você precisa observar para decidir se elas são equivalentes?",
+                        "value": "Considere ~(P v Q). Qual fórmula é equivalente a ela pela lei de De Morgan?",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-08-block-02-paragraph"
                       },
@@ -21749,22 +21752,22 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Se as colunas finais das duas fórmulas coincidirem linha a linha.",
+                            "value": "~P ^ ~Q",
                             "answer": true,
                             "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "Se as fórmulas tiverem o mesmo número de símbolos.",
+                            "value": "~P v ~Q",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "Se as duas começarem com negação.",
+                            "value": "P v Q",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Se a primeira parecer mais simples.",
+                            "value": "P ^ Q",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-04"
                           }
@@ -21805,15 +21808,15 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A coluna final abaixo veio de uma fórmula em contexto de software. Classifique-a.",
+                        "value": "A coluna final abaixo veio de uma fórmula em contexto de software. Classifique essa coluna.",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-09-block-02-paragraph"
                       },
                       {
                         "kind": "table",
-                        "title": "Coluna final",
+                        "title": "Coluna final observada",
                         "titleStyle": {
-                          "value": "Coluna final",
+                          "value": "Coluna final observada",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -21821,28 +21824,14 @@ window.AraLearnBundledContent = {
                         },
                         "headers": [
                           {
-                            "value": "Linha 1",
+                            "value": "Linha",
                             "bold": true,
                             "italic": false,
                             "tone": "default",
                             "align": "left"
                           },
                           {
-                            "value": "Linha 2",
-                            "bold": true,
-                            "italic": false,
-                            "tone": "default",
-                            "align": "left"
-                          },
-                          {
-                            "value": "Linha 3",
-                            "bold": true,
-                            "italic": false,
-                            "tone": "default",
-                            "align": "left"
-                          },
-                          {
-                            "value": "Linha 4",
+                            "value": "Valor",
                             "bold": true,
                             "italic": false,
                             "tone": "default",
@@ -21852,7 +21841,23 @@ window.AraLearnBundledContent = {
                         "rows": [
                           [
                             {
+                              "value": "1",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
                               "value": "V",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "2",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -21864,9 +21869,27 @@ window.AraLearnBundledContent = {
                               "italic": false,
                               "tone": "default",
                               "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "3",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
                             },
                             {
                               "value": "V",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "4",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -22070,15 +22093,15 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A leitura natural continua útil: ela ajuda a lembrar o que a fórmula quer dizer, mas quem decide equivalência, tautologia, contradição e contingência é a tabela.",
+                        "value": "A leitura em português natural continua útil para lembrar as condições de verdade, e as leis de equivalência ajudam a transformar fórmulas sem depender só da tabela.",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-12-block-02-paragraph"
                       },
                       {
                         "kind": "table",
-                        "title": "Ponte final",
+                        "title": "Ponte entre leitura e checagem",
                         "titleStyle": {
-                          "value": "Ponte final",
+                          "value": "Ponte entre leitura e checagem",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -22086,14 +22109,14 @@ window.AraLearnBundledContent = {
                         },
                         "headers": [
                           {
-                            "value": "Leitura natural",
+                            "value": "Tarefa",
                             "bold": true,
                             "italic": false,
                             "tone": "default",
                             "align": "left"
                           },
                           {
-                            "value": "Checagem formal",
+                            "value": "Ferramenta principal",
                             "bold": true,
                             "italic": false,
                             "tone": "default",
@@ -22103,14 +22126,14 @@ window.AraLearnBundledContent = {
                         "rows": [
                           [
                             {
-                              "value": "entender a frase",
+                              "value": "Entender a frase",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
                               "align": "left"
                             },
                             {
-                              "value": "sim",
+                              "value": "leitura natural e condições de verdade",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -22119,14 +22142,14 @@ window.AraLearnBundledContent = {
                           ],
                           [
                             {
-                              "value": "provar equivalência",
+                              "value": "Comparar fórmulas linha a linha",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
                               "align": "left"
                             },
                             {
-                              "value": "tabela",
+                              "value": "tabela-verdade",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -22135,14 +22158,14 @@ window.AraLearnBundledContent = {
                           ],
                           [
                             {
-                              "value": "classificar a fórmula",
+                              "value": "Reescrever a fórmula sem mudar o sentido",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
                               "align": "left"
                             },
                             {
-                              "value": "coluna final",
+                              "value": "leis de equivalência",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -22167,13 +22190,13 @@ window.AraLearnBundledContent = {
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Fechamento do módulo de lógica",
+                        "value": "Fechamento da base inicial de lógica",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-13-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você percorreu o ciclo completo: frase natural, fórmula, conectivos, tabelas-verdade e comparação formal.",
+                        "value": "Você fechou a base inicial: leitura natural, conectivos, tabelas-verdade, equivalência e classificação das fórmulas.",
                         "align": "left",
                         "id": "logica-05-equivalencia-e-classificacao-step-13-block-02-paragraph"
                       },
@@ -22182,14 +22205,14 @@ window.AraLearnBundledContent = {
                         "value": "Se duas fórmulas têm [[]] em todas as linhas, então são equivalentes.",
                         "options": [
                           {
-                            "value": "a mesma coluna final",
-                            "result": "Esse é exatamente o critério formal de equivalência.",
-                            "id": "logica-05-equivalencia-e-classificacao-step-13-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "o mesmo número de símbolos",
                             "result": "Isso não basta para provar equivalência.",
                             "id": "logica-05-equivalencia-e-classificacao-step-13-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "a mesma coluna final",
+                            "result": "Esse é exatamente o critério formal de equivalência.",
+                            "id": "logica-05-equivalencia-e-classificacao-step-13-block-03-simulator-option-01"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-13-block-03-simulator"
@@ -22215,7 +22238,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você já usa a tabela-verdade para comparar fórmulas e para classificar leituras globais como tautologia, contradição e contingência.",
+                        "value": "Você já usa tabela-verdade, leitura natural e equivalências clássicas para comparar e classificar fórmulas nesta base inicial.",
                         "align": "center",
                         "id": "logica-05-equivalencia-e-classificacao-step-14-block-02-paragraph"
                       },
@@ -22224,6 +22247,2039 @@ window.AraLearnBundledContent = {
                         "popupEnabled": false,
                         "popupBlocks": [],
                         "id": "logica-05-equivalencia-e-classificacao-step-14-block-03-button"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "logica-06-leis-de-equivalencia",
+                "title": "Leis de equivalência em símbolos e em português",
+                "subtitle": "Você vai operar equivalências clássicas em símbolos e em português natural, sem depender só da tabela-verdade.",
+                "steps": [
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-01",
+                    "type": "content",
+                    "title": "Leis de equivalência em símbolos e em português",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Leis de equivalência em símbolos e em português",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-01-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Uma equivalência lógica preserva as condições de verdade da fórmula. Em português natural, isso significa descrever as mesmas situações em que a frase seria verdadeira ou falsa.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-01-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Leis centrais",
+                        "titleStyle": {
+                          "value": "Leis centrais",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Lei",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Fórmula",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Leitura útil",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "dupla negação",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "~~P ≡ P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "negar duas vezes devolve a frase original",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "De Morgan",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "~(P ^ Q) ≡ ~P v ~Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "negar um E abre um OU entre negações",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "implicação",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "P -> Q ≡ ~P v Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "a seta falha só no caso V/F",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-01-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-01-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-02",
+                    "type": "content",
+                    "title": "Reconheça a dupla negação",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Reconheça a dupla negação",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-02-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Se P = servidor online, qual fórmula é equivalente a ~~P?",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-02-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-02-block-03-multiple-choice-option-01",
+                            "value": "P",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-02-block-03-multiple-choice-option-02",
+                            "value": "~P",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-02-block-03-multiple-choice-option-03",
+                            "value": "P v ~P",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-02-block-03-multiple-choice-option-04",
+                            "value": "P ^ ~P",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-02-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-02-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-03",
+                    "type": "content",
+                    "title": "Use De Morgan na conjunção",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Use De Morgan na conjunção",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-03-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Complete a equivalência clássica de De Morgan.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-03-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "~(P ^ Q) ≡ [[~P v ~Q]]",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-03-block-03-editor-option-01",
+                            "value": "~P v ~Q",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-03-block-03-editor-option-02",
+                            "value": "~P ^ ~Q",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-03-block-03-editor-option-03",
+                            "value": "P v Q",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-03-block-03-editor-option-04",
+                            "value": "P ^ Q",
+                            "enabled": false,
+                            "displayOrder": 3,
+                            "slotOrder": 3
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-03-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-03-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-04",
+                    "type": "content",
+                    "title": "Leia De Morgan em português",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Leia De Morgan em português",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-04-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Considere P = senha correta e Q = token válido. Qual leitura corresponde melhor a ~(P v Q)?",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-04-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-04-block-03-multiple-choice-option-01",
+                            "value": "A senha não está correta e o token não está válido.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-04-block-03-multiple-choice-option-02",
+                            "value": "A senha não está correta ou o token está válido.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-04-block-03-multiple-choice-option-03",
+                            "value": "A senha está correta e o token está válido.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-04-block-03-multiple-choice-option-04",
+                            "value": "Se a senha está correta, então o token está válido.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-04-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-04-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-05",
+                    "type": "content",
+                    "title": "Reescreva uma implicação",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Reescreva uma implicação",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-05-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Complete a equivalência clássica da implicação.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-05-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "P -> Q ≡ [[~P v Q]]",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-05-block-03-editor-option-01",
+                            "value": "~P v Q",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-05-block-03-editor-option-02",
+                            "value": "P v ~Q",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-05-block-03-editor-option-03",
+                            "value": "~P ^ Q",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-05-block-03-editor-option-04",
+                            "value": "P ^ Q",
+                            "enabled": false,
+                            "displayOrder": 3,
+                            "slotOrder": 3
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-05-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-05-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-06",
+                    "type": "content",
+                    "title": "Entenda o que a equivalência preserva",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Entenda o que a equivalência preserva",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-06-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual afirmação está correta sobre P -> Q e ~P v Q?",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-06-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-06-block-03-multiple-choice-option-01",
+                            "value": "Elas preservam as mesmas condições de verdade.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-06-block-03-multiple-choice-option-02",
+                            "value": "Só são equivalentes quando P e Q são ambos verdadeiros.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-06-block-03-multiple-choice-option-03",
+                            "value": "Parecem parecidas, mas não podem ser comparadas formalmente.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-06-block-03-multiple-choice-option-04",
+                            "value": "Têm a mesma quantidade de símbolos, por isso bastam.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-06-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-06-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-07",
+                    "type": "content",
+                    "title": "Desmonte o bicondicional",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Desmonte o bicondicional",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-07-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "O bicondicional exige ida e volta: cada lado precisa implicar o outro.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-07-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Leitura do bicondicional",
+                        "titleStyle": {
+                          "value": "Leitura do bicondicional",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Forma",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Leitura útil",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "P <-> Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "P e Q têm o mesmo valor de verdade",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "P -> Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "sempre que P vale, Q também vale",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "Q -> P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "sempre que Q vale, P também vale",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-07-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-07-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-08",
+                    "type": "content",
+                    "title": "Complete a equivalência do bicondicional",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Complete a equivalência do bicondicional",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-08-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Reescreva o bicondicional como conjunção de duas implicações.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-08-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "P <-> Q ≡ [[(P -> Q) ^ (Q -> P)]]",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-08-block-03-editor-option-01",
+                            "value": "(P -> Q) ^ (Q -> P)",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-08-block-03-editor-option-02",
+                            "value": "(P -> Q) v (Q -> P)",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-08-block-03-editor-option-03",
+                            "value": "~P v ~Q",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-08-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-08-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-09",
+                    "type": "content",
+                    "title": "Escolha uma cadeia válida",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Escolha uma cadeia válida",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-09-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual sequência usa leis de equivalência corretamente para reescrever ~(P v Q)?",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-09-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-09-block-03-multiple-choice-option-01",
+                            "value": "~(P v Q) ≡ ~P ^ ~Q",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-09-block-03-multiple-choice-option-02",
+                            "value": "~(P v Q) ≡ ~P v ~Q",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-09-block-03-multiple-choice-option-03",
+                            "value": "~(P v Q) ≡ P ^ Q",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-06-leis-de-equivalencia-step-09-block-03-multiple-choice-option-04",
+                            "value": "~(P v Q) ≡ P v Q",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-09-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-09-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-10",
+                    "type": "content",
+                    "title": "Tabela e leis se complementam",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Tabela e leis se complementam",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-10-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Quando a tabela-verdade cresce, as leis de equivalência ajudam a transformar a fórmula sem perder as condições de verdade.",
+                        "align": "left",
+                        "id": "logica-06-leis-de-equivalencia-step-10-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Escolha da ferramenta",
+                        "titleStyle": {
+                          "value": "Escolha da ferramenta",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Meta",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Ferramenta principal",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "lembrar o sentido da fórmula",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "leitura natural",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "comparar duas fórmulas por exaustão",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "tabela-verdade",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "simplificar ou reescrever a fórmula",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "leis de equivalência",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-06-leis-de-equivalencia-step-10-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-10-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-06-leis-de-equivalencia-step-11",
+                    "type": "lesson_complete",
+                    "title": "Lição concluída",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Lição concluída",
+                        "align": "center",
+                        "id": "logica-06-leis-de-equivalencia-step-11-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Você já usa dupla negação, De Morgan, implicação e bicondicional como equivalências operáveis em símbolo e em português.",
+                        "align": "center",
+                        "id": "logica-06-leis-de-equivalencia-step-11-block-02-paragraph"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-06-leis-de-equivalencia-step-11-block-03-button"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "logica-07-contraposicao-e-contradicao",
+                "title": "Contraposição e contradição: primeiros esquemas de prova",
+                "subtitle": "Técnicas de prova começam pela forma da sentença: implicação pede hipótese, contraposição troca o foco e contradição assume o oposto.",
+                "steps": [
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-01",
+                    "type": "content",
+                    "title": "Contraposição e contradição: primeiros esquemas de prova",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Contraposição e contradição: primeiros esquemas de prova",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-01-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Escolher a técnica certa já organiza metade da prova: a forma da sentença indica por onde começar.",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-01-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Mapa inicial",
+                        "titleStyle": {
+                          "value": "Mapa inicial",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Forma da sentença",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Primeiro movimento",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "P -> Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "assuma P e tente provar Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "P -> Q difícil",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "tente a contrapositiva ~Q -> ~P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "quer provar P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "assuma ~P e derive uma contradição",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-01-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-01-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-02",
+                    "type": "content",
+                    "title": "Ache a contrapositiva",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Ache a contrapositiva",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-02-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual é a contrapositiva de P -> Q?",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-02-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-02-block-03-multiple-choice-option-01",
+                            "value": "~Q -> ~P",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-02-block-03-multiple-choice-option-02",
+                            "value": "~P -> ~Q",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-02-block-03-multiple-choice-option-03",
+                            "value": "Q -> P",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-02-block-03-multiple-choice-option-04",
+                            "value": "~P v Q",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-02-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-02-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-03",
+                    "type": "content",
+                    "title": "Complete a contrapositiva",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Complete a contrapositiva",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-03-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "P -> Q equivale à sua contrapositiva. Complete a fórmula.",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-03-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "~Q -> [[~P]]",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-03-block-03-editor-option-01",
+                            "value": "~P",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-03-block-03-editor-option-02",
+                            "value": "P",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-03-block-03-editor-option-03",
+                            "value": "Q",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-03-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-03-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-04",
+                    "type": "content",
+                    "title": "Leia a mudança de foco",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Leia a mudança de foco",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-04-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Se P = n é múltiplo de 10 e Q = n é par, qual frase expressa a contrapositiva?",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-04-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-04-block-03-multiple-choice-option-01",
+                            "value": "Se n não é par, então n não é múltiplo de 10.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-04-block-03-multiple-choice-option-02",
+                            "value": "Se n é par, então n é múltiplo de 10.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-04-block-03-multiple-choice-option-03",
+                            "value": "Se n é múltiplo de 10, então n não é par.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-04-block-03-multiple-choice-option-04",
+                            "value": "n é par se, e somente se, n é múltiplo de 10.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-04-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-04-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-05",
+                    "type": "content",
+                    "title": "Entenda a prova por contradição",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Entenda a prova por contradição",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-05-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Na contradição, você assume o oposto do que quer provar e mostra que essa hipótese leva a um absurdo.",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-05-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Esqueleto da contradição",
+                        "titleStyle": {
+                          "value": "Esqueleto da contradição",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Etapa",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Ideia",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "objetivo P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "assuma ~P",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "desenvolvimento",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "derive uma impossibilidade",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "conclusão",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "~P não pode ser verdade, então P vale",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-05-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-05-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-06",
+                    "type": "content",
+                    "title": "Escolha o começo correto",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Escolha o começo correto",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-06-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Para provar P por contradição, qual movimento inicial está correto?",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-06-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-06-block-03-multiple-choice-option-01",
+                            "value": "Assumir ~P e procurar uma impossibilidade.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-06-block-03-multiple-choice-option-02",
+                            "value": "Assumir P e declarar o resultado óbvio.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-06-block-03-multiple-choice-option-03",
+                            "value": "Montar uma tabela-verdade mesmo sem fórmula.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-06-block-03-multiple-choice-option-04",
+                            "value": "Trocar imediatamente P por Q.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-06-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-06-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-07",
+                    "type": "content",
+                    "title": "Planeje uma prova direta",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Planeje uma prova direta",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-07-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual plano combina com a prova de: se n é múltiplo de 10, então n é par?",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-07-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-07-block-03-multiple-choice-option-01",
+                            "value": "Assuma n = 10k e mostre que n = 2(5k).",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-07-block-03-multiple-choice-option-02",
+                            "value": "Assuma que n é par e conclua que ele é múltiplo de 10.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-07-block-03-multiple-choice-option-03",
+                            "value": "Basta dar o exemplo n = 20.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-07-block-03-multiple-choice-option-04",
+                            "value": "Troque a afirmação por um bicondicional.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-07-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-07-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-08",
+                    "type": "content",
+                    "title": "Evite salto de fé",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Evite salto de fé",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-08-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual hábito prejudica uma prova curta mesmo quando a ideia geral está certa?",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-08-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-08-block-03-multiple-choice-option-01",
+                            "value": "Escrever “é óbvio” sem justificar o passo.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-08-block-03-multiple-choice-option-02",
+                            "value": "Dizer qual hipótese está sendo usada.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-08-block-03-multiple-choice-option-03",
+                            "value": "Separar o objetivo em subtarefas.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-07-contraposicao-e-contradicao-step-08-block-03-multiple-choice-option-04",
+                            "value": "Nomear a contrapositiva antes de começar.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-08-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-08-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-09",
+                    "type": "content",
+                    "title": "Relacione técnica e formato",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Relacione técnica e formato",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-09-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "A forma da sentença sugere o desenho da prova antes mesmo dos detalhes matemáticos.",
+                        "align": "left",
+                        "id": "logica-07-contraposicao-e-contradicao-step-09-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Atalhos de leitura",
+                        "titleStyle": {
+                          "value": "Atalhos de leitura",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Objetivo",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Pergunta inicial",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "para todo x, P(x)",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "qual é o elemento arbitrário?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "P -> Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "qual hipótese entra primeiro?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "P <-> Q",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "quais duas implicações precisam ser provadas?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-07-contraposicao-e-contradicao-step-09-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-09-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-07-contraposicao-e-contradicao-step-10",
+                    "type": "lesson_complete",
+                    "title": "Lição concluída",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Lição concluída",
+                        "align": "center",
+                        "id": "logica-07-contraposicao-e-contradicao-step-10-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Você já reconhece quando começar por prova direta, contraposição ou contradição e evita os atalhos de justificativa mais frágeis.",
+                        "align": "center",
+                        "id": "logica-07-contraposicao-e-contradicao-step-10-block-02-paragraph"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-07-contraposicao-e-contradicao-step-10-block-03-button"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "logica-08-inducao-matematica-introdutoria",
+                "title": "Indução matemática: base, hipótese e passo",
+                "subtitle": "Indução prova afirmações sobre todos os naturais com base, hipótese indutiva e passo indutivo.",
+                "steps": [
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-01",
+                    "type": "content",
+                    "title": "Indução matemática: base, hipótese e passo",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Indução matemática: base, hipótese e passo",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-01-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Para provar uma afirmação sobre todo número natural, a indução fixa um ponto de partida e mostra como avançar do caso n para n + 1.",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-01-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Peças da indução",
+                        "titleStyle": {
+                          "value": "Peças da indução",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Peça",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Pergunta",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "base",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "a afirmação vale no primeiro caso?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "hipótese indutiva",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "o que posso assumir para um n arbitrário?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "passo indutivo",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "como mostro o caso n + 1?",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-01-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-01-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-02",
+                    "type": "content",
+                    "title": "Escolha a base",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Escolha a base",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-02-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Para P(n): 1 + 2 + ... + n = n(n + 1)/2, qual é o caso base mais natural nesta trilha?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-02-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-02-block-03-multiple-choice-option-01",
+                            "value": "n = 0",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-02-block-03-multiple-choice-option-02",
+                            "value": "n = 7",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-02-block-03-multiple-choice-option-03",
+                            "value": "n = 10",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-02-block-03-multiple-choice-option-04",
+                            "value": "qualquer n já serve como base",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-02-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-02-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-03",
+                    "type": "content",
+                    "title": "Formule o passo",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Formule o passo",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-03-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "No passo indutivo, você assume P(n) e precisa provar o caso seguinte.",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-03-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "Assuma P(n) e prove [[P(n + 1)]].",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-03-block-03-editor-option-01",
+                            "value": "P(n + 1)",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-03-block-03-editor-option-02",
+                            "value": "P(n - 1)",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-03-block-03-editor-option-03",
+                            "value": "P(0)",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-03-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-03-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-04",
+                    "type": "content",
+                    "title": "Leia a hipótese indutiva",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Leia a hipótese indutiva",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-04-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Se P(n) afirma 1 + 2 + ... + n = n(n + 1)/2, o que a hipótese indutiva autoriza usar?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-04-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-04-block-03-multiple-choice-option-01",
+                            "value": "Que 1 + 2 + ... + n = n(n + 1)/2 vale para um n arbitrário.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-04-block-03-multiple-choice-option-02",
+                            "value": "Que P(n + 1) já está provada.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-04-block-03-multiple-choice-option-03",
+                            "value": "Que a fórmula vale só para n = 1.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-04-block-03-multiple-choice-option-04",
+                            "value": "Que toda soma é automaticamente verdadeira.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-04-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-04-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-05",
+                    "type": "content",
+                    "title": "Passe para n + 1",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Passe para n + 1",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-05-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "A passagem principal é acrescentar n + 1 aos dois lados da igualdade da hipótese indutiva.",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-05-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Movimento do passo",
+                        "titleStyle": {
+                          "value": "Movimento do passo",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Lado",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "Depois de somar n + 1",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "1 + 2 + ... + n",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "1 + 2 + ... + n + (n + 1)",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "n(n + 1)/2",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "n(n + 1)/2 + (n + 1)",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-05-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-05-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-06",
+                    "type": "content",
+                    "title": "Complete a expressão final",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Complete a expressão final",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-06-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Depois de simplificar o passo indutivo, qual forma correta aparece para o caso n + 1?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-06-block-02-paragraph"
+                      },
+                      {
+                        "kind": "editor",
+                        "value": "1 + 2 + ... + n + (n + 1) = [[(n + 1)(n + 2)/2]]",
+                        "interactionMode": "choice",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-06-block-03-editor-option-01",
+                            "value": "(n + 1)(n + 2)/2",
+                            "enabled": true,
+                            "displayOrder": 0,
+                            "slotOrder": 0
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-06-block-03-editor-option-02",
+                            "value": "n(n + 1)/2",
+                            "enabled": false,
+                            "displayOrder": 1,
+                            "slotOrder": 1
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-06-block-03-editor-option-03",
+                            "value": "(n + 2)(n + 3)/2",
+                            "enabled": false,
+                            "displayOrder": 2,
+                            "slotOrder": 2
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-06-block-03-editor"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-06-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-07",
+                    "type": "content",
+                    "title": "Diagnostique um erro comum",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Diagnostique um erro comum",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-07-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Qual atitude invalida o passo indutivo?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-07-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-07-block-03-multiple-choice-option-01",
+                            "value": "Assumir P(n + 1) em vez de prová-la.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-07-block-03-multiple-choice-option-02",
+                            "value": "Usar a hipótese indutiva para P(n).",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-07-block-03-multiple-choice-option-03",
+                            "value": "Checar um caso base antes do passo.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-07-block-03-multiple-choice-option-04",
+                            "value": "Simplificar a expressão do lado direito.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-07-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-07-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-08",
+                    "type": "content",
+                    "title": "Veja a ideia da indução forte",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Veja a ideia da indução forte",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-08-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Na indução forte, o passo pode usar todos os casos anteriores até n, e não só o caso n isolado.",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-08-block-02-paragraph"
+                      },
+                      {
+                        "kind": "table",
+                        "title": "Comparação rápida",
+                        "titleStyle": {
+                          "value": "Comparação rápida",
+                          "bold": true,
+                          "italic": false,
+                          "tone": "default",
+                          "align": "left"
+                        },
+                        "headers": [
+                          {
+                            "value": "Forma",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          },
+                          {
+                            "value": "O que pode ser usado no passo",
+                            "bold": true,
+                            "italic": false,
+                            "tone": "default",
+                            "align": "left"
+                          }
+                        ],
+                        "rows": [
+                          [
+                            {
+                              "value": "indução simples",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "apenas P(n)",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "value": "indução forte",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            },
+                            {
+                              "value": "P(0), P(1), ..., P(n)",
+                              "bold": false,
+                              "italic": false,
+                              "tone": "default",
+                              "align": "left"
+                            }
+                          ]
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-08-block-03-table"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-08-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-09",
+                    "type": "content",
+                    "title": "Quando a indução forte ajuda?",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Quando a indução forte ajuda?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-09-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Em que situação a indução forte costuma ser a escolha mais natural?",
+                        "align": "left",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-09-block-02-paragraph"
+                      },
+                      {
+                        "kind": "multiple_choice",
+                        "answerState": "correct",
+                        "options": [
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-09-block-03-multiple-choice-option-01",
+                            "value": "Quando o caso n + 1 depende de vários casos menores, e não só de n.",
+                            "answer": true
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-09-block-03-multiple-choice-option-02",
+                            "value": "Quando não existe caso base.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-09-block-03-multiple-choice-option-03",
+                            "value": "Quando queremos evitar qualquer hipótese.",
+                            "answer": false
+                          },
+                          {
+                            "id": "logica-08-inducao-matematica-introdutoria-step-09-block-03-multiple-choice-option-04",
+                            "value": "Quando a sentença não fala sobre naturais.",
+                            "answer": false
+                          }
+                        ],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-09-block-03-multiple-choice"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-09-block-04-button"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "logica-08-inducao-matematica-introdutoria-step-10",
+                    "type": "lesson_complete",
+                    "title": "Lição concluída",
+                    "blocks": [
+                      {
+                        "kind": "heading",
+                        "value": "Lição concluída",
+                        "align": "center",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-10-block-01-heading"
+                      },
+                      {
+                        "kind": "paragraph",
+                        "value": "Você já identifica base, hipótese e passo indutivo e reconhece quando a indução forte entra como variação útil.",
+                        "align": "center",
+                        "id": "logica-08-inducao-matematica-introdutoria-step-10-block-02-paragraph"
+                      },
+                      {
+                        "kind": "button",
+                        "popupEnabled": false,
+                        "popupBlocks": [],
+                        "id": "logica-08-inducao-matematica-introdutoria-step-10-block-03-button"
                       }
                     ]
                   }
@@ -22340,7 +24396,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No vetor (4, -2), qual componente está ligada ao eixo y?",
+                        "value": "No vetor (4, -2), qual componente corresponde ao eixo y?",
                         "align": "left",
                         "id": "vetores-01-representacao-soma-escalar-step-02-block-02-paragraph"
                       },
@@ -22864,7 +24920,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No app, a leitura geométrica entra como deslocamento textual curto, sem depender de desenho fino.",
+                        "value": "Aqui, a leitura geométrica aparece como deslocamento em coordenadas, sem depender de desenho detalhado.",
                         "align": "left",
                         "id": "vetores-01-representacao-soma-escalar-step-09-block-02-paragraph"
                       },
@@ -23472,7 +25528,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O produto escalar do par escolhido zera, então ele entra como ortogonal neste curso.",
+                            "value": "O produto escalar do par escolhido é zero, então os vetores são ortogonais.",
                             "align": "left",
                             "id": "vetores-02-produto-escalar-modulo-step-05-block-04-button-popup-02-paragraph"
                           }
@@ -23930,17 +25986,17 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "simulator",
-                        "value": "Se u · v = [[]], o curso passa a suspeitar de ortogonalidade.",
+                        "value": "Se u · v = [[]], suspeitamos de ortogonalidade.",
                         "options": [
-                          {
-                            "value": "0",
-                            "result": "Esse é o caso-pista que vale revisar primeiro.",
-                            "id": "vetores-02-produto-escalar-modulo-step-12-block-03-simulator-option-01"
-                          },
                           {
                             "value": "10",
                             "result": "Aqui a pista de ortogonalidade não aparece.",
                             "id": "vetores-02-produto-escalar-modulo-step-12-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "0",
+                            "result": "Esse é o caso-pista que vale revisar primeiro.",
+                            "id": "vetores-02-produto-escalar-modulo-step-12-block-03-simulator-option-01"
                           }
                         ],
                         "id": "vetores-02-produto-escalar-modulo-step-12-block-03-simulator"
@@ -24085,7 +26141,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quando o produto escalar é zero, o caso mais importante aqui é o ângulo reto.",
+                        "value": "Para vetores não nulos, produto escalar zero indica qual relação angular mais importante?",
                         "align": "left",
                         "id": "vetores-03-angulo-distancia-step-02-block-02-paragraph"
                       },
@@ -25097,7 +27153,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual erro o curso quer evitar aqui?",
+                        "value": "Se T(e1) e T(e2) viram colunas da matriz, qual confusão deve ser evitada?",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-04-block-02-paragraph"
                       },
@@ -25668,7 +27724,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quando a lista falar em imagem de i e j, como o curso lê isso aqui?",
+                        "value": "Considere i = (1, 0) e j = (0, 1), isto é, os vetores-base da base canônica. Como interpretar essas imagens da base?",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-12-block-02-paragraph"
                       },
@@ -25711,7 +27767,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Essa foi a adaptação mínima para manter fidelidade à lista sem ampliar o escopo.",
+                            "value": "Essas imagens determinam as colunas da matriz da transformação.",
                             "align": "left",
                             "id": "matrizes-04-transformacoes-lineares-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -25723,17 +27779,17 @@ window.AraLearnBundledContent = {
                   {
                     "id": "matrizes-04-transformacoes-lineares-step-13",
                     "type": "content",
-                    "title": "Revisita final da lição",
+                    "title": "Ideia central",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Revisita final da lição",
+                        "value": "Ideia central",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-13-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A ideia central desta lição é simples: imagens da base geram colunas, e essas colunas descrevem a ação da transformação.",
+                        "value": "A ideia central é simples: imagens da base geram colunas, e essas colunas descrevem a ação da transformação.",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-13-block-02-paragraph"
                       },
@@ -25836,7 +27892,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você já monta a matriz de uma transformação a partir da base e consegue aplicá-la a vetores simples sem sair do escopo operacional do curso.",
+                        "value": "Você já monta a matriz de uma transformação a partir da base e consegue aplicá-la a vetores simples.",
                         "align": "center",
                         "id": "matrizes-04-transformacoes-lineares-step-14-block-02-paragraph"
                       },
@@ -26091,7 +28147,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual afirmação o curso quer preservar?",
+                        "value": "Qual afirmação resume corretamente o papel da ordem na composição?",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-04-block-02-paragraph"
                       },
@@ -26115,7 +28171,7 @@ window.AraLearnBundledContent = {
                             "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Falar em ordem amplia o curso para álgebra matricial extensa.",
+                            "value": "Se AB e BA têm o mesmo tamanho, então são sempre iguais.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-04"
                           }
@@ -26134,7 +28190,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A lição só precisa fixar que a ordem pode mudar o efeito final.",
+                            "value": "A ideia central é que a ordem pode mudar o efeito final.",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-04-block-04-button-popup-02-paragraph"
                           }
@@ -26199,7 +28255,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Esse é o tipo de exemplo mínimo que basta para a oferta real do curso.",
+                            "value": "Esse exemplo mínimo já mostra que AB e BA podem ser diferentes.",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-05-block-04-button-popup-02-paragraph"
                           }
@@ -26227,9 +28283,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Ponte com a lição anterior",
+                        "title": "Ligação com a transformação",
                         "titleStyle": {
-                          "value": "Ponte com a lição anterior",
+                          "value": "Ligação com a transformação",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -26308,7 +28364,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Se A = [[2, 0], [0, 1]] e B = [[1, 0], [0, 3]], qual é B·A?",
+                        "value": "Se A = [[1, 1], [0, 1]] e B = [[2, 0], [0, 1]], qual é B·A?",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-07-block-02-paragraph"
                       },
@@ -26317,22 +28373,22 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "[[2, 0], [0, 3]]",
+                            "value": "[[2, 2], [0, 1]]",
                             "answer": true,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "[[3, 0], [0, 2]]",
+                            "value": "[[2, 1], [0, 1]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "[[1, 0], [0, 1]]",
+                            "value": "[[1, 1], [0, 1]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "[[2, 3], [0, 0]]",
+                            "value": "[[2, 0], [0, 1]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-04"
                           }
@@ -26345,13 +28401,13 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Composição simples",
+                            "value": "Composição auditada",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-07-block-04-button-popup-01-heading"
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Como os dois exemplos são diagonais, o resultado fica fácil de auditar sem abrir técnica além do necessário.",
+                            "value": "Aqui a ordem muda a matriz final: B·A e A·B não coincidem.",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -26657,7 +28713,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os riscos que a lição quer evitar.",
+                        "value": "Quais opções realmente descrevem erros conceituais sobre composição e inversa?",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-12-block-02-paragraph"
                       },
@@ -26694,13 +28750,13 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Riscos mapeados",
+                            "value": "Leitura correta",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-12-block-04-button-popup-01-heading"
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os dois riscos marcados aparecem com frequência quando a conta vira receita sem sentido.",
+                            "value": "Os itens marcados evitam aplicar uma receita sem verificar o significado da multiplicação.",
                             "align": "left",
                             "id": "matrizes-05-composicao-inversa-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -26728,9 +28784,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Mapa da lição",
+                        "title": "Síntese da lição",
                         "titleStyle": {
-                          "value": "Mapa da lição",
+                          "value": "Síntese da lição",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -26834,14 +28890,14 @@ window.AraLearnBundledContent = {
                         "value": "Se uma matriz desfaz a outra e o produto vira [[]], a checagem principal está ok.",
                         "options": [
                           {
-                            "value": "I",
-                            "result": "Esse é o alvo esperado da validação.",
-                            "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "A",
                             "result": "Se o produto volta para A, o efeito não foi desfeito.",
                             "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "I",
+                            "result": "Esse é o alvo esperado da validação.",
+                            "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator-option-01"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-14-block-03-simulator"
@@ -27111,7 +29167,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No grafo G, quantos vértices e quantas arestas aparecem?",
+                        "value": "Considere G com arestas AB, AC, BC e CD. Quantos vértices e quantas arestas aparecem?",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-03-block-02-paragraph"
                       },
@@ -27263,7 +29319,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual par de vértices é adjacente no grafo G?",
+                        "value": "Considere G com arestas AB, AC, BC e CD. Qual par de vértices é adjacente?",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-05-block-02-paragraph"
                       },
@@ -27512,7 +29568,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual é o grau do vértice C no grafo G?",
+                        "value": "Considere G com arestas AB, AC, BC e CD. Qual é o grau do vértice C?",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-08-block-02-paragraph"
                       },
@@ -27664,7 +29720,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual conclusão está correta para o grafo G?",
+                        "value": "Em G, com arestas AB, AC, BC e CD, qual conclusão está correta?",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-10-block-02-paragraph"
                       },
@@ -27729,7 +29785,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quantos vértices de grau ímpar aparecem em G?",
+                        "value": "Considere G com arestas AB, AC, BC e CD. Quantos vértices de grau ímpar aparecem?",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-11-block-02-paragraph"
                       },
@@ -27794,7 +29850,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Complete a leitura dos graus em G na ordem A, B, C e D.",
+                        "value": "Considere G com arestas AB, AC, BC e CD. Complete a leitura dos graus na ordem A, B, C e D.",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-12-block-02-paragraph"
                       },
@@ -27882,7 +29938,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Esta lição abriu o padrão do módulo: definir com cuidado, contar de forma confiável e aplicar um resultado curto como a soma dos graus.",
+                        "value": "Aqui começou o padrão do módulo: definir com cuidado, contar de forma confiável e aplicar um resultado curto como a soma dos graus.",
                         "align": "left",
                         "id": "grafos-01-modelagem-grau-step-13-block-02-paragraph"
                       },
@@ -28002,7 +30058,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "grafos-02-isomorfismo-sequencias-completo-regular",
                 "title": "Isomorfismo, sequências de graus, grafos completos e regulares",
-                "subtitle": "Comparar estruturas de grafos, ler sequências de graus e resolver tarefas básicas com grafos completos e regulares.",
+                "subtitle": "Estruturas de grafos podem ser comparadas por sequências de graus, completude e regularidade, sem confundir igualdade visual com isomorfismo.",
                 "steps": [
                   {
                     "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-01",
@@ -28240,7 +30296,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual cuidado o curso quer manter quando as sequências de graus coincidem?",
+                        "value": "Quando duas sequências de graus coincidem, qual cuidado matemático ainda precisa ser mantido?",
                         "align": "left",
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-02-paragraph"
                       },
@@ -28674,7 +30730,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual afirmação é a mais segura no formato mobile?",
+                        "value": "Qual afirmação é a mais segura ao comparar duas descrições do mesmo grafo?",
                         "align": "left",
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-10-block-02-paragraph"
                       },
@@ -28776,7 +30832,7 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Riscos mapeados",
+                            "value": "Leitura correta",
                             "align": "left",
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-04-button-popup-01-heading"
                           },
@@ -28804,7 +30860,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, você comparou grafos por estrutura, usou sequência de graus como filtro e revisitou completude e regularidade com contas curtas.",
+                        "value": "Você comparou grafos por estrutura, usou sequência de graus como filtro e revisitou completude e regularidade com contas curtas.",
                         "align": "left",
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-12-block-02-paragraph"
                       },
@@ -28916,14 +30972,14 @@ window.AraLearnBundledContent = {
                         "value": "Se dois grafos têm [[]] de graus diferentes, eles já não podem ser isomorfos.",
                         "options": [
                           {
-                            "value": "sequências",
-                            "result": "Esse é o filtro mais rápido desta lição.",
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-13-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "nomes",
                             "result": "Trocar nomes de vértices não resolve a diferença estrutural.",
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-13-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "sequências",
+                            "result": "Esse é o filtro mais rápido para descartar isomorfismo nesse caso.",
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-13-block-03-simulator-option-01"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-13-block-03-simulator"
@@ -29133,7 +31189,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Neste curso, o critério de ciclo ímpar entra só como apoio curto: triângulo já impede bipartição.",
+                        "value": "O critério do ciclo ímpar já basta em casos curtos: um triângulo impede bipartição.",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-02-paragraph"
                       },
@@ -29552,7 +31608,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Por que a diagonal principal aparece com zeros em M neste curso?",
+                        "value": "Por que a diagonal principal de M fica zerada neste grafo simples?",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-02-paragraph"
                       },
@@ -29617,7 +31673,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual par de vértices certamente aparece como adjacente em M?",
+                        "value": "Na matriz M do grafo simples com vértices A, B, C e D, qual par certamente aparece como adjacente?",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-02-paragraph"
                       },
@@ -29771,7 +31827,7 @@ window.AraLearnBundledContent = {
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Todo vértice precisa ter grau 2.",
+                            "value": "Se o grau não for 2, o grafo deixa de ser bipartido.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-04"
                           }
@@ -29812,7 +31868,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Complete a linha de A na matriz de adjacência M.",
+                        "value": "No grafo simples em que A se liga a B e C, mas não a D, complete a linha de A na matriz de adjacência M.",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-11-block-02-paragraph"
                       },
@@ -29887,21 +31943,21 @@ window.AraLearnBundledContent = {
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Reforço da adaptação computacional",
+                        "value": "Fechamento da representação",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, o desenho do grafo foi convertido em descrição estrutural e matriz de adjacência para caber bem no app sem perder justiça didática.",
+                        "value": "Partição textual e matriz de adjacência preservam a mesma estrutura do grafo: conjuntos independentes e ligações entre eles.",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-12-block-02-paragraph"
                       },
                       {
                         "kind": "table",
-                        "title": "Por que a adaptação funciona",
+                        "title": "O que cada representação preserva",
                         "titleStyle": {
-                          "value": "Por que a adaptação funciona",
+                          "value": "O que cada representação preserva",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -29989,14 +32045,14 @@ window.AraLearnBundledContent = {
                         "value": "Se a linha A e a coluna C têm [[]], então A e C estão ligados.",
                         "options": [
                           {
-                            "value": "1",
-                            "result": "Na matriz de adjacência, 1 marca presença de aresta.",
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-13-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "0",
                             "result": "Zero indicaria ausência de ligação direta.",
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-13-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "1",
+                            "result": "Na matriz de adjacência, 1 marca presença de aresta.",
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-13-block-03-simulator-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-13-block-03-simulator"
@@ -30054,7 +32110,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Os três conceitos são próximos, por isso o curso fixa o contraste pelo uso ou repetição de arestas e vértices.",
+                        "value": "Os três conceitos são próximos, então vale fixar o contraste pelo uso ou repetição de arestas e vértices.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-01-block-02-paragraph"
                       },
@@ -30157,7 +32213,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use o mesmo grafo-base para evitar leitura solta: considere H com arestas AB, BC, CD, DB e DA.",
+                        "value": "Considere H com arestas AB, BC, CD, DB e DA. Use esse mesmo grafo para comparar trilha, caminho e ciclo.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-02-paragraph"
                       },
@@ -30273,7 +32329,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Agora compare as sequências abaixo dentro de H.",
+                        "value": "No grafo H, compare as sequências abaixo.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-04-paragraph"
                       },
@@ -30432,7 +32488,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual sequência abaixo ainda pode ser lida como trilha?",
+                        "value": "No grafo H com arestas AB, BC, CD, DB e DA, qual sequência abaixo ainda pode ser lida como trilha?",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-02-paragraph"
                       },
@@ -30497,7 +32553,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual sequência abaixo é caminho?",
+                        "value": "No grafo H com arestas AB, BC, CD, DB e DA, qual sequência abaixo é caminho?",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-02-paragraph"
                       },
@@ -30562,7 +32618,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual sequência abaixo fecha um ciclo simples?",
+                        "value": "No grafo H com arestas AB, BC, CD, DB e DA, qual sequência abaixo fecha um ciclo simples?",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-02-paragraph"
                       },
@@ -30931,7 +32987,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque as confusões que a lição quer evitar.",
+                        "value": "Quais opções descrevem confusões reais sobre trilha, caminho, ciclo, conectividade e distância?",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-02-paragraph"
                       },
@@ -30945,8 +33001,8 @@ window.AraLearnBundledContent = {
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "Confundir conectividade com existência de caminho.",
-                            "answer": false,
+                            "value": "Confundir conectividade com distância entre dois vértices.",
+                            "answer": true,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-02"
                           },
                           {
@@ -30955,7 +33011,7 @@ window.AraLearnBundledContent = {
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Usar a ideia de ciclo para percurso fechado.",
+                            "value": "Separar ciclo de percurso fechado ajuda a leitura.",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-04"
                           }
@@ -30968,13 +33024,13 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Riscos mapeados",
+                            "value": "Leitura correta",
                             "align": "left",
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-04-button-popup-01-heading"
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os dois tropeços marcados são os que mais atrapalham a leitura operacional desta lição.",
+                            "value": "Os itens marcados evitam confundir trilha, caminho, distância e conectividade.",
                             "align": "left",
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -30996,7 +33052,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A lição reaproveitou o mesmo estilo: uma diferença conceitual pequena precisa de contraste explícito e exemplos curtos.",
+                        "value": "Resumo útil: trilha pode repetir vértices, caminho não repete vértices e ciclo fecha um percurso simples.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-11-block-02-paragraph"
                       },
@@ -31115,7 +33171,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Use o grafo H e complete a melhor classificação principal de cada sequência.",
+                        "value": "No grafo H com arestas AB, BC, CD, DB e DA, complete a melhor classificação principal de cada sequência.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-12-block-02-paragraph"
                       },
@@ -31221,7 +33277,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, o algoritmo aparece em caso pequeno e com pesos positivos, para que o procedimento seja rastreável no celular.",
+                        "value": "Aqui, o algoritmo aparece em um caso pequeno e com pesos positivos para que cada atualização de distância fique visível.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-01-block-02-paragraph"
                       },
@@ -31556,7 +33612,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois de relaxar as arestas que saem de A, como ficam as distâncias conhecidas?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, depois de fechar A as melhores distâncias são A=0, B=2, C=5, D=∞ e E=∞. Complete esse estado.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-04-block-02-paragraph"
                       },
@@ -31644,7 +33700,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois da primeira atualização, qual vértice deve ser fechado a seguir?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, depois de fechar A as melhores distâncias são A=0, B=2, C=5, D=∞ e E=∞. Qual vértice deve ser fechado a seguir?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-05-block-02-paragraph"
                       },
@@ -31709,7 +33765,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Ao sair de B, qual passa a ser a melhor distância conhecida até C?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, com B escolhido por menor custo 2, qual passa a ser a melhor distância conhecida até C?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-06-block-02-paragraph"
                       },
@@ -31774,7 +33830,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual distância provisória para D aparece ao passar por B?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, ainda após fechar B, qual distância provisória para D aparece?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-07-block-02-paragraph"
                       },
@@ -31839,7 +33895,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois das atualizações via B, qual vértice deve ser fechado a seguir?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, com distâncias A=0, B=2, C=3, D=6 e E=∞, qual vértice deve ser fechado a seguir?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-08-block-02-paragraph"
                       },
@@ -31904,7 +33960,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Complete as melhores distâncias conhecidas depois de fechar C.",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, depois de fechar C e relaxar C-D=1, complete as melhores distâncias conhecidas.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-09-block-02-paragraph"
                       },
@@ -31978,7 +34034,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois de C, qual vértice deve ser fechado?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, com distâncias A=0, B=2, C=3, D=4 e E=∞, qual vértice deve ser fechado?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-10-block-02-paragraph"
                       },
@@ -32043,7 +34099,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual melhor distância até E aparece quando você relaxa D-E?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, depois de fechar D com custo 4 e relaxar D-E=3, qual melhor distância até E aparece?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-11-block-02-paragraph"
                       },
@@ -32108,7 +34164,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Qual é o menor caminho de A até E neste caso?",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, e custos finais A=0, B=2, C=3, D=4 e E=7, qual é o menor caminho de A até E?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-12-block-02-paragraph"
                       },
@@ -32173,7 +34229,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Digite o custo mínimo de A até E.",
+                        "value": "No grafo com pesos A-B=2, A-C=5, B-C=1, B-D=4, C-D=1 e D-E=3, digite o custo mínimo de A até E.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-13-block-02-paragraph"
                       },
@@ -32228,7 +34284,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os erros que a lição quer evitar.",
+                        "value": "Quais opções realmente descrevem erros conceituais em Dijkstra?",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-14-block-02-paragraph"
                       },
@@ -32265,7 +34321,7 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Riscos mapeados",
+                            "value": "Leitura correta",
                             "align": "left",
                             "id": "grafos-05-dijkstra-step-14-block-04-button-popup-01-heading"
                           },
@@ -32293,7 +34349,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A adaptação desta lição usa tabela de distâncias e lista de arestas porque o foco é o procedimento, não o desenho detalhado do grafo.",
+                        "value": "A tabela de distâncias ajuda a acompanhar custo atual, relaxamento e reconstrução do caminho sem perder o procedimento do algoritmo.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-15-block-02-paragraph"
                       },
@@ -33138,7 +35194,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os tropeços que o curso quer evitar.",
+                        "value": "Quais opções realmente descrevem confusões conceituais sobre grafos eulerianos e semieulerianos?",
                         "align": "left",
                         "id": "grafos-06-euler-step-11-block-02-paragraph"
                       },
@@ -33175,7 +35231,7 @@ window.AraLearnBundledContent = {
                         "popupBlocks": [
                           {
                             "kind": "heading",
-                            "value": "Riscos mapeados",
+                            "value": "Leitura correta",
                             "align": "left",
                             "id": "grafos-06-euler-step-11-block-04-button-popup-01-heading"
                           },
@@ -33203,7 +35259,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "O curso termina voltando ao estilo observado no semestre: critério claro, justificativa curta e ligação com leitura estrutural útil para ADS.",
+                        "value": "Você fecha o curso retomando o padrão visto ao longo do semestre: critério claro, justificativa curta e leitura estrutural útil para ADS.",
                         "align": "left",
                         "id": "grafos-06-euler-step-12-block-02-paragraph"
                       },
@@ -33243,7 +35299,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "tabela-verdade e leitura formal",
+                              "value": "leitura formal, equivalências e prova inicial",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -33306,7 +35362,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Euler fecha o módulo reutilizando grau, conectividade e percurso. É um bom exemplo de repetição distribuída sem abrir conteúdo novo.",
+                        "value": "Se o grafo é conectado e tem [[]] graus ímpares, o caso é semieuleriano.",
                         "align": "left",
                         "id": "grafos-06-euler-step-13-block-02-paragraph"
                       },
@@ -33315,14 +35371,14 @@ window.AraLearnBundledContent = {
                         "value": "Se o grafo é conectado e tem [[]] graus ímpares, o caso é semieuleriano.",
                         "options": [
                           {
-                            "value": "2",
-                            "result": "Esse é o padrão do percurso aberto.",
-                            "id": "grafos-06-euler-step-13-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "0",
                             "result": "Esse seria o caso euleriano fechado.",
                             "id": "grafos-06-euler-step-13-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "2",
+                            "result": "Esse é o padrão do percurso aberto.",
+                            "id": "grafos-06-euler-step-13-block-03-simulator-option-01"
                           }
                         ],
                         "id": "grafos-06-euler-step-13-block-03-simulator"
@@ -33378,7 +35434,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l01-unix-gnu-linux",
                 "title": "UNIX, GNU e Linux: o que é cada coisa",
-                "subtitle": "Fazer o estudante diferenciar as entidades históricas e conceituais mais confundidas no início da disciplina.",
+                "subtitle": "Você vai distinguir UNIX, GNU, Linux, distribuição e software livre sem transformar tudo em sinônimo.",
                 "steps": [
                   {
                     "id": "l01-unix-gnu-linux-step-01",
@@ -33393,7 +35449,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No começo do curso, estes nomes costumam virar sinônimo. Aqui você separa UNIX, GNU e Linux do jeito que vai precisar depois no terminal e no restante da disciplina.",
+                        "value": "Você vai distinguir UNIX, GNU, Linux, distribuição e software livre sem transformar tudo em sinônimo.",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-01-block-02-paragraph"
                       },
@@ -33559,7 +35615,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os termos que pertencem ao vocabulário operacional desta lição.",
+                        "value": "Marque os termos que pertencem ao vocabulário operacional deste tema.",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-04-block-02-paragraph"
                       },
@@ -33759,7 +35815,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais afirmações respeitam a distinção trabalhada nesta lição?",
+                        "value": "Quais afirmações respeitam a distinção entre UNIX, GNU, Linux e distribuição?",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-07-block-02-paragraph"
                       },
@@ -33824,7 +35880,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Preencha a frase que resume a distinção mais curta da lição.",
+                        "value": "Preencha a frase que resume a distinção principal.",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-08-block-02-paragraph"
                       },
@@ -33898,7 +35954,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Escolha a camada que costuma variar mais entre distribuições, segundo o exemplo retomado da aula.",
+                        "value": "Se duas distribuições usam o mesmo kernel Linux, em que camada costuma aparecer a diferença maior?",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-09-block-02-paragraph"
                       },
@@ -33958,7 +36014,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Marque os itens coerentes com a nomenclatura da lição.",
+                        "value": "Marque os itens coerentes com a nomenclatura correta.",
                         "align": "left",
                         "id": "l01-unix-gnu-linux-step-10-block-02-paragraph"
                       },
@@ -34111,7 +36167,7 @@ window.AraLearnBundledContent = {
                             "id": "l01-unix-gnu-linux-step-12-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "Licença e contribuição ajudam a conectar o tema ao curso.",
+                            "value": "Licença e contribuição ampliam o tema além da distinção histórica.",
                             "answer": true,
                             "id": "l01-unix-gnu-linux-step-12-block-03-multiple-choice-option-03"
                           },
@@ -34157,13 +36213,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l01-unix-gnu-linux-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você distingue UNIX, GNU, Linux, distribuição e software livre sem misturar as camadas.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l01-unix-gnu-linux-step-16-block-02-paragraph"
                       },
                       {
@@ -34179,7 +36235,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l02-kernel-gui-shell-bash",
                 "title": "Kernel, GUI, terminal, shell e bash",
-                "subtitle": "Mapear as camadas com que o estudante realmente interage e evitar que terminal, shell e bash virem sinônimos.",
+                "subtitle": "GUI, terminal, shell e bash atuam em camadas diferentes; separar esses nomes evita confusão nos comandos.",
                 "steps": [
                   {
                     "id": "l02-kernel-gui-shell-bash-step-01",
@@ -34194,7 +36250,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Você vai encontrar GUI, terminal, shell, bash e prompt quase ao mesmo tempo. Esta lição separa cada camada para evitar confusão quando os comandos começarem.",
+                        "value": "GUI, terminal, shell e bash atuam em camadas diferentes; separar esses nomes evita confusão nos comandos.",
                         "align": "left",
                         "id": "l02-kernel-gui-shell-bash-step-01-block-02-paragraph"
                       },
@@ -34492,7 +36548,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "janela textual onde o estudante interage.",
+                              "value": "janela textual onde você executa comandos.",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -34717,7 +36773,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No exemplo mais comum da disciplina, qual shell específico aparece quando o estudante opera pelo terminal?",
+                        "value": "No exemplo mais comum da disciplina, qual shell específico aparece quando você opera pelo terminal?",
                         "align": "left",
                         "id": "l02-kernel-gui-shell-bash-step-08-block-02-paragraph"
                       },
@@ -34911,13 +36967,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l02-kernel-gui-shell-bash-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você separa GUI, terminal, shell, bash e prompt com mais segurança.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l02-kernel-gui-shell-bash-step-14-block-02-paragraph"
                       },
                       {
@@ -34933,7 +36989,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l03-primeiros-passos-no-terminal",
                 "title": "Primeiros passos no terminal",
-                "subtitle": "Fazer o estudante reconhecer prompt, comando, opção, argumento, paths simples e noções de case sensitive antes da navegação pesada.",
+                "subtitle": "Prompt, comando, opção, argumento e caminho formam a leitura mínima da linha de comando.",
                 "steps": [
                   {
                     "id": "l03-primeiros-passos-no-terminal-step-01",
@@ -34948,7 +37004,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Antes de decorar comandos, vale aprender a ler a própria linha de comando.",
+                        "value": "Prompt, comando, opção, argumento e caminho formam a leitura mínima da linha de comando.",
                         "align": "left",
                         "id": "l03-primeiros-passos-no-terminal-step-01-block-02-paragraph"
                       },
@@ -35455,7 +37511,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No contraste principal desta lição, qual nome aparece como par de `Docs`?",
+                        "value": "No exemplo `Docs` versus `docs`, qual nome foi usado como par para destacar case sensitive?",
                         "align": "left",
                         "id": "l03-primeiros-passos-no-terminal-step-09-block-02-paragraph"
                       },
@@ -35471,7 +37527,7 @@ window.AraLearnBundledContent = {
                           {
                             "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-03",
                             "value": "DOCS",
-                            "result": "`DOCS` também seria diferente em muitos sistemas, mas não é a forma escolhida para o contraste principal desta lição."
+                            "result": "`DOCS` também seria diferente em muitos sistemas, mas não é o par usado neste contraste."
                           },
                           {
                             "id": "l03-primeiros-passos-no-terminal-step-09-block-03-simulator-option-01",
@@ -35709,13 +37765,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l03-primeiros-passos-no-terminal-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você lê prompt, comando, opção, argumento e caminho com menos atrito.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l03-primeiros-passos-no-terminal-step-16-block-02-paragraph"
                       },
                       {
@@ -35737,7 +37793,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l04-navegacao-diretorios",
                 "title": "Navegação em diretórios sem se perder",
-                "subtitle": "Consolidar pwd, ls, cd, ~ e caminhos absolutos/relativos com microprática suficiente para o estudante parar de se perder no sistema de arquivos.",
+                "subtitle": "pwd, ls, cd, ~ e caminhos absolutos ou relativos formam o kit básico para não se perder no sistema de arquivos.",
                 "steps": [
                   {
                     "id": "l04-navegacao-diretorios-step-01",
@@ -35752,7 +37808,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta etapa, o objetivo é parar de se perder entre pastas.",
+                        "value": "pwd, ls, cd, ~ e caminhos absolutos ou relativos formam o kit básico para não se perder no sistema de arquivos.",
                         "align": "left",
                         "id": "l04-navegacao-diretorios-step-01-block-02-paragraph"
                       },
@@ -36039,7 +38095,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "confirma onde o estudante está antes de mudar de pasta.",
+                              "value": "confirma onde você está antes de mudar de pasta.",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -36177,7 +38233,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os acertos ajudam o estudante a parar de se perder no sistema de arquivos.",
+                            "value": "Os acertos ajudam a manter a navegação orientada no sistema de arquivos.",
                             "align": "left",
                             "id": "l04-navegacao-diretorios-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -36478,7 +38534,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "simulator",
-                        "value": "O comando leva o estudante para a `[[]]`.",
+                        "value": "O comando leva você para a `[[]]`.",
                         "options": [
                           {
                             "value": "configuração do kernel",
@@ -36510,7 +38566,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Essa previsão reduz o risco de o estudante se perder na hierarquia.",
+                            "value": "Essa previsão reduz o risco de se perder na hierarquia.",
                             "align": "left",
                             "id": "l04-navegacao-diretorios-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -36527,13 +38583,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l04-navegacao-diretorios-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você usa pwd, ls, cd, ~ e caminhos com mais orientação.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l04-navegacao-diretorios-step-16-block-02-paragraph"
                       },
                       {
@@ -36549,7 +38605,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l05-arquivos-e-pastas-shell",
                 "title": "Criar, copiar, mover e apagar arquivos e pastas",
-                "subtitle": "Ensinar o fluxo mínimo de manipulação de arquivos e diretórios no shell sem colocar o estudante em risco desnecessário.",
+                "subtitle": "Manipule arquivos e diretórios no shell com um fluxo mínimo seguro: criar, copiar, mover e remover.",
                 "steps": [
                   {
                     "id": "l05-arquivos-e-pastas-shell-step-01",
@@ -36564,7 +38620,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Agora o foco é manipular arquivos e pastas sem confundir criar, copiar, mover e remover.",
+                        "value": "Manipule arquivos e diretórios no shell com um fluxo mínimo seguro: criar, copiar, mover e remover.",
                         "align": "left",
                         "id": "l05-arquivos-e-pastas-shell-step-01-block-02-paragraph"
                       },
@@ -37103,11 +39159,6 @@ window.AraLearnBundledContent = {
                         "value": "Depois do comando, `roteiro.txt` aparece em `[[]]` sem apagar o original.",
                         "options": [
                           {
-                            "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-01",
-                            "value": "docs/",
-                            "result": "Boa. A cópia cria uma nova ocorrência em `docs/` sem apagar o original."
-                          },
-                          {
                             "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-02",
                             "value": "midia/",
                             "result": "`midia/` é uma pasta plausível do projeto, mas não é o destino usado no comando."
@@ -37116,6 +39167,11 @@ window.AraLearnBundledContent = {
                             "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-03",
                             "value": "roteiro/",
                             "result": "O comando copia para `docs/`, não para a pasta `roteiro/`."
+                          },
+                          {
+                            "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator-option-01",
+                            "value": "docs/",
+                            "result": "Boa. A cópia cria uma nova ocorrência em `docs/` sem apagar o original."
                           }
                         ],
                         "id": "l05-arquivos-e-pastas-shell-step-09-block-03-simulator"
@@ -37228,7 +39284,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais afirmações respeitam o cuidado exigido nesta lição?",
+                        "value": "Quais afirmações mantêm a distinção pedida neste contraste?",
                         "align": "left",
                         "id": "l05-arquivos-e-pastas-shell-step-11-block-02-paragraph"
                       },
@@ -37302,11 +39358,6 @@ window.AraLearnBundledContent = {
                         "value": "Depois do comando, o arquivo `[[]]` não aparece mais no diretório atual.",
                         "options": [
                           {
-                            "value": "README.md",
-                            "result": "Exato. O foco é prever o efeito real da operação.",
-                            "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "origin",
                             "result": "Origin é assunto de Git remoto, não de shell básico.",
                             "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-03"
@@ -37315,6 +39366,11 @@ window.AraLearnBundledContent = {
                             "value": "docs/",
                             "result": "A pasta `docs/` não é o alvo do comando.",
                             "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "README.md",
+                            "result": "Exato. O foco é prever o efeito real da operação.",
+                            "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l05-arquivos-e-pastas-shell-step-12-block-03-simulator"
@@ -37348,13 +39404,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l05-arquivos-e-pastas-shell-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você cria, copia, move e remove arquivos e pastas com mais critério.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l05-arquivos-e-pastas-shell-step-16-block-02-paragraph"
                       },
                       {
@@ -37370,7 +39426,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l06-inspecao-e-ambiente-minimo",
                 "title": "Inspeção de arquivos e ambiente mínimo",
-                "subtitle": "Dar ao estudante um repertório curto para abrir, ler, inspecionar e situar o ambiente sem expandir demais o escopo de shell.",
+                "subtitle": "Abra, leia e inspecione o ambiente com um repertório curto de comandos úteis.",
                 "steps": [
                   {
                     "id": "l06-inspecao-e-ambiente-minimo-step-01",
@@ -37385,7 +39441,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nem todo começo de semestre precisa de um catálogo enorme de comandos.",
+                        "value": "Abra, leia e inspecione o ambiente com um repertório curto de comandos úteis.",
                         "align": "left",
                         "id": "l06-inspecao-e-ambiente-minimo-step-01-block-02-paragraph"
                       },
@@ -38271,13 +40327,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l06-inspecao-e-ambiente-minimo-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você lê arquivos curtos, consulta ajuda rápida e situa usuário e diretório com poucos comandos.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l06-inspecao-e-ambiente-minimo-step-12-block-02-paragraph"
                       },
                       {
@@ -38299,7 +40355,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l07-conta-github-e-mapa-conceitual",
                 "title": "Criar conta no GitHub e entender o mapa Git x GitHub",
-                "subtitle": "Reduzir o atrito inicial do estudante com a plataforma, mostrando como a conta, o repositório e a ideia de versionamento se encaixam.",
+                "subtitle": "Conta, repositório e versionamento entram juntos: cada peça tem um papel claro na plataforma.",
                 "steps": [
                   {
                     "id": "l07-conta-github-e-mapa-conceitual-step-01",
@@ -38314,7 +40370,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "GitHub precisa aparecer cedo porque as tarefas já começam na interface web.",
+                        "value": "Conta, repositório e versionamento entram juntos: cada peça tem um papel claro na plataforma.",
                         "align": "left",
                         "id": "l07-conta-github-e-mapa-conceitual-step-01-block-02-paragraph"
                       },
@@ -38507,7 +40563,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "cópia no computador do estudante.",
+                              "value": "cópia no computador local.",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -38689,7 +40745,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais afirmações mantêm a distinção central desta lição?",
+                        "value": "Quais afirmações preservam a diferença entre Git e GitHub?",
                         "align": "left",
                         "id": "l07-conta-github-e-mapa-conceitual-step-06-block-02-paragraph"
                       },
@@ -38732,7 +40788,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A distinção correta reduz um dos maiores atritos reais do curso.",
+                            "value": "Entender essa distinção evita confundir ferramenta local com serviço web.",
                             "align": "left",
                             "id": "l07-conta-github-e-mapa-conceitual-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -38793,7 +40849,7 @@ window.AraLearnBundledContent = {
                           {
                             "id": "l07-conta-github-e-mapa-conceitual-step-07-block-04-button-popup-02-paragraph",
                             "kind": "paragraph",
-                            "value": "A conta é a identidade operacional do estudante na plataforma, não a branch nem a pasta local.",
+                            "value": "A conta é a identidade operacional usada na plataforma, não a branch nem a pasta local.",
                             "align": "left"
                           }
                         ],
@@ -38931,7 +40987,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O foco aqui é acesso inicial, mapa conceitual e redução de atrito real.",
+                            "value": "Esses passos reduzem atrito: acesso garantido, diferença entre Git e GitHub e noção básica do fluxo.",
                             "align": "left",
                             "id": "l07-conta-github-e-mapa-conceitual-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -39008,13 +41064,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l07-conta-github-e-mapa-conceitual-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você entende o papel da conta GitHub e distingue Git de GitHub.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l07-conta-github-e-mapa-conceitual-step-14-block-02-paragraph"
                       },
                       {
@@ -39030,7 +41086,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l08-repositorio-publico-e-visibilidade",
                 "title": "Criar repositório público e configurar a visibilidade",
-                "subtitle": "Fazer o estudante completar sem medo o fluxo de novo repositório no GitHub web, entendendo owner, nome, descrição, visibilidade e README.",
+                "subtitle": "Criar um repositório público fica mais simples quando owner, nome, visibilidade e README têm papel claro.",
                 "steps": [
                   {
                     "id": "l08-repositorio-publico-e-visibilidade-step-01",
@@ -39045,7 +41101,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Aqui o foco é abrir um repositório público sem medo do formulário.",
+                        "value": "Criar um repositório público fica mais simples quando owner, nome, visibilidade e README têm papel claro.",
                         "align": "left",
                         "id": "l08-repositorio-publico-e-visibilidade-step-01-block-02-paragraph"
                       },
@@ -39736,7 +41792,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os riscos reais estão na visibilidade e na falta de contexto, não em qualquer campo preenchido com cuidado.",
+                            "value": "O problema real está em escolher a visibilidade errada ou descrever mal o repositório.",
                             "align": "left",
                             "id": "l08-repositorio-publico-e-visibilidade-step-10-block-04-button-popup-02-paragraph"
                           }
@@ -39841,11 +41897,6 @@ window.AraLearnBundledContent = {
                         "value": "Visibilidade coerente: `[[]]`.",
                         "options": [
                           {
-                            "value": "Public",
-                            "result": "Exato. O cenário da disciplina pede acesso simples e sem atrito extra.",
-                            "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "Hidden kernel",
                             "result": "Essa opção nem pertence ao formulário do repositório.",
                             "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-03"
@@ -39854,6 +41905,11 @@ window.AraLearnBundledContent = {
                             "value": "Private",
                             "result": "Private pode bloquear o objetivo de compartilhamento amplo da atividade.",
                             "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "Public",
+                            "result": "Exato. O cenário da disciplina pede acesso simples e sem atrito extra.",
+                            "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l08-repositorio-publico-e-visibilidade-step-12-block-03-simulator"
@@ -39887,13 +41943,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l08-repositorio-publico-e-visibilidade-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você abre um repositório público entendendo owner, visibilidade e README inicial.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l08-repositorio-publico-e-visibilidade-step-16-block-02-paragraph"
                       },
                       {
@@ -39909,7 +41965,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l09-navegar-no-repositorio-web",
                 "title": "Navegar no repositório e localizar funções",
-                "subtitle": "Fazer o estudante ler a tela principal do repositório sem desorientação: arquivos, README, histórico básico, settings e releases.",
+                "subtitle": "Você vai localizar arquivos, histórico, settings e releases sem confundir áreas parecidas da interface.",
                 "steps": [
                   {
                     "id": "l09-navegar-no-repositorio-web-step-01",
@@ -39924,7 +41980,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois de criar o repositório, o próximo passo é saber se localizar na tela principal.",
+                        "value": "Você vai localizar arquivos, histórico, settings e releases sem confundir áreas parecidas da interface.",
                         "align": "left",
                         "id": "l09-navegar-no-repositorio-web-step-01-block-02-paragraph"
                       },
@@ -40508,7 +42564,7 @@ window.AraLearnBundledContent = {
                             "id": "l09-navegar-no-repositorio-web-step-09-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "A lição quer localizar funções, não editar arquivos ainda.",
+                            "value": "Releases concentra versões publicadas do projeto.",
                             "answer": true,
                             "id": "l09-navegar-no-repositorio-web-step-09-block-03-multiple-choice-option-04"
                           }
@@ -40558,11 +42614,6 @@ window.AraLearnBundledContent = {
                         "value": "Você procura a área `[[]]` do repositório.",
                         "options": [
                           {
-                            "value": "Releases",
-                            "result": "Exato. A lição explicita como localizar releases a partir da página principal.",
-                            "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "Prompt",
                             "result": "Prompt pertence ao terminal, não à navegação web.",
                             "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-03"
@@ -40571,6 +42622,11 @@ window.AraLearnBundledContent = {
                             "value": "Owner",
                             "result": "Owner é conta responsável, não a área de versões publicadas.",
                             "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "Releases",
+                            "result": "Exato. Releases é a área mais direta para localizar versões publicadas do projeto.",
+                            "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l09-navegar-no-repositorio-web-step-10-block-03-simulator"
@@ -40604,13 +42660,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l09-navegar-no-repositorio-web-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você reconhece README, Settings, Releases e a área principal do repositório.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l09-navegar-no-repositorio-web-step-14-block-02-paragraph"
                       },
                       {
@@ -40626,7 +42682,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l10-arquivos-pastas-e-upload-no-github",
                 "title": "Criar arquivos, pastas e enviar material no GitHub",
-                "subtitle": "Treinar as ações de Add file, Create new file, criação de subdiretórios com '/', e upload de arquivos/pastas pela interface web.",
+                "subtitle": "Criar arquivo, criar pasta e fazer upload são ações diferentes da interface web e precisam ser lidas sem confusão.",
                 "steps": [
                   {
                     "id": "l10-arquivos-pastas-e-upload-no-github-step-01",
@@ -40641,7 +42697,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Na interface web, criar arquivo, criar pasta e fazer upload parecem ações parecidas, mas não são a mesma coisa.",
+                        "value": "Criar arquivo, criar pasta e fazer upload são ações diferentes da interface web e precisam ser lidas sem confusão.",
                         "align": "left",
                         "id": "l10-arquivos-pastas-e-upload-no-github-step-01-block-02-paragraph"
                       },
@@ -41323,7 +43379,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os erros reais aparecem quando o estudante mistura upload com criação de arquivo vazio.",
+                            "value": "Os erros reais aparecem quando upload e criação de arquivo vazio são confundidos.",
                             "align": "left",
                             "id": "l10-arquivos-pastas-e-upload-no-github-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -41400,13 +43456,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l10-arquivos-pastas-e-upload-no-github-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você separa criação de arquivo, criação de pasta e upload na interface web.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l10-arquivos-pastas-e-upload-no-github-step-16-block-02-paragraph"
                       },
                       {
@@ -41422,7 +43478,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l11-edicao-web-e-commit-manual",
                 "title": "Editar no navegador e fazer commit manual",
-                "subtitle": "Ensinar o fluxo completo de abrir um arquivo, editar, usar preview, escrever mensagem de commit e entender o efeito do commit pela interface web.",
+                "subtitle": "Abra um arquivo, edite, use preview e confirme o commit pela interface web.",
                 "steps": [
                   {
                     "id": "l11-edicao-web-e-commit-manual-step-01",
@@ -41437,13 +43493,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Editar no navegador só fica claro quando você separa editar, visualizar e registrar a mudança.",
+                        "value": "Abra um arquivo, edite, use preview e confirme o commit pela interface web.",
                         "align": "left",
                         "id": "l11-edicao-web-e-commit-manual-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Esta lição contrasta o fluxo web com o fluxo local, mas sem perder o foco na prática pelo site.",
+                        "value": "Você vai comparar o fluxo web com o fluxo local e entender quando cada um faz mais sentido.",
                         "align": "left",
                         "id": "l11-edicao-web-e-commit-manual-step-01-block-03-paragraph"
                       },
@@ -41942,7 +43998,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Escolha o que acontece se o estudante editar no navegador e sair sem confirmar o commit.",
+                        "value": "Escolha o que acontece se você editar no navegador e sair sem confirmar o commit.",
                         "align": "left",
                         "id": "l11-edicao-web-e-commit-manual-step-09-block-02-paragraph"
                       },
@@ -42119,7 +44175,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A distinção é importante porque o curso passa da web para o local logo depois.",
+                            "value": "Essa distinção importa porque editar no navegador e editar localmente não seguem o mesmo fluxo.",
                             "align": "left",
                             "id": "l11-edicao-web-e-commit-manual-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -42150,11 +44206,6 @@ window.AraLearnBundledContent = {
                         "value": "A alteração passa a aparecer no `[[]]` do repositório.",
                         "options": [
                           {
-                            "value": "histórico",
-                            "result": "Exato. O commit dá visibilidade à mudança no histórico do projeto.",
-                            "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "nome do owner",
                             "result": "Owner não muda por causa de um commit manual.",
                             "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-03"
@@ -42163,6 +44214,11 @@ window.AraLearnBundledContent = {
                             "value": "prompt do terminal",
                             "result": "Prompt do terminal é outro ambiente de uso.",
                             "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "histórico",
+                            "result": "Exato. O commit dá visibilidade à mudança no histórico do projeto.",
+                            "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l11-edicao-web-e-commit-manual-step-12-block-03-simulator"
@@ -42196,13 +44252,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l11-edicao-web-e-commit-manual-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você edita um arquivo no navegador e entende o papel do commit web.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l11-edicao-web-e-commit-manual-step-16-block-02-paragraph"
                       },
                       {
@@ -42224,7 +44280,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l12-controle-de-versao-e-modelos",
                 "title": "Controle de versão, commits, branches e modelos",
-                "subtitle": "Dar significado às operações já vistas, introduzindo controle de versão, snapshot, commit, branch e o contraste entre modelos centralizado e distribuído.",
+                "subtitle": "Controle de versão, snapshot, commit, branch e os modelos centralizado e distribuído entram como partes do mesmo sistema.",
                 "steps": [
                   {
                     "id": "l12-controle-de-versao-e-modelos-step-01",
@@ -42239,7 +44295,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Antes de usar Git no terminal, vale fixar por que controle de versão existe e o que ele resolve.",
+                        "value": "Controle de versão, snapshot, commit, branch e os modelos centralizado e distribuído entram como partes do mesmo sistema.",
                         "align": "left",
                         "id": "l12-controle-de-versao-e-modelos-step-01-block-02-paragraph"
                       },
@@ -42744,7 +44800,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Escolha o que caracteriza melhor o modelo distribuído no contraste pedido pela lição.",
+                        "value": "Escolha o que caracteriza melhor um modelo distribuído de controle de versão.",
                         "align": "left",
                         "id": "l12-controle-de-versao-e-modelos-step-08-block-02-paragraph"
                       },
@@ -42753,19 +44809,19 @@ window.AraLearnBundledContent = {
                         "value": "Cada cópia pode manter `[[]]` útil do trabalho.",
                         "options": [
                           {
-                            "value": "histórico local",
-                            "result": "Boa. Esse contraste ajuda a explicar por que Git não é só uma interface web.",
-                            "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "licença jurídica do projeto",
-                            "result": "Licença é outro assunto do curso.",
+                            "result": "Licença é outro tema; aqui a questão é histórico local e cópias de trabalho.",
                             "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-03"
                           },
                           {
                             "value": "uma única conta central obrigatória",
                             "result": "Isso puxa demais para a ideia centralizada.",
                             "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "histórico local",
+                            "result": "Boa. Esse contraste ajuda a explicar por que Git não é só uma interface web.",
+                            "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l12-controle-de-versao-e-modelos-step-08-block-03-simulator"
@@ -42847,7 +44903,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A distinção continua central mesmo quando o curso entra em modelos e histórico.",
+                            "value": "A distinção continua central quando você compara repositório local, remoto e histórico distribuído.",
                             "align": "left",
                             "id": "l12-controle-de-versao-e-modelos-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -42938,13 +44994,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l12-controle-de-versao-e-modelos-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você entende o problema que controle de versão resolve e onde Git se encaixa.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l12-controle-de-versao-e-modelos-step-14-block-02-paragraph"
                       },
                       {
@@ -42960,7 +45016,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l13-git-local-status-add-commit",
                 "title": "Primeiro fluxo local com Git",
-                "subtitle": "Levar o estudante do diretório local ao primeiro commit usando git init, git status, git add e git commit, conectando cada comando a um efeito visível.",
+                "subtitle": "git init, git status, git add e git commit formam o primeiro fluxo local que precisa fazer sentido passo a passo.",
                 "steps": [
                   {
                     "id": "l13-git-local-status-add-commit-step-01",
@@ -42975,7 +45031,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Agora entra o primeiro fluxo local com Git.",
+                        "value": "git init, git status, git add e git commit formam o primeiro fluxo local que precisa fazer sentido passo a passo.",
                         "align": "left",
                         "id": "l13-git-local-status-add-commit-step-01-block-02-paragraph"
                       },
@@ -43393,7 +45449,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O fluxo local mínimo começa com o repositório existindo no computador do estudante.",
+                            "value": "O fluxo local mínimo começa com o repositório existindo no computador local.",
                             "align": "left",
                             "id": "l13-git-local-status-add-commit-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -43642,7 +45698,7 @@ window.AraLearnBundledContent = {
                             "id": "l13-git-local-status-add-commit-step-11-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "A lição quer consolidar a ordem do fluxo antes de produção autônoma.",
+                            "value": "`git push` só faz sentido quando existe um remoto configurado.",
                             "answer": true,
                             "id": "l13-git-local-status-add-commit-step-11-block-03-multiple-choice-option-04"
                           },
@@ -43666,7 +45722,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os acertos mantêm a ordem do fluxo e evitam a confusão mais comum desta passagem do curso.",
+                            "value": "Os acertos preservam a diferença entre registrar localmente e publicar no remoto.",
                             "align": "left",
                             "id": "l13-git-local-status-add-commit-step-11-block-04-button-popup-02-paragraph"
                           }
@@ -43726,7 +45782,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A previsão final fecha o fluxo local mínimo na cabeça do estudante.",
+                            "value": "A previsão final fecha a ordem do fluxo local mínimo.",
                             "align": "left",
                             "id": "l13-git-local-status-add-commit-step-12-block-04-button-popup-02-paragraph"
                           }
@@ -43743,13 +45799,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l13-git-local-status-add-commit-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você executa o primeiro fluxo local com Git: init, status, add e commit.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l13-git-local-status-add-commit-step-16-block-02-paragraph"
                       },
                       {
@@ -43765,7 +45821,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l14-local-remoto-clone-push-pull",
                 "title": "Conectar local e remoto: clone, push, fetch e pull",
-                "subtitle": "Explicar como o clone cria a cópia local e como push/fetch/pull ligam o computador do estudante ao repositório remoto no GitHub.",
+                "subtitle": "Clone cria a cópia local; push, fetch e pull conectam o computador ao repositório remoto.",
                 "steps": [
                   {
                     "id": "l14-local-remoto-clone-push-pull-step-01",
@@ -43780,13 +45836,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Este é o ponto em que muita gente mistura computador local, origin e GitHub.",
+                        "value": "Clone cria a cópia local; push, fetch e pull conectam o computador ao repositório remoto.",
                         "align": "left",
                         "id": "l14-local-remoto-clone-push-pull-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A lição compara clone, push, fetch e pull com passos curtos e repetidos.",
+                        "value": "Aqui você compara clone, push, fetch e pull pelo que cada comando faz entre a máquina local e o remoto.",
                         "align": "left",
                         "id": "l14-local-remoto-clone-push-pull-step-01-block-03-paragraph"
                       },
@@ -44286,7 +46342,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Clone é a porta de entrada do remoto para o computador do estudante.",
+                            "value": "Clone é a porta de entrada do remoto para o computador local.",
                             "align": "left",
                             "id": "l14-local-remoto-clone-push-pull-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -44514,7 +46570,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais afirmações sobre `origin` estão corretas neste nível introdutório?",
+                        "value": "Quais afirmações sobre `origin` ajudam a ler o fluxo entre local e remoto?",
                         "align": "left",
                         "id": "l14-local-remoto-clone-push-pull-step-11-block-02-paragraph"
                       },
@@ -44594,7 +46650,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "value": "publica uma release",
-                            "result": "Release é outra ação, fora do foco desta lição.",
+                            "result": "Release é publicação de versão; `pull` atualiza o repositório local com mudanças do remoto.",
                             "id": "l14-local-remoto-clone-push-pull-step-12-block-03-simulator-option-03"
                           },
                           {
@@ -44634,13 +46690,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l14-local-remoto-clone-push-pull-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você separa clone, push, fetch e pull no fluxo entre local e remoto.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l14-local-remoto-clone-push-pull-step-16-block-02-paragraph"
                       },
                       {
@@ -44655,29 +46711,29 @@ window.AraLearnBundledContent = {
               },
               {
                 "id": "l15-branch-e-pull-request-basicos",
-                "title": "Branch e pull request em nível introdutório",
-                "subtitle": "Mostrar como o trabalho em equipe se organiza com branches e pull requests, sem exigir fluxo avançado de revisão.",
+                "title": "Branch e pull request básicos",
+                "subtitle": "Branch isola mudanças e pull request propõe integração entre branches, sem exigir fluxo avançado logo de início.",
                 "steps": [
                   {
                     "id": "l15-branch-e-pull-request-basicos-step-01",
                     "type": "content",
-                    "title": "Branch e pull request em nível introdutório",
+                    "title": "Branch e pull request básicos",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Branch e pull request em nível introdutório",
+                        "value": "Branch e pull request básicos",
                         "align": "left",
                         "id": "l15-branch-e-pull-request-basicos-step-01-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Para trabalho em dupla, branch e pull request precisam aparecer como ferramentas de colaboração, não como ritual.",
+                        "value": "Branch isola mudanças e pull request propõe integração entre branches, sem exigir fluxo avançado logo de início.",
                         "align": "left",
                         "id": "l15-branch-e-pull-request-basicos-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Aqui o objetivo é entender isolamento de mudança e proposta de integração em nível introdutório.",
+                        "value": "Branch isola uma mudança e pull request apresenta essa mudança para integração no fluxo principal.",
                         "align": "left",
                         "id": "l15-branch-e-pull-request-basicos-step-01-block-03-paragraph"
                       },
@@ -45021,7 +47077,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais afirmações respeitam o nível introdutório da lição?",
+                        "value": "Quais afirmações mostram por que branch e pull request existem?",
                         "align": "left",
                         "id": "l15-branch-e-pull-request-basicos-step-06-block-02-paragraph"
                       },
@@ -45045,7 +47101,7 @@ window.AraLearnBundledContent = {
                             "id": "l15-branch-e-pull-request-basicos-step-06-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "A lição quer trabalho em dupla, não conflitos avançados.",
+                            "value": "Nem toda colaboração inicial precisa entrar em rebase e conflito avançado.",
                             "answer": true,
                             "id": "l15-branch-e-pull-request-basicos-step-06-block-03-multiple-choice-option-04"
                           }
@@ -45169,11 +47225,6 @@ window.AraLearnBundledContent = {
                         "value": "Abrir um `[[]]` para propor a integração.",
                         "options": [
                           {
-                            "value": "pull request",
-                            "result": "Boa. O PR aparece aqui como proposta de mudança entre branches.",
-                            "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "rmdir",
                             "result": "Esse comando de shell não organiza colaboração no Git.",
                             "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-02"
@@ -45182,6 +47233,11 @@ window.AraLearnBundledContent = {
                             "value": "README",
                             "result": "README é arquivo do projeto, não o mecanismo de proposta.",
                             "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-03"
+                          },
+                          {
+                            "value": "pull request",
+                            "result": "Boa. O PR aparece aqui como proposta de mudança entre branches.",
+                            "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l15-branch-e-pull-request-basicos-step-08-block-03-simulator"
@@ -45244,7 +47300,7 @@ window.AraLearnBundledContent = {
                             "id": "l15-branch-e-pull-request-basicos-step-09-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "A colaboração em dupla justifica o nível introdutório desta lição.",
+                            "value": "Uma branch também pode ser criada para trabalhar sem mexer direto na principal.",
                             "answer": true,
                             "id": "l15-branch-e-pull-request-basicos-step-09-block-03-multiple-choice-option-04"
                           }
@@ -45295,7 +47351,7 @@ window.AraLearnBundledContent = {
                         "options": [
                           {
                             "value": "um novo sistema operacional",
-                            "result": "Branch não troca o sistema do estudante.",
+                            "result": "Branch não troca o sistema nem o editor em uso.",
                             "id": "l15-branch-e-pull-request-basicos-step-10-block-03-simulator-option-02"
                           },
                           {
@@ -45340,13 +47396,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l15-branch-e-pull-request-basicos-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você entende branch e pull request como apoio ao trabalho em dupla.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l15-branch-e-pull-request-basicos-step-14-block-02-paragraph"
                       },
                       {
@@ -45368,7 +47424,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l16-editor-ide-plugin",
                 "title": "Editor de texto, IDE e plugin: sem confundir as camadas",
-                "subtitle": "Fazer o estudante distinguir com segurança editor, IDE, plugin e configuração básica, respeitando a abordagem local da disciplina.",
+                "subtitle": "Editor, IDE e plugin ocupam papéis diferentes no ambiente de desenvolvimento.",
                 "steps": [
                   {
                     "id": "l16-editor-ide-plugin-step-01",
@@ -45383,7 +47439,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A disciplina distingue editor de texto, IDE, plugin e configuração sem entrar em guerra de ferramentas.",
+                        "value": "Editor, IDE e plugin ocupam papéis diferentes no ambiente de desenvolvimento.",
                         "align": "left",
                         "id": "l16-editor-ide-plugin-step-01-block-02-paragraph"
                       },
@@ -45718,7 +47774,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "editor extensível no vocabulário local do curso.",
+                              "value": "editor extensível no vocabulário técnico local.",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -45948,7 +48004,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais frases mantêm a lição em critérios de papel e uso?",
+                        "value": "Quais frases distinguem corretamente editor, IDE e plugin?",
                         "align": "left",
                         "id": "l16-editor-ide-plugin-step-09-block-02-paragraph"
                       },
@@ -45957,23 +48013,23 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Plugin não substitui automaticamente toda a ideia de IDE.",
+                            "value": "Configuração básica pode existir tanto em editor quanto em IDE.",
                             "answer": true,
                             "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "A comparação deve focar em papel e necessidade, não em fanatismo de ferramenta.",
+                            "value": "Um plugin acrescenta recursos a uma ferramenta já existente.",
                             "answer": true,
                             "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "Configuração básica deve ficar em nível introdutório.",
-                            "answer": true,
+                            "value": "Editor, IDE e plugin são exatamente a mesma coisa.",
+                            "answer": false,
                             "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-04"
                           },
                           {
-                            "value": "A lição precisa provar que uma ferramenta vence todas as outras.",
-                            "answer": false,
+                            "value": "Editor e IDE podem compartilhar recursos, mas não são sinônimos.",
+                            "answer": true,
                             "id": "l16-editor-ide-plugin-step-09-block-03-multiple-choice-option-03"
                           }
                         ],
@@ -45991,7 +48047,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "O curso quer critério de uso, não disputa abstrata de marcas.",
+                            "value": "O foco é distinguir camadas e usos, não transformar ferramenta em torcida.",
                             "align": "left",
                             "id": "l16-editor-ide-plugin-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -46082,13 +48138,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l16-editor-ide-plugin-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você distingue editor, IDE, plugin e configuração básica na linguagem da disciplina.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l16-editor-ide-plugin-step-14-block-02-paragraph"
                       },
                       {
@@ -46104,7 +48160,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l17-debug-e-depuracao",
                 "title": "Debug e depuração na prática",
-                "subtitle": "Distinguir recurso, processo e objetivo: debug como apoio técnico e depuração como atividade de localizar e corrigir problemas.",
+                "subtitle": "Debug é recurso; depuração é a atividade de investigar e corrigir o problema.",
                 "steps": [
                   {
                     "id": "l17-debug-e-depuracao-step-01",
@@ -46119,7 +48175,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Debug e depuração costumam ser usados como sinônimos, mas não precisam ser.",
+                        "value": "Debug é recurso; depuração é a atividade de investigar e corrigir o problema.",
                         "align": "left",
                         "id": "l17-debug-e-depuracao-step-01-block-02-paragraph"
                       },
@@ -46679,7 +48735,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais frases mantêm o foco introdutório em erro, observação e correção?",
+                        "value": "Quais frases mantêm o foco em observar o erro, testar hipóteses e corrigir com calma?",
                         "align": "left",
                         "id": "l17-debug-e-depuracao-step-09-block-02-paragraph"
                       },
@@ -46722,7 +48778,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os acertos mantêm a prática proporcional ao nível do curso.",
+                            "value": "Os acertos mantêm a depuração ligada a erro real, observação e correção objetiva.",
                             "align": "left",
                             "id": "l17-debug-e-depuracao-step-09-block-04-button-popup-02-paragraph"
                           }
@@ -46744,7 +48800,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quando o estudante quer ver o valor de uma variável durante a execução, qual palavra se encaixa melhor?",
+                        "value": "Quando você quer ver o valor de uma variável durante a execução, qual palavra se encaixa melhor?",
                         "align": "left",
                         "id": "l17-debug-e-depuracao-step-10-block-02-paragraph"
                       },
@@ -46752,11 +48808,6 @@ window.AraLearnBundledContent = {
                         "kind": "simulator",
                         "value": "O apoio em foco é o `[[]]`.",
                         "options": [
-                          {
-                            "value": "debug",
-                            "result": "Exato. A inspeção durante a execução é um uso típico do debug.",
-                            "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-01"
-                          },
                           {
                             "value": "licenciamento",
                             "result": "Licenciamento não é apoio técnico de execução.",
@@ -46766,6 +48817,11 @@ window.AraLearnBundledContent = {
                             "value": "upload",
                             "result": "Upload é ação de GitHub, não de investigação de erro.",
                             "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-03"
+                          },
+                          {
+                            "value": "debug",
+                            "result": "Exato. A inspeção durante a execução é um uso típico do debug.",
+                            "id": "l17-debug-e-depuracao-step-10-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l17-debug-e-depuracao-step-10-block-03-simulator"
@@ -46799,13 +48855,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l17-debug-e-depuracao-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você separa debug de depuração e reconhece o papel de um breakpoint.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l17-debug-e-depuracao-step-14-block-02-paragraph"
                       },
                       {
@@ -46827,7 +48883,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l18-software-livre-e-contexto-da-disciplina",
                 "title": "Software livre e contexto da disciplina",
-                "subtitle": "Retomar GNU/Linux como parte de um contexto de software livre, contribuição e licenças em nível introdutório, conectado ao que o estudante já usa.",
+                "subtitle": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
                 "steps": [
                   {
                     "id": "l18-software-livre-e-contexto-da-disciplina-step-01",
@@ -46842,7 +48898,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Depois das ferramentas, vale recolocar o curso no contexto de software livre.",
+                        "value": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
                         "align": "left",
                         "id": "l18-software-livre-e-contexto-da-disciplina-step-01-block-02-paragraph"
                       },
@@ -47251,7 +49307,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Os acertos seguram o tema em nível introdutório e conectado ao curso real.",
+                            "value": "Os acertos mantêm software livre ligado a liberdade, licença e contribuição.",
                             "align": "left",
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-04-button-popup-02-paragraph"
                           }
@@ -47325,7 +49381,7 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "A frase correta impede que o estudante trate plataforma hospedada como conceito jurídico por reflexo.",
+                            "value": "A frase correta evita confundir plataforma hospedada com conceito jurídico.",
                             "align": "left",
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-07-block-04-button-popup-02-paragraph"
                           }
@@ -47356,11 +49412,6 @@ window.AraLearnBundledContent = {
                         "value": "O item que ajuda a explicitar isso é a `[[]]`.",
                         "options": [
                           {
-                            "value": "licença",
-                            "result": "Boa. A licença ajuda a explicitar condições de uso e distribuição.",
-                            "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "janela do terminal",
                             "result": "Terminal não explicita condições jurídicas do projeto.",
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-02"
@@ -47369,6 +49420,11 @@ window.AraLearnBundledContent = {
                             "value": "branch feature",
                             "result": "Branch organiza trabalho, mas não cumpre esse papel.",
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-03"
+                          },
+                          {
+                            "value": "licença",
+                            "result": "Boa. A licença ajuda a explicitar condições de uso e distribuição.",
+                            "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l18-software-livre-e-contexto-da-disciplina-step-08-block-03-simulator"
@@ -47416,23 +49472,23 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "GNU/Linux ajuda a recuperar o começo do curso em chave de contexto maior.",
+                            "value": "Contribuição pode começar com documentação, correção e uso responsável do repositório.",
                             "answer": true,
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-01"
                           },
                           {
-                            "value": "Contribuição pode ser tratada em nível introdutório, ligada ao uso real do repositório.",
-                            "answer": true,
+                            "value": "Software livre se resume a não cobrar pelo programa.",
+                            "answer": false,
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "A lição deve abandonar o projeto da turma e falar só de filosofia abstrata.",
-                            "answer": false,
+                            "value": "Licença ajuda a definir como o software pode ser usado, estudado e distribuído.",
+                            "answer": true,
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-04"
                           },
                           {
-                            "value": "Serviço hospedado e software livre são categorias automaticamente idênticas.",
-                            "answer": false,
+                            "value": "Software livre não se resume a ser gratuito.",
+                            "answer": true,
                             "id": "l18-software-livre-e-contexto-da-disciplina-step-09-block-03-multiple-choice-option-02"
                           }
                         ],
@@ -47541,13 +49597,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l18-software-livre-e-contexto-da-disciplina-step-14-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você liga software livre a liberdades, licença e contribuição sem reduzir tudo a preço.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l18-software-livre-e-contexto-da-disciplina-step-14-block-02-paragraph"
                       },
                       {
@@ -47563,7 +49619,7 @@ window.AraLearnBundledContent = {
               {
                 "id": "l19-documentacao-pesquisa-e-boas-praticas",
                 "title": "Documentação oficial, pesquisa técnica e boas práticas",
-                "subtitle": "Fechar o curso ensinando o estudante a continuar aprendendo: começar por documentação oficial, formular busca útil e aplicar boas práticas mínimas em README, nomes, estrutura e commits.",
+                "subtitle": "Documentação oficial, busca técnica, README e commits claros formam uma base segura para continuar estudando sozinho.",
                 "steps": [
                   {
                     "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01",
@@ -47578,13 +49634,13 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Fechando o curso, o estudante precisa saber continuar aprendendo sem depender sempre do professor.",
+                        "value": "Documentação oficial, busca técnica, README e commits claros formam uma base segura para continuar estudando sozinho.",
                         "align": "left",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01-block-02-paragraph"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A lição amarra documentação oficial, busca técnica, README, nomes claros e commits com sentido.",
+                        "value": "Documentação oficial, busca técnica, README, nomes claros e commits com sentido formam um kit mínimo para continuar aprendendo sozinho.",
                         "align": "left",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-01-block-03-paragraph"
                       },
@@ -47849,7 +49905,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "primeira parada quando o estudante quer entender uso confiável.",
+                              "value": "primeira parada para entender uso confiável.",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -47944,7 +50000,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quais atitudes seguem a orientação de pesquisa técnica desta lição?",
+                        "value": "Quais atitudes seguem uma boa prática de pesquisa técnica?",
                         "align": "left",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-07-block-02-paragraph"
                       },
@@ -48099,11 +50155,6 @@ window.AraLearnBundledContent = {
                         "value": "Nome mais estável: `[[]]`.",
                         "options": [
                           {
-                            "value": "docs",
-                            "result": "Boa. O nome curto e objetivo facilita leitura e manutenção do projeto.",
-                            "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-01"
-                          },
-                          {
                             "value": "Nova Pasta 2",
                             "result": "O problema aqui é justamente a falta de sentido do nome.",
                             "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-03"
@@ -48112,6 +50163,11 @@ window.AraLearnBundledContent = {
                             "value": "minhas coisas finais",
                             "result": "Esse nome é vago demais para uma estrutura colaborativa.",
                             "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-02"
+                          },
+                          {
+                            "value": "docs",
+                            "result": "Boa. O nome curto e objetivo facilita leitura e manutenção do projeto.",
+                            "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator-option-01"
                           }
                         ],
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-09-block-03-simulator"
@@ -48344,13 +50400,13 @@ window.AraLearnBundledContent = {
                       {
                         "kind": "heading",
                         "value": "Lição concluída",
-                        "align": "left",
+                        "align": "center",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-16-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
                         "value": "Agora você pesquisa melhor, organiza melhor o repositório e registra mudanças com mais clareza.",
-                        "align": "left",
+                        "align": "center",
                         "id": "l19-documentacao-pesquisa-e-boas-praticas-step-16-block-02-paragraph"
                       },
                       {
