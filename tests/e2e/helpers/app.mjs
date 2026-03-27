@@ -64,7 +64,15 @@ export async function seedProject(page, snapshot = createSampleProjectSnapshot()
 }
 
 export async function openFirstCourse(page) {
-  await page.locator('[data-action="open-course"]').first().click();
+  const sampleCourseButton = page
+    .locator('.course-card', { hasText: "Curso de teste" })
+    .locator('[data-action="open-course"]')
+    .first();
+  if (await sampleCourseButton.count()) {
+    await sampleCourseButton.click();
+  } else {
+    await page.locator('[data-action="open-course"]').first().click();
+  }
   await expect(page.locator(".module-card").first()).toBeVisible();
 }
 

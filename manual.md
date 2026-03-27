@@ -41,7 +41,7 @@ Princípios do produto:
 - sem backend obrigatório;
 - mesma base web para navegador e APK;
 - conteúdo mutável e externo ao núcleo do motor;
-- o app pode embarcar um curso-padrão separado em `content/`, sem misturar esse hardcoded ao código do motor;
+- o app pode embarcar um catálogo de cursos separado em `content/`, sem misturar esse hardcoded ao código do motor;
 - suporte a cursos de naturezas diferentes, como programação, administração, processos, ferramentas e disciplinas teóricas;
 - combinação livre de narrativa, tabela, terminal, múltipla escolha, simulador e fluxograma conforme o objetivo didático;
 - persistência local imediata;
@@ -156,7 +156,7 @@ Responsabilidades:
 - `app.js`: estado, renderização, eventos, autoria, navegação, persistência e bootstrap do hardcoded separado;
 - `styles.css`: identidade visual e layout;
 - `modules/`: funções puras e catálogos auxiliares;
-- `content/`: fonte do curso hardcoded e arquivo runtime gerado para o boot local.
+- `content/`: fontes dos cursos hardcoded e arquivo runtime gerado para o boot local.
 
 ### 4.2 Módulos principais
 
@@ -192,13 +192,13 @@ Regra atual:
 
 - o motor não deve embutir cursos diretamente dentro de `app.js`;
 - o hardcoded oficial deve ficar separado em `content/`;
-- o runtime local usa `content/hardcoded-content.js`, gerado a partir do único `.json` ativo em `content/`;
+- o runtime local usa `content/hardcoded-content.js`, gerado a partir dos `.json` ativos em `content/`;
 - a inicialização carrega primeiro o workspace local persistido e depois só complementa o que estiver faltando a partir do hardcoded.
 
 Consequências:
 
-- o curso-padrão pode ser trocado sem editar o núcleo do app;
-- o usuário pode editar localmente o curso hardcoded já carregado;
+- o catálogo-padrão pode ser trocado sem editar o núcleo do app;
+- o usuário pode editar localmente os cursos hardcoded já carregados;
 - em caso de conflito entre hardcoded e workspace local, o conteúdo salvo localmente prevalece;
 - cursos, módulos, lições e cards continuam não pertencendo ao código-fonte do motor;
 - o manual não documenta cursos específicos;
@@ -638,16 +638,16 @@ Comportamento:
 
 ## 10.3 Bootstrap do hardcoded
 
-O curso-padrão embarcado não substitui cegamente o workspace local.
+O catálogo embarcado não substitui cegamente o workspace local.
 
 Comportamento:
 
 - o app lê `content/hardcoded-content.js` no boot;
-- esse arquivo é gerado a partir do único `.json` ativo em `content/`;
+- esse arquivo é gerado a partir dos `.json` ativos em `content/`;
 - o hardcoded entra como semente complementar;
 - se o usuário já tiver editado localmente o mesmo curso, módulo, lição, step ou bloco, a versão local prevalece;
 - itens ausentes no armazenamento local podem ser acrescentados a partir do hardcoded sem apagar o restante;
-- trocar o hardcoded oficial não exige editar o motor, apenas atualizar o JSON-fonte e regenerar o runtime.
+- trocar o hardcoded oficial não exige editar o motor, apenas atualizar os JSONs-fonte e regenerar o runtime.
 
 ---
 
@@ -745,7 +745,7 @@ No navegador:
 Na publicação estática do projeto:
 
 - o artefato precisa incluir `index.html`, `app.js`, `styles.css`, `assets/`, `modules/` e `content/`;
-- o runtime do hardcoded deve ser regenerado antes do deploy, para manter `content/hardcoded-content.js` coerente com o JSON-fonte ativo.
+- o runtime do hardcoded deve ser regenerado antes do deploy, para manter `content/hardcoded-content.js` coerente com os JSONs-fonte ativos.
 
 ---
 
@@ -773,8 +773,8 @@ Validações obrigatórias:
 
 Cobertura mínima esperada:
 
-- boot com curso hardcoded separado;
-- preservação de edição local sobre o mesmo curso hardcoded;
+- boot com catálogo hardcoded separado;
+- preservação de edição local sobre os mesmos cursos hardcoded;
 - retomada de progresso;
 - edição e persistência de cards;
 - popup estruturado;

@@ -104,7 +104,7 @@ test("popup estruturado do botão reabre no editor dedicado com os blocos salvos
   await openEditorForCurrentStep(page);
   await saveEditor(page);
 
-  await page.evaluate(() => {
+  const updatedSnapshot = await page.evaluate(() => {
     const snapshot = JSON.parse(localStorage.getItem("aralearn_project_v1") || "null");
     const step = snapshot.content.courses[0].modules[0].lessons[0].steps[0];
     const button = Array.isArray(step.blocks)
@@ -117,8 +117,11 @@ test("popup estruturado do botão reabre no editor dedicado com os blocos salvos
         { id: "popup-paragraph", kind: "paragraph", value: "Comentário atual do popup" }
       ];
     }
-    localStorage.setItem("aralearn_project_v1", JSON.stringify(snapshot));
+    return snapshot;
   });
+  await page.addInitScript((snapshot) => {
+    window.localStorage.setItem("aralearn_project_v1", JSON.stringify(snapshot));
+  }, updatedSnapshot);
   await page.reload();
 
   await openFirstCourse(page);
