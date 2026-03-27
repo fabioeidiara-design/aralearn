@@ -72,9 +72,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A matrícula está ativa.",
-                            "answer": true,
-                            "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice-option-01"
+                            "value": "x é maior que 3.",
+                            "answer": false,
+                            "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Abra o sistema agora.",
@@ -87,9 +87,9 @@ window.AraLearnBundledContent = {
                             "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "x é maior que 3.",
-                            "answer": false,
-                            "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice-option-04"
+                            "value": "A matrícula está ativa.",
+                            "answer": true,
+                            "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-01-proposicoes-traducao-step-02-block-03-multiple-choice"
@@ -407,22 +407,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Qual leitura corresponde melhor a ~Q?",
                         "align": "left",
-                        "id": "logica-01-proposicoes-traducao-step-06-block-02-paragraph"
+                        "id": "logica-01-proposicoes-traducao-step-06-block-02-paragraph",
+                        "richText": "Qual leitura corresponde melhor a <span class=\"inline-tone-gold\">~Q</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "Q é sempre verdadeiro.",
-                            "answer": false,
-                            "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Não Q.",
-                            "answer": true,
-                            "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-02"
-                          },
                           {
                             "value": "Q e não P.",
                             "answer": false,
@@ -432,6 +423,16 @@ window.AraLearnBundledContent = {
                             "value": "Q ou P.",
                             "answer": false,
                             "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Q é sempre verdadeiro.",
+                            "answer": false,
+                            "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "Não Q.",
+                            "answer": true,
+                            "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-01-proposicoes-traducao-step-06-block-03-multiple-choice"
@@ -546,22 +547,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Ainda com P = matrícula ativa, qual frase representa melhor ~P?",
                         "align": "left",
-                        "id": "logica-01-proposicoes-traducao-step-08-block-02-paragraph"
+                        "id": "logica-01-proposicoes-traducao-step-08-block-02-paragraph",
+                        "richText": "Ainda com P = matrícula ativa, qual frase representa melhor <span class=\"inline-tone-gold\">~P</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "A matrícula não está ativa.",
-                            "answer": true,
-                            "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "A matrícula está ativa e o boleto foi pago.",
-                            "answer": false,
-                            "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice-option-02"
-                          },
                           {
                             "value": "A matrícula está ativa?",
                             "answer": false,
@@ -571,6 +563,16 @@ window.AraLearnBundledContent = {
                             "value": "Ative a matrícula.",
                             "answer": false,
                             "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "A matrícula não está ativa.",
+                            "answer": true,
+                            "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "A matrícula está ativa e o boleto foi pago.",
+                            "answer": false,
+                            "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-01-proposicoes-traducao-step-08-block-03-multiple-choice"
@@ -712,14 +714,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "'y + 2 = 5' foi classificado errado.",
+                            "answer": false,
+                            "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-04"
+                          },
+                          {
                             "value": "'Feche a aba.' foi classificado errado.",
                             "answer": true,
                             "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "'A tarefa foi enviada?' foi classificado errado.",
-                            "answer": true,
-                            "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-02"
                           },
                           {
                             "value": "'O servidor está online.' foi classificado errado.",
@@ -727,9 +729,9 @@ window.AraLearnBundledContent = {
                             "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-03"
                           },
                           {
-                            "value": "'y + 2 = 5' foi classificado errado.",
-                            "answer": false,
-                            "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-04"
+                            "value": "'A tarefa foi enviada?' foi classificado errado.",
+                            "answer": true,
+                            "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-01-proposicoes-traducao-step-09-block-04-multiple-choice"
@@ -1107,6 +1109,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "~Q",
+                            "answer": false,
+                            "id": "logica-02-conectivos-basicos-step-03-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "~(P ^ Q)",
                             "answer": true,
                             "id": "logica-02-conectivos-basicos-step-03-block-03-multiple-choice-option-01"
@@ -1120,11 +1127,6 @@ window.AraLearnBundledContent = {
                             "value": "P v Q",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-03-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "~Q",
-                            "answer": false,
-                            "id": "logica-02-conectivos-basicos-step-03-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-02-conectivos-basicos-step-03-block-03-multiple-choice"
@@ -1313,20 +1315,21 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Na lógica proposicional básica, P v Q continua verdadeiro quando as duas partes são verdadeiras.",
                         "align": "left",
-                        "id": "logica-02-conectivos-basicos-step-06-block-02-paragraph"
+                        "id": "logica-02-conectivos-basicos-step-06-block-02-paragraph",
+                        "richText": "Na lógica proposicional básica, <span class=\"inline-tone-gold\">P v Q</span> continua verdadeiro quando as duas partes são verdadeiras."
                       },
                       {
                         "kind": "simulator",
-                        "value": "Se P = [[]] e Q = verdadeiro, qual é a leitura de P v Q?",
+                        "value": "Escolha um valor para P: se P = [[]] e Q = verdadeiro, como fica P v Q?",
                         "options": [
                           {
                             "value": "verdadeiro",
-                            "result": "Com P verdadeiro e Q verdadeiro, a disjunção continua verdadeira.",
+                            "result": "Com P verdadeiro e Q verdadeiro, P v Q fica verdadeiro.",
                             "id": "logica-02-conectivos-basicos-step-06-block-03-simulator-option-01"
                           },
                           {
                             "value": "falso",
-                            "result": "Se as duas forem falsas, aí sim a disjunção falha.",
+                            "result": "Mesmo com P falso, Q verdadeiro já basta para que P v Q fique verdadeiro.",
                             "id": "logica-02-conectivos-basicos-step-06-block-03-simulator-option-02"
                           }
                         ],
@@ -1362,24 +1365,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "~P significa 'não P'.",
-                            "answer": true,
-                            "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "P ^ Q significa 'P ou Q'.",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "P v Q significa 'P ou Q'.",
+                            "value": "~P significa 'não P'.",
                             "answer": true,
-                            "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-03"
+                            "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "~(P ^ Q) significa 'não P e Q'.",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "P v Q significa 'P ou Q'.",
+                            "answer": true,
+                            "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice-option-03"
                           }
                         ],
                         "id": "logica-02-conectivos-basicos-step-07-block-03-multiple-choice"
@@ -1427,14 +1430,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "~(P v Q) e ~P v Q",
-                            "answer": true,
-                            "id": "logica-02-conectivos-basicos-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "P ^ Q e P ^ Q",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-08-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "~(P v Q) e ~P v Q",
+                            "answer": true,
+                            "id": "logica-02-conectivos-basicos-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "~P e ~P",
@@ -1483,18 +1486,19 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A fórmula é P v Q. Marque a leitura mais justa para o curso.",
+                        "value": "A fórmula é P v Q. Marque a leitura mais justa.",
                         "align": "left",
-                        "id": "logica-02-conectivos-basicos-step-09-block-02-paragraph"
+                        "id": "logica-02-conectivos-basicos-step-09-block-02-paragraph",
+                        "richText": "A fórmula é <span class=\"inline-tone-gold\">P v Q</span>. Marque a leitura mais justa."
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "P ou Q, inclusive se as duas forem verdadeiras.",
-                            "answer": true,
-                            "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-01"
+                            "value": "P somente se Q.",
+                            "answer": false,
+                            "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Ou P ou Q, mas nunca as duas.",
@@ -1502,14 +1506,14 @@ window.AraLearnBundledContent = {
                             "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "P ou Q, inclusive se as duas forem verdadeiras.",
+                            "answer": true,
+                            "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Não P e não Q.",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "P somente se Q.",
-                            "answer": false,
-                            "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-02-conectivos-basicos-step-09-block-03-multiple-choice"
@@ -1628,24 +1632,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Tratar P v Q como falso quando P e Q são verdadeiros.",
-                            "answer": true,
-                            "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Ler ~P como 'não P'.",
                             "answer": false,
                             "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "Usar ^ para representar 'e'.",
-                            "answer": false,
-                            "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-03"
+                            "value": "Tratar P v Q como falso quando P e Q são verdadeiros.",
+                            "answer": true,
+                            "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Negar só P quando a frase pede negação do bloco inteiro.",
                             "answer": true,
                             "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Usar ^ para representar 'e'.",
+                            "answer": false,
+                            "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice-option-03"
                           }
                         ],
                         "id": "logica-02-conectivos-basicos-step-11-block-03-multiple-choice"
@@ -2062,16 +2066,17 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Qual linha torna P -> Q falsa?",
                         "align": "left",
-                        "id": "logica-03-implicacao-bicondicional-step-03-block-02-paragraph"
+                        "id": "logica-03-implicacao-bicondicional-step-03-block-02-paragraph",
+                        "richText": "Qual linha torna <span class=\"inline-tone-gold\">P -> Q</span> falsa?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "P = V e Q = F",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-01"
+                            "value": "P = F e Q = F",
+                            "answer": false,
+                            "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "P = V e Q = V",
@@ -2079,14 +2084,14 @@ window.AraLearnBundledContent = {
                             "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "P = V e Q = F",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "P = F e Q = V",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "P = F e Q = F",
-                            "answer": false,
-                            "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-03-block-03-multiple-choice"
@@ -2127,31 +2132,32 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Use P = usuário autenticado e Q = acesso liberado. Qual leitura corresponde a P -> Q?",
                         "align": "left",
-                        "id": "logica-03-implicacao-bicondicional-step-04-block-02-paragraph"
+                        "id": "logica-03-implicacao-bicondicional-step-04-block-02-paragraph",
+                        "richText": "Use <span class=\"inline-tone-gold\">P = usuário autenticado</span> e <span class=\"inline-tone-gold\">Q = acesso liberado</span>. Qual leitura corresponde a <span class=\"inline-tone-gold\">P -> Q</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Se o usuário está autenticado, então o acesso é liberado.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "O acesso é liberado se, e somente se, o usuário está autenticado.",
-                            "answer": false,
-                            "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Usuário autenticado e acesso liberado.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "Se o usuário está autenticado, então o acesso é liberado.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Usuário autenticado ou acesso liberado.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "O acesso é liberado se, e somente se, o usuário está autenticado.",
+                            "answer": false,
+                            "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-04-block-03-multiple-choice"
@@ -2427,11 +2433,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "P <-> Q exige equivalência de mão dupla; P -> Q não.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "P -> Q e P <-> Q sempre têm a mesma tabela.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-07-block-03-multiple-choice-option-02"
@@ -2445,6 +2446,11 @@ window.AraLearnBundledContent = {
                             "value": "P -> Q falha quando P é falso.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "P <-> Q exige equivalência de mão dupla; P -> Q não.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-07-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-07-block-03-multiple-choice"
@@ -2485,16 +2491,17 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Use P = backup concluído e Q = estado consistente. Qual leitura corresponde a P <-> Q?",
                         "align": "left",
-                        "id": "logica-03-implicacao-bicondicional-step-08-block-02-paragraph"
+                        "id": "logica-03-implicacao-bicondicional-step-08-block-02-paragraph",
+                        "richText": "Use <span class=\"inline-tone-gold\">P = backup concluído</span> e <span class=\"inline-tone-gold\">Q = estado consistente</span>. Qual leitura corresponde a <span class=\"inline-tone-gold\">P <-> Q</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "O backup foi concluído se, e somente se, o estado está consistente.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice-option-01"
+                            "value": "Backup concluído ou estado consistente.",
+                            "answer": false,
+                            "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Se o backup foi concluído, então o estado está consistente.",
@@ -2507,9 +2514,9 @@ window.AraLearnBundledContent = {
                             "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Backup concluído ou estado consistente.",
-                            "answer": false,
-                            "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice-option-04"
+                            "value": "O backup foi concluído se, e somente se, o estado está consistente.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-08-block-03-multiple-choice"
@@ -2557,16 +2564,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Tomar P -> Q como 'P causa Q' em qualquer contexto.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Ler P <-> Q como 'P e Q'.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Usar 'se... então' para P -> Q.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-03"
@@ -2575,6 +2572,16 @@ window.AraLearnBundledContent = {
                             "value": "Usar 'se, e somente se' para P <-> Q.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Ler P <-> Q como 'P e Q'.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Tomar P -> Q como 'P causa Q' em qualquer contexto.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-09-block-03-multiple-choice"
@@ -2759,9 +2766,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "P -> Q é verdadeiro e P <-> Q é falso.",
-                            "answer": true,
-                            "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-01"
+                            "value": "As duas são falsas.",
+                            "answer": false,
+                            "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-04"
                           },
                           {
                             "value": "P -> Q é falso e P <-> Q é verdadeiro.",
@@ -2769,14 +2776,14 @@ window.AraLearnBundledContent = {
                             "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-02"
                           },
                           {
+                            "value": "P -> Q é verdadeiro e P <-> Q é falso.",
+                            "answer": true,
+                            "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-01"
+                          },
+                          {
                             "value": "As duas são verdadeiras.",
                             "answer": false,
                             "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "As duas são falsas.",
-                            "answer": false,
-                            "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-03-implicacao-bicondicional-step-11-block-04-multiple-choice"
@@ -3512,7 +3519,7 @@ window.AraLearnBundledContent = {
                               "align": "left"
                             },
                             {
-                              "value": "V",
+                              "value": "F",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -3581,16 +3588,17 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Qual coluna final está correta para P ^ Q?",
                         "align": "left",
-                        "id": "logica-04-tabelas-verdade-step-06-block-02-paragraph"
+                        "id": "logica-04-tabelas-verdade-step-06-block-02-paragraph",
+                        "richText": "Qual coluna final está correta para <span class=\"inline-tone-gold\">P ^ Q</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "V, F, F, F",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice-option-01"
+                            "value": "F, F, V, V",
+                            "answer": false,
+                            "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "V, V, F, F",
@@ -3603,9 +3611,9 @@ window.AraLearnBundledContent = {
                             "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "F, F, V, V",
-                            "answer": false,
-                            "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice-option-04"
+                            "value": "V, F, F, F",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-04-tabelas-verdade-step-06-block-03-multiple-choice"
@@ -3646,7 +3654,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Para avaliar ~(P ^ Q), primeiro monte a coluna de P ^ Q e só depois negue.",
                         "align": "left",
-                        "id": "logica-04-tabelas-verdade-step-07-block-02-paragraph"
+                        "id": "logica-04-tabelas-verdade-step-07-block-02-paragraph",
+                        "richText": "Para avaliar <span class=\"inline-tone-gold\">~(P ^ Q)</span>, primeiro monte a coluna de <span class=\"inline-tone-gold\">P ^ Q</span> e só depois negue."
                       },
                       {
                         "kind": "editor",
@@ -3769,14 +3778,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A coluna final de P -> Q é V, F, V, V.",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "A coluna final de P -> Q é V, V, F, F.",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-08-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "A coluna final de P -> Q é V, F, V, V.",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "A coluna final de P -> Q é F, V, V, V.",
@@ -3880,14 +3889,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Elas exigem colunas intermediárias diferentes.",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-09-block-04-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Elas sempre terão a mesma coluna final.",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-09-block-04-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Elas exigem colunas intermediárias diferentes.",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-09-block-04-multiple-choice-option-01"
                           },
                           {
                             "value": "As duas são só outra escrita de P ^ Q.",
@@ -4247,31 +4256,32 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Para avaliar ~(P ^ Q) -> R, o que você faz primeiro?",
                         "align": "left",
-                        "id": "logica-04-tabelas-verdade-step-11-block-02-paragraph"
+                        "id": "logica-04-tabelas-verdade-step-11-block-02-paragraph",
+                        "richText": "Para avaliar <span class=\"inline-tone-gold\">~(P ^ Q) -> R</span>, o que você faz primeiro?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Monta a coluna de P ^ Q, depois nega, depois aplica -> com R.",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Decide a resposta final por intuição, sem colunas auxiliares.",
-                            "answer": false,
-                            "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Ignora os parênteses e avalia -> antes.",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "Monta a coluna de P ^ Q, depois nega, depois aplica -> com R.",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Troca a fórmula por outra mais fácil sem justificar.",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Decide a resposta final por intuição, sem colunas auxiliares.",
+                            "answer": false,
+                            "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-04-tabelas-verdade-step-11-block-03-multiple-choice"
@@ -4319,24 +4329,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Pular a coluna intermediária de um bloco entre parênteses.",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Usar a mesma ordem de linhas para toda a tabela.",
-                            "answer": false,
-                            "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Ler ~ e ¬ como duas escritas da mesma negação.",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "Pular a coluna intermediária de um bloco entre parênteses.",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Tratar a ordem das linhas como opcional e incompleta.",
                             "answer": true,
                             "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Usar a mesma ordem de linhas para toda a tabela.",
+                            "answer": false,
+                            "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "logica-04-tabelas-verdade-step-12-block-03-multiple-choice"
@@ -4480,22 +4490,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Qual coluna final combina com P <-> Q?",
                         "align": "left",
-                        "id": "logica-04-tabelas-verdade-step-14-block-02-paragraph"
+                        "id": "logica-04-tabelas-verdade-step-14-block-02-paragraph",
+                        "richText": "Qual coluna final combina com <span class=\"inline-tone-gold\">P <-> Q</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "V, F, F, V",
-                            "answer": true,
-                            "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "V, V, F, F",
-                            "answer": false,
-                            "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice-option-02"
-                          },
                           {
                             "value": "F, V, V, F",
                             "answer": false,
@@ -4505,6 +4506,16 @@ window.AraLearnBundledContent = {
                             "value": "V, F, V, F",
                             "answer": false,
                             "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "V, V, F, F",
+                            "answer": false,
+                            "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "V, F, F, V",
+                            "answer": true,
+                            "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-04-tabelas-verdade-step-14-block-03-multiple-choice"
@@ -4903,9 +4914,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Sim, porque as colunas coincidem em todas as linhas.",
-                            "answer": true,
-                            "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice-option-01"
+                            "value": "Sim, mas só na primeira linha.",
+                            "answer": false,
+                            "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice-option-04"
                           },
                           {
                             "value": "Não, porque as fórmulas têm símbolos diferentes.",
@@ -4918,9 +4929,9 @@ window.AraLearnBundledContent = {
                             "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice-option-03"
                           },
                           {
-                            "value": "Sim, mas só na primeira linha.",
-                            "answer": false,
-                            "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice-option-04"
+                            "value": "Sim, porque as colunas coincidem em todas as linhas.",
+                            "answer": true,
+                            "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-03-block-04-multiple-choice"
@@ -4968,9 +4979,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Fórmulas parecidas podem não ser equivalentes; a coluna final decide.",
-                            "answer": true,
-                            "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-01"
+                            "value": "Toda fórmula com bicondicional é tautologia.",
+                            "answer": false,
+                            "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Se duas fórmulas usam P e Q, já são equivalentes.",
@@ -4978,14 +4989,14 @@ window.AraLearnBundledContent = {
                             "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "Fórmulas parecidas podem não ser equivalentes; a coluna final decide.",
+                            "answer": true,
+                            "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Toda fórmula com negação é contradição.",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Toda fórmula com bicondicional é tautologia.",
-                            "answer": false,
-                            "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-04-block-03-multiple-choice"
@@ -5033,14 +5044,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "tautologia",
-                            "answer": true,
-                            "id": "logica-05-equivalencia-e-classificacao-step-05-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "contradição",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-05-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "tautologia",
+                            "answer": true,
+                            "id": "logica-05-equivalencia-e-classificacao-step-05-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "contingência",
@@ -5098,6 +5109,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "bicondicional",
+                            "answer": false,
+                            "id": "logica-05-equivalencia-e-classificacao-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "contradição",
                             "answer": true,
                             "id": "logica-05-equivalencia-e-classificacao-step-06-block-03-multiple-choice-option-01"
@@ -5111,11 +5127,6 @@ window.AraLearnBundledContent = {
                             "value": "contingência",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-06-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "bicondicional",
-                            "answer": false,
-                            "id": "logica-05-equivalencia-e-classificacao-step-06-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-06-block-03-multiple-choice"
@@ -5223,12 +5234,18 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Considere as fórmulas ~(P v Q) e ~P ^ ~Q. O que você precisa observar para decidir se elas são equivalentes?",
                         "align": "left",
-                        "id": "logica-05-equivalencia-e-classificacao-step-08-block-02-paragraph"
+                        "id": "logica-05-equivalencia-e-classificacao-step-08-block-02-paragraph",
+                        "richText": "Considere as fórmulas <span class=\"inline-tone-gold\">~(P v Q)</span> e <span class=\"inline-tone-gold\">~P ^ ~Q</span>. O que você precisa observar para decidir se elas são equivalentes?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
+                          {
+                            "value": "Se a primeira parecer mais simples.",
+                            "answer": false,
+                            "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-04"
+                          },
                           {
                             "value": "Se as colunas finais das duas fórmulas coincidirem linha a linha.",
                             "answer": true,
@@ -5243,11 +5260,6 @@ window.AraLearnBundledContent = {
                             "value": "Se as duas começarem com negação.",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Se a primeira parecer mais simples.",
-                            "answer": false,
-                            "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-08-block-03-multiple-choice"
@@ -5369,11 +5381,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "contingência",
-                            "answer": true,
-                            "id": "logica-05-equivalencia-e-classificacao-step-09-block-04-multiple-choice-option-01"
-                          },
-                          {
                             "value": "tautologia",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-09-block-04-multiple-choice-option-02"
@@ -5387,6 +5394,11 @@ window.AraLearnBundledContent = {
                             "value": "equivalência",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-09-block-04-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "contingência",
+                            "answer": true,
+                            "id": "logica-05-equivalencia-e-classificacao-step-09-block-04-multiple-choice-option-01"
                           }
                         ],
                         "id": "logica-05-equivalencia-e-classificacao-step-09-block-04-multiple-choice"
@@ -5495,11 +5507,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Julgar só pela aparência simbólica.",
-                            "answer": true,
-                            "id": "logica-05-equivalencia-e-classificacao-step-11-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Comparar a coluna final linha a linha.",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-11-block-03-multiple-choice-option-02"
@@ -5508,6 +5515,11 @@ window.AraLearnBundledContent = {
                             "value": "Usar a tabela completa quando houver dúvida.",
                             "answer": false,
                             "id": "logica-05-equivalencia-e-classificacao-step-11-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "Julgar só pela aparência simbólica.",
+                            "answer": true,
+                            "id": "logica-05-equivalencia-e-classificacao-step-11-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Concluir equivalência por semelhança superficial de conectivos.",
@@ -5830,9 +5842,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "-2",
-                            "answer": true,
-                            "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-01"
+                            "value": "nenhuma, porque vetor não tem componentes",
+                            "answer": false,
+                            "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "4",
@@ -5840,14 +5852,14 @@ window.AraLearnBundledContent = {
                             "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "-2",
+                            "answer": true,
+                            "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "4 e -2 ao mesmo tempo, sem distinção",
                             "answer": false,
                             "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "nenhuma, porque vetor não tem componentes",
-                            "answer": false,
-                            "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "vetores-01-representacao-soma-escalar-step-02-block-03-multiple-choice"
@@ -5998,14 +6010,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(3, 3)",
-                            "answer": true,
-                            "id": "vetores-01-representacao-soma-escalar-step-04-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "(2, 4)",
                             "answer": false,
                             "id": "vetores-01-representacao-soma-escalar-step-04-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "(3, 3)",
+                            "answer": true,
+                            "id": "vetores-01-representacao-soma-escalar-step-04-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "(3, -5)",
@@ -6224,9 +6236,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(6, -4)",
-                            "answer": true,
-                            "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice-option-01"
+                            "value": "6",
+                            "answer": false,
+                            "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "(5, -2)",
@@ -6239,9 +6251,9 @@ window.AraLearnBundledContent = {
                             "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "6",
-                            "answer": false,
-                            "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice-option-04"
+                            "value": "(6, -4)",
+                            "answer": true,
+                            "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-01-representacao-soma-escalar-step-07-block-03-multiple-choice"
@@ -6289,11 +6301,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "3 · (2, 1) = (6, 3)",
-                            "answer": true,
-                            "id": "vetores-01-representacao-soma-escalar-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "(2, 1) + (1, 1) = (3, 2)",
                             "answer": false,
                             "id": "vetores-01-representacao-soma-escalar-step-08-block-03-multiple-choice-option-02"
@@ -6307,6 +6314,11 @@ window.AraLearnBundledContent = {
                             "value": "(1, 2) · (3, 4) = 11",
                             "answer": false,
                             "id": "vetores-01-representacao-soma-escalar-step-08-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "3 · (2, 1) = (6, 3)",
+                            "answer": true,
+                            "id": "vetores-01-representacao-soma-escalar-step-08-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-01-representacao-soma-escalar-step-08-block-03-multiple-choice"
@@ -6345,7 +6357,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "No app, a leitura geométrica entra como deslocamento textual curto, sem depender de desenho fino.",
+                        "value": "Aqui, a leitura geométrica aparece como deslocamento textual curto, sem depender de desenho fino.",
                         "align": "left",
                         "id": "vetores-01-representacao-soma-escalar-step-09-block-02-paragraph"
                       },
@@ -6457,9 +6469,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(3, -2)",
-                            "answer": true,
-                            "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice-option-01"
+                            "value": "(3, 2)",
+                            "answer": false,
+                            "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "(-3, 2)",
@@ -6472,9 +6484,9 @@ window.AraLearnBundledContent = {
                             "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "(3, 2)",
-                            "answer": false,
-                            "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice-option-04"
+                            "value": "(3, -2)",
+                            "answer": true,
+                            "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-01-representacao-soma-escalar-step-10-block-03-multiple-choice"
@@ -6702,16 +6714,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "2·3 + 1·4",
-                            "answer": true,
-                            "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "2·1 + 3·4",
-                            "answer": false,
-                            "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "(2, 1, 3, 4)",
                             "answer": false,
                             "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-03"
@@ -6720,6 +6722,16 @@ window.AraLearnBundledContent = {
                             "value": "2·(3, 4)",
                             "answer": false,
                             "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "2·1 + 3·4",
+                            "answer": false,
+                            "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "2·3 + 1·4",
+                            "answer": true,
+                            "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-02-produto-escalar-modulo-step-02-block-03-multiple-choice"
@@ -6767,9 +6779,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "5",
-                            "answer": true,
-                            "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-01"
+                            "value": "2",
+                            "answer": false,
+                            "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "8",
@@ -6777,14 +6789,14 @@ window.AraLearnBundledContent = {
                             "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "5",
+                            "answer": true,
+                            "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "(3, 2)",
                             "answer": false,
                             "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "2",
-                            "answer": false,
-                            "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "vetores-02-produto-escalar-modulo-step-03-block-03-multiple-choice"
@@ -6825,7 +6837,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Quando o produto escalar dá zero, isso é uma pista de ortogonalidade.",
                         "align": "left",
-                        "id": "vetores-02-produto-escalar-modulo-step-04-block-02-paragraph"
+                        "id": "vetores-02-produto-escalar-modulo-step-04-block-02-paragraph",
+                        "richText": "Quando o <span class=\"inline-tone-gold\">produto escalar</span> dá zero, isso é uma pista de ortogonalidade."
                       },
                       {
                         "kind": "table",
@@ -6919,9 +6932,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(1, 0) e (0, 2)",
-                            "answer": true,
-                            "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice-option-01"
+                            "value": "(3, 0) e (3, 1)",
+                            "answer": false,
+                            "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "(1, 1) e (1, 1)",
@@ -6934,9 +6947,9 @@ window.AraLearnBundledContent = {
                             "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "(3, 0) e (3, 1)",
-                            "answer": false,
-                            "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice-option-04"
+                            "value": "(1, 0) e (0, 2)",
+                            "answer": true,
+                            "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-02-produto-escalar-modulo-step-05-block-03-multiple-choice"
@@ -7071,11 +7084,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "5",
-                            "answer": true,
-                            "id": "vetores-02-produto-escalar-modulo-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "7",
                             "answer": false,
                             "id": "vetores-02-produto-escalar-modulo-step-07-block-03-multiple-choice-option-02"
@@ -7084,6 +7092,11 @@ window.AraLearnBundledContent = {
                             "value": "12",
                             "answer": false,
                             "id": "vetores-02-produto-escalar-modulo-step-07-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "5",
+                            "answer": true,
+                            "id": "vetores-02-produto-escalar-modulo-step-07-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "1",
@@ -7136,6 +7149,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Calcular (1, 2) · (3, 1) por 1·3 + 2·1.",
+                            "answer": false,
+                            "id": "vetores-02-produto-escalar-modulo-step-08-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "Dizer que |(3, 4)| = 7 só porque 3 + 4 = 7.",
                             "answer": true,
                             "id": "vetores-02-produto-escalar-modulo-step-08-block-03-multiple-choice-option-01"
@@ -7149,11 +7167,6 @@ window.AraLearnBundledContent = {
                             "value": "Dizer que produto escalar e multiplicação por escalar são a mesma coisa.",
                             "answer": true,
                             "id": "vetores-02-produto-escalar-modulo-step-08-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Calcular (1, 2) · (3, 1) por 1·3 + 2·1.",
-                            "answer": false,
-                            "id": "vetores-02-produto-escalar-modulo-step-08-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "vetores-02-produto-escalar-modulo-step-08-block-03-multiple-choice"
@@ -7304,7 +7317,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "A regra continua igual em dimensões maiores: produto escalar soma produtos de componentes correspondentes, e módulo soma quadrados das componentes.",
                         "align": "left",
-                        "id": "vetores-02-produto-escalar-modulo-step-11-block-02-paragraph"
+                        "id": "vetores-02-produto-escalar-modulo-step-11-block-02-paragraph",
+                        "richText": "A regra continua igual em dimensões maiores: <span class=\"inline-tone-gold\">produto escalar</span> soma produtos de componentes correspondentes, e módulo soma quadrados das componentes."
                       },
                       {
                         "kind": "table",
@@ -7481,7 +7495,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Para falar de ângulo entre vetores, este módulo reaproveita produto escalar e módulo em contas pequenas.",
                         "align": "left",
-                        "id": "vetores-03-angulo-distancia-step-01-block-02-paragraph"
+                        "id": "vetores-03-angulo-distancia-step-01-block-02-paragraph",
+                        "richText": "Para falar de ângulo entre vetores, este módulo reaproveita <span class=\"inline-tone-gold\">produto escalar</span> e módulo em contas pequenas."
                       },
                       {
                         "kind": "table",
@@ -7568,17 +7583,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Quando o produto escalar é zero, o caso mais importante aqui é o ângulo reto.",
                         "align": "left",
-                        "id": "vetores-03-angulo-distancia-step-02-block-02-paragraph"
+                        "id": "vetores-03-angulo-distancia-step-02-block-02-paragraph",
+                        "richText": "Quando o <span class=\"inline-tone-gold\">produto escalar</span> é zero, o caso mais importante aqui é o ângulo reto."
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "Ângulo de 90°.",
-                            "answer": true,
-                            "id": "vetores-03-angulo-distancia-step-02-block-03-multiple-choice-option-01"
-                          },
                           {
                             "value": "Ângulo de 0°.",
                             "answer": false,
@@ -7593,6 +7604,11 @@ window.AraLearnBundledContent = {
                             "value": "Nenhuma relação útil.",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-02-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Ângulo de 90°.",
+                            "answer": true,
+                            "id": "vetores-03-angulo-distancia-step-02-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-03-angulo-distancia-step-02-block-03-multiple-choice"
@@ -7727,11 +7743,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(3, 2)",
-                            "answer": true,
-                            "id": "vetores-03-angulo-distancia-step-04-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "(7, 4)",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-04-block-03-multiple-choice-option-02"
@@ -7740,6 +7751,11 @@ window.AraLearnBundledContent = {
                             "value": "(3, 4)",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-04-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "(3, 2)",
+                            "answer": true,
+                            "id": "vetores-03-angulo-distancia-step-04-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "(2, 2)",
@@ -7866,16 +7882,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A distância entre u e v usa |u - v|.",
-                            "answer": true,
-                            "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "A distância entre u e v é sempre |u|.",
-                            "answer": false,
-                            "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Basta somar as componentes de u e v.",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-03"
@@ -7884,6 +7890,16 @@ window.AraLearnBundledContent = {
                             "value": "Distância e produto escalar são a mesma operação.",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "A distância entre u e v é sempre |u|.",
+                            "answer": false,
+                            "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "A distância entre u e v usa |u - v|.",
+                            "answer": true,
+                            "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "vetores-03-angulo-distancia-step-06-block-03-multiple-choice"
@@ -7931,6 +7947,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "12",
+                            "answer": false,
+                            "id": "vetores-03-angulo-distancia-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "5",
                             "answer": true,
                             "id": "vetores-03-angulo-distancia-step-07-block-03-multiple-choice-option-01"
@@ -7944,11 +7965,6 @@ window.AraLearnBundledContent = {
                             "value": "1",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-07-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "12",
-                            "answer": false,
-                            "id": "vetores-03-angulo-distancia-step-07-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "vetores-03-angulo-distancia-step-07-block-03-multiple-choice"
@@ -7996,11 +8012,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "O ângulo entre eles é de 90°.",
-                            "answer": true,
-                            "id": "vetores-03-angulo-distancia-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Eles têm o mesmo módulo obrigatoriamente.",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-08-block-03-multiple-choice-option-02"
@@ -8009,6 +8020,11 @@ window.AraLearnBundledContent = {
                             "value": "A distância entre eles é zero.",
                             "answer": false,
                             "id": "vetores-03-angulo-distancia-step-08-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "O ângulo entre eles é de 90°.",
+                            "answer": true,
+                            "id": "vetores-03-angulo-distancia-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Eles são o mesmo vetor.",
@@ -8116,6 +8132,16 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Produto escalar substitui a distância em qualquer caso.",
+                            "answer": false,
+                            "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "|u| e distância(u, v) são sempre a mesma conta.",
+                            "answer": false,
+                            "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-03"
+                          },
+                          {
                             "value": "|u| mede o tamanho de um vetor só.",
                             "answer": true,
                             "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-01"
@@ -8124,16 +8150,6 @@ window.AraLearnBundledContent = {
                             "value": "distância(u, v) mede a separação entre dois vetores.",
                             "answer": true,
                             "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-02"
-                          },
-                          {
-                            "value": "|u| e distância(u, v) são sempre a mesma conta.",
-                            "answer": false,
-                            "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Produto escalar substitui a distância em qualquer caso.",
-                            "answer": false,
-                            "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "vetores-03-angulo-distancia-step-10-block-03-multiple-choice"
@@ -8339,9 +8355,10 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Neste recorte, a matriz nasce da imagem dos vetores-base e1 e e2. Isso estabiliza a leitura do i/j corrompido na lista original.",
+                        "value": "Neste recorte, a matriz nasce da imagem dos vetores-base e1 e e2. Assim, a leitura da base fica estável desde o início.",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-01-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-01-block-02-paragraph",
+                        "richText": "Neste recorte, a matriz nasce da imagem dos vetores-base <span class=\"inline-tone-gold\">e1</span> e <span class=\"inline-tone-gold\">e2</span>. Assim, a leitura da base fica estável desde o início."
                       },
                       {
                         "kind": "table",
@@ -8428,7 +8445,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Se T(e1) = (2, 0) e T(e2) = (1, 1), a matriz usa essas imagens como colunas.",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-02-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-02-block-02-paragraph",
+                        "richText": "Se <span class=\"inline-tone-gold\">T(e1) = (2, 0)</span> e <span class=\"inline-tone-gold\">T(e2) = (1, 1)</span>, a matriz usa essas imagens como colunas."
                       },
                       {
                         "kind": "table",
@@ -8515,17 +8533,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Qual matriz representa as imagens T(e1) = (2, 0) e T(e2) = (1, 1)?",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-03-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-03-block-02-paragraph",
+                        "richText": "Qual matriz representa as imagens <span class=\"inline-tone-gold\">T(e1) = (2, 0)</span> e <span class=\"inline-tone-gold\">T(e2) = (1, 1)</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "[[2, 1], [0, 1]]",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-03-block-03-multiple-choice-option-01"
-                          },
                           {
                             "value": "[[2, 0], [1, 1]]",
                             "answer": false,
@@ -8540,6 +8554,11 @@ window.AraLearnBundledContent = {
                             "value": "[[2, 1], [1, 0]]",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-03-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "[[2, 1], [0, 1]]",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-03-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-03-block-03-multiple-choice"
@@ -8587,16 +8606,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Colocar as imagens da base como linhas em vez de colunas.",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Usar e1 e e2 como vetores-base.",
-                            "answer": false,
-                            "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Escrever matriz 2x2 para transformação no plano.",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-03"
@@ -8605,6 +8614,16 @@ window.AraLearnBundledContent = {
                             "value": "Aplicar a matriz a um vetor.",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Colocar as imagens da base como linhas em vez de colunas.",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "Usar e1 e e2 como vetores-base.",
+                            "answer": false,
+                            "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-04-block-03-multiple-choice"
@@ -8645,16 +8664,17 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Se A = [[2, 1], [0, 1]], qual é A·e1?",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-05-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-05-block-02-paragraph",
+                        "richText": "Se <span class=\"inline-tone-gold\">A = [[2, 1], [0, 1]]</span>, qual é <span class=\"inline-tone-gold\">A·e1</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(2, 0)",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice-option-01"
+                            "value": "(0, 1)",
+                            "answer": false,
+                            "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "(1, 1)",
@@ -8667,9 +8687,9 @@ window.AraLearnBundledContent = {
                             "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "(0, 1)",
-                            "answer": false,
-                            "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice-option-04"
+                            "value": "(2, 0)",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-05-block-03-multiple-choice"
@@ -8710,22 +8730,13 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Se A = [[2, 1], [0, 1]], qual é A·e2?",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-06-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-06-block-02-paragraph",
+                        "richText": "Se <span class=\"inline-tone-gold\">A = [[2, 1], [0, 1]]</span>, qual é <span class=\"inline-tone-gold\">A·e2</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "(1, 1)",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "(2, 0)",
-                            "answer": false,
-                            "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice-option-02"
-                          },
                           {
                             "value": "(3, 1)",
                             "answer": false,
@@ -8735,6 +8746,16 @@ window.AraLearnBundledContent = {
                             "value": "(0, 1)",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "(1, 1)",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "(2, 0)",
+                            "answer": false,
+                            "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-06-block-03-multiple-choice"
@@ -8775,7 +8796,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Para este curso, basta ler A·(x, y) como x·T(e1) + y·T(e2).",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-07-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-07-block-02-paragraph",
+                        "richText": "Para este curso, basta ler <span class=\"inline-tone-gold\">A·(x, y)</span> como <span class=\"inline-tone-gold\">x·T(e1) + y·T(e2)</span>."
                       },
                       {
                         "kind": "table",
@@ -8853,11 +8875,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(4, 2)",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "(3, 1)",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-08-block-03-multiple-choice-option-02"
@@ -8866,6 +8883,11 @@ window.AraLearnBundledContent = {
                             "value": "(2, 2)",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-08-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "(4, 2)",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "(1, 2)",
@@ -8911,7 +8933,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Complete a matriz com T(e1) = (3, 0) e T(e2) = (0, 2).",
                         "align": "left",
-                        "id": "matrizes-04-transformacoes-lineares-step-09-block-02-paragraph"
+                        "id": "matrizes-04-transformacoes-lineares-step-09-block-02-paragraph",
+                        "richText": "Complete a matriz com <span class=\"inline-tone-gold\">T(e1) = (3, 0)</span> e <span class=\"inline-tone-gold\">T(e2) = (0, 2)</span>."
                       },
                       {
                         "kind": "editor",
@@ -9006,14 +9029,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Trocar linhas por colunas.",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Ignorar a ordem entre e1 e e2.",
-                            "answer": true,
-                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-02"
+                            "value": "Aplicar a matriz ao vetor-base para conferir a leitura.",
+                            "answer": false,
+                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Usar a imagem de e1 como primeira coluna.",
@@ -9021,9 +9039,14 @@ window.AraLearnBundledContent = {
                             "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Aplicar a matriz ao vetor-base para conferir a leitura.",
-                            "answer": false,
-                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-04"
+                            "value": "Ignorar a ordem entre e1 e e2.",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Trocar linhas por colunas.",
+                            "answer": true,
+                            "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-10-block-03-multiple-choice"
@@ -9149,7 +9172,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Quando a lista falar em imagem de i e j, como o curso lê isso aqui?",
+                        "value": "Quando aparecer a imagem de i e j, qual leitura usamos aqui?",
                         "align": "left",
                         "id": "matrizes-04-transformacoes-lineares-step-12-block-02-paragraph"
                       },
@@ -9157,6 +9180,11 @@ window.AraLearnBundledContent = {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
+                          {
+                            "value": "Como ângulos de rotação obrigatórios.",
+                            "answer": false,
+                            "id": "matrizes-04-transformacoes-lineares-step-12-block-03-multiple-choice-option-04"
+                          },
                           {
                             "value": "Como imagem dos vetores-base e1 e e2.",
                             "answer": true,
@@ -9171,11 +9199,6 @@ window.AraLearnBundledContent = {
                             "value": "Como linhas da matriz por padrão.",
                             "answer": false,
                             "id": "matrizes-04-transformacoes-lineares-step-12-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Como ângulos de rotação obrigatórios.",
-                            "answer": false,
-                            "id": "matrizes-04-transformacoes-lineares-step-12-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-12-block-03-multiple-choice"
@@ -9192,9 +9215,10 @@ window.AraLearnBundledContent = {
                           },
                           {
                             "kind": "paragraph",
-                            "value": "Essa foi a adaptação mínima para manter fidelidade à lista sem ampliar o escopo.",
+                            "value": "Aqui, essa escrita é lida como imagem dos vetores-base e1 e e2.",
                             "align": "left",
-                            "id": "matrizes-04-transformacoes-lineares-step-12-block-04-button-popup-02-paragraph"
+                            "id": "matrizes-04-transformacoes-lineares-step-12-block-04-button-popup-02-paragraph",
+                            "richText": "Aqui, essa escrita é lida como imagem dos vetores-base <span class=\"inline-tone-gold\">e1</span> e <span class=\"inline-tone-gold\">e2</span>."
                           }
                         ],
                         "id": "matrizes-04-transformacoes-lineares-step-12-block-04-button"
@@ -9429,9 +9453,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "[[1, 0], [0, 1]]",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-01"
+                            "value": "[[2, 0], [0, 2]]",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "[[0, 1], [1, 0]]",
@@ -9439,14 +9463,14 @@ window.AraLearnBundledContent = {
                             "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "[[1, 0], [0, 1]]",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "[[1, 1], [0, 1]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "[[2, 0], [0, 2]]",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-02-block-03-multiple-choice"
@@ -9581,24 +9605,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Em geral, A∘B e B∘A podem produzir resultados diferentes.",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Toda composição de matrizes é comutativa.",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "A identidade deixa a ordem irrelevante em todos os casos.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "Em geral, A∘B e B∘A podem produzir resultados diferentes.",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Falar em ordem amplia o curso para álgebra matricial extensa.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Toda composição de matrizes é comutativa.",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-04-block-03-multiple-choice"
@@ -9646,11 +9670,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Sim, porque shear e escala podem agir de modo diferente conforme a ordem.",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-05-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Não, porque toda matriz 2x2 comuta.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-05-block-03-multiple-choice-option-02"
@@ -9664,6 +9683,11 @@ window.AraLearnBundledContent = {
                             "value": "Sim, mas só se a identidade estiver presente.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-05-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Sim, porque shear e escala podem agir de modo diferente conforme a ordem.",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-05-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-05-block-03-multiple-choice"
@@ -9798,16 +9822,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "[[2, 0], [0, 3]]",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "[[3, 0], [0, 2]]",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "[[1, 0], [0, 1]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-03"
@@ -9816,6 +9830,16 @@ window.AraLearnBundledContent = {
                             "value": "[[2, 3], [0, 0]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "[[3, 0], [0, 2]]",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "[[2, 0], [0, 3]]",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-07-block-03-multiple-choice"
@@ -9950,24 +9974,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "[[1/2, 0], [0, 1]]",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "[[2, 0], [0, 1]]",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "[[1, 0], [0, 2]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "[[1/2, 0], [0, 1]]",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "[[0, 1], [1, 0]]",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "[[2, 0], [0, 1]]",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-09-block-03-multiple-choice"
@@ -10015,16 +10039,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A·A^-1 = I e A^-1·A = I.",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "A + A^-1 = I.",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "A e A^-1 têm a mesma primeira coluna.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-03"
@@ -10033,6 +10047,16 @@ window.AraLearnBundledContent = {
                             "value": "Basta que uma das matrizes tenha zeros fora da diagonal.",
                             "answer": false,
                             "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "A·A^-1 = I e A^-1·A = I.",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "A + A^-1 = I.",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-10-block-03-multiple-choice"
@@ -10147,14 +10171,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Tratar composição como sempre comutativa.",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Esquecer que a identidade é a referência da checagem.",
-                            "answer": true,
-                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-02"
+                            "value": "Usar exemplo simples para manter o foco no conceito.",
+                            "answer": false,
+                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Ler A^-1 como transformação que desfaz A.",
@@ -10162,9 +10181,14 @@ window.AraLearnBundledContent = {
                             "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Usar exemplo simples para manter o foco no conceito.",
-                            "answer": false,
-                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-04"
+                            "value": "Esquecer que a identidade é a referência da checagem.",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Tratar composição como sempre comutativa.",
+                            "answer": true,
+                            "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "matrizes-05-composicao-inversa-step-12-block-03-multiple-choice"
@@ -10306,7 +10330,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "O escopo deste curso ficou deliberadamente curto: montar a matriz da transformação, aplicar, compor em casos simples e checar inversa pela identidade.",
+                        "value": "Neste módulo, o foco fica em montar a matriz da transformação, aplicar, compor em casos simples e checar inversa pela identidade.",
                         "align": "left",
                         "id": "matrizes-05-composicao-inversa-step-14-block-02-paragraph"
                       },
@@ -10601,14 +10625,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "4 vértices e 4 arestas.",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-03-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "4 vértices e 3 arestas.",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-03-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "4 vértices e 4 arestas.",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-03-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "5 vértices e 4 arestas.",
@@ -10753,9 +10777,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A e C",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-01"
+                            "value": "A e A",
+                            "answer": false,
+                            "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A e D",
@@ -10763,14 +10787,14 @@ window.AraLearnBundledContent = {
                             "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "A e C",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "B e D",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "A e A",
-                            "answer": false,
-                            "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-01-modelagem-grau-step-05-block-03-multiple-choice"
@@ -10818,24 +10842,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "O vértice C é incidente à aresta CD.",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "O vértice A é incidente à aresta CD.",
-                            "answer": false,
-                            "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "A aresta AB é incidente à aresta AC.",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "O vértice C é incidente à aresta CD.",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "O vértice D é adjacente à aresta AC.",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "O vértice A é incidente à aresta CD.",
+                            "answer": false,
+                            "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-01-modelagem-grau-step-06-block-03-multiple-choice"
@@ -11002,11 +11026,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "3",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "2",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-08-block-03-multiple-choice-option-02"
@@ -11015,6 +11034,11 @@ window.AraLearnBundledContent = {
                             "value": "1",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-08-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "3",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "4",
@@ -11154,11 +11178,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A soma dos graus vale 8 e coincide com 2|E|.",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "A soma dos graus vale 4 porque há quatro arestas.",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-10-block-03-multiple-choice-option-02"
@@ -11172,6 +11191,11 @@ window.AraLearnBundledContent = {
                             "value": "A soma dos graus só vale em grafos dirigidos.",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "A soma dos graus vale 8 e coincide com 2|E|.",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-10-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-01-modelagem-grau-step-10-block-03-multiple-choice"
@@ -11219,24 +11243,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "2",
-                            "answer": true,
-                            "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "1",
-                            "answer": false,
-                            "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "3",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "2",
+                            "answer": true,
+                            "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "4",
                             "answer": false,
                             "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "1",
+                            "answer": false,
+                            "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-01-modelagem-grau-step-11-block-03-multiple-choice"
@@ -11665,9 +11689,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Os grafos não são isomorfos.",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice-option-01"
+                            "value": "Basta redesenhar um deles.",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Os grafos são isomorfos.",
@@ -11680,9 +11704,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Basta redesenhar um deles.",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice-option-04"
+                            "value": "Os grafos não são isomorfos.",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-03-block-03-multiple-choice"
@@ -11730,6 +11754,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Se as sequências coincidem, o desenho precisa ser idêntico.",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "Sequência igual é filtro útil, mas não prova isomorfismo sozinha.",
                             "answer": true,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-03-multiple-choice-option-01"
@@ -11743,11 +11772,6 @@ window.AraLearnBundledContent = {
                             "value": "Sequência de graus nunca ajuda.",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Se as sequências coincidem, o desenho precisa ser idêntico.",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-04-block-03-multiple-choice"
@@ -11882,16 +11906,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "10",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "5",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "8",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-03"
@@ -11900,6 +11914,16 @@ window.AraLearnBundledContent = {
                             "value": "12",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "10",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "5",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-06-block-03-multiple-choice"
@@ -12034,24 +12058,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "(2, 2, 2, 2)",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "(3, 2, 2, 1)",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "(1, 1, 2, 2)",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "(2, 2, 2, 2)",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "(4, 3, 3, 2)",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "(3, 2, 2, 1)",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-08-block-03-multiple-choice"
@@ -12099,9 +12123,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Não, porque a soma dos graus seria 15, que não pode ser 2|E|.",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice-option-01"
+                            "value": "Não, porque 5 vértices é um número par.",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Sim, porque 3 aparece em todos os vértices.",
@@ -12114,9 +12138,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Não, porque 5 vértices é um número par.",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice-option-04"
+                            "value": "Não, porque a soma dos graus seria 15, que não pode ser 2|E|.",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-09-block-03-multiple-choice"
@@ -12164,11 +12188,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Desenhos diferentes podem representar a mesma estrutura.",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Se o desenho mudou, o grafo mudou obrigatoriamente.",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-10-block-03-multiple-choice-option-02"
@@ -12177,6 +12196,11 @@ window.AraLearnBundledContent = {
                             "value": "Basta olhar a posição dos vértices na tela.",
                             "answer": false,
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-10-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "Desenhos diferentes podem representar a mesma estrutura.",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-10-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "A sequência de graus dispensa qualquer outra checagem sempre.",
@@ -12229,9 +12253,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Tomar sequência de graus como prova completa em todos os casos.",
-                            "answer": true,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice-option-01"
+                            "value": "Ler K5 como grafo completo com 5 vértices.",
+                            "answer": false,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Usar sequência de graus como filtro inicial.",
@@ -12244,9 +12268,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Ler K5 como grafo completo com 5 vértices.",
-                            "answer": false,
-                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice-option-04"
+                            "value": "Tomar sequência de graus como prova completa em todos os casos.",
+                            "answer": true,
+                            "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-02-isomorfismo-sequencias-completo-regular-step-11-block-03-multiple-choice"
@@ -12558,14 +12582,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Toda aresta deve ligar um vértice de X a um vértice de Y.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-02-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Toda aresta deve ficar dentro de X.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-02-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Toda aresta deve ligar um vértice de X a um vértice de Y.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-02-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Toda aresta deve ficar dentro de Y.",
@@ -12623,16 +12647,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Um triângulo não é bipartido.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Todo triângulo é bipartido.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Bipartição depende só do número de vértices.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-03"
@@ -12641,6 +12655,16 @@ window.AraLearnBundledContent = {
                             "value": "Ciclo ímpar nunca interfere.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Todo triângulo é bipartido.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Um triângulo não é bipartido.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-03-block-03-multiple-choice"
@@ -12912,9 +12936,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A e C são adjacentes.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice-option-01"
+                            "value": "A e C estão em componentes diferentes.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A é incidente à matriz C.",
@@ -12927,9 +12951,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "A e C estão em componentes diferentes.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice-option-04"
+                            "value": "A e C são adjacentes.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-05-block-03-multiple-choice"
@@ -12977,9 +13001,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "M é simétrica e a diagonal principal fica com zeros neste recorte.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice-option-01"
+                            "value": "Diagonal zero significa grafo dirigido.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A diagonal principal precisa somar o grau do vértice.",
@@ -12992,9 +13016,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Diagonal zero significa grafo dirigido.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice-option-04"
+                            "value": "M é simétrica e a diagonal principal fica com zeros neste recorte.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-06-block-03-multiple-choice"
@@ -13042,24 +13066,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Porque o recorte evita laços em grafos simples.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Porque a diagonal guarda os graus e aqui todos são zero.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Porque a matriz só registra arestas dirigidas.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-03"
                           },
                           {
+                            "value": "Porque o recorte evita laços em grafos simples.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Porque a diagonal não pertence à matriz.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Porque a diagonal guarda os graus e aqui todos são zero.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-07-block-03-multiple-choice"
@@ -13107,16 +13131,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "B e D",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "A e D",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "B e C",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-03"
@@ -13125,6 +13139,16 @@ window.AraLearnBundledContent = {
                             "value": "A e A",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "A e D",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "B e D",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-08-block-03-multiple-choice"
@@ -13172,9 +13196,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A matriz de adjacência cruza vértices com vértices.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice-option-01"
+                            "value": "A matriz de adjacência dispensa a leitura de arestas.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A matriz de adjacência cruza vértices com arestas.",
@@ -13187,9 +13211,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "A matriz de adjacência dispensa a leitura de arestas.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice-option-04"
+                            "value": "A matriz de adjacência cruza vértices com vértices.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-09-block-03-multiple-choice"
@@ -13237,16 +13261,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Arestas só entre X = {A, D} e Y = {B, C}.",
-                            "answer": true,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "Existe aresta entre A e D dentro de X.",
-                            "answer": false,
-                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "Existe triângulo entre A, B e C.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-03"
@@ -13255,6 +13269,16 @@ window.AraLearnBundledContent = {
                             "value": "Todo vértice precisa ter grau 2.",
                             "answer": false,
                             "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Existe aresta entre A e D dentro de X.",
+                            "answer": false,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Arestas só entre X = {A, D} e Y = {B, C}.",
+                            "answer": true,
+                            "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-10-block-03-multiple-choice"
@@ -13364,25 +13388,25 @@ window.AraLearnBundledContent = {
                   {
                     "id": "grafos-03-bipartidos-matriz-adjacencia-step-12",
                     "type": "content",
-                    "title": "Reforço da adaptação computacional",
+                    "title": "Reforço da leitura estrutural",
                     "blocks": [
                       {
                         "kind": "heading",
-                        "value": "Reforço da adaptação computacional",
+                        "value": "Reforço da leitura estrutural",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-12-block-01-heading"
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Nesta lição, o desenho do grafo foi convertido em descrição estrutural e matriz de adjacência para caber bem no app sem perder justiça didática.",
+                        "value": "Nesta lição, a descrição estrutural e a matriz de adjacência ajudam a enxergar o mesmo grafo sem depender do desenho.",
                         "align": "left",
                         "id": "grafos-03-bipartidos-matriz-adjacencia-step-12-block-02-paragraph"
                       },
                       {
                         "kind": "table",
-                        "title": "Por que a adaptação funciona",
+                        "title": "O que cada formato preserva",
                         "titleStyle": {
-                          "value": "Por que a adaptação funciona",
+                          "value": "O que cada formato preserva",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -13640,7 +13664,8 @@ window.AraLearnBundledContent = {
                         "kind": "paragraph",
                         "value": "Use o mesmo grafo-base para evitar leitura solta: considere H com arestas AB, BC, CD, DB e DA.",
                         "align": "left",
-                        "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-02-paragraph"
+                        "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-02-block-02-paragraph",
+                        "richText": "Use o mesmo grafo-base para evitar leitura solta: considere <span class=\"inline-tone-gold\">H</span> com arestas <span class=\"inline-tone-gold\">AB, BC, CD, DB e DA</span>."
                       },
                       {
                         "kind": "table",
@@ -13922,9 +13947,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A-B-C-D-B",
-                            "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-01"
+                            "value": "A-A",
+                            "answer": false,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A-B-C-B",
@@ -13932,14 +13957,14 @@ window.AraLearnBundledContent = {
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "A-B-C-D-B",
+                            "answer": true,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "A-B-A-B",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "A-A",
-                            "answer": false,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-03-block-03-multiple-choice"
@@ -13987,9 +14012,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A-B-C-D",
-                            "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice-option-01"
+                            "value": "A-C-A",
+                            "answer": false,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "A-B-C-D-B",
@@ -14002,9 +14027,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "A-C-A",
-                            "answer": false,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice-option-04"
+                            "value": "A-B-C-D",
+                            "answer": true,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-04-block-03-multiple-choice"
@@ -14052,6 +14077,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "A-D",
+                            "answer": false,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "A-B-C-D-A",
                             "answer": true,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-03-multiple-choice-option-01"
@@ -14065,11 +14095,6 @@ window.AraLearnBundledContent = {
                             "value": "A-B-C-B",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "A-D",
-                            "answer": false,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-05-block-03-multiple-choice"
@@ -14204,14 +14229,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Se não há caminho entre certos vértices, o grafo não é conectado.",
-                            "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Um grafo é conectado quando todo vértice tem grau par.",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-07-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "Se não há caminho entre certos vértices, o grafo não é conectado.",
+                            "answer": true,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-07-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Conectividade depende só do número de arestas.",
@@ -14266,9 +14291,9 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "table",
-                        "title": "Exemplo",
+                        "title": "Exemplos no grafo H",
                         "titleStyle": {
-                          "value": "Exemplo",
+                          "value": "Exemplos no grafo H",
                           "bold": true,
                           "italic": false,
                           "tone": "default",
@@ -14293,14 +14318,14 @@ window.AraLearnBundledContent = {
                         "rows": [
                           [
                             {
-                              "value": "A-B-D",
+                              "value": "A-D",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
                               "align": "left"
                             },
                             {
-                              "value": "2",
+                              "value": "1",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -14309,14 +14334,14 @@ window.AraLearnBundledContent = {
                           ],
                           [
                             {
-                              "value": "A-C",
+                              "value": "A-B-C",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
                               "align": "left"
                             },
                             {
-                              "value": "1",
+                              "value": "2",
                               "bold": false,
                               "italic": false,
                               "tone": "default",
@@ -14347,19 +14372,15 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "Se o menor caminho entre A e D é A-B-D, qual é a distância entre A e D?",
+                        "value": "No grafo H, se um menor caminho entre A e C é A-B-C, qual é a distância entre A e C?",
                         "align": "left",
-                        "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-02-paragraph"
+                        "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-02-paragraph",
+                        "richText": "No grafo <span class=\"inline-tone-gold\">H</span>, se um menor caminho entre <span class=\"inline-tone-gold\">A</span> e <span class=\"inline-tone-gold\">C</span> é <span class=\"inline-tone-gold\">A-B-C</span>, qual é a distância entre <span class=\"inline-tone-gold\">A</span> e <span class=\"inline-tone-gold\">C</span>?"
                       },
                       {
                         "kind": "multiple_choice",
                         "answerState": "correct",
                         "options": [
-                          {
-                            "value": "2",
-                            "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-03-multiple-choice-option-01"
-                          },
                           {
                             "value": "1",
                             "answer": false,
@@ -14374,6 +14395,11 @@ window.AraLearnBundledContent = {
                             "value": "4",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "2",
+                            "answer": true,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-09-block-03-multiple-choice"
@@ -14421,24 +14447,24 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Confundir trilha com caminho.",
-                            "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "Confundir conectividade com existência de caminho.",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "Contar vértices em vez de arestas na distância.",
+                            "value": "Confundir trilha com caminho.",
                             "answer": true,
-                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-03"
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "Usar a ideia de ciclo para percurso fechado.",
                             "answer": false,
                             "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Contar vértices em vez de arestas na distância.",
+                            "answer": true,
+                            "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice-option-03"
                           }
                         ],
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-10-block-03-multiple-choice"
@@ -14477,7 +14503,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A lição reaproveitou o mesmo estilo: uma diferença conceitual pequena precisa de contraste explícito e exemplos curtos.",
+                        "value": "Uma diferença conceitual pequena pede contraste explícito e exemplos curtos.",
                         "align": "left",
                         "id": "grafos-04-trilha-caminho-ciclo-conectividade-step-11-block-02-paragraph"
                       },
@@ -15134,14 +15160,14 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "B",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-05-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "C",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-05-block-03-multiple-choice-option-02"
+                          },
+                          {
+                            "value": "B",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-05-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "D",
@@ -15199,16 +15225,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "3",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "5",
-                            "answer": false,
-                            "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "2",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-03"
@@ -15217,6 +15233,16 @@ window.AraLearnBundledContent = {
                             "value": "6",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "3",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "5",
+                            "answer": false,
+                            "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-05-dijkstra-step-06-block-03-multiple-choice"
@@ -15264,16 +15290,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "6",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "4",
-                            "answer": false,
-                            "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "5",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-03"
@@ -15282,6 +15298,16 @@ window.AraLearnBundledContent = {
                             "value": "7",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "6",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "4",
+                            "answer": false,
+                            "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-05-dijkstra-step-07-block-03-multiple-choice"
@@ -15329,11 +15355,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "C",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-08-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "D",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-08-block-03-multiple-choice-option-02"
@@ -15342,6 +15363,11 @@ window.AraLearnBundledContent = {
                             "value": "E",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-08-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "C",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-08-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "A",
@@ -15468,16 +15494,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "D",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-01"
-                          },
-                          {
-                            "value": "E",
-                            "answer": false,
-                            "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-02"
-                          },
-                          {
                             "value": "B",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-03"
@@ -15486,6 +15502,16 @@ window.AraLearnBundledContent = {
                             "value": "A",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "D",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-01"
+                          },
+                          {
+                            "value": "E",
+                            "answer": false,
+                            "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice-option-02"
                           }
                         ],
                         "id": "grafos-05-dijkstra-step-10-block-03-multiple-choice"
@@ -15533,11 +15559,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "7",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-11-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "3",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-11-block-03-multiple-choice-option-02"
@@ -15551,6 +15572,11 @@ window.AraLearnBundledContent = {
                             "value": "9",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-11-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "7",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-11-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-05-dijkstra-step-11-block-03-multiple-choice"
@@ -15598,11 +15624,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "A-B-C-D-E",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-12-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "A-C-D-E",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-12-block-03-multiple-choice-option-02"
@@ -15611,6 +15632,11 @@ window.AraLearnBundledContent = {
                             "value": "A-B-D-E",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-12-block-03-multiple-choice-option-03"
+                          },
+                          {
+                            "value": "A-B-C-D-E",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-12-block-03-multiple-choice-option-01"
                           },
                           {
                             "value": "A-C-E",
@@ -15718,9 +15744,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Fechar o vértice errado cedo demais.",
-                            "answer": true,
-                            "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-01"
+                            "value": "Inicializar a origem com 0.",
+                            "answer": false,
+                            "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-03"
                           },
                           {
                             "value": "Confundir peso da aresta com custo acumulado.",
@@ -15728,14 +15754,14 @@ window.AraLearnBundledContent = {
                             "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-02"
                           },
                           {
-                            "value": "Inicializar a origem com 0.",
-                            "answer": false,
-                            "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-03"
-                          },
-                          {
                             "value": "Atualizar um custo quando acha caminho melhor.",
                             "answer": false,
                             "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "Fechar o vértice errado cedo demais.",
+                            "answer": true,
+                            "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-05-dijkstra-step-14-block-03-multiple-choice"
@@ -15774,7 +15800,7 @@ window.AraLearnBundledContent = {
                       },
                       {
                         "kind": "paragraph",
-                        "value": "A adaptação desta lição usa tabela de distâncias e lista de arestas porque o foco é o procedimento, não o desenho detalhado do grafo.",
+                        "value": "A tabela de distâncias e a lista de arestas ajudam a acompanhar cada atualização do procedimento com clareza.",
                         "align": "left",
                         "id": "grafos-05-dijkstra-step-15-block-02-paragraph"
                       },
@@ -16108,6 +16134,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Qualquer grafo com uma trilha.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-03-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "Conectado, com todos os graus pares.",
                             "answer": true,
                             "id": "grafos-06-euler-step-03-block-03-multiple-choice-option-01"
@@ -16121,11 +16152,6 @@ window.AraLearnBundledContent = {
                             "value": "Desconectado, com todos os graus pares.",
                             "answer": false,
                             "id": "grafos-06-euler-step-03-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Qualquer grafo com uma trilha.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-03-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-06-euler-step-03-block-03-multiple-choice"
@@ -16173,6 +16199,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Conectado, com quatro graus ímpares.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-04-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "Conectado, com exatamente dois graus ímpares.",
                             "answer": true,
                             "id": "grafos-06-euler-step-04-block-03-multiple-choice-option-01"
@@ -16186,11 +16217,6 @@ window.AraLearnBundledContent = {
                             "value": "Desconectado, com dois graus ímpares.",
                             "answer": false,
                             "id": "grafos-06-euler-step-04-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Conectado, com quatro graus ímpares.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-04-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-06-euler-step-04-block-03-multiple-choice"
@@ -16238,9 +16264,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Porque não há como percorrer todas as arestas em uma única trilha se faltam caminhos entre componentes.",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-05-block-03-multiple-choice-option-01"
+                            "value": "Porque Euler só vale para grafos completos.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-05-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Porque graus pares deixam de importar.",
@@ -16253,9 +16279,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-06-euler-step-05-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Porque Euler só vale para grafos completos.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-05-block-03-multiple-choice-option-04"
+                            "value": "Porque não há como percorrer todas as arestas em uma única trilha se faltam caminhos entre componentes.",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-05-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-06-euler-step-05-block-03-multiple-choice"
@@ -16303,9 +16329,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "2",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-01"
+                            "value": "4",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "0",
@@ -16313,14 +16339,14 @@ window.AraLearnBundledContent = {
                             "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "2",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "1",
                             "answer": false,
                             "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "4",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-06-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-06-euler-step-06-block-03-multiple-choice"
@@ -16368,9 +16394,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Semieuleriano.",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-01"
+                            "value": "Completo.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Euleriano.",
@@ -16378,14 +16404,14 @@ window.AraLearnBundledContent = {
                             "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-02"
                           },
                           {
+                            "value": "Semieuleriano.",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-01"
+                          },
+                          {
                             "value": "Não euleriano obrigatoriamente.",
                             "answer": false,
                             "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Completo.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-07-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-06-euler-step-07-block-03-multiple-choice"
@@ -16433,9 +16459,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Euleriano.",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-08-block-03-multiple-choice-option-01"
+                            "value": "Isomorfo a qualquer outro.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-08-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Semieuleriano.",
@@ -16448,9 +16474,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-06-euler-step-08-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Isomorfo a qualquer outro.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-08-block-03-multiple-choice-option-04"
+                            "value": "Euleriano.",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-08-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-06-euler-step-08-block-03-multiple-choice"
@@ -16498,11 +16524,6 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "'Até dois ímpares' basta sempre, mesmo sem olhar se o percurso é aberto ou fechado.",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-09-block-03-multiple-choice-option-01"
-                          },
-                          {
                             "value": "'Todos pares' aponta para o caso fechado, se houver conectividade.",
                             "answer": false,
                             "id": "grafos-06-euler-step-09-block-03-multiple-choice-option-02"
@@ -16516,6 +16537,11 @@ window.AraLearnBundledContent = {
                             "value": "A conectividade também faz parte do critério.",
                             "answer": false,
                             "id": "grafos-06-euler-step-09-block-03-multiple-choice-option-04"
+                          },
+                          {
+                            "value": "'Até dois ímpares' basta sempre, mesmo sem olhar se o percurso é aberto ou fechado.",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-09-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-06-euler-step-09-block-03-multiple-choice"
@@ -16563,6 +16589,11 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
+                            "value": "Semieuleriano também exige todos os graus pares.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-10-block-03-multiple-choice-option-04"
+                          },
+                          {
                             "value": "Euleriano pede todos os graus pares.",
                             "answer": true,
                             "id": "grafos-06-euler-step-10-block-03-multiple-choice-option-01"
@@ -16576,11 +16607,6 @@ window.AraLearnBundledContent = {
                             "value": "Euleriano e semieuleriano dispensam conectividade.",
                             "answer": false,
                             "id": "grafos-06-euler-step-10-block-03-multiple-choice-option-03"
-                          },
-                          {
-                            "value": "Semieuleriano também exige todos os graus pares.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-10-block-03-multiple-choice-option-04"
                           }
                         ],
                         "id": "grafos-06-euler-step-10-block-03-multiple-choice"
@@ -16628,9 +16654,9 @@ window.AraLearnBundledContent = {
                         "answerState": "correct",
                         "options": [
                           {
-                            "value": "Confundir passar por todas as arestas com visitar vértices sem repetir.",
-                            "answer": true,
-                            "id": "grafos-06-euler-step-11-block-03-multiple-choice-option-01"
+                            "value": "Separar o caso fechado do caso aberto.",
+                            "answer": false,
+                            "id": "grafos-06-euler-step-11-block-03-multiple-choice-option-04"
                           },
                           {
                             "value": "Esquecer a exigência de conectividade.",
@@ -16643,9 +16669,9 @@ window.AraLearnBundledContent = {
                             "id": "grafos-06-euler-step-11-block-03-multiple-choice-option-03"
                           },
                           {
-                            "value": "Separar o caso fechado do caso aberto.",
-                            "answer": false,
-                            "id": "grafos-06-euler-step-11-block-03-multiple-choice-option-04"
+                            "value": "Confundir passar por todas as arestas com visitar vértices sem repetir.",
+                            "answer": true,
+                            "id": "grafos-06-euler-step-11-block-03-multiple-choice-option-01"
                           }
                         ],
                         "id": "grafos-06-euler-step-11-block-03-multiple-choice"
