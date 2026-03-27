@@ -548,7 +548,7 @@
                         },
                         {
                           "value": "kernel inteiro a cada distribuição",
-                          "result": "Essa formulação exagera o contraste e não representa bem o exemplo dado em aula.",
+                          "result": "Distribuições podem compartilhar o kernel Linux e ainda diferir no conjunto de pacotes, utilitários e configurações.",
                           "id": "l01-unix-gnu-linux-step-09-block-03-simulator-option-02"
                         },
                         {
@@ -571,7 +571,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A previsão correta evita uma leitura enciclopédica e foca no contraste realmente útil.",
+                          "value": "Distribuições costumam variar mais em pacotes, ferramentas e empacotamento do que no kernel em si.",
                           "align": "left",
                           "id": "l01-unix-gnu-linux-step-09-block-04-button-popup-02-paragraph"
                         }
@@ -775,7 +775,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A resposta correta liga liberdade, licença e contribuição sem transformar tudo em um mesmo rótulo.",
+                          "value": "Software livre envolve liberdades de uso e estudo, e as licenças explicitam como modificação e redistribuição podem acontecer.",
                           "align": "left",
                           "id": "l01-unix-gnu-linux-step-12-block-04-button-popup-02-paragraph"
                         }
@@ -1271,7 +1271,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Preencha a sequência mínima de interação que aparece na aula.",
+                      "value": "Complete a cadeia terminal -> shell -> bash.",
                       "align": "left",
                       "id": "l02-kernel-gui-shell-bash-step-07-block-02-paragraph"
                     },
@@ -4498,7 +4498,7 @@
                         },
                         {
                           "id": "l06-inspecao-e-ambiente-minimo-step-06-block-03-multiple-choice-option-04",
-                          "value": "A aula quer repertório curto, não catálogo de administração.",
+                          "value": "`whoami` ajuda a identificar o usuário atual no ambiente.",
                           "answer": true
                         }
                       ],
@@ -11920,7 +11920,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Escolha a vantagem mais alinhada ao uso introdutório de branch.",
+                      "value": "Escolha a vantagem central de usar branch para isolar mudanças antes da integração.",
                       "align": "left",
                       "id": "l15-branch-e-pull-request-basicos-step-10-block-02-paragraph"
                     },
@@ -11958,7 +11958,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "O foco continua em organização básica do trabalho em dupla.",
+                          "value": "Branch cria uma linha separada de trabalho e permite integrar as mudanças depois com mais controle.",
                           "align": "left",
                           "id": "l15-branch-e-pull-request-basicos-step-10-block-04-button-popup-02-paragraph"
                         }
@@ -11980,7 +11980,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Agora você entende branch e pull request como apoio ao trabalho em dupla.",
+                      "value": "Você já entende branch e pull request como ferramentas para isolar mudanças, revisar e integrar código com mais clareza.",
                       "align": "center",
                       "id": "l15-branch-e-pull-request-basicos-step-14-block-02-paragraph"
                     },
@@ -12024,7 +12024,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Nesta abordagem local, VS Code é tratado como editor extensível, não como IDE plena.",
+                      "value": "Um editor extensível pode ganhar recursos por plugins sem deixar de ser editor.",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-01-block-03-paragraph"
                     },
@@ -12384,7 +12384,7 @@
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Quais afirmações seguem a linguagem local da disciplina?",
+                      "value": "Quais afirmações classificam corretamente editor, IDE e plugin?",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-06-block-02-paragraph"
                     },
@@ -12403,7 +12403,7 @@
                           "id": "l16-editor-ide-plugin-step-06-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "VS Code pode ser tratado como editor extensível neste contexto.",
+                          "value": "VS Code é um exemplo comum de editor extensível.",
                           "answer": true,
                           "id": "l16-editor-ide-plugin-step-06-block-03-multiple-choice-option-04"
                         },
@@ -12427,7 +12427,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "A classificação correta evita marketing demais e organiza a linguagem da disciplina.",
+                          "value": "Editor edita arquivos, plugin amplia recursos e VS Code costuma ser apresentado como editor extensível.",
                           "align": "left",
                           "id": "l16-editor-ide-plugin-step-06-block-04-button-popup-02-paragraph"
                         }
@@ -12513,17 +12513,17 @@
                 {
                   "id": "l16-editor-ide-plugin-step-08",
                   "type": "content",
-                  "title": "Escolha a leitura local do VS Code",
+                  "title": "Classifique o papel do VS Code",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Escolha a leitura local do VS Code",
+                      "value": "Classifique o papel do VS Code",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-08-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Na convenção usada nesta disciplina, qual leitura melhor representa o VS Code?",
+                      "value": "Qual descrição evita exagerar o papel do VS Code?",
                       "align": "left",
                       "id": "l16-editor-ide-plugin-step-08-block-02-paragraph"
                     },
@@ -12562,7 +12562,7 @@
                         {
                           "id": "l16-editor-ide-plugin-step-08-block-04-button-popup-02-paragraph",
                           "kind": "paragraph",
-                          "value": "A convenção local aqui é: VS Code como editor extensível.",
+                          "value": "Chamá-lo de editor extensível descreve melhor sua função base; plugins podem ampliar recursos sem transformá-lo em kernel.",
                           "align": "left"
                         }
                       ],
@@ -13323,7 +13323,7 @@
                       "answerState": "correct",
                       "options": [
                         {
-                          "value": "Depuração sem erro real vira abstração demais para este momento.",
+                          "value": "Depuração começa melhor quando existe um erro observável para reproduzir.",
                           "answer": true,
                           "id": "l17-debug-e-depuracao-step-09-block-03-multiple-choice-option-02"
                         },
@@ -13333,7 +13333,7 @@
                           "id": "l17-debug-e-depuracao-step-09-block-03-multiple-choice-option-04"
                         },
                         {
-                          "value": "A aula não precisa virar tutorial de um debugger específico.",
+                          "value": "Ferramentas de depuração ajudam, mas ainda é preciso formular hipótese e observar estado.",
                           "answer": true,
                           "id": "l17-debug-e-depuracao-step-09-block-03-multiple-choice-option-01"
                         },
@@ -13461,29 +13461,29 @@
           "lessons": [
             {
               "id": "l18-software-livre-e-contexto-da-disciplina",
-              "title": "Software livre e contexto da disciplina",
-              "subtitle": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
+              "title": "Software livre, licenças e quatro liberdades",
+              "subtitle": "Software livre se define pelas liberdades de usar, estudar, modificar e redistribuir, explicitadas por licenças.",
               "steps": [
                 {
                   "id": "l18-software-livre-e-contexto-da-disciplina-step-01",
                   "type": "content",
-                  "title": "Software livre e contexto da disciplina",
+                  "title": "Software livre, licenças e quatro liberdades",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Software livre e contexto da disciplina",
+                      "value": "Software livre, licenças e quatro liberdades",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-01-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Software livre liga liberdade de uso, licença e contribuição ao ecossistema de ferramentas já trabalhado.",
+                      "value": "Software livre garante liberdade de usar, estudar, modificar e redistribuir o programa.",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-01-block-02-paragraph"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "O foco fica em liberdades, licenças e contribuição, sem transformar a aula em debate jurídico longo.",
+                      "value": "Licenças deixam essas permissões explícitas, e o acesso ao código-fonte permite estudo e modificação reais.",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-01-block-03-paragraph"
                     },
@@ -13698,25 +13698,25 @@
                 {
                   "id": "l18-software-livre-e-contexto-da-disciplina-step-05",
                   "type": "content",
-                  "title": "Ferramentas, cultura e contribuição",
+                  "title": "Liberdades, licenças e colaboração",
                   "blocks": [
                     {
                       "kind": "heading",
-                      "value": "Ferramentas, cultura e contribuição",
+                      "value": "Liberdades, licenças e colaboração",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-05-block-01-heading"
                     },
                     {
                       "kind": "paragraph",
-                      "value": "Use a tabela para ligar software livre a ferramentas, licenças e contribuição.",
+                      "value": "Use a tabela para ligar software livre às quatro liberdades, às licenças e às consequências práticas.",
                       "align": "left",
                       "id": "l18-software-livre-e-contexto-da-disciplina-step-05-block-02-paragraph"
                     },
                     {
                       "kind": "table",
-                      "title": "Ferramentas, cultura e contribuição",
+                      "title": "Liberdades, licenças e colaboração",
                       "titleStyle": {
-                        "value": "Ferramentas, cultura e contribuição",
+                        "value": "Liberdades, licenças e colaboração",
                         "bold": true,
                         "italic": false,
                         "tone": "default",
@@ -13748,7 +13748,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "tema de liberdade, licença e contribuição.",
+                            "value": "garante usar, estudar, modificar e redistribuir o programa",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -13764,7 +13764,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "ponte entre história, ferramentas e uso atual.",
+                            "value": "exemplo de ecossistema com kernel, ferramentas e licenças abertas",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -13780,7 +13780,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "ferramenta que conversa com cultura de colaboração.",
+                            "value": "facilita colaboração, mas não define sozinho se um projeto é livre",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -13796,7 +13796,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "serviço hospedado; não vira software livre automaticamente.",
+                            "value": "serviço hospedado; pode abrigar projetos livres ou proprietários",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -13812,7 +13812,7 @@
                             "align": "left"
                           },
                           {
-                            "value": "torna a abertura do projeto mais explícita.",
+                            "value": "explicita permissões de uso, estudo, modificação e redistribuição",
                             "bold": false,
                             "italic": false,
                             "tone": "default",
@@ -13857,7 +13857,7 @@
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-03-multiple-choice-option-03"
                         },
                         {
-                          "value": "GNU/Linux ajuda a conectar ferramentas e cultura da disciplina.",
+                          "value": "Ter código-fonte acessível ajuda a estudar e modificar o programa.",
                           "answer": true,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-03-multiple-choice-option-04"
                         },
@@ -13867,7 +13867,7 @@
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-03-multiple-choice-option-01"
                         },
                         {
-                          "value": "Licença e contribuição fazem parte do contexto do tema.",
+                          "value": "Licenças livres explicitam permissão de usar, estudar, modificar e redistribuir.",
                           "answer": true,
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-03-multiple-choice-option-02"
                         }
@@ -13886,7 +13886,7 @@
                         },
                         {
                           "kind": "paragraph",
-                          "value": "Os acertos mantêm software livre ligado a liberdade, licença e contribuição.",
+                          "value": "Os acertos mantêm software livre ligado às quatro liberdades e às licenças, não apenas ao preço ou ao serviço hospedado.",
                           "align": "left",
                           "id": "l18-software-livre-e-contexto-da-disciplina-step-06-block-04-button-popup-02-paragraph"
                         }
