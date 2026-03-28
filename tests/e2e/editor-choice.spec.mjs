@@ -85,3 +85,57 @@ test("editor em modo opções respeita duplicatas, começa pela primeira lacuna 
   await expect(page.locator(".inline-popup")).toBeVisible();
   await expect(page.locator(".inline-popup .terminal-box")).toContainText("Menu");
 });
+
+test("editor em modo opções preserva HTML literal visível e aceita fechamento de tag como resposta", async ({ page }) => {
+  const snapshot = createSampleProjectSnapshot();
+  snapshot.content.courses[0].modules[0].lessons[0].steps = [
+    {
+      id: "literal-html-step",
+      type: "content",
+      title: "Fechando um parágrafo",
+      blocks: [
+        { id: "literal-html-heading", kind: "heading", value: "Fechando um parágrafo" },
+        {
+          id: "literal-html-paragraph",
+          kind: "paragraph",
+          value: "Complete a tag de fechamento correta do elemento de parágrafo."
+        },
+        {
+          id: "literal-html-editor",
+          kind: "editor",
+          interactionMode: "choice",
+          value: "<p>Olá, mundo[[</p>]]",
+          options: [
+            { id: "opt-h1", value: "</h1>", enabled: false, displayOrder: 0, slotOrder: 1 },
+            { id: "opt-p", value: "</p>", enabled: true, displayOrder: 1, slotOrder: 0 },
+            { id: "opt-body", value: "</body>", enabled: false, displayOrder: 2, slotOrder: 2 }
+          ]
+        },
+        {
+          id: "literal-html-button",
+          kind: "button",
+          popupEnabled: true,
+          popupBlocks: [
+            { id: "literal-html-popup-heading", kind: "heading", value: "Boa!" },
+            { id: "literal-html-popup-editor", kind: "editor", value: "<p>Olá, mundo</p>", options: [] }
+          ]
+        }
+      ]
+    }
+  ];
+
+  await seedProject(page, snapshot);
+  await openFirstCourse(page);
+  await openFirstLesson(page);
+
+  const terminal = page.locator(".terminal-box.exercise-terminal");
+  await expect(terminal).toContainText("<p>Olá, mundo");
+  await expect(page.locator(".token-option", { hasText: "</p>" })).toBeVisible();
+
+  await page.locator(".token-option", { hasText: "</p>" }).click();
+  await expect(page.locator('[data-action="terminal-slot"][data-slot-index="0"]')).toContainText("</p>");
+
+  await page.locator('[data-action="step-button-click"]').click();
+  await expect(page.locator(".inline-popup")).toBeVisible();
+  await expect(page.locator(".inline-popup .terminal-box")).toContainText("<p>Olá, mundo</p>");
+});

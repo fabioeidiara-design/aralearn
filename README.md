@@ -16,6 +16,9 @@ O projeto agora combina três frentes:
 - `content/*.json`: fontes dos cursos embarcados
 - `content/hardcoded-content.js`: arquivo runtime gerado para o boot local
 - `examples/python-getting-started.zip`: pacote de exemplo para importação manual
+- `examples/html-css-javascript-node-do-zero.json`: curso extenso de fundamentos web em JSON
+- `examples/html-css-javascript-node-do-zero.zip`: pacote importável do mesmo curso
+- `scripts/build-web-course-example.mjs`: gerador do exemplo grande de fundamentos web
 - `manual.md`: documentação oficial do produto
 
 ## Cursos embarcados

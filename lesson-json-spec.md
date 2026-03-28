@@ -2,22 +2,22 @@
 
 ## 1. Objetivo
 
-Este documento descreve o contrato recomendado para gerar lições em JSON para o AraLearn, com foco em uso por RAG e por modelos generativos.
+Este documento descreve o contrato recomendado para estruturar lições em JSON no AraLearn.
 
 Ele cobre:
 
 - a estrutura canônica de `lesson -> steps -> blocks`;
 - o que cada bloco gera no runtime;
 - quais blocos travam ou não o avanço da lição;
-- regras práticas para gerar JSON estável, importável e fácil de validar;
-- convenções didáticas e de ênfase que o gerador deve seguir.
+- regras práticas para montar JSON estável, importável e fácil de validar;
+- convenções didáticas e de ênfase que a autoria deve seguir.
 
 Escopo principal:
 
 - este documento foca no objeto `lesson` e nos blocos;
 - empacotamento `.zip`, assets binários e escopo de importação podem ser tratados depois;
-- progresso do estudante não faz parte da lição gerada pelo RAG.
-- em pipelines maiores, a IA pode primeiro planejar `course -> module -> lesson` a partir das fontes e só depois emitir cada `lesson` em JSON;
+- progresso do estudante não faz parte da lição serializada.
+- em pipelines maiores, vale primeiro planejar `course -> module -> lesson` a partir das fontes e só depois detalhar cada `lesson` em JSON;
 - mesmo nesses casos, o contrato final de cada card continua sendo este documento.
 
 ---
@@ -32,17 +32,17 @@ No AraLearn, uma lição é uma sequência de cards.
 - o `button` controla o CTA fixo no rodapé da tela e, opcionalmente, um popup inline;
 - o progresso é salvo por `step`, não por bloco.
 
-Consequência importante para geração:
+Consequência importante para a autoria:
 
-- o RAG deve pensar em "um conceito por card";
+- pense em "um conceito por card";
 - a explicação principal fica nos blocos do `step`;
 - a ação de continuar sempre depende do bloco final `button`.
 
 ---
 
-## 3. Alvo recomendado para o RAG
+## 3. Alvo recomendado
 
-O melhor alvo de geração é um único objeto `lesson`.
+O melhor alvo de autoria é um único objeto `lesson`.
 
 Exemplo de envelope mínimo:
 
@@ -221,11 +221,13 @@ Markup inline permitido:
 - `<span class="inline-tone-blue">`
 - `<span class="inline-tone-red">`
 
-Recomendação para RAG:
+Recomendação de autoria:
 
 - use só `value` quando não precisar de ênfase;
 - use `richText` apenas quando a ênfase fizer diferença didática;
 - mantenha `value` e `richText` coerentes.
+- quando o parágrafo mencionar sintaxe inline, comandos, nomes de arquivo, tags, seletores, atributos, propriedades ou métodos, prefira destacar esse trecho com `<strong><span class="inline-tone-gold">...</span></strong>`;
+- o texto corrido deve continuar em português brasileiro natural, mas os fragmentos de linguagem precisam ficar visualmente distinguíveis para o estudante bater o olho e reconhecer a sintaxe.
 
 ## 5.3 Image
 
@@ -619,7 +621,7 @@ Regras importantes:
 - o layout do fluxograma tenta preservar leitura top-down, laços externos e convergências limpas;
 - quando houver caminho ortogonal lateral simples livre, ele deve ser preferido a rotas com dobras extras.
 
-Recomendação forte para RAG:
+Recomendação forte de autoria:
 
 - use `shapeOptions` e `textOptions` por nó;
 - não dependa de `shapeBlank`, `textBlank` ou de opções compartilhadas no nível do bloco;
@@ -657,6 +659,8 @@ Regras:
 - `popupBlocks[]` pode conter qualquer bloco autoral, exceto `button`;
 - quando `popupEnabled` for `false`, o CTA avança diretamente;
 - quando `popupEnabled` for `true`, o CTA abre um popup dockado ao rodapé.
+- em popups de feedback, evite metalinguagem como "você acertou", "tema reforçado" ou repetição literal da alternativa correta quando isso já está visível no card; prefira entrar direto na justificativa útil.
+- o popup também não deve explicar a própria dinâmica do curso, do card, da lição ou do app; ele deve falar só do motivo técnico, conceitual ou operacional.
 
 Comportamento de validação:
 
@@ -665,7 +669,7 @@ Comportamento de validação:
 
 ## 5.10 Contrato de fidelidade por contêiner
 
-Esta é a regra mais importante para geração por RAG:
+Esta é a regra mais importante do contrato:
 
 - cada contêiner precisa deixar explícito no próprio JSON qual campo é estrutural, qual campo é apenas visual e o que o motor pode derivar sem alterar a intenção didática.
 
@@ -701,7 +705,7 @@ Leitura operacional por bloco:
 
 Nem todo campo textual do JSON aceita a mesma riqueza visual.
 
-Isso é importante para o RAG não tentar aplicar destaque onde o motor não renderiza esse destaque.
+Isso evita aplicar destaque em campos que o motor renderiza apenas como texto simples.
 
 | Campo | Aceita destaque inline? | Observações |
 | --- | --- | --- |
@@ -731,7 +735,7 @@ Regras práticas:
 - em `table`, o destaque é por célula inteira, não por trecho interno;
 - em `editor`, destaque termos técnicos no texto do terminal, mas mantenha a resposta da lacuna em texto puro;
 - em `simulator`, a opção visível é texto puro, mas o resultado pode trazer destaque inline.
-- se o card precisar mostrar HTML literal, como `<title>` ou `<div>`, escape isso como texto em `editor.value` usando entidades, por exemplo `&lt;title&gt;`, para o motor renderizar a tag como conteúdo visível e não como markup estrutural.
+- se o card precisar mostrar HTML literal, como `<title>` ou `<div>`, o runtime atual do `editor` e do `simulator` já preserva esses trechos como código visível; ainda assim, `&lt;title&gt;` continua sendo uma alternativa válida de autoria quando você quiser explicitar a literalidade na própria fonte.
 
 ### 6.1 Convenção de destaque semântico
 
@@ -792,7 +796,7 @@ Evite:
 
 A análise de `Intro`, `Strings`, `Numbers` e das capturas de `Library` e `Joining strings` mostra um padrão didático bem estável.
 
-O motor do AraLearn não impõe esse padrão, mas ele é um excelente default para geração.
+O motor do AraLearn não impõe esse padrão, mas ele é um excelente default de autoria.
 
 ### 7.1 Arquétipos recorrentes
 
@@ -895,11 +899,11 @@ Nas versões corrigidas de `Library` e `Joining strings`, aparecem mais algumas 
 
 ---
 
-## 8. Regras pedagógicas para geração
+## 8. Regras pedagógicas de autoria
 
 Estas regras não são restrições técnicas do parser.
 
-São restrições de autoria recomendadas para o RAG e para prompts generativos.
+São restrições de autoria recomendadas para qualquer fluxo manual ou assistido.
 
 ### 8.1 Clareza e carga cognitiva
 
@@ -914,6 +918,7 @@ São restrições de autoria recomendadas para o RAG e para prompts generativos.
 - ensine uma única novidade por vez;
 - antes de aumentar a dificuldade, repita a mesma habilidade em outro contexto simples.
 - não gere `paragraph` apenas para “preencher espaço”; se um bloco textual não acrescentar contexto, instrução ou explicação, ele não deve existir.
+- o texto autoral deve falar do conteúdo técnico, nunca da própria mecânica didática; evite fórmulas como "no próprio card", "esta lição", "neste curso", "o app como motor" ou comentários sobre como o material foi montado.
 
 ### 8.2 Introdução de termos técnicos
 
@@ -934,13 +939,13 @@ Exemplo recomendado:
 
 ### 8.3 Regra de progressão
 
-O gerador nunca deve exigir algo que ainda não foi ensinado dentro do contexto permitido.
+A autoria nunca deve exigir algo que ainda não foi ensinado dentro do contexto permitido.
 
 Conhecimento permitido:
 
 - cards anteriores da mesma lição;
-- lições anteriores do mesmo módulo já consideradas concluídas no contexto de geração;
-- módulos anteriores do mesmo curso já considerados concluídos no contexto de geração.
+- lições anteriores do mesmo módulo já consideradas concluídas no contexto atual;
+- módulos anteriores do mesmo curso já considerados concluídos no contexto atual.
 
 Conhecimento proibido:
 
@@ -950,9 +955,9 @@ Conhecimento proibido:
 
 Regra operacional:
 
-- se o prompt não informar conhecimento prévio permitido, assuma que a lição deve ser autossuficiente;
-- se um card precisar de pré-requisito, o prompt do gerador deve fornecer explicitamente esse inventário.
-- se o texto-base mencionar um conceito necessário, mas não o explicar, o gerador deve inserir cards-ponte antes de cobrar esse conceito;
+- se o material de origem não informar conhecimento prévio permitido, assuma que a lição deve ser autossuficiente;
+- se um card precisar de pré-requisito, explicite esse inventário antes de cobrar a resposta.
+- se o texto-base mencionar um conceito necessário, mas não o explicar, insira cards-ponte antes de cobrar esse conceito;
 - o texto-base define escopo e direção, não o número final de cards nem a microprogressão obrigatória.
 
 ### 8.4 Regra de reaproveitamento
@@ -1089,7 +1094,7 @@ Regra adicional muito útil:
 
 ### 8.10 Regra de variantes aceitas em `editor` com `input`
 
-Quando o card usa `interactionMode: "input"`, o gerador deve decidir explicitamente quais respostas equivalentes serão aceitas.
+Quando o card usa `interactionMode: "input"`, a autoria deve decidir explicitamente quais respostas equivalentes serão aceitas.
 
 Regra base:
 
@@ -1165,7 +1170,7 @@ Exemplo recomendado para divisão:
 }
 ```
 
-### 8.11 Falhas típicas da IA e anti-vieses de geração
+### 8.11 Falhas típicas de autoria e regras preventivas
 
 Esta seção é deliberadamente normativa.
 
@@ -1184,17 +1189,17 @@ Regra de veto:
 - se o estudante puder acertar por atalho visual em vez de praticar a habilidade-alvo;
 - então o card deve ser rejeitado e regenerado, mesmo que o JSON esteja formalmente correto.
 
-Falhas recorrentes da IA e regra preventiva correspondente:
+Falhas recorrentes de autoria e regra preventiva correspondente:
 
 - `Card impossível`: ocorre quando o estudante não consegue descobrir, a partir do próprio card e dos conhecimentos autorizados, qual resposta produzir. Regra preventiva: todo card prático deve explicitar verbo, alvo e formato da resposta.
 - `Deriva do objetivo didático`: ocorre quando o card pretendia treinar montagem, mas acabou treinando reconhecimento superficial; ou pretendia treinar produção, mas virou escolha. Regra preventiva: para cada card, declare internamente uma única micro-habilidade entre introduzir, reconhecer, completar, produzir, discriminar, simular ou concluir.
-- `Instrução subespecificada`: ocorre quando a IA escreve frases genéricas como `Complete o código` ou `Escolha a resposta correta`. Regra preventiva: a instrução precisa dizer exatamente o que montar, localizar, digitar, corrigir, classificar ou comparar.
+- `Instrução subespecificada`: ocorre quando a instrução vira frase genérica como `Complete o código` ou `Escolha a resposta correta`. Regra preventiva: a instrução precisa dizer exatamente o que montar, localizar, digitar, corrigir, classificar ou comparar.
 - `Conflito entre expressão e resultado`: ocorre quando o aluno não sabe se deve responder `1312 + 576` ou `1888`. Regra preventiva: o card e o popup devem separar explicitamente `o que o estudante digita` de `o que a linguagem ou ferramenta produz depois`.
 - `Conflito entre value e richText`: ocorre quando `richText` acrescenta uma informação que não existe em `value`, como a resposta explícita ou uma restrição extra. Regra preventiva: se você remover todo o markup de `richText`, o conteúdo essencial deve continuar equivalente a `value`.
-- `Simplificação indevida do exercício`: ocorre quando a IA troca um exercício fragmentado por uma expressão inteira digitável só porque isso é mais fácil de gerar. Regra preventiva: simplifique contexto e redação, nunca o alvo didático.
-- `Choice/input errado`: ocorre quando a IA usa `input` num card em que o estudante deveria montar partes visíveis, ou usa `choice` quando o objetivo já é produção autônoma. Regra preventiva: escolha o modo de interação pela habilidade treinada, não pela conveniência do gerador.
+- `Simplificação indevida do exercício`: ocorre quando um exercício fragmentado é trocado por uma expressão inteira digitável só porque isso é mais simples de montar. Regra preventiva: simplifique contexto e redação, nunca o alvo didático.
+- `Choice/input errado`: ocorre quando `input` é usado num card em que o estudante deveria montar partes visíveis, ou quando `choice` aparece num ponto em que o objetivo já é produção autônoma. Regra preventiva: escolha o modo de interação pela habilidade treinada, não pela conveniência da autoria.
 - `Atalho pelo resultado`: ocorre quando o card mostra a saída final e o estudante pode responder pelo efeito observado sem praticar a estrutura que o gera. Regra preventiva: se a meta for montagem, prefira `choice` com partes separadas e distratores plausíveis.
-- `Dependência de inferência do motor`: ocorre quando a IA assume que o app aceitará automaticamente equivalências, sinônimos ou formas semanticamente parecidas. Regra preventiva: toda equivalência aceita em `input` precisa estar declarada em `variants[]` ou `regex`.
+- `Dependência de inferência do motor`: ocorre quando a autoria assume que o app aceitará automaticamente equivalências, sinônimos ou formas semanticamente parecidas. Regra preventiva: toda equivalência aceita em `input` precisa estar declarada em `variants[]` ou `regex`.
 - `Perda de intenção estrutural`: ocorre quando `displayOrder` é tratado como ordem canônica ou quando duplicatas são colapsadas. Regra preventiva: em `editor.choice`, preserve duplicatas, serialize `slotOrder` nas opções habilitadas e use `displayOrder` apenas como embaralhamento visual.
 - `Pistas involuntárias`: ocorre quando a correta aparece sempre primeiro, quando a interface entrega cor ou marca que denuncia a resposta, ou quando faltam distratores plausíveis. Regra preventiva: embaralhe, use distratores realistas e nunca use estética como pista didática indevida.
 - `Excesso de inferência do aluno`: ocorre quando a lacuna cobra mais de uma descoberta ao mesmo tempo. Regra preventiva: cada lacuna deve exigir um único movimento cognitivo principal.
@@ -1207,13 +1212,13 @@ Perguntas de veto antes de aceitar um card:
 - a resposta correta é a expressão, o valor, o rótulo, a alternativa ou a simulação?
 - remover o markup de `richText` muda a informação essencial do card?
 - a forma de input escolhida força a prática certa, ou abriu um atalho indevido?
-- a IA simplificou o exercício a ponto de trocar a habilidade treinada?
+- a autoria simplificou o exercício a ponto de trocar a habilidade treinada?
 
 ### 8.12 Regra de decomposição curricular a partir de fontes
 
-Em muitos fluxos reais, a IA não receberá apenas um tema curto.
+Em muitos fluxos reais, a autoria não parte apenas de um tema curto.
 
-Ela poderá receber:
+O material de origem pode incluir:
 
 - slides de aula;
 - OCR de screenshots e PDFs;
@@ -1224,7 +1229,7 @@ Ela poderá receber:
 - listas de tópicos;
 - textos-base incompletos ou heterogêneos.
 
-Nesses casos, a IA não deve saltar diretamente da fonte bruta para o JSON final de um card.
+Nesses casos, não salte diretamente da fonte bruta para o JSON final de um card.
 
 Pipeline recomendado:
 
@@ -1239,8 +1244,8 @@ Regras para esse estágio anterior ao JSON:
 - `bibliografia` define rigor, vocabulário técnico, profundidade e pontos que precisam de verificação externa;
 - `slides` e `diagramas` são pistas de sequência, foco e exemplos, mas raramente são material didático suficiente por si só;
 - `OCR` é fonte sujeita a perda de símbolos, operadores, aspas, rótulos e ordem visual; nunca use OCR cru como fonte única para cards de prática;
-- sempre que uma fonte trouxer apenas menção superficial a um conceito necessário, a IA deve criar cards-ponte antes de cobrá-lo;
-- se duas fontes conflitarem, a IA deve preferir a formulação mais verificável e mais didaticamente segura.
+- sempre que uma fonte trouxer apenas menção superficial a um conceito necessário, crie cards-ponte antes de cobrá-lo;
+- se duas fontes conflitarem, prefira a formulação mais verificável e mais didaticamente segura.
 
 Planejamento mínimo antes de gerar cards:
 
@@ -1264,14 +1269,14 @@ Regras especiais para prática gerada a partir de fontes brutas:
 - se o aluno precisa montar partes visíveis, gere `choice` com peças explícitas;
 - se o aluno precisa produzir texto ou código completo e a base já foi ensinada, use `input` com variantes deliberadas;
 - se um diagrama, slide ou screenshot mostra apenas a saída final, não assuma que isso basta para um card de prática;
-- se a fonte traz apenas exemplo pronto, a IA deve decompor esse exemplo em passos menores antes de cobrar produção autônoma;
-- se a fonte mencionar uma entidade técnica obscura mas relevante, como `transistor`, `loop`, `SEI` ou um comando de shell, a IA deve explicar o termo antes de tratá-lo como conhecido.
+- se a fonte traz apenas exemplo pronto, decomponha esse exemplo em passos menores antes de cobrar produção autônoma;
+- se a fonte mencionar uma entidade técnica obscura mas relevante, como `transistor`, `loop`, `SEI` ou um comando de shell, explique o termo antes de tratá-lo como conhecido.
 
 ---
 
 ## 9. O que o motor deriva automaticamente
 
-O runtime normaliza muita coisa, mas o RAG não deve depender disso como estratégia principal.
+O runtime normaliza muita coisa, mas a autoria não deve depender disso como estratégia principal.
 
 Derivações importantes:
 
@@ -1294,7 +1299,7 @@ Recomendação:
 
 ## 10. Campos e padrões a evitar
 
-Evite gerar estes formatos como contrato principal do RAG:
+Evite estes formatos como contrato principal:
 
 - aliases legados como `correct` em vez de `answer`;
 - `prompt` em vez de `value` no `simulator`;
@@ -1455,9 +1460,9 @@ Evite gerar estes formatos como contrato principal do RAG:
 
 ---
 
-## 12. Checklist para prompts de RAG
+## 12. Checklist de autoria
 
-Ao pedir uma lição ao gerador, vale exigir explicitamente:
+Ao montar uma lição, vale exigir explicitamente:
 
 - gerar um único objeto `lesson` válido;
 - incluir IDs estáveis e únicos;
@@ -1489,7 +1494,7 @@ Ao pedir uma lição ao gerador, vale exigir explicitamente:
 - não usar material bruto ou OCR cru como justificativa para manter instruções genéricas ou cards impossíveis;
 - escolher `choice`, `input`, `simulator` ou `multiple_choice` conforme o estágio didático do estudante.
 
-Pergunta-guia útil para o prompt:
+Pergunta-guia útil antes de fechar o card:
 
 - "Este card ensina, pratica, verifica, simula ou conclui?"
 

@@ -209,9 +209,15 @@ Regras mínimas para o hardcoded oficial:
 - card de prática precisa ser autossuficiente no próprio step, sem depender do card anterior para contexto essencial;
 - texto visível ao estudante não deve expor bastidor editorial como "o curso quer", "a lição quer", "blueprint", "formato mobile" ou comentários sobre adaptação ao app;
 - texto visível ao estudante também não deve depender de frases genéricas de sequenciamento autoral, como "nos próximos cards", "use este checklist" ou "objetivo deste card";
+- texto visível ao estudante também não deve falar sobre a própria mecânica didática com expressões como "no próprio card", "esta lição", "neste curso", "o app como motor" ou equivalentes, exceto quando o termo fizer parte do conteúdo técnico real, como `app.js`;
 - cards recorrentes como `Vocabulário em foco`, `Confusões comuns` e `Fechamento rápido` precisam explicar o conceito ou o erro local da própria lição, em vez de reutilizar popup ou resumo genérico;
 - `lesson_complete` deve trazer `heading` e `paragraph` centralizados já no JSON-fonte;
 - o runtime pode reforçar visualmente o alinhamento central do `lesson_complete`, mas isso não substitui corrigir a fonte.
+- quando o texto corrido mencionar sintaxe, comandos, tags, seletores, propriedades, atributos, métodos ou nomes de arquivo, a fonte deve preferir `richText` com destaque inline para esses fragmentos, em vez de deixá-los perdidos no parágrafo.
+- em `editor` e `simulator`, sintaxe literal como `<p>`, `</div>` ou `<!DOCTYPE html>` não pode ser engolida pelo saneamento inline; o runtime precisa mostrá-la como código visível e comparar as respostas preservando essa literalidade.
+- em popup de feedback, o conteúdo deve ir direto ao motivo técnico; evite frases como "você acertou" e evite repetir a alternativa correta quando ela já está visível no próprio card.
+- assets `image` do hardcoded oficial precisam privilegiar leitura em viewport mobile, usar paleta compatível com o app e evitar texto corrido dentro do SVG; prefira poucos rótulos curtos, formas grandes e contraste estável.
+- em `editor` com `interactionMode: "choice"`, a ordem visual das opções deve vir por `displayOrder` embaralhado de forma não trivial; a ordem estrutural correta pertence a `slotOrder` e não deve vazar pela posição inicial das fichas.
 
 ---
 
@@ -536,7 +542,7 @@ Critério visual explícito:
 
 Princípio central:
 
-- o JSON precisa ser legível para humanos e para geração por LLM, mas só é confiável se cada contêiner deixar explícito qual campo é estrutural, qual campo é apenas visual e o que o motor pode ou não derivar sem mudar o sentido didático do card.
+- o JSON precisa ser legível para humanos e para fluxos de autoria assistida, mas só é confiável se cada contêiner deixar explícito qual campo é estrutural, qual campo é apenas visual e o que o motor pode ou não derivar sem mudar o sentido didático do card.
 
 Contrato por contêiner:
 

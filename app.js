@@ -1842,6 +1842,123 @@
     return '<pre class="terminal-box">' + renderTerminalRichText(text) + "</pre>";
   }
 
+  // Decodifica uma unica camada de entidades HTML usadas em sintaxe literal.
+  function decodeTerminalLiteralEntities(text) {
+    return String(text || "")
+      .replace(/&lt;/gi, "<")
+      .replace(/&gt;/gi, ">")
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;|&#x27;/gi, "'")
+      .replace(/&#96;/gi, "`")
+      .replace(/&nbsp;/gi, " ")
+      .replace(/&amp;/gi, "&");
+  }
+
+  // Lê entidades HTML no texto do terminal sem tratar tags reais como markup estrutural.
+  function consumeTerminalEntity(source, index) {
+    const rest = source.slice(index);
+    const entities = [
+      ["&lt;", "<"],
+      ["&gt;", ">"],
+      ["&quot;", '"'],
+      ["&#39;", "'"],
+      ["&#x27;", "'"],
+      ["&#96;", "`"],
+      ["&nbsp;", " "],
+      ["&amp;", "&"]
+    ];
+
+    for (const entry of entities) {
+      const token = entry[0];
+      if (rest.slice(0, token.length).toLowerCase() === token.toLowerCase()) {
+        return { length: token.length, value: entry[1] };
+      }
+    }
+
+    return null;
+  }
+
+  // Preserva apenas markup inline aprovado; o resto aparece como codigo literal visivel.
+  function consumeAllowedTerminalInlineTag(source, index, tagState) {
+    const rest = source.slice(index);
+
+    let match = rest.match(/^<br\s*\/?>/i);
+    if (match) return { length: match[0].length, html: "<br>" };
+
+    match = rest.match(/^<(strong|b)>/i);
+    if (match) {
+      tagState.strong += 1;
+      return { length: match[0].length, html: "<strong>" };
+    }
+
+    match = rest.match(/^<\/(strong|b)>/i);
+    if (match && tagState.strong > 0) {
+      tagState.strong -= 1;
+      return { length: match[0].length, html: "</strong>" };
+    }
+
+    match = rest.match(/^<(em|i)>/i);
+    if (match) {
+      tagState.em += 1;
+      return { length: match[0].length, html: "<em>" };
+    }
+
+    match = rest.match(/^<\/(em|i)>/i);
+    if (match && tagState.em > 0) {
+      tagState.em -= 1;
+      return { length: match[0].length, html: "</em>" };
+    }
+
+    match = rest.match(/^<span class="(inline-tone-gold|inline-tone-mint|inline-tone-coral|inline-tone-blue|inline-tone-red)">/i);
+    if (match) {
+      const toneClass = String(match[1] || "").toLowerCase();
+      tagState.spans += 1;
+      return { length: match[0].length, html: '<span class="' + toneClass + '">' };
+    }
+
+    match = rest.match(/^<\/span>/i);
+    if (match && tagState.spans > 0) {
+      tagState.spans -= 1;
+      return { length: match[0].length, html: "</span>" };
+    }
+
+    return null;
+  }
+
+  // Renderiza terminal/editor exibindo sintaxe literal e preservando so o inline aprovado.
+  function renderTerminalLiteralRichText(text) {
+    const source = String(text || "").replace(/\r/g, "");
+    const tagState = { strong: 0, em: 0, spans: 0 };
+    let html = "";
+    let index = 0;
+
+    while (index < source.length) {
+      const allowedTag = consumeAllowedTerminalInlineTag(source, index, tagState);
+      if (allowedTag) {
+        html += allowedTag.html;
+        index += allowedTag.length;
+        continue;
+      }
+
+      const entity = consumeTerminalEntity(source, index);
+      if (entity) {
+        html += esc(entity.value);
+        index += entity.length;
+        continue;
+      }
+
+      const char = source[index];
+      if (char === "\n") {
+        html += "<br>";
+      } else {
+        html += esc(char);
+      }
+      index += 1;
+    }
+
+    return html;
+  }
+
   // Sanitiza um fragmento inline preservando quebras nas bordas, usadas antes/depois de lacunas.
   function renderInlineRichTextFragment(text) {
     const source = String(text || "").replace(/\r/g, "");
@@ -1853,7 +1970,7 @@
 
   // Sanitiza texto do Editor/terminal preservando apenas formatação inline aprovada e quebras.
   function renderTerminalRichText(text) {
-    return renderInlineRichTextFragment(text);
+    return renderTerminalLiteralRichText(text);
   }
 
   // Sanitiza um segmento textual do template rico preservando apenas markup inline permitido.
@@ -3271,7 +3388,7 @@
       const before = source.slice(last, match.index);
       if (before) parts.push({ type: "text", value: before });
 
-      const answer = inlineRichTextToPlainText(String(match[1] || "")).trim();
+      const answer = decodeTerminalLiteralEntities(String(match[1] || "")).trim();
       answers.push(answer);
       parts.push({ type: "slot", index: answers.length - 1 });
 
@@ -3300,7 +3417,8 @@
     const requiredCountByValue = Object.create(null);
 
     orderedList.forEach(function (item) {
-      const value = typeof item === "string" ? item : String(item && item.value ? item.value : "");
+      const rawValue = typeof item === "string" ? item : String(item && item.value ? item.value : "");
+      const value = decodeTerminalLiteralEntities(rawValue);
       if (!value) return;
       merged.push(value);
       availableCountByValue[value] = (availableCountByValue[value] || 0) + 1;
@@ -3416,7 +3534,7 @@
     let markers = parseOptionMarkers(block.value);
 
     markers.forEach(function (marker, markerIndex) {
-      const plainMarkerValue = inlineRichTextToPlainText(String(marker.value || ""));
+      const plainMarkerValue = decodeTerminalLiteralEntities(String(marker.value || ""));
       if (plainMarkerValue !== String(marker.value || "")) {
         block.value = replaceMarkerAtIndex(block.value, markerIndex, plainMarkerValue);
       }
@@ -8361,7 +8479,7 @@
       })
       .map(function (option) {
         return [{
-          value: String(option.value || ""),
+          value: decodeTerminalLiteralEntities(String(option.value || "")),
           regex: !!option.regex
         }].concat(
           normalizeEditorInputVariantsForAuthor(option.variants)
@@ -8370,7 +8488,7 @@
             })
             .map(function (variant) {
               return {
-                value: String(variant.value || ""),
+                value: decodeTerminalLiteralEntities(String(variant.value || "")),
                 regex: !!variant.regex
               };
             })
