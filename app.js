@@ -8306,8 +8306,11 @@
   function getTerminalExerciseState(step, block, slotCount) {
     const key = terminalExerciseKey(step.id, block.id);
     if (!state.tokenByStepId[key]) {
-      state.tokenByStepId[key] = { slots: Array(slotCount).fill(null), feedback: null, activeSlot: null };
-      return state.tokenByStepId[key];
+      state.tokenByStepId[key] = {
+        slots: Array(slotCount).fill(null),
+        feedback: null,
+        activeSlot: slotCount > 0 ? 0 : null
+      };
     }
 
     const current = state.tokenByStepId[key];
@@ -8319,8 +8322,18 @@
       });
       current.slots = next;
     }
-    if (!Number.isInteger(current.activeSlot) || current.activeSlot < 0 || current.activeSlot >= slotCount) {
+    const firstEmptySlot = getFirstEmptyTerminalSlotIndex(current.slots);
+    if (firstEmptySlot === -1) {
       current.activeSlot = null;
+      return current;
+    }
+    if (
+      !Number.isInteger(current.activeSlot) ||
+      current.activeSlot < 0 ||
+      current.activeSlot >= slotCount ||
+      !isTerminalSlotEmpty(current.slots[current.activeSlot])
+    ) {
+      current.activeSlot = firstEmptySlot;
     }
     return current;
   }
@@ -8368,9 +8381,20 @@
   // Lista lacunas vazias, preservando a ordem visual do template.
   function getEmptyTerminalSlotIndexes(slots) {
     return (Array.isArray(slots) ? slots : []).reduce(function (acc, value, index) {
-      if (value === null || value === undefined || String(value) === "") acc.push(index);
+      if (isTerminalSlotEmpty(value)) acc.push(index);
       return acc;
     }, []);
+  }
+
+  // Indica se a lacuna do terminal ainda está vazia.
+  function isTerminalSlotEmpty(value) {
+    return value === null || value === undefined || String(value) === "";
+  }
+
+  // Retorna a primeira lacuna vazia na ordem visual do template.
+  function getFirstEmptyTerminalSlotIndex(slots) {
+    const emptyIndexes = getEmptyTerminalSlotIndexes(slots);
+    return emptyIndexes.length ? emptyIndexes[0] : -1;
   }
 
   // Resolve qual lacuna do modo choice deve receber a opção clicada.
@@ -8382,20 +8406,12 @@
       Number.isInteger(activeSlot) &&
       activeSlot >= 0 &&
       activeSlot < slots.length &&
-      (slots[activeSlot] === null || slots[activeSlot] === undefined || String(slots[activeSlot]) === "")
+      isTerminalSlotEmpty(slots[activeSlot])
     ) {
       return activeSlot;
     }
 
-    const emptyIndexes = getEmptyTerminalSlotIndexes(slots);
-    if (!emptyIndexes.length) return -1;
-
-    const exactMatches = emptyIndexes.filter(function (index) {
-      return String(entry.parsed.answers[index] || "") === String(value || "");
-    });
-    if (exactMatches.length) return exactMatches[0];
-
-    return emptyIndexes[0];
+    return getFirstEmptyTerminalSlotIndex(slots);
   }
 
   // Seleciona opção no exercicio de terminal.
@@ -8408,7 +8424,7 @@
 
     entry.exercise.slots[targetIndex] = value;
     entry.exercise.feedback = null;
-    entry.exercise.activeSlot = null;
+    entry.exercise.activeSlot = getFirstEmptyTerminalSlotIndex(entry.exercise.slots);
     renderApp();
   }
 
@@ -8428,8 +8444,8 @@
     if (!entry) return;
     if (!Number.isInteger(index) || index < 0 || index >= entry.exercise.slots.length) return;
     const currentValue = entry.exercise.slots[index];
-    if (currentValue === null || currentValue === undefined || String(currentValue) === "") {
-      entry.exercise.activeSlot = entry.exercise.activeSlot === index ? null : index;
+    if (isTerminalSlotEmpty(currentValue)) {
+      entry.exercise.activeSlot = index;
       entry.exercise.feedback = null;
       renderApp();
       return;
@@ -8448,7 +8464,7 @@
 
     entry.exercise.slots = Array(entry.parsed.answers.length).fill(null);
     entry.exercise.feedback = null;
-    entry.exercise.activeSlot = null;
+    entry.exercise.activeSlot = getFirstEmptyTerminalSlotIndex(entry.exercise.slots);
     renderApp();
   }
 

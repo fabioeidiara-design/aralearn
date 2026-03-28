@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { createSampleProjectSnapshot, openFirstCourse, openFirstLesson, seedProject } from "./helpers/app.mjs";
 
-test("editor em modo opções respeita duplicatas, permite mirar lacuna e aceita preenchimento fora de ordem", async ({ page }) => {
+test("editor em modo opções respeita duplicatas, começa pela primeira lacuna vazia e avança em ordem", async ({ page }) => {
   const snapshot = createSampleProjectSnapshot();
   snapshot.content.courses[0].modules[0].lessons[0].steps = [
     {
@@ -52,28 +52,34 @@ test("editor em modo opções respeita duplicatas, permite mirar lacuna e aceita
   const slot3 = page.locator('[data-action="terminal-slot"][data-slot-index="3"]');
 
   await expect(slot0).toHaveClass(/empty/);
+  await expect(slot0).toHaveClass(/is-active/);
   await expect(
     page.locator(".token-option").evaluateAll((nodes) => nodes.filter((node) => node.textContent.trim() === "#").length)
   ).resolves.toBe(2);
+
+  await page.locator(".token-option", { hasText: "#" }).first().click();
+  await expect(slot0).toContainText("#");
+  await expect(slot1).toHaveClass(/is-active/);
+  await expect(slot2).toHaveClass(/empty/);
+  await expect(
+    page.locator(".token-option").evaluateAll((nodes) => nodes.filter((node) => node.textContent.trim() === "#").length)
+  ).resolves.toBe(1);
 
   await slot2.click();
   await expect(slot2).toHaveClass(/is-active/);
   await page.locator(".token-option", { hasText: "#" }).first().click();
   await expect(slot2).toContainText("#");
-  await expect(slot0).toHaveClass(/empty/);
+  await expect(slot1).toHaveClass(/is-active/);
   await expect(
     page.locator(".token-option").evaluateAll((nodes) => nodes.filter((node) => node.textContent.trim() === "#").length)
-  ).resolves.toBe(1);
-
-  await page.locator(".token-option", { hasText: "Cookies" }).click();
-  await expect(slot3).toContainText("Cookies");
-  await expect(slot0).toHaveClass(/empty/);
+  ).resolves.toBe(0);
 
   await page.locator(".token-option", { hasText: "Pies" }).click();
   await expect(slot1).toContainText("Pies");
+  await expect(slot3).toHaveClass(/is-active/);
 
-  await page.locator(".token-option", { hasText: "#" }).click();
-  await expect(slot0).toContainText("#");
+  await page.locator(".token-option", { hasText: "Cookies" }).click();
+  await expect(slot3).toContainText("Cookies");
 
   await page.locator('[data-action="step-button-click"]').click();
   await expect(page.locator(".inline-popup")).toBeVisible();

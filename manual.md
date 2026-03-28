@@ -490,8 +490,9 @@ Critério visual explícito:
 - variantes literais entram por lacuna, sem exigir duplicação do template inteiro;
 - regex é um recurso avançado por lacuna ou variante, não o fluxo principal;
 - por padrão, o motor não descobre sozinho soluções semanticamente equivalentes nem "sinônimos" de código que produzam o mesmo resultado;
-- no runtime de `choice`, tocar numa lacuna vazia a torna alvo explícito da próxima ficha;
-- se nenhuma lacuna estiver selecionada, o runtime tenta colocar a ficha numa lacuna vazia compatível com aquela resposta; se houver mais de uma possibilidade igual, usa a primeira ainda vazia;
+- no runtime de `choice`, a primeira lacuna vazia começa selecionada automaticamente;
+- no runtime de `choice`, ao preencher uma lacuna, a seleção avança para a próxima lacuna vazia na ordem do template;
+- tocar numa lacuna vazia permite redirecionar explicitamente a próxima ficha para ela;
 - clicar numa lacuna já preenchida remove o valor atual e deixa essa mesma lacuna pronta para receber outra ficha;
 - se uma lacuna do `editor` for salva vazia, ela deve ser eliminada do template em vez de permanecer como placeholder vazio;
 - quebras de linha imediatamente antes ou depois de lacunas devem ser preservadas na autoria e no runtime.
@@ -544,7 +545,7 @@ Contrato por contêiner:
 - `image`: `value` é o caminho lógico ou data URL resolvida; o runtime apenas carrega esse recurso e não deduz legenda, recorte ou contexto.
 - `table`: a ordem de `headers[]` e `rows[][]` é a ordem de renderização; não há ordenação automática. Estilo é por célula inteira, não por trecho interno, e a tabela não participa de validação de resposta.
 - `simulator`: o template e a ordem de `options[]` definem a experiência. Existe exatamente uma lacuna estrutural e cada opção injeta seu `value` nela, mostrando `result` abaixo. O motor não "corrige" opções nem infere avaliação semântica, porque o bloco é de exploração, não de prova. O runtime não deve pré-selecionar automaticamente a primeira opção.
-- `editor`: o template em `value` e as opções habilitadas são a fonte de verdade. `slotOrder` define a ordem estrutural das lacunas corretas; `displayOrder` define apenas a ordem visual das fichas. Duplicatas são válidas e precisam continuar distintas. Em `input`, variantes aceitas precisam estar declaradas; o runtime não inventa equivalências de código, fórmula ou comando.
+- `editor`: o template em `value` e as opções habilitadas são a fonte de verdade. `slotOrder` define a ordem estrutural das lacunas corretas; `displayOrder` define apenas a ordem visual das fichas. Duplicatas são válidas e precisam continuar distintas. Em `choice`, o runtime preenche a lacuna atualmente selecionada e, por padrão, mantém selecionada a primeira lacuna vazia na ordem do template. Em `input`, variantes aceitas precisam estar declaradas; o runtime não inventa equivalências de código, fórmula ou comando.
 - `multiple_choice`: a ordem do array é a ordem visível no runtime, porque o bloco não tem `displayOrder`. `answerState` define só o idioma visual do selecionado; quem define o conjunto esperado é `option.answer`. O motor não usa cor para "descobrir" resposta.
 - `flowchart`: `nodes[]` e `links[]` definem o diagrama; opções extras por nó definem as lacunas praticáveis. `outputSlot` governa a lateralidade da seta e, em decisão binária, sustenta a convenção `Não` à esquerda e `Sim` à direita. O runtime valida apenas símbolo e texto das lacunas abertas, não a "intenção algorítmica" inteira fora do que foi explicitado.
 - `button`: o botão final governa o avanço do step e, opcionalmente, o popup. `popupBlocks[]` pertencem ao próprio botão. O runtime primeiro exige a resolução dos exercícios do card principal e, se o popup também tiver exercícios, exige a resolução deles antes de continuar.
